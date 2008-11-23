@@ -1,0 +1,143 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #cccccc;text-align: center;
+}
+#wrapper {
+BORDER-RIGHT: #FF8040 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #FF8040 1px solid; 
+	PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1em auto; VERTICAL-ALIGN: bottom; 
+	BORDER-LEFT: #FF8040 1px solid; WIDTH: 80%; PADDING-TOP: 0px; BORDER-BOTTOM: #FF8040 1px solid; 
+	POSITION: relative; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12;
+}
+#langPanel
+{
+	vertical-align : top;
+	float:left;
+}
+#title
+{
+	font-size: 1.5em;
+	color: black;
+	padding-bottom : 5px;
+	padding-top : 5px;
+}
+table
+{
+	padding-left : 10px;
+	padding-right : 10px;
+	padding-bottom : 0px;
+	padding-top : 0px;
+	text-align:justify;
+}
+table.none
+{   
+        padding-left : 0px;
+	padding-right : 0px;
+	padding-bottom : 0px;
+	padding-top : 0px;
+	text-align:justify;  
+}
+td.info
+{
+	padding-left : 10px;
+	padding-right : 10px;
+	padding-top : 0px;
+	padding-bottom : 0	px;
+
+}
+td.firstCell
+{
+	padding-left : 10px;
+	padding-right : 10px;
+	padding-top : 2px;
+	padding-bottom : 0	px;
+	border:1px solid #FF8040; border-top-width: 0px; border-bottom-width:0px;
+	border-bottom-width : 0px; border-left-width : 0;
+	color: green;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	
+}
+td.delimiter
+{
+	background-color: #FF8040;
+	width: 1px;
+}
+td.missionDesc
+{
+	padding-left: 32px;
+	background-color: #FFF8C6;
+
+}
+strong.org
+{
+	font-variant: small-caps;
+}
+img.floatStyle
+{
+	float: left;
+	margin:2px;
+}
+h2.title
+{
+	COLOR:#FF9900;
+	TEXT-ALIGN: center;
+}
+img.brainImg
+{
+	margin:2px;
+}
+#markBlue
+{
+	color : blue;
+}
+#markItalic
+{
+	font-style: italic;	
+}
+#geo
+{
+	color : blue;
+}
+hr.orange
+{
+	border: none 0;
+	border-top: 1px dashed #FF9900;/*the border*/
+	width: 100%;
+	height: 1px;/*whatever the total width of the border-top and border-bottom equal*/
+}
+hr.blue
+{
+	border: none 0;
+	border-top: 1px dashed blue;/*the border*/
+	width: 100%;
+	height: 1px;/*whatever the total width of the border-top and border-bottom equal*/
+}
+hr.neutral
+{
+	border: none 0;
+	border-top: 1px dashed #FFCC55;/*the border*/
+	width: 100%;
+	height: 1px;/*whatever the total width of the border-top and border-bottom equal*/
+}
+#white
+{   
+    color : white;
+}
+#consultant
+{
+	color : red;
+	margin-left : 3px;
+}
+#nivigationPanel
+{
+	color: #667777;
+}
+#commonGen
+{
+	
+}
+a.navigationToogleLink
+{
+	font-size: small;
+}
