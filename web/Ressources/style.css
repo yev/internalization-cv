@@ -43,19 +43,26 @@ td.info
 	padding-right : 10px;
 	padding-top : 0px;
 	padding-bottom : 0	px;
+        border-top: 1px dashed #FF9900;/*the border*/
+        height: 1px;/*whatever the total width of the border-top and border-bottom equal*/
+        
 
 }
 td.firstCell
 {
 	padding-left : 10px;
 	padding-right : 10px;
-	padding-top : 2px;
-	padding-bottom : 0	px;
-	border:1px solid #FF8040; border-top-width: 0px; border-bottom-width:0px;
+	padding-top : 10px;
+	padding-bottom : 10px;
+	border:1px dashed #FF8040; border-top-width: 0px; border-bottom-width:0px;
 	border-bottom-width : 0px; border-left-width : 0;
-	color: green;
+	
 	text-align: center;
-	font-family: Georgia, "Times New Roman", Times, serif;
+        vertical-align: top;
+	font-family: Georgia, "Times New Roman", Times ;
+         
+        border-top: 1px dashed #FF9900;/*the border*/
+	height: 1px;/*whatever the total width of the border-top and border-bottom equal*/
 	
 }
 td.delimiter
@@ -65,7 +72,7 @@ td.delimiter
 }
 td.missionDesc
 {
-	padding-left: 32px;
+	padding-left: 39px;
 	background-color: #FFF8C6;
 
 }
@@ -132,6 +139,7 @@ hr.neutral
 #nivigationPanel
 {
 	color: #667777;
+	font-size: small;
 }
 #commonGen
 {
