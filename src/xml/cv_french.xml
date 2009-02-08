@@ -31,7 +31,7 @@
 			<speciality>DESS « Communication, Réseau, Image », filière Réseau (actuel Master Informatique).</speciality>
 			<date>2004-2005</date>
 			<desc>Diplôme en Ingénierie Informatique, avec mention assez bien. La formation à forte composant pratique.</desc>
-			<geolocalization>France</geolocalization>
+			<geolocalization>Champs-sur-Marne, France</geolocalization>
 			<url>http://www.univ-mlv.fr</url>
 			<note></note>
 		</organisation>
@@ -40,7 +40,7 @@
 			<speciality>Management économique de l’entreprise pour l’ingénieur.</speciality>
 			<date>2005</date>
 			<desc>Management social et humain.</desc>
-			<geolocalization>France</geolocalization>
+			<geolocalization>Champs-sur-Marne, France</geolocalization>
 			<url>http://www.cnam.fr</url>
 			<note></note>
 		</organisation>
@@ -49,7 +49,7 @@
 			<speciality>Spécialisation « Systèmes d'Information Appliqués ».</speciality>
 			<date>1999-2004</date>
 			<desc>Diplôme en Ingénierie Informatique, avec mention honorable (2004).</desc>
-			<geolocalization>Ukraine</geolocalization>
+			<geolocalization>Dniepropetrovsk, Ukraine</geolocalization>
 			<url>http://www.usuce.dp.ua/</url>
 			<note></note>
 		</organisation>
@@ -64,8 +64,11 @@
 			<geolocalization>Paris, France</geolocalization>
 			<jobTitle>Ingénieur d'études / Chef de projet adjoint </jobTitle>
 			<jobDesc>
-                            Participation à la conception, développement et gestion des projets informatiques en mode forfait.
-                        </jobDesc>
+                    Participation à la conception, développement et gestion des projets informatiques. 
+                    Résolution des problèmes techniques pointus. Mise en place de l'infrastructure du projet (SVN, les builds automatiques, tests unitaires, etc). 
+                    Chargé de la communication avec des clients. 
+                    Technologies utilisées: Java/J2EE, Servlets/JSP, JAAS, decompiler JAD, MySQL, LDAP, Ant, DBUnit, Linux, RPM.
+            </jobDesc>
 			<url>http://http://www.teamlog.com</url>
 			<note></note>
 		</company>
@@ -238,6 +241,11 @@
 			<name>Sports</name>
 			<desc>Athlétisme, gymnastique, natation, volley-ball</desc>
 		</item>
+		<item>
+			<name>Blog</name>
+			<desc><a href="http://yevgen-fr.blogspot.com" title="Мой личный технический блог">http://yevgen-fr.blogspot.com</a> - Mon blog technique (en français) consacré à l'IT, la programmation, Java, etc.</desc>
+		</item>
+		
 	</miscellanea>
 	
 	<!-- This section contains localized message for different labels on the page. -->
@@ -256,5 +264,6 @@
 			<link_hide>Désactiver</link_hide>
 			<link_show>Activer</link_show>
 		</navigationPanel>
+		<label_print_html>Version imprimable</label_print_html>
 	</localization>
 </cv>

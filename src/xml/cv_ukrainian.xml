@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"  ?>
-<!--
-	Project: ProffiCV
-	Author : VORONETS'KYY Yevgen 
-	Date   : 15 Dec. 2007
-	Desc   : The document contains structured cv information in russian.
--->
-<cv version="Українська версія 2.2. Останнє доповнення - 7 липня 2008" locale="ua">
-    <!-- Section contains personal information such as name, address, mobile phone,email, etc.-->
-    <personalInfo title="Information Personnelle">
-        <lastName>Воронецький </lastName>
-        <firstName>Євген </firstName>
-        <middleName>Ігорович</middleName>
-        <address>Париж, Францiя</address>
-        <mobile>Телефон: +33.6.29.84.09.83</mobile>
-        <emailImagePath>Эл. пошта : &lt;img src="Ressources/images/email.gif" title="AntiSpam Protection"/&gt;</emailImagePath><!-- We'll use an image of email instead of plain text. Defend against spummer robots. -->
+	<!--
+		Project: ProffiCV Author : VORONETS'KYY Yevgen Date : 15 Dec. 2007
+		Desc : The document contains structured cv information in russian.
+	-->
+<cv version="Українська версія 2.2. Останнє доповнення - 7 липня 2008"
+	locale="ua">
+	<!--
+		Section contains personal information such as name, address, mobile
+		phone,email, etc.
+	-->
+	<personalInfo title="Information Personnelle">
+		<lastName>Воронецький </lastName>
+		<firstName>Євген </firstName>
+		<middleName>Ігорович</middleName>
+		<address>Париж, Францiя</address>
+		<mobile>Телефон: +33.6.29.84.09.83</mobile>
+		<emailImagePath>Эл. пошта : &lt;img src="Ressources/images/email.gif" title="AntiSpam Protection"/&gt;</emailImagePath><!-- We'll use an image of email instead of plain text. Defend against spummer robots. -->
         <job-title>Iнженер-программiст Java/J2EE</job-title>
         <additionalInfo> Народився 23.11.1981, Україна</additionalInfo>
     </personalInfo>
@@ -34,7 +36,7 @@
             <speciality>Спеціальність «Комунікації, Мережі, Зображення».</speciality>
             <date>2004-2005</date>
             <desc>Диплом iнженера (Master Degre) по створенню програмного забезпечення.</desc>
-            <geolocalization>Францiя</geolocalization>
+            <geolocalization>Шамп-сюр-Марн, Францiя</geolocalization>
             <url>http://www.univ-mlv.fr</url>
             <note></note>
         </organisation>
@@ -43,7 +45,7 @@
             <speciality>Економічний менеджмент підприємств для інженера.</speciality>
             <date>2005</date>
             <desc>Соцiальний менеджмент.</desc>
-            <geolocalization>Францiя</geolocalization>
+            <geolocalization>Шамп-сюр-Марн, Францiя</geolocalization>
             <url>http://www.cnam.fr</url>
             <note></note>
         </organisation>
@@ -52,7 +54,7 @@
             <speciality>Спеціальність - « Спеціалізовані комп'ютерні системи »</speciality>
             <date>1999-2004</date>
             <desc>Диплом спецiалiста комп'ютерних систем, з відзнакою (2004).</desc>
-            <geolocalization>Україна</geolocalization>
+            <geolocalization>Днiпропетровськ, Україна</geolocalization>
             <url>http://www.usuce.dp.ua/</url>
             <note></note>
         </organisation>
@@ -67,7 +69,9 @@
                 <geolocalization>Париж, Францiя</geolocalization>
                 <jobTitle>Iнженер-програміст / Молодший керівник проекту </jobTitle>
                 <jobDesc>
-                    Участь у розробці та керівництві високотехнологічними проектами на базі технології Java/J2EE.
+                    Участь у розробці та керівництві високотехнологічними проектами на базі технології Java/J2EE. 
+                    Вирішення важливих технічних проблем. Установлення та конфігурація інфраструктури проекту: SVN, builds, unit tests. 
+                    Відповідальний за спілкування з замовником. Технології: Java/J2EE, Servlets/JSP, JAAS, decompiler JAD, MySQL, LDAP, Ant, DBUnit, Linux, RPM.
                 </jobDesc>
                 <url>http://www.teamlog.com</url>
                 <note></note>
@@ -240,6 +244,10 @@
             <name>Спорт</name>
             <desc>Атлетика, спортивна гiмнастика, плавання, волейбол.</desc>
         </item>
+        <item>
+			<name>Блог</name>
+			<desc><a href="http://yevgen-fr.blogspot.com" title="Мій власний технічний блог">http://yevgen-fr.blogspot.com</a> - Мій власний технічний блог на французькій мові. Основні теми - ІТ, програмування, Java.</desc>
+		</item>
     </miscellanea>
     
     <!-- This section contains localized message for different labels on the page. -->
@@ -258,5 +266,6 @@
             <link_hide>Скрити</link_hide>
             <link_show>Показати</link_show>
         </navigationPanel>
+        <label_print_html>Version for print</label_print_html>
     </localization>
 </cv>

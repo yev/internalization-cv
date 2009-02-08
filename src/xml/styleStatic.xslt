@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
     <xsl:output method="html" encoding="UTF-8"/>
     
     <xsl:template match="/cv">
@@ -12,7 +12,7 @@
                 <meta name="Description" content="CV de VORONETS'KYY Yevgen"/>
                 <meta name="Keywords" content="Voronetskyy,Voronets'kyy, Voronetskyy Yevgen, Voronets'kyy Yevgen, Voronetskiy, Voronetskiy Yevgen, CV, informatique, DESS, CNAM, Management du CNAM, Dess CRI, programmation, r�seau, France, Ukraine, Luxembourg,Dnipropetrovsk, Rumelange, Universit�, UMLV, Universit� de Marne-la-Vall�e, Paris, legitiName, siteAudit, html, C#, java, xml, Linux, Windows,Delphi, pascal, XSLT, DELF, DALF, CORBA, Flash, PHP, Mysql, Postgresql, paradox, win32, client, serveur, Brainbench"/>
                 <meta name="Author" content="Voronets'kyy Yevgen"/>
-                <link REL="stylesheet" HREF="Ressources/style.css" type="text/css"/>
+                <link id="printId" REL="stylesheet" HREF="Ressources/style.css" type="text/css"/>
                 
                 <script type="text/javascript">
                     function hide()
@@ -45,6 +45,11 @@
                     show();
                     }
                     }
+                    function showForPrint()
+                    {
+                    	document.getElementById("printId").media='print';
+                    	//location.reload(true);
+                    }
                 </script>
                 
             </head>
@@ -71,20 +76,30 @@
                                         • <a href="index_ua.html">Українська</a></td>
                                     </tr>
                                     <tr>
-                                        <td><hr class="neutral"/></td>
+                                        <td><hr class="neutral"/><!-- Codes by Quackit.com --></td>
                                     </tr>
                                     <tr>
                                         <td align="center">
                                             <table border="0">
                                                 <tr>
-                                                    <td><img src="Ressources/images/pdfimage.jpg" style="width:25; height=25;" border="0"/></td>
+                                                    <td>
+                                                    	<img src="Ressources/images/pdfimage.jpg" style="width:25; height=25;" border="0"/>
+                                                    	
+                                                    </td>
                                                     <td valign="middle">
                                                         <xsl:if test="@locale='fr'"><a href="pdf/cv_voronetskyy_fr.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
                                                         <xsl:if test="@locale='en'"><a href="pdf/cv_voronetskyy_en.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
                                                         <xsl:if test="@locale='ru'"><a href="pdf/cv_voronetskyy_ru.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
                                                         <xsl:if test="@locale='ua'"><a href="pdf/cv_voronetskyy_ua.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
                                                     </td>
+                                                    <td>
+                                                    	<img src="Ressources/images/printer.gif" border="0"/>
+                                                    </td>
+                                                    <td valign="middle">
+                                                        <a href="javascript:showForPrint();" class="navigationToogleLink"><xsl:value-of select="localization/label_print_html"/></a>
+                                                    </td>
                                                 </tr>
+                                                
                                             </table>		
                                         </td>
                                     </tr>
@@ -155,15 +170,16 @@
                                     <table width="100%">
                                         <tr>
                                             <td><strong class="org"><xsl:value-of select="name"/></strong></td>
-                                            <td align="right"><xsl:value-of select="/cv/localization/label_GeoLocalization"/> : <span id="geo"><xsl:value-of select="geolocalization"/></span></td>
                                         </tr>
                                         <tr>
-                                            <hr class="neutral"/>
+                                        	 <td><xsl:value-of select="/cv/localization/label_GeoLocalization"/> : <span id="geo"><xsl:value-of select="geolocalization"/></span></td>
+                                        </tr>
+                                        <tr>
                                             <td colspan="2">
                                                 
                                                 <img src="Ressources/images/study32.gif" class="floatStyle"/>
                                                 
-                                                <xsl:value-of select="speciality"  disable-output-escaping="yes"/>
+                                                <xsl:value-of select="speciality"/>
                                                 <br/><xsl:value-of select="desc"/>
                                                 
                                                 <xsl:value-of select="note"/>
@@ -180,9 +196,7 @@
                                             </td>
                                         </tr>
                                     </table>
-                                    <xsl:if test="position()=last()">
-                                        <hr class="neutral"/>
-                                    </xsl:if>
+
                                 </td>	
                             </tr>					
                         </xsl:for-each>
@@ -203,20 +217,19 @@
                                 </td>
                                 
                                 <td class="info">
-                                    <hr class="orange"/>
                                     <table border="0" class="none">
                                         <tr>
                                             <td>
                                                 <table class="none" border="0" width="100%">
                                                     <tr>
-                                                        <td><xsl:value-of select="/cv/localization/label_CompanyName"/> :</td> 
+                                                        <td width="150"><xsl:value-of select="/cv/localization/label_CompanyName"/> :</td> 
                                                         <td><strong class="org"><xsl:value-of select="name"/></strong></td> 
 
-                                                        <td align="right" valign="top">
-                                                            <xsl:value-of select="/cv/localization/label_GeoLocalization"/> : 
-                                                            <span id="geo"><xsl:value-of select="geolocalization"/></span>
-
-                                                        </td>
+                                                       
+                                                    </tr>
+                                                    <tr>
+                                                    	 <td><xsl:value-of select="/cv/localization/label_GeoLocalization"/> :</td> 
+                                                         <td><span id="geo"><xsl:value-of select="geolocalization"/></span></td>
                                                     </tr>
                                                     <tr>
                                                         <td><xsl:value-of select="/cv/localization/label_Activity"/> :</td>
@@ -235,7 +248,7 @@
                                               </td>
                                             </tr>
                                         <tr>		
-                                            <td class="missionDesc" colspan="2"><strong><xsl:value-of select="/cv/localization/label_JobDecs"/></strong> : <xsl:value-of select="jobDesc" disable-output-escaping="yes"/></td>
+                                            <td class="missionDesc" colspan="2"><strong><xsl:value-of select="/cv/localization/label_JobDecs"/></strong> : <xsl:value-of select="jobDesc"/></td>
                                         </tr>
                                         <tr>
                                             <td colspan="2"><xsl:value-of select="/cv/localization/label_URL"/> : 			
@@ -248,9 +261,6 @@
                                             </td>
                                         </tr>
                                     </table>
-                                    <xsl:if test="position()=last()">
-                                        <hr class="orange"/>
-                                    </xsl:if>
                                 </td>
                             </tr>	
                         </xsl:for-each>
@@ -268,8 +278,7 @@
                                     <xsl:value-of select="name"/>
                                 </td>
                                 <td class="info">
-                                    <hr class="neutral"/>
-                                    <xsl:value-of select="itemsList" disable-output-escaping="yes"/>
+                                    <xsl:value-of select="itemsList"/>
                                 </td>
                             </tr>	
                         </xsl:for-each>
@@ -304,8 +313,10 @@
                                     <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/communicationspecialist.gif" border="0" alt="communicationspecialist" class="brainImg"/></a>• 
                                     <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/oracleplsqlfundamentals.gif" border="0" alt="oracleplsqlfundamentals" class="brainImg"/></a>•
                                     <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/networksecurity.gif" border="0" alt="networksecurity" class="brainImg"/></a>•
+                                    
+                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/ooconcepts.gif" border="0" alt="ooconcepts" class="brainImg"/></a>•
                                 </span>
-                                <hr class="neutral"/>
+                               
                             </td>
                             
                         </tr>
@@ -322,11 +333,8 @@
                                     <xsl:value-of select="name"/>
                                 </td>
                                 <td class="info">
-                                    <hr class="neutral"/>
+                                    
                                     <xsl:value-of select="desc" disable-output-escaping="yes"/>
-                                    <xsl:if test="position()=last()">
-                                        <hr class="neutral"/>
-                                    </xsl:if>
                                 </td>
                             </tr>	
                         </xsl:for-each>
@@ -344,11 +352,7 @@
                                     <xsl:value-of select="name"/>
                                 </td>
                                 <td class="info">
-                                    <hr class="neutral"/>
-                                    <xsl:value-of select="desc"/>
-                                    <xsl:if test="position()=last()">
-                                        <hr class="neutral"/>
-                                    </xsl:if>
+                                    <xsl:value-of select="desc" disable-output-escaping="yes"/>
                                 </td>
                             </tr>	
                         </xsl:for-each>
@@ -358,17 +362,17 @@
                 <p align="center"><small><xsl:value-of select="@version"/></small></p>
                 
                 
-                <!-- Start of StatCounter Code -->
-                <script type="text/javascript" language="javascript">
-                    var sc_project=1864684; 
-                    var sc_invisible=0; 
-                    var sc_partition=17; 
-                    var sc_security="74c53053"; 
-                    var sc_text=2; 
-                </script>
-                
-                <script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c18.statcounter.com/counter.php?sc_project=1864684&amp;java=0&amp;security=74c53053&amp;invisible=0" alt="page hit counter" border="0"/></a> </noscript>
-                <!-- End of StatCounter Code -->
+                <!-- Start of Google Analitics Code -->
+               <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6082954-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+                <!-- End of Google Analitics Code -->
 	
             </body>
         </html>
