@@ -64,10 +64,15 @@
 			<geolocalization>Paris, France</geolocalization>
 			<jobTitle>Ingénieur d'études / Chef de projet adjoint </jobTitle>
 			<jobDesc>
-                    Participation à la conception, développement et gestion des projets informatiques. 
-                    Résolution des problèmes techniques pointus. Mise en place de l'infrastructure du projet (SVN, les builds automatiques, tests unitaires, etc). 
-                    Chargé de la communication avec des clients. 
-                    Technologies utilisées: Java/J2EE, Servlets/JSP, JAAS, decompiler JAD, MySQL, LDAP, Ant, DBUnit, Linux, RPM.
+	Participation à la conception, développement et gestion des projets
+	informatiques (certains en mode offshore).
+	Résolution des problèmes techniques pointus.
+	Mise en place de l'infrastructure du projet (SVN, les builds automatiques,
+	tests unitaires, Mantis, etc). Chargé de la communication avec des
+	clients.
+	Conseil technique lors des réponses aux appels d’offres.
+	Technologies utilisées: Java/J2EE, Servlets/JSP, JAAS, decompiler JAD, MySQL, LDAP,
+	Ant, DBUnit, Linux, RPM, PowerDesigner.              
             </jobDesc>
 			<url>http://http://www.teamlog.com</url>
 			<note></note>
@@ -248,7 +253,7 @@
 		
 	</miscellanea>
 	
-	<!-- This section contains localized message for different labels on the page. -->
+	<!-- This section contains localized message for different labels on the page.-->
 	<localization>
 		<label_CompanyName>Entreprise</label_CompanyName>
 		<label_JobTitle>Poste occupé</label_JobTitle>
