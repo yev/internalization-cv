@@ -3,7 +3,7 @@
 		Project: ProffiCV Author : VORONETS'KYY Yevgen Date : 15 Dec. 2007
 		Desc : The document contains structured cv information in russian.
 	-->
-<cv version="Українська версія 2.2. Останнє доповнення - 7 липня 2008"
+<cv version="Українська версія 2.4. Останнє доповнення - 09 лютого 2009"
 	locale="ua">
 	<!--
 		Section contains personal information such as name, address, mobile
@@ -266,6 +266,6 @@
             <link_hide>Скрити</link_hide>
             <link_show>Показати</link_show>
         </navigationPanel>
-        <label_print_html>Version for print</label_print_html>
+        <label_print_html>Версія для друку</label_print_html>
     </localization>
 </cv>
