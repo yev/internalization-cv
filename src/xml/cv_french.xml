@@ -71,8 +71,7 @@
 	tests unitaires, Mantis, etc). Chargé de la communication avec des
 	clients.
 	Conseil technique lors des réponses aux appels d’offres.
-	Technologies utilisées: Java/J2EE, Servlets/JSP, JAAS, decompiler JAD, MySQL, LDAP,
-	Ant, DBUnit, Linux, RPM, PowerDesigner.              
+	Technologies utilisées: Java/J2EE, Spring, Hibernate, Struts, Servlets/JSP, JAAS, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity DBUnit, Linux, RPM, PowerDesigner.              
             </jobDesc>
 			<url>http://http://www.teamlog.com</url>
 			<note></note>

@@ -71,7 +71,9 @@
                 <jobDesc>
                     Участь у розробці та керівництві високотехнологічними проектами на базі технології Java/J2EE. 
                     Вирішення важливих технічних проблем. Установлення та конфігурація інфраструктури проекту: SVN, builds, unit tests. 
-                    Відповідальний за спілкування з замовником. Технології: Java/J2EE, Servlets/JSP, JAAS, decompiler JAD, MySQL, LDAP, Ant, DBUnit, Linux, RPM.
+                    Відповідальний за спілкування з замовником.
+                    Підтримка у представленні технічного аспекту коммерційним спеціалістам щодо відповідей на тендерні запити. 
+                    Технології: Java/J2EE, Spring, Hibernate, Struts, Servlets/JSP, JAAS, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity DBUnit, Linux, RPM, PowerDesigner.
                 </jobDesc>
                 <url>http://www.teamlog.com</url>
                 <note></note>
