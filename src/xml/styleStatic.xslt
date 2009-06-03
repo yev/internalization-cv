@@ -361,18 +361,24 @@
                 
                 <p align="center"><small><xsl:value-of select="@version"/></small></p>
                 
-                
-                <!-- Start of Google Analitics Code -->
-               <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-6082954-2");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-                <!-- End of Google Analitics Code -->
+				                
+				<!-- Start of StatCounter Code -->
+				<script type="text/javascript">
+				var sc_project=4797506; 
+				var sc_invisible=1; 
+				var sc_partition=54; 
+				var sc_click_stat=1; 
+				var sc_security="c962577d"; 
+				</script>
+				
+				<script type="text/javascript"
+				src="http://www.statcounter.com/counter/counter.js"></script><noscript><div
+				class="statcounter"><a title="blogger counter"
+				href="http://www.statcounter.com/blogger/"
+				target="_blank"><img class="statcounter"
+				src="http://c.statcounter.com/4797506/0/c962577d/1/"
+				alt="blogger counter"/></a></div></noscript>
+				<!-- End of StatCounter Code -->
 	
             </body>
         </html>
