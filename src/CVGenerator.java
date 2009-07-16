@@ -17,7 +17,11 @@ public class CVGenerator
 	private CVGenerator() throws Exception
 	{
 		this.tFactory = TransformerFactory.newInstance();
-
+		System.out.println(tFactory.getClass().getCanonicalName());
+ 
+		String s = System.setProperty("javax.xml.transform.TransformerFactory", "org.apache.xalan.xsltc.trax.TransformerFactoryImpl");
+		System.out.println(s);
+		logger.info("javax.xml.transform.TransformerFactory system property = "+System.getProperty("javax.xml.transform.TransformerFactory "));
 		this.transformer = tFactory
 				.newTransformer(new javax.xml.transform.stream.StreamSource(
 						"src/xml/styleStatic.xslt"));

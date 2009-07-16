@@ -5,7 +5,7 @@
 	Date   : 11 Dec. 2007
 	Desc   : The document contains structured cv information.
  -->
-<cv version="La version française 2.4. Dernière mise à jour le 09 Février 2008." locale="fr">
+<cv version="La version française 2.5. Dernière mise à jour le 20 Juin 2009." locale="fr">
 	<!-- Section contains personal information such as name, address, mobile phone,email, etc.-->
 	<personalInfo title="Information Personnelle">
 		<lastName>Voronetskyy</lastName>
@@ -22,10 +22,19 @@
             Formation européene, master en Informatique. 3 ans de l'expérience professionele à l'échelle intérnationale pour les différentes entreprises (éditeur de logiciels, consulting, assurances). 
             21 IT-certifications du système Brainbench. 
             Très bonnes connaissances du français et de l'anglais, le russe et l'ukrainien sont des langues maternelles. 
-            Persévérant et responsable.
+            Persévérant et responsable. Ambition professionnelle - devenir un architecte système.
         </summary> 
 	<!-- Section about my education-->
 	<education title="Formation">
+		<organisation>
+			<name>Teamlog Institute</name>
+			<speciality>Formation professionnelle dispensée par Teamlog Institute : </speciality>
+			<date>Depuis 2008</date>
+			<desc>Communication avec impacte, cours d'anglais intermédiaire</desc>
+			<geolocalization>Paris, France</geolocalization>
+			<url>http://www.teamlog.com</url>
+			<note></note>
+		</organisation>
 		<organisation>
 			<name>Université Paris-Est Marne-la-Vallée</name>
 			<speciality>DESS « Communication, Réseau, Image », filière Réseau (actuel Master Informatique).</speciality>
@@ -62,16 +71,13 @@
 			<name>Teamlog</name>
 			<activity>SSII</activity>
 			<geolocalization>Paris, France</geolocalization>
-			<jobTitle>Ingénieur d'études / Chef de projet adjoint </jobTitle>
+			<jobTitle>Référant technique / Chef de projet adjoint</jobTitle>
 			<jobDesc>
-	Participation à la conception, développement et gestion des projets
-	informatiques (certains en mode offshore).
-	Résolution des problèmes techniques pointus.
-	Mise en place de l'infrastructure du projet (SVN, les builds automatiques,
-	tests unitaires, Mantis, etc). Chargé de la communication avec des
-	clients.
-	Conseil technique lors des réponses aux appels d’offres.
-	Technologies utilisées: Java/J2EE, Spring, Hibernate, Struts, Servlets/JSP, JAAS, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity DBUnit, Linux, RPM, PowerDesigner.              
+	Participation à la conception, développement et gestion des projets	informatiques (TMA, forfait, régie;  projets "offshorisés").
+	Responsbale de la qualité technique. Développement de l'architecture, résolution des problèmes techniques pointus. Revue du code.
+	Mise en place de l'infrastructure des projets (SVN, les builds automatiques, tests unitaires, Mantis, etc).
+	Audit technique des projets Java/J2EE (ISO-, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
+	Technologies utilisées: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner.              
             </jobDesc>
 			<url>http://www.teamlog.com</url>
 			<note></note>

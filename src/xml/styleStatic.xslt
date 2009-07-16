@@ -352,7 +352,9 @@
                                     <xsl:value-of select="name"/>
                                 </td>
                                 <td class="info">
-                                    <xsl:value-of select="desc" disable-output-escaping="yes"/>
+                              
+                                   		 <xsl:value-of select="desc" disable-output-escaping="yes"/>
+                                    
                                 </td>
                             </tr>	
                         </xsl:for-each>

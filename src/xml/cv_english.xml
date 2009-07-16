@@ -3,7 +3,7 @@
 		Project: ProffiCV Author : VORONETS'KYY Yevgen Date : 11 Dec. 2007
 		Desc : The document contains structured cv information.
 	-->
-<cv version="English version 2.4. Last modification the 09 February 2009."
+<cv version="English version 2.5. Last modification the 20 Juin 2009."
 	locale="en">
 	<!--
 		Section contains personal information such as name, address, mobile
@@ -35,16 +35,25 @@
 		Fluent french,
 		good english, russian and ukrainian are the mother tongues.
 		Purposeful
-		and responsible.
+		and responsible. Professional ambition - become a software architect.
         </summary>
 	<!-- Section about my education-->
 	<education title="Education">
 		<organisation>
+			<name>Teamlog Institute</name>
+			<speciality>Professional courses organized by Teamlog Institute : </speciality>
+			<date>2008</date>
+			<desc>Effective communication, English courses (intermediate level)</desc>
+			<geolocalization>Paris, France</geolocalization>
+			<url>http://www.teamlog.com</url>
+			<note></note>
+		</organisation>
+		<organisation>
 			<name>University Paris-Est Marne-la-Vallée</name>
 			<speciality>Master Degree in Computer Science.</speciality>
 			<date>2004-2005</date>
-			<desc>DESS « Communication, Réseau, Image », filière Réseau
-				(actuel Master Informatique).</desc>
+			<desc>DESS « Communication, Network, Image », section Network
+				(actual Master CS).</desc>
 			<geolocalization>Champs-sur-Marne, France</geolocalization>
 			<url>http://www.univ-mlv.fr</url>
 			<note></note>
@@ -66,8 +75,7 @@
 			<speciality>Speciality « Specialized computer systems ».
 			</speciality>
 			<date>1999-2004</date>
-			<desc>Master Degree in Computer Science, with honour (2004).
-			</desc>
+			<desc>Master Degree in Computer Science, with honour (2004).</desc>
 			<geolocalization>Dniepropetrovsk, Ukraine</geolocalization>
 			<url>http://www.usuce.dp.ua/</url>
 			<note></note>
@@ -81,14 +89,14 @@
 			<name>Teamlog</name>
 			<activity>SSII</activity>
 			<geolocalization>Paris, France</geolocalization>
-			<jobTitle>Software Engineer / Junior Project Manager
+			<jobTitle>Technical lead / Junior Project Manager
 			</jobTitle>
 			<jobDesc>
 				Participation in the design, development and management of
-				the IT-projects (some on offshore mode). Solving critical technical problems. Setup
-				project infrastructure: SVN, builds, unit tests, Mantis, etc. Responsible
-				for communication with customers. Technical consulting for responses on the invitations to tender. 
-				Technologies: Java/J2EE, Spring, Hibernate, Struts, Servlets/JSP, JAAS, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity DBUnit, Linux, RPM, PowerDesigner.
+				the IT-projects (some on offshore mode). Architecture development, solving critical technical problems. Setup
+				project infrastructure: SVN, builds, unit tests, Mantis, etc. Code revue.
+				Responsible	for communication with customers. Technical audit for Java/J2EE projects (ISO-, Sonar, PMD, Cobertura, Metrics, SourceMonitor). 
+				Technologies: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner.
             </jobDesc>
 			<url>http://www.teamlog.com</url>
 			<note></note>

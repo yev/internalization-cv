@@ -3,7 +3,7 @@
 		Project: ProffiCV Author : VORONETS'KYY Yevgen Date : 15 Dec. 2007
 		Desc : The document contains structured cv information in russian.
 	-->
-<cv version="Русская версия 2.4. Последнее обновление - 09 февраля 2009."
+<cv version="Русская версия 2.5. Последнее обновление - 20 июня 2009."
 	locale="ru">
 	<!--
 		Section contains personal information such as name, address, mobile
@@ -25,10 +25,19 @@
             Европейское образование. Дипплом инженера. 3 года опыта работы на международном уровне (страхование, IT-консалтинг, разработка ПО). 
             21 IT-сертификатов полученных в системе Brainbench. 
             Русский и украинский - родные языки, отличное владение французским и английским языками. 
-            Целеустремленный и ответственный.
+            Целеустремленный и ответственный. Цель - стать архитектором ПО.
         </summary> 
 	<!-- Section about my education-->
 	<education title="Образование">
+		<organisation>
+			<name>Teamlog Institute</name>
+			<speciality>Образовательные программы организованные Teamlog Institute</speciality>
+			<date>2008</date>
+			<desc>Еффективное общение, курсы английского языка (intermediate level)</desc>
+			<geolocalization>Париж, Франция</geolocalization>
+			<url>http://www.teamlog.com</url>
+			<note></note>
+		</organisation>
 		<organisation>
 			<name>Университет Пари-Эст Марн-ля-Валле ( Université Paris-Est Marne-la-Vallée )</name>
 			<speciality>Специальность «Коммуникации, Сеть, Изображение».</speciality>
@@ -65,13 +74,13 @@
 			<name>Teamlog</name>
 			<activity>IT-консалтинг</activity>
 			<geolocalization>Париж, Франция</geolocalization>
-            <jobTitle>Программист/Младший руководитель проекта</jobTitle>
+            <jobTitle>Технический лидер/Младший руководитель проекта</jobTitle>
 			<jobDesc>
                  Участие в разработке и управлении высокотехнологичными программными проектами (некоторые из них offshore-проекты). 
-                 Решение важных технических проблем. Установка и конфигурация инфраструктуры проекта : SVN, builds, unit tests, Mantis. 
-                 Ответственный за общение с заказчиком.
-                 Помощь в представлении технического аспекта коммерческим командам в ответах на тендерные запросы.
-                 Технологии: Java/J2EE, Spring, Hibernate, Struts, Servlets/JSP, JAAS, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity DBUnit, Linux, RPM, PowerDesigner. 
+                 Ответсвенный за техническое качество. Разработка архитектуры, решение важных технических проблем. Установка и конфигурация инфраструктуры проектов : SVN, builds, unit tests, Mantis. 
+                 Ответственный за общение с заказчиком. Ревью кода.
+				 Технический аудит Java/J2EE проектов (ISO-, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
+                 Технологии: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner. 
             </jobDesc>
 			<url>http://www.teamlog.com</url>
 			<note></note>
