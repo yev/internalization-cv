@@ -5,7 +5,7 @@
 	Date   : 11 Dec. 2007
 	Desc   : The document contains structured cv information.
  -->
-<cv version="La version française 2.5. Dernière mise à jour le 20 Juin 2009." locale="fr">
+<cv version="La version française 2.6. Dernière mise à jour le 12 Août 2009." locale="fr">
 	<!-- Section contains personal information such as name, address, mobile phone,email, etc.-->
 	<personalInfo title="Information Personnelle">
 		<lastName>Voronetskyy</lastName>
@@ -18,8 +18,8 @@
 	</personalInfo>
        <summary title="Résumé">
             Ingénieur Java/J2EE. Conception et réalisation des systèmes informatiques (web/desktop). OOP/AOP. 
-            Architectures n-tiers. SGBD/SQL. Design patterns. UML. RUP, méthodologies agiles. 
-            Formation européene, master en Informatique. 3 ans de l'expérience professionele à l'échelle intérnationale pour les différentes entreprises (éditeur de logiciels, consulting, assurances). 
+            Architectures n-tiers. SGBD/SQL. Design patterns. UML. RUP, méthodologies agiles. Industrialisation des processus de développement. 
+            Formation européene, master en Informatique. 4 ans de l'expérience professionele à l'échelle intérnationale pour les différentes entreprises (éditeur de logiciels, consulting, assurances). 
             21 IT-certifications du système Brainbench. 
             Très bonnes connaissances du français et de l'anglais, le russe et l'ukrainien sont des langues maternelles. 
             Persévérant et responsable. Ambition professionnelle - devenir un architecte système.
@@ -76,6 +76,8 @@
 	Participation à la conception, développement et gestion des projets	informatiques (TMA, forfait, régie;  projets "offshorisés").
 	Responsbale de la qualité technique. Développement de l'architecture, résolution des problèmes techniques pointus. Revue du code.
 	Mise en place de l'infrastructure des projets (SVN, les builds automatiques, tests unitaires, Mantis, etc).
+	Participation à l'industrialisation du développement des projets informatiques(intégration continue, qualité du code/conception OO, métriques).
+	Codnduite des entretiens techniques dans un cadre de recrutement.  
 	Audit technique des projets Java/J2EE (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
 	Technologies utilisées: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner.              
             </jobDesc>
