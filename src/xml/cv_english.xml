@@ -289,13 +289,11 @@
 		</technology-domain>
 		<technology-domain>
 			<name>RDBMS</name>
-			<itemsList>ORACLE 9i/10g, MySQL, PostgreSQL, Microsoft SQL
-				Server 2000; langage SQL.</itemsList>
+			<itemsList>ORACLE 9i/10g, MySQL, PostgreSQL, Microsoft SQL Server 2000; SQL language.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Tools</name>
-			<itemsList>Eclipse, NetBeans, Microsoft Visual Studio,
-				JProfiler, ANT, Maven, CVS, SVN, SQuirreL, Toad, Far.</itemsList>
+			<itemsList>Eclipse, NetBeans, Microsoft Visual Studio, JProfiler, ANT, Maven, CVS, SVN, SQuirreL, Toad, Far.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Software methodologies</name>
