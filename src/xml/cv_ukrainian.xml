@@ -3,7 +3,7 @@
 		Project: ProffiCV Author : VORONETS'KYY Yevgen Date : 15 Dec. 2007
 		Desc : The document contains structured cv information in russian.
 	-->
-<cv version="Українська версія 2.6. Останнє доповнення - 12 серпня 2009"
+<cv version="Українська версія 2.5. Останнє доповнення - 20 червня 2009"
 	locale="ua">
 	<!--
 		Section contains personal information such as name, address, mobile
@@ -161,7 +161,7 @@
         </company>
         <company>
             <date>Грудень 2005 - Серпень 2006</date>
-            <name>Information Systems Development</name>
+            <name>ISD - Information Systems Development</name>
             <activity>Розробка програмного забезпечення</activity>
             <geolocalization>Днiпропетровськ, Україна</geolocalization>
             <jobTitle>Програміст Java/J2EE</jobTitle>
@@ -201,7 +201,7 @@
             </itemsList>
         </technology-domain>
         <technology-domain>
-            <name>J2EE</name>
+            <name>Java/J2EE</name>
             <itemsList>Core Java, Application/web servers, JDBC, Servlets/JSP, JNDI, RMI, EJB, Web Services. 
                 Application/web cервери : JBoss, WebSphere, Tomcat, Resin.
                 Розуміння ключових моментів многорівневих розподілених архітектур: EJB/POJO, персистентність даних, транзакції, мультипоточне програмування, трасування.

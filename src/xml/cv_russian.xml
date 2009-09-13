@@ -3,7 +3,7 @@
 		Project: ProffiCV Author : VORONETS'KYY Yevgen Date : 15 Dec. 2007
 		Desc : The document contains structured cv information in russian.
 	-->
-<cv version="Русская версия 2.6. Последнее обновление - 12 августа 2009."
+<cv version="Русская версия 2.5. Последнее обновление - 20 июня 2009."
 	locale="ru">
 	<!--
 		Section contains personal information such as name, address, mobile
@@ -158,7 +158,7 @@
 		</company>
 		<company>
 			<date>Декабрь 2005 - Август 2006</date>
-			<name>Information Systems Development</name>
+			<name>ISD - Information Systems Development</name>
 			<activity>Разработка программного обеспечения</activity>
 			<geolocalization>Днепропетровск, Украина</geolocalization>
 			<jobTitle>Программист Java/J2EE</jobTitle>
@@ -196,7 +196,7 @@
 				Hibernate, библиотеки Apache Commons, Velocity, iText, JSVC. XML (XSL, XPath, XSD), HTML(CSS, JavaScript).</itemsList>
 		</technology-domain>
 		<technology-domain>
-			<name>J2EE</name>
+			<name>Java/J2EE</name>
 			<itemsList>Core Java, Application/web servers, JDBC, Servlets/JSP, JNDI, RMI, EJB, Web Services. 
 					Серверы приложений/веб сервера : JBoss, WebSphere, Tomcat, Resin.
 					Понимание ключевых моментов многоуровневых распределенных архитектур: POJO/EJB,	персистентность данных, безопасность, транзакции, мультипоточное программирование, логирование.</itemsList>

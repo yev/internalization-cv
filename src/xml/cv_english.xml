@@ -3,7 +3,7 @@
 		Project: ProffiCV Author : VORONETS'KYY Yevgen Date : 11 Dec. 2007
 		Desc : The document contains structured cv information.
 	-->
-<cv version="English version 2.6. Last modification the 12 August 2009."
+<cv version="English version 2.5. Last modification the 20 Juin 2009."
 	locale="en">
 	<!--
 		Section contains personal information such as name, address, mobile
@@ -12,7 +12,7 @@
 	<personalInfo title="Personal Profile">
 		<lastName>Voronetskyy</lastName>
 		<firstName>Yevgen</firstName>
-		<middleName>Igorevich</middleName>
+		<middleName></middleName>
 		<address>Paris, France</address>
 		<mobile>Phone: +33.6.29.84.09.83</mobile>
 		<job-title>Java/J2EE Software Engineer</job-title>
@@ -33,7 +33,7 @@
 		companies).
 		21 IT-certifications from Brainbench system.
 		Fluent french,
-		good english, russian and ukrainian are the mother tongues.
+		good english, russian and ukrainian - native speaker.
 		Purposeful
 		and responsible. Professional ambition - become a software architect.
         </summary>
@@ -41,7 +41,7 @@
 	<education title="Education">
 		<organisation>
 			<name>Teamlog Institute</name>
-			<speciality>Professional courses organized by Teamlog Institute : </speciality>
+			<speciality>Professional courses organized by Teamlog Institute</speciality>
 			<date>2008</date>
 			<desc>Effective communication, English courses (intermediate level)</desc>
 			<geolocalization>Paris, France</geolocalization>
@@ -179,8 +179,7 @@
 				Servlet/JSP, JSTL, Tomcat 5.5, MySQL, Oracle, MS SQL Server,
 				FreeMaker, Common-Controls, many librairies from Jakarta Commons.
 			</jobDesc>
-			<url>http://www.mondial-assistance.fr/
-			</url>
+			<url>http://www.mondial-assistance.fr</url>
 			<note></note>
 		</company>
 		<company isConsulting="true">
@@ -215,13 +214,12 @@
 				Java/J2EE, JDBC, Servlet/JSP, Tomcat 5.5, MySQL 4.1,
 				PostgreSQL,
 				Log4j, Velocity, JSVC.</jobDesc>
-			<url>http://www.duke-interactive.com/
-			</url>
+			<url>http://www.duke-interactive.com/</url>
 			<note></note>
 		</company>
 		<company>
 			<date>December 2005 - August 2006</date>
-			<name>Information Systems Development</name>
+			<name>ISD - Information Systems Development</name>
 			<activity>Software</activity>
 			<geolocalization>Dnipropetrovsk, Ukraine
 			</geolocalization>
@@ -275,7 +273,7 @@
 				HTML(CSS, JavaScript).</itemsList>
 		</technology-domain>
 		<technology-domain>
-			<name>J2EE</name>
+			<name>Java/J2EE</name>
 			<itemsList>Core Java, Application/web servers, JDBC,
 				Servlets/JSP, JNDI, RMI, EJB, Web Services.
 				Application/web servers :

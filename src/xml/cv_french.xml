@@ -5,12 +5,12 @@
 	Date   : 11 Dec. 2007
 	Desc   : The document contains structured cv information.
  -->
-<cv version="La version française 2.6. Dernière mise à jour le 12 Août 2009." locale="fr">
+<cv version="La version française 2.5. Dernière mise à jour le 20 Juin 2009." locale="fr">
 	<!-- Section contains personal information such as name, address, mobile phone,email, etc.-->
 	<personalInfo title="Information Personnelle">
 		<lastName>Voronetskyy</lastName>
 		<firstName>Yevgen</firstName>
-		<middleName>Igorevich</middleName>
+		<middleName></middleName>
 		<address>Paris, France</address>
 		<mobile>Tél. portable: +33.6.29.84.09.83</mobile>
 		<job-title>Ingénieur Java/J2EE </job-title>
@@ -28,7 +28,7 @@
 	<education title="Formation">
 		<organisation>
 			<name>Teamlog Institute</name>
-			<speciality>Formation professionnelle dispensée par Teamlog Institute : </speciality>
+			<speciality>Formation professionnelle dispensée par Teamlog Institute</speciality>
 			<date>Depuis 2008</date>
 			<desc>Communication avec impacte, cours d'anglais intermédiaire</desc>
 			<geolocalization>Paris, France</geolocalization>
@@ -69,7 +69,7 @@
                 <company>
 			<date>Depuis Juillet 2008</date>
 			<name>Teamlog</name>
-			<activity>SSII</activity>
+			<activity>SSII, Editeur de Logiciel</activity>
 			<geolocalization>Paris, France</geolocalization>
 			<jobTitle>Référant technique / Chef de projet adjoint</jobTitle>
 			<jobDesc>
@@ -158,11 +158,11 @@
 		</company>
 		<company>
 			<date>Décembre 2005 - Août 2006</date>
-			<name>Information Systems Development</name>
+			<name>ISD - Information Systems Development</name>
 			<activity>Editeur de Logiciel</activity>
 			<geolocalization>Dnipropetrovsk, Ukraine</geolocalization>
 			<jobTitle>Ingénieur Java</jobTitle>
-			<jobDesc>Développement et tests de la web-application de Gestion du Temps des Employées (Time management syste).
+			<jobDesc>Développement et tests de la web-application de Gestion du Temps des Employées (Time management system).
 				Tâches accomplies: Développement des composants graphiques basés sur JSF; 
 						Conception et réalisation des tests de stress de l’application. OpenSTA et langage SCL;
 						Migration de l’application de WebSphere sur le serveur JBoss;
@@ -198,7 +198,7 @@
 				Hibernate, plusieurs sous-projets d'Apache Commons, Velocity, iText, JSVC. XML (XSL, XPath, XSD), HTML(CSS, JavaScript).</itemsList>
 		</technology-domain>
 		<technology-domain>
-			<name>J2EE</name>
+			<name>Java/J2EE</name>
 			<itemsList>Core Java, Application/web servers, JDBC, Servlets/JSP, JNDI, RMI, EJB, Web Services. 
 					Serveur d'application/serveurs web : JBoss, WebSphere, Tomcat, Resin.
 					Maîtrise des points clés de l'architectures distribuée n-tiers: objets métiers (POJO ou EJB), persistance de
@@ -265,7 +265,7 @@
 		<label_CompanyName>Entreprise</label_CompanyName>
 		<label_JobTitle>Poste occupé</label_JobTitle>
 		<label_JobDecs>Description de mission</label_JobDecs>
-		<label_GeoLocalization>Localisation géographique</label_GeoLocalization>
+		<label_GeoLocalization>Localisation</label_GeoLocalization>
 		<label_URL>Site web</label_URL>
 		<label_Activity>Secteur d'activité</label_Activity>
 		<label_Page4Pdf>Page</label_Page4Pdf>

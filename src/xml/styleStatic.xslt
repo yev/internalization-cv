@@ -60,9 +60,9 @@
                         <tr>
                             <td align="left" width="25%">
                                 <xsl:for-each select="personalInfo">
-                                    <xsl:value-of select="lastName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="firstName"/>
+                                    <xsl:value-of select="lastName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="firstName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="middleName"/>
                                     <br/><xsl:value-of select="address"/>
-                                    <br/><xsl:value-of select="mobile"/>	
+                                    <br/><xsl:value-of select="mobile"/>
                                     <br/><img src="Ressources/images/email.gif" title="AntiSpam Protection"/>
                                     <br/><small><xsl:value-of select="additionalInfo"/></small>        
                                 </xsl:for-each>
@@ -149,7 +149,7 @@
                         
                         <tr>
                             <td class="firstCell"><span style="color:white;">.</span></td>
-                            <td class="info">
+                            <td class="info" style="padding-left:30px;">
                                 <xsl:value-of select="summary"/>
                             </td>
                         </tr>
@@ -233,11 +233,11 @@
                                                     </tr>
                                                     <tr>
                                                         <td><xsl:value-of select="/cv/localization/label_Activity"/> :</td>
-                                                        <td colspan="2"><strong><xsl:value-of select="activity"/></strong></td>
+                                                        <td colspan="2"><xsl:value-of select="activity"/></td>
                                                     </tr>
                                                     <tr>
                                                         <td><img src="Ressources/images/user24.gif" class="floatStyle"/> <xsl:value-of select="/cv/localization/label_JobTitle"/> :</td>  
-                                                        <td colspan="2"><strong><xsl:value-of select="jobTitle"/></strong>
+                                                        <td colspan="2" valign="top"><xsl:value-of select="jobTitle"/>
                                                             <xsl:if test="@isConsulting='true'">
                                                                 <span id="consultant">***</span>
                                                             </xsl:if>
@@ -247,8 +247,9 @@
                                                 </table>
                                               </td>
                                             </tr>
+                                            
                                         <tr>		
-                                            <td class="missionDesc" colspan="2"><strong><xsl:value-of select="/cv/localization/label_JobDecs"/></strong> : <xsl:value-of select="jobDesc"/></td>
+                                            <td class="missionDesc" colspan="2"><strong><xsl:value-of select="/cv/localization/label_JobDecs"/></strong> : <xsl:value-of select="jobDesc"/> </td>
                                         </tr>
                                         <tr>
                                             <td colspan="2"><xsl:value-of select="/cv/localization/label_URL"/> : 			
@@ -362,7 +363,7 @@
                 </DIV>
                 
                 <p align="center"><small><xsl:value-of select="@version"/></small></p>
-                
+                <br/>
 				                
 				<!-- Start of StatCounter Code -->
 				<script type="text/javascript">

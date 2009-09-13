@@ -1,3 +1,4 @@
+import java.io.File;
 import java.io.FileOutputStream;
 
 import javax.xml.transform.Transformer;
@@ -5,32 +6,23 @@ import javax.xml.transform.TransformerFactory;
 
 import org.apache.log4j.Logger;
 
-public class CVGenerator 
+public final class CVGenerator 
 {
-	private static Logger logger = Logger.getLogger(CVGenerator.class);
+	private static final Logger logger = Logger.getLogger(CVGenerator.class);
 	
-	private TransformerFactory tFactory;
 	private Transformer transformer;
 	
 	private enum Language {russian, ukrainian, french, english};
 	
 	private CVGenerator() throws Exception
 	{
-		this.tFactory = TransformerFactory.newInstance();
-		System.out.println(tFactory.getClass().getCanonicalName());
- 
-		String s = System.setProperty("javax.xml.transform.TransformerFactory", "org.apache.xalan.xsltc.trax.TransformerFactoryImpl");
-		System.out.println(s);
-		logger.info("javax.xml.transform.TransformerFactory system property = "+System.getProperty("javax.xml.transform.TransformerFactory "));
-		this.transformer = tFactory
-				.newTransformer(new javax.xml.transform.stream.StreamSource(
-						"src/xml/styleStatic.xslt"));
+ 		this.transformer = TransformerFactory.newInstance().newTransformer(new javax.xml.transform.stream.StreamSource("src/xml/styleStatic.xslt"));
 	}
 	
-	public static void main(String[] args) throws Exception
+	public static void main(final String[] args) throws Exception
 	{
 
-		logger.info("Generation starting");
+		logger.info("Generation ProffiCV started.");
 		
 		CVGenerator cvGenerator = new CVGenerator();
 
@@ -39,7 +31,7 @@ public class CVGenerator
 		cvGenerator.generateForLanguage(Language.french);
 		cvGenerator.generateForLanguage(Language.english);
 	
-		logger.info("Generating finished with success!");
+		logger.info("Generation ProffiCV finished with success!");
 	}
 
 	private void generateForLanguage(final Language language) throws Exception 
@@ -51,12 +43,13 @@ public class CVGenerator
 		
 		logger.info("Generation of '"+htmlFileName+"' starting from '"+xmlFileName+"' ...");
 		
-		this.transformer.transform(new javax.xml.transform.stream.StreamSource(
-				"src/xml/"+xmlFileName),
-				new javax.xml.transform.stream.StreamResult(
-						new FileOutputStream("web/"+htmlFileName)));
+		this.transformer.transform(
+				new javax.xml.transform.stream.StreamSource("src/xml/"+xmlFileName),
+				new javax.xml.transform.stream.StreamResult(new FileOutputStream("web/"+htmlFileName))
+			);
 		
-		logger.info("Generation of '"+htmlFileName+"' finished with success!");
+		long fileSize = getFileSize("web/"+htmlFileName);
+		logger.info("Generation of '"+htmlFileName+"' (size : "+fileSize+" bytes) finished with success!");
 	}
 	
 	private String getFileSuffixe(final Language language)
@@ -74,7 +67,11 @@ public class CVGenerator
 			default:
 				throw new IllegalArgumentException("The language "+language+" is not supported!");
 		}
-
-
+	}
+	
+	private static long getFileSize(final String filePath)
+	{
+		final File file = new File(filePath);
+		return file.length();
 	}
 }
