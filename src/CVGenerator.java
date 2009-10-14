@@ -1,9 +1,18 @@
+import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.OutputStream;
 
+import javax.xml.transform.Result;
+import javax.xml.transform.Source;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.sax.SAXResult;
+import javax.xml.transform.stream.StreamSource;
 
+import org.apache.fop.apps.Fop;
+import org.apache.fop.apps.FopFactory;
+import org.apache.fop.apps.MimeConstants;
 import org.apache.log4j.Logger;
 
 public final class CVGenerator 
@@ -11,6 +20,8 @@ public final class CVGenerator
 	private static final Logger logger = Logger.getLogger(CVGenerator.class);
 	
 	private Transformer transformer;
+	
+	FopFactory fopFactory = FopFactory.newInstance();
 	
 	private enum Language {russian, ukrainian, french, english};
 	
@@ -26,22 +37,25 @@ public final class CVGenerator
 		
 		CVGenerator cvGenerator = new CVGenerator();
 
-		cvGenerator.generateForLanguage(Language.russian);
-		cvGenerator.generateForLanguage(Language.ukrainian);
-		cvGenerator.generateForLanguage(Language.french);
-		cvGenerator.generateForLanguage(Language.english);
+//		cvGenerator.generateHtmlCVForLanguage(Language.russian);
+//		cvGenerator.generateHtmlCVForLanguage(Language.ukrainian);
+//		cvGenerator.generateHtmlCVForLanguage(Language.french);
+//		cvGenerator.generateHtmlCVForLanguage(Language.english);
+		
+		cvGenerator.generatePdfCVForLanguage(Language.french);
+		cvGenerator.generatePdfCVForLanguage(Language.english);
 	
 		logger.info("Generation ProffiCV finished with success!");
 	}
 
-	private void generateForLanguage(final Language language) throws Exception 
+	private void generateHtmlCVForLanguage(final Language language) throws Exception 
 	{
 		
 		
 		final String xmlFileName = "cv_"+language.toString()+".xml";
 		final String htmlFileName= "index" + this.getFileSuffixe(language)+".html";
 		
-		logger.info("Generation of '"+htmlFileName+"' starting from '"+xmlFileName+"' ...");
+		logger.info("Generation of : '"+htmlFileName+"' starting from '"+xmlFileName+"' ...");
 		
 		this.transformer.transform(
 				new javax.xml.transform.stream.StreamSource("src/xml/"+xmlFileName),
@@ -49,7 +63,45 @@ public final class CVGenerator
 			);
 		
 		long fileSize = getFileSize("web/"+htmlFileName);
-		logger.info("Generation of '"+htmlFileName+"' (size : "+fileSize+" bytes) finished with success!");
+		logger.info("Generation of'"+htmlFileName+"' (size : "+fileSize+" bytes) finished with success!");
+	}
+	
+	private void generatePdfCVForLanguage(final Language language) throws Exception 
+	{
+		
+		
+		final String xmlFileName = "cv_"+language.toString()+".xml";
+		final String pdfFileName= "voronetskyy_yevgen_cv" + this.getFileSuffixe(language)+".pdf";
+		OutputStream out = new BufferedOutputStream(new FileOutputStream(new File("web/pdf/"+pdfFileName)));
+		
+		logger.info("Generation of : '"+pdfFileName+"' starting from '"+xmlFileName+"' ...");
+		
+		try {
+			  // Step 3: Construct fop with desired output format
+			  Fop fop = fopFactory.newFop(MimeConstants.MIME_PDF, out);
+
+			  // Step 4: Setup JAXP using identity transformer
+			  TransformerFactory factory = TransformerFactory.newInstance();
+			  Transformer transformer = factory.newTransformer(new javax.xml.transform.stream.StreamSource("src/xml/style-fo.xml")); // identity transformer
+			           
+			  // Step 5: Setup input and output for XSLT transformation 
+			  // Setup input stream
+			  Source src = new StreamSource(new File("src/xml/"+xmlFileName));
+
+			  // Resulting SAX events (the generated FO) must be piped through to FOP
+			  Result res = new SAXResult(fop.getDefaultHandler());
+			            
+			  // Step 6: Start XSLT transformation and FOP processing
+			  transformer.transform(src, res);
+			  
+			  
+			} finally {
+			  //Clean-up
+			  out.close();
+			}
+		
+		long fileSize = getFileSize("web/pdf/"+pdfFileName);
+		logger.info("Generation of'"+pdfFileName+"' (size : "+fileSize+" bytes) finished with success!");
 	}
 	
 	private String getFileSuffixe(final Language language)
