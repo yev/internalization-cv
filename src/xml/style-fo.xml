@@ -7,8 +7,8 @@
 		<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
 			<fo:layout-master-set>
 				<fo:simple-page-master master-name="titreGH"
-					page-height="29.7cm" page-width="21cm" margin-top="2cm"
-					margin-bottom="1cm" margin-left="2.5cm" margin-right="2.5cm">
+					page-height="29.7cm" page-width="21cm" margin-top="1cm"
+					margin-bottom="1cm" margin-left="1.5cm" margin-right="1.5cm">
 					<fo:region-body margin-top="1cm" />
 					<fo:region-before extent="3cm" />
 					<fo:region-after extent="1.5cm" />
@@ -18,9 +18,49 @@
 
 			<fo:page-sequence master-reference="titreGH">
 				<fo:flow flow-name="xsl-region-body">
-					<fo:block>
-						<xsl:value-of select="summary" />
-					</fo:block>
+					<fo:table>
+						<fo:table-column column-width="50%"/>
+						<fo:table-column column-width="50%"/>
+						<fo:table-body>
+							 <fo:table-row>
+								<fo:table-cell border-style="solid" border-width="1pt">
+									<xsl:for-each select="personalInfo">
+										<fo:block><xsl:value-of select="lastName" /> &#160; <xsl:value-of select="middleName" /> &#160; <xsl:value-of select="firstName" /></fo:block>
+										<fo:block><xsl:value-of select="address" /></fo:block>
+										<fo:block><xsl:value-of select="mobile" /></fo:block>
+										<fo:block font-size="8pt"><xsl:value-of select="additionalInfo"/></fo:block>	
+									</xsl:for-each>
+								</fo:table-cell>
+								<fo:table-cell border-style="solid" border-width="1pt">
+									<fo:block text-align="right"><fo:external-graphic src="web/Ressources/images/photo.jpg" content-height="0.7in" vertical-align="middle"/></fo:block>
+								</fo:table-cell>
+							</fo:table-row> 
+							
+							<!-- Summary section -->
+							<fo:table-row>
+								<fo:table-cell number-columns-spanned="2">
+									<fo:block font-weight="bold"><xsl:value-of select="summary/@title"/></fo:block>
+								</fo:table-cell>
+							</fo:table-row>
+							<fo:table-row>
+								<fo:table-cell number-columns-spanned="2">
+									<fo:block><xsl:value-of select="summary"/></fo:block>
+								</fo:table-cell>
+							</fo:table-row>
+							
+							<!-- Education section -->
+							<fo:table-row>
+								<fo:table-cell number-columns-spanned="2">
+									<fo:block font-weight="bold"><xsl:value-of select="education/@title"/></fo:block>
+								</fo:table-cell>
+							</fo:table-row>
+							<fo:table-row>
+								<fo:table-cell number-columns-spanned="2">
+									<fo:block></fo:block>
+								</fo:table-cell>
+							</fo:table-row>
+						</fo:table-body>
+					</fo:table>
 				</fo:flow>
 			</fo:page-sequence>
 		</fo:root>
