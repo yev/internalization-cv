@@ -28,9 +28,9 @@
 	<education title="Formation">
 		<organisation>
 			<name>Teamlog Institute</name>
-			<speciality>Formation professionnelle dispensée par Teamlog Institute</speciality>
+			<speciality>Formation professionnelle dispensée par Teamlog Institute.</speciality>
 			<date>Depuis 2008</date>
-			<desc>Communication avec impacte, cours d'anglais intermédiaire</desc>
+			<desc>Communication avec impacte, cours d'anglais intermédiaire.</desc>
 			<geolocalization>Paris, France</geolocalization>
 			<url>http://www.teamlog.com</url>
 			<note></note>
@@ -54,7 +54,7 @@
 			<note></note>
 		</organisation>
 		<organisation>
-			<name>Université d'Etat de Technologie et de Chimie d'Ukraine.</name>
+			<name>Université d'Etat de Technologie et de Chimie d'Ukraine</name>
 			<speciality>Spécialisation « Systèmes d'Information Appliqués ».</speciality>
 			<date>1999-2004</date>
 			<desc>Diplôme en Ingénierie Informatique, avec mention honorable (2004).</desc>

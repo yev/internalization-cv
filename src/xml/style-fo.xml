@@ -32,10 +32,15 @@
 									</xsl:for-each>
 								</fo:table-cell>
 								<fo:table-cell border-style="solid" border-width="1pt">
-									<fo:block text-align="right"><fo:external-graphic src="web/Ressources/images/photo.jpg" content-height="0.7in" vertical-align="middle"/></fo:block>
+									<fo:block text-align="right"><!-- fo:external-graphic src="web/Ressources/images/photo.jpg" content-height="0.7in" vertical-align="middle"/ --></fo:block>
 								</fo:table-cell>
 							</fo:table-row> 
-							
+						</fo:table-body>	
+					</fo:table>
+					<fo:table>
+						<fo:table-column column-width="15%"/>
+						<fo:table-column column-width="85%"/>
+						<fo:table-body>	
 							<!-- Summary section -->
 							<fo:table-row>
 								<fo:table-cell number-columns-spanned="2">
@@ -54,11 +59,18 @@
 									<fo:block font-weight="bold"><xsl:value-of select="education/@title"/></fo:block>
 								</fo:table-cell>
 							</fo:table-row>
-							<fo:table-row>
-								<fo:table-cell number-columns-spanned="2">
-									<fo:block></fo:block>
-								</fo:table-cell>
-							</fo:table-row>
+							<xsl:for-each select="education/organisation">
+								<fo:table-row><!-- Date -->
+									<fo:table-cell>
+										<fo:block><xsl:value-of select="date" /></fo:block>
+									</fo:table-cell>
+									<fo:table-cell><!-- Study description -->
+										<fo:block font-weight="bold"><xsl:value-of select="name" /></fo:block>
+										<fo:block><xsl:value-of select="speciality" />&#160; <xsl:value-of select="desc" /> </fo:block>
+									</fo:table-cell>
+								</fo:table-row>	
+							</xsl:for-each>
+							
 						</fo:table-body>
 					</fo:table>
 				</fo:flow>
