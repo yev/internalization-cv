@@ -65,7 +65,7 @@
 										<fo:block><xsl:value-of select="date" /></fo:block>
 									</fo:table-cell>
 									<fo:table-cell><!-- Study description -->
-										<fo:block font-weight="bold"><xsl:value-of select="name" /></fo:block>
+										<fo:block font-weight="bold"><xsl:value-of select="name" /><fo:inline font-weight="normal"> (<xsl:value-of select="geolocalization" />)</fo:inline>  </fo:block>
 										<fo:block><xsl:value-of select="speciality" />&#160; <xsl:value-of select="desc" /> </fo:block>
 									</fo:table-cell>
 								</fo:table-row>	
