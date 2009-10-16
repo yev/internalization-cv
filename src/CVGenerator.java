@@ -2,6 +2,7 @@ import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
+import java.util.Date;
 
 import javax.xml.transform.Result;
 import javax.xml.transform.Source;
@@ -28,6 +29,7 @@ public final class CVGenerator
 	private CVGenerator() throws Exception
 	{
  		this.transformer = TransformerFactory.newInstance().newTransformer(new javax.xml.transform.stream.StreamSource("src/xml/styleStatic.xslt"));
+ 		this.fopFactory.setUserConfig(new File("src/fop.xml"));
 	}
 	
 	public static void main(final String[] args) throws Exception
@@ -44,6 +46,8 @@ public final class CVGenerator
 		
 		cvGenerator.generatePdfCVForLanguage(Language.french);
 		cvGenerator.generatePdfCVForLanguage(Language.english);
+		cvGenerator.generatePdfCVForLanguage(Language.russian);
+		cvGenerator.generatePdfCVForLanguage(Language.ukrainian);
 	
 		logger.info("Generation ProffiCV finished with success!");
 	}
@@ -79,6 +83,12 @@ public final class CVGenerator
 		try {
 			  // Step 3: Construct fop with desired output format
 			  Fop fop = fopFactory.newFop(MimeConstants.MIME_PDF, out);
+			  fop.getUserAgent().setBaseURL("Voronetskyy Yevgen");
+			  fop.getUserAgent().setCreationDate(new Date());
+			  fop.getUserAgent().setCreator("Apache XSL FOP engine");
+			  fop.getUserAgent().setTitle("Voronetskyy Yevgen - Software Engineer - CV");
+			  fop.getUserAgent().setFontBaseURL("file:///C:/WINDOWS/Fonts/");
+			  
 
 			  // Step 4: Setup JAXP using identity transformer
 			  TransformerFactory factory = TransformerFactory.newInstance();

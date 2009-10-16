@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="xml" />
@@ -8,7 +8,7 @@
 			<fo:layout-master-set>
 				<fo:simple-page-master master-name="titreGH"
 					page-height="29.7cm" page-width="21cm" margin-top="1cm"
-					margin-bottom="1cm" margin-left="1.5cm" margin-right="1.5cm">
+					margin-bottom="1cm" margin-left="1.5cm" margin-right="1.5cm" >
 					<fo:region-body margin-top="1cm" />
 					<fo:region-before extent="3cm" />
 					<fo:region-after extent="1.5cm" />
@@ -66,7 +66,7 @@
 									</fo:table-cell>
 									<fo:table-cell><!-- Study description -->
 										<fo:block font-weight="bold"><xsl:value-of select="name" /><fo:inline font-weight="normal"> (<xsl:value-of select="geolocalization" />)</fo:inline>  </fo:block>
-										<fo:block><xsl:value-of select="speciality" />&#160; <xsl:value-of select="desc" /> </fo:block>
+										<fo:block font-family="Georgia"><xsl:value-of select="speciality" />&#160; <xsl:value-of select="desc" /> </fo:block>
 									</fo:table-cell>
 								</fo:table-row>	
 							</xsl:for-each>
