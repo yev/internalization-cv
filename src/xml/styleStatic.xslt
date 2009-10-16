@@ -45,11 +45,6 @@
                     show();
                     }
                     }
-                    function showForPrint()
-                    {
-                    	document.getElementById("printId").media='print';
-                    	//location.reload(true);
-                    }
                 </script>
                 
             </head>
@@ -91,12 +86,6 @@
                                                         <xsl:if test="@locale='en'"><a href="pdf/cv_voronetskyy.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
                                                         <xsl:if test="@locale='ru'"><a href="pdf/cv_voronetskyy_ru.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
                                                         <xsl:if test="@locale='ua'"><a href="pdf/cv_voronetskyy_ua.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
-                                                    </td>
-                                                    <td>
-                                                    	<img src="Ressources/images/printer.gif" border="0"/>
-                                                    </td>
-                                                    <td valign="middle">
-                                                        <a href="javascript:showForPrint();" class="navigationToogleLink"><xsl:value-of select="localization/label_print_html"/></a>
                                                     </td>
                                                 </tr>
                                                 

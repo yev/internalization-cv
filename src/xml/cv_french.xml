@@ -277,5 +277,6 @@
 			<link_show>Activer</link_show>
 		</navigationPanel>
 		<label_print_html>Version imprimable</label_print_html>
+		<label_CurrentPositionTitle>Ingénieur de développement</label_CurrentPositionTitle> <!-- Added for PDF version -->
 	</localization>
 </cv>

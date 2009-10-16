@@ -366,5 +366,6 @@
 			<link_show>Show</link_show>
 		</navigationPanel>
 		<label_print_html>Version for print</label_print_html>
+		<label_CurrentPositionTitle>Software engineer</label_CurrentPositionTitle> <!-- Added for PDF version -->
 	</localization>
 </cv>
