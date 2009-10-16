@@ -8,15 +8,24 @@
 			<fo:layout-master-set>
 				<fo:simple-page-master master-name="titreGH"
 					page-height="29.7cm" page-width="21cm" margin-top="1cm"
-					margin-bottom="1cm" margin-left="1.5cm" margin-right="1.5cm" >
+					margin-bottom="2cm" margin-left="1.5cm" margin-right="1.5cm" >
 					<fo:region-body margin-top="1cm" />
 					<fo:region-before extent="3cm" />
-					<fo:region-after extent="1.5cm" />
+					<fo:region-after region-name="footer" extent="0.5cm" />
 				</fo:simple-page-master>
 			</fo:layout-master-set>
 
 
 			<fo:page-sequence master-reference="titreGH">
+				<fo:static-content flow-name="footer">
+		            <fo:block text-align="center" border-top="1pt dashed silver">
+		                Page
+		                <fo:page-number />
+		                of
+		                <fo:page-number-citation  ref-id="theEnd" />
+		            </fo:block>
+		        </fo:static-content>
+				
 				<fo:flow flow-name="xsl-region-body" font-family="Georgia">
 					<fo:table>
 						<fo:table-column column-width="50%"/>
@@ -85,7 +94,7 @@
 									</fo:table-cell>
 									<fo:table-cell border-width="1" border-style="dotted" ><!-- Study description -->
 										<fo:block><xsl:value-of select="/cv/localization/label_CompanyName" />:&#160; <fo:inline font-weight="bold"><xsl:value-of select="name" /></fo:inline> (<xsl:value-of select="geolocalization" />)</fo:block>
-										<fo:block><xsl:value-of select="/cv/localization/label_JobTitle" />:&#160;<xsl:value-of select="jobTitle" /></fo:block>
+										<fo:block><xsl:value-of select="/cv/localization/label_JobTitle" />:&#160;<fo:inline font-weight="bold"><xsl:value-of select="jobTitle" /></fo:inline></fo:block>
 										<fo:block><xsl:value-of select="/cv/localization/label_JobDecs" />:&#160;<xsl:value-of select="jobDesc" /> </fo:block>
 									</fo:table-cell>
 								</fo:table-row>	
@@ -93,6 +102,7 @@
 							
 						</fo:table-body>
 					</fo:table>
+					<fo:block id="theEnd" />
 				</fo:flow>
 			</fo:page-sequence>
 		</fo:root>
