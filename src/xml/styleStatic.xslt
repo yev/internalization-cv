@@ -88,7 +88,7 @@
                                                     </td>
                                                     <td valign="middle">
                                                         <xsl:if test="@locale='fr'"><a href="pdf/cv_voronetskyy_fr.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
-                                                        <xsl:if test="@locale='en'"><a href="pdf/cv_voronetskyy_en.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
+                                                        <xsl:if test="@locale='en'"><a href="pdf/cv_voronetskyy.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
                                                         <xsl:if test="@locale='ru'"><a href="pdf/cv_voronetskyy_ru.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
                                                         <xsl:if test="@locale='ua'"><a href="pdf/cv_voronetskyy_ua.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
                                                     </td>

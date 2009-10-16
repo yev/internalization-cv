@@ -39,10 +39,10 @@ public final class CVGenerator
 		
 		CVGenerator cvGenerator = new CVGenerator();
 
-//		cvGenerator.generateHtmlCVForLanguage(Language.russian);
-//		cvGenerator.generateHtmlCVForLanguage(Language.ukrainian);
-//		cvGenerator.generateHtmlCVForLanguage(Language.french);
-//		cvGenerator.generateHtmlCVForLanguage(Language.english);
+		cvGenerator.generateHtmlCVForLanguage(Language.russian);
+		cvGenerator.generateHtmlCVForLanguage(Language.ukrainian);
+		cvGenerator.generateHtmlCVForLanguage(Language.french);
+		cvGenerator.generateHtmlCVForLanguage(Language.english);
 		
 		cvGenerator.generatePdfCVForLanguage(Language.french);
 		cvGenerator.generatePdfCVForLanguage(Language.english);
@@ -75,7 +75,7 @@ public final class CVGenerator
 		
 		
 		final String xmlFileName = "cv_"+language.toString()+".xml";
-		final String pdfFileName= "voronetskyy_yevgen_cv" + this.getFileSuffixe(language)+".pdf";
+		final String pdfFileName= "cv_voronetskyy" + this.getFileSuffixe(language)+".pdf";
 		OutputStream out = new BufferedOutputStream(new FileOutputStream(new File("web/pdf/"+pdfFileName)));
 		
 		logger.info("Generation of : '"+pdfFileName+"' starting from '"+xmlFileName+"' ...");
