@@ -38,12 +38,12 @@
 						</fo:table-body>	
 					</fo:table>
 					<fo:table>
-						<fo:table-column column-width="15%"/>
-						<fo:table-column column-width="85%"/>
+						<fo:table-column column-width="20%"/>
+						<fo:table-column column-width="80%"/>
 						<fo:table-body>	
 							<!-- Summary section -->
 							<fo:table-row>
-								<fo:table-cell number-columns-spanned="2">
+								<fo:table-cell number-columns-spanned="2" padding-left="25" padding="5">
 									<fo:block font-weight="bold"><xsl:value-of select="summary/@title"/></fo:block>
 								</fo:table-cell>
 							</fo:table-row>
@@ -55,18 +55,38 @@
 							
 							<!-- Education section -->
 							<fo:table-row>
-								<fo:table-cell number-columns-spanned="2">
+								<fo:table-cell number-columns-spanned="2" padding-left="25" padding="5">
 									<fo:block font-weight="bold"><xsl:value-of select="education/@title"/></fo:block>
 								</fo:table-cell>
 							</fo:table-row>
 							<xsl:for-each select="education/organisation">
-								<fo:table-row><!-- Date -->
-									<fo:table-cell>
+								<fo:table-row margin-left="5" margin-right="5"><!-- Date -->
+									<fo:table-cell border-width="1" border-style="dotted" text-align="center" display-align="center">
 										<fo:block><xsl:value-of select="date" /></fo:block>
 									</fo:table-cell>
-									<fo:table-cell><!-- Study description -->
+									<fo:table-cell border-width="1" border-style="dotted" ><!-- Study description -->
 										<fo:block font-weight="bold"><xsl:value-of select="name" /><fo:inline font-weight="normal"> (<xsl:value-of select="geolocalization" />)</fo:inline>  </fo:block>
 										<fo:block><xsl:value-of select="speciality" />&#160; <xsl:value-of select="desc" /> </fo:block>
+									</fo:table-cell>
+								</fo:table-row>	
+							</xsl:for-each>
+							
+							
+							<!-- Professional experience section -->
+							<fo:table-row>
+								<fo:table-cell number-columns-spanned="2" padding-left="25" padding="5">
+									<fo:block font-weight="bold"><xsl:value-of select="experiences/@title"/></fo:block>
+								</fo:table-cell>
+							</fo:table-row>
+							<xsl:for-each select="experiences/company">
+								<fo:table-row margin-left="5" margin-right="5"><!-- Date -->
+									<fo:table-cell border-width="1" border-style="dotted" text-align="center" display-align="center">
+										<fo:block><xsl:value-of select="date" /></fo:block>
+									</fo:table-cell>
+									<fo:table-cell border-width="1" border-style="dotted" ><!-- Study description -->
+										<fo:block><xsl:value-of select="/cv/localization/label_CompanyName" />:&#160; <fo:inline font-weight="bold"><xsl:value-of select="name" /></fo:inline> (<xsl:value-of select="geolocalization" />)</fo:block>
+										<fo:block><xsl:value-of select="/cv/localization/label_JobTitle" />:&#160;<xsl:value-of select="jobTitle" /></fo:block>
+										<fo:block><xsl:value-of select="/cv/localization/label_JobDecs" />:&#160;<xsl:value-of select="jobDesc" /> </fo:block>
 									</fo:table-cell>
 								</fo:table-row>	
 							</xsl:for-each>
