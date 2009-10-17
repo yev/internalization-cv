@@ -18,7 +18,7 @@ import org.apache.log4j.Logger;
 
 public final class CVGenerator 
 {
-	private static final Logger logger = Logger.getLogger(CVGenerator.class);
+	private static final Logger LOGGER = Logger.getLogger(CVGenerator.class);
 	
 	private Transformer transformer;
 	
@@ -35,7 +35,7 @@ public final class CVGenerator
 	public static void main(final String[] args) throws Exception
 	{
 
-		logger.info("Generation ProffiCV started.");
+		LOGGER.info("Generation ProffiCV started.");
 		
 		CVGenerator cvGenerator = new CVGenerator();
 
@@ -49,7 +49,7 @@ public final class CVGenerator
 		cvGenerator.generatePdfCVForLanguage(Language.russian);
 		cvGenerator.generatePdfCVForLanguage(Language.ukrainian);
 	
-		logger.info("Generation ProffiCV finished with success!");
+		LOGGER.info("Generation ProffiCV finished with success!");
 	}
 
 	private void generateHtmlCVForLanguage(final Language language) throws Exception 
@@ -59,7 +59,7 @@ public final class CVGenerator
 		final String xmlFileName = "cv_"+language.toString()+".xml";
 		final String htmlFileName= "index" + this.getFileSuffixe(language)+".html";
 		
-		logger.info("Generation of : '"+htmlFileName+"' starting from '"+xmlFileName+"' ...");
+		LOGGER.info("Generation of : '"+htmlFileName+"' starting from '"+xmlFileName+"' ...");
 		
 		this.transformer.transform(
 				new javax.xml.transform.stream.StreamSource("src/xml/"+xmlFileName),
@@ -67,7 +67,7 @@ public final class CVGenerator
 			);
 		
 		long fileSize = getFileSize("web/"+htmlFileName);
-		logger.info("Generation of'"+htmlFileName+"' (size : "+fileSize+" bytes) finished with success!");
+		LOGGER.info("Generation of'"+htmlFileName+"' (size : "+fileSize+" bytes) finished with success!");
 	}
 	
 	private void generatePdfCVForLanguage(final Language language) throws Exception 
@@ -78,7 +78,7 @@ public final class CVGenerator
 		final String pdfFileName= "cv_voronetskyy" + this.getFileSuffixe(language)+".pdf";
 		OutputStream out = new BufferedOutputStream(new FileOutputStream(new File("web/pdf/"+pdfFileName)));
 		
-		logger.info("Generation of : '"+pdfFileName+"' starting from '"+xmlFileName+"' ...");
+		LOGGER.info("Generation of : '"+pdfFileName+"' starting from '"+xmlFileName+"' ...");
 		
 		try {
 			  // Step 3: Construct fop with desired output format
@@ -111,7 +111,7 @@ public final class CVGenerator
 			}
 		
 		long fileSize = getFileSize("web/pdf/"+pdfFileName);
-		logger.info("Generation of'"+pdfFileName+"' (size : "+fileSize+" bytes) finished with success!");
+		LOGGER.info("Generation of'"+pdfFileName+"' (size : "+fileSize+" bytes) finished with success!");
 	}
 	
 	private String getFileSuffixe(final Language language)
