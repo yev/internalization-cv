@@ -97,7 +97,8 @@
 				Participation in industrialization of IT-projects development(continuous integration, design/code quality, metrics).
 				Conducting the technical interviews.  
 				Responsible	for communication with customers. Technical audit for Java/J2EE projects (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor). 
-				Technologies: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner.
+				Technologies Java: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner.
+				Technologies .NET: .NET/C# 3.5, NHibernate, MsBuild, NUnit, DbUnit, ASP.NET 3.5, Oracle, MS Visual Studio 2008 (Visual SVN, ReSharper), Continuous integration - Teamcity.
             </jobDesc>
 			<url>http://www.teamlog.com</url>
 			<note></note>
@@ -258,18 +259,12 @@
 	<technologies title="Technical Skills">
 		<technology-domain>
 			<name>Operating systems</name>
-			<itemsList>MS Windows 95/98/2000/XP/Vista; Linux (Debian/Mandrake).
+			<itemsList>MS Windows 95/98/2000/XP/Vista; Linux.
 			</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Programming languages</name>
-			<itemsList>Java , C# , Pascal, PHP.
-				;Java frameworks and
-				librairies: Log4j, Spring, Struts,
-				Hibernate, many sub-projets of
-				Apache Commons, Velocity, iText, JSVC. XML
-				(XSL, XPath, XSD),
-				HTML(CSS, JavaScript).</itemsList>
+			<itemsList>Java , C# , Pascal, PHP.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Java/J2EE</name>
@@ -282,8 +277,19 @@
 				objects (POJO and EJB),
 				persistance, security issues, transactions,
 				multithreading, logging.
+				Java frameworks and
+				librairies: Log4j, Spring, Struts,
+				Hibernate, many sub-projets of
+				Apache Commons, Velocity, iText, JSVC. XML
+				(XSL, XPath, XSD),
+				HTML(CSS, JavaScript).
 			</itemsList>
 		</technology-domain>
+		<technology-domain>
+            <name>.NET</name>
+            <itemsList>.NET/C# 3.5, ASP.NET, NHibernate, MsBuild, NUnit, DbUnit, ASP.NET 3.5, MS Visual Studio 2008 (Visual SVN, ReSharper)
+            </itemsList>
+        </technology-domain>
 		<technology-domain>
 			<name>RDBMS</name>
 			<itemsList>ORACLE 9i/10g, MySQL, PostgreSQL, Microsoft SQL Server 2000; SQL language.</itemsList>

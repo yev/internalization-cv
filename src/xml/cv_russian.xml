@@ -82,7 +82,8 @@
                  Участие в индустриализации разработки (непрерывная интеграция, качество проектирования/кода, метрики).
 				 Проведение технических собеседований.
 				 Технический аудит Java/J2EE проектов (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
-                 Технологии: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner. 
+                 Технологии Java: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner.
+                 Технологии .NET: .NET/C# 3.5, NHibernate, MsBuild, NUnit, DbUnit, ASP.NET 3.5, Oracle, MS Visual Studio 2008 (Visual SVN, ReSharper), непрерывная интеграция - Teamcity. 
             </jobDesc>
 			<url>http://www.teamlog.com</url>
 			<note></note>
@@ -187,20 +188,26 @@
 	<technologies title="Профессиональные знания">
 		<technology-domain>
 			<name>Операционные системы</name>
-			<itemsList>MS Windows 95/98/2000/XP/Vista; Linux (Debian/Mandrake).</itemsList>
+			<itemsList>MS Windows 95/98/2000/XP/Vista; Linux.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Языки программирования</name>
-			<itemsList>Java , C# , Pascal, PHP. 
-				Фреймворки и сторонние библиотеки Java: Log4j, Spring, Struts, 
-				Hibernate, библиотеки Apache Commons, Velocity, iText, JSVC. XML (XSL, XPath, XSD), HTML(CSS, JavaScript).</itemsList>
+			<itemsList>Java , C# , Pascal, PHP.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Java/J2EE</name>
 			<itemsList>Core Java, Application/web servers, JDBC, Servlets/JSP, JNDI, RMI, EJB, Web Services. 
 					Серверы приложений/веб сервера : JBoss, WebSphere, Tomcat, Resin.
-					Понимание ключевых моментов многоуровневых распределенных архитектур: POJO/EJB,	персистентность данных, безопасность, транзакции, мультипоточное программирование, логирование.</itemsList>
+					Понимание ключевых моментов многоуровневых распределенных архитектур: POJO/EJB,	персистентность данных, безопасность, транзакции, мультипоточное программирование, логирование.
+					Фреймворки и сторонние библиотеки Java: Log4j, Spring, Struts, 
+					Hibernate, библиотеки Apache Commons, Velocity, iText, JSVC. XML (XSL, XPath, XSD), HTML(CSS, JavaScript).
+			</itemsList>
 		</technology-domain>
+		<technology-domain>
+            <name>.NET</name>
+            <itemsList>.NET/C# 3.5, ASP.NET, NHibernate, MsBuild, NUnit, DbUnit, ASP.NET 3.5, MS Visual Studio 2008 (Visual SVN, ReSharper)
+            </itemsList>
+        </technology-domain>
 		<technology-domain>
 			<name>СУБД</name>
 			<itemsList>Microsoft SQL Server 2000, ORACLE 9i/10g, MySQL, PostgreSQL; SQL.</itemsList>

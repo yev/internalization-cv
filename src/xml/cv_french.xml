@@ -79,7 +79,8 @@
 	Participation à l'industrialisation du développement des projets informatiques(intégration continue, qualité du code/conception OO, métriques).
 	Codnduite des entretiens techniques dans un cadre de recrutement.  
 	Audit technique des projets Java/J2EE (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
-	Technologies utilisées: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner.              
+	Technologies utilisées Java: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner.
+	Technologies utilisées .NET: .NET/C# 3.5, NHibernate, MsBuild, NUnit, DbUnit, ASP.NET 3.5, Oracle, MS Visual Studio 2008 (Visual SVN, ReSharper), Integration Continue - Teamcity.              
             </jobDesc>
 			<url>http://www.teamlog.com</url>
 			<note></note>
@@ -189,21 +190,27 @@
 	<technologies title="Domaines de Compétences">
 		<technology-domain>
 			<name>Systèmes d'exploitation</name>
-			<itemsList>MS Windows 95/98/2000/XP/Vista; Linux (Debian/Mandrake).</itemsList>
+			<itemsList>MS Windows 95/98/2000/XP/Vista; Linux.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Langages de programmation</name>
-			<itemsList>Java , C# , Pascal, PHP. 
-				Les frameworks et librairies Java: Log4j, Spring, Struts, 
-				Hibernate, plusieurs sous-projets d'Apache Commons, Velocity, iText, JSVC. XML (XSL, XPath, XSD), HTML(CSS, JavaScript).</itemsList>
+			<itemsList>Java , C# , Pascal, PHP.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Java/J2EE</name>
 			<itemsList>Core Java, Application/web servers, JDBC, Servlets/JSP, JNDI, RMI, EJB, Web Services. 
 					Serveur d'application/serveurs web : JBoss, WebSphere, Tomcat, Resin.
 					Maîtrise des points clés de l'architectures distribuée n-tiers: objets métiers (POJO ou EJB), persistance de
-					données, sécurité, transactions, multithreading, logging.</itemsList>
+					données, sécurité, transactions, multithreading, logging.
+					Les frameworks et librairies Java: Log4j, Spring, Struts, 
+					Hibernate, plusieurs sous-projets d'Apache Commons, Velocity, iText, JSVC. XML (XSL, XPath, XSD), HTML(CSS, JavaScript).
+			</itemsList>
 		</technology-domain>
+		<technology-domain>
+            <name>.NET</name>
+            <itemsList>.NET/C# 3.5, ASP.NET, NHibernate, MsBuild, NUnit, DbUnit, ASP.NET 3.5, MS Visual Studio 2008 (Visual SVN, ReSharper)
+            </itemsList>
+        </technology-domain>
 		<technology-domain>
 			<name>SGBD</name>
 			<itemsList>Microsoft SQL Server 2000, ORACLE 9i/10g, MySQL, PostgreSQL; langage SQL.</itemsList>
