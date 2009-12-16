@@ -3,7 +3,7 @@
 		Project: ProffiCV Author : VORONETS'KYY Yevgen Date : 11 Dec. 2007
 		Desc : The document contains structured cv information.
 	-->
-<cv version="English version 2.5. Last modification the 20 Juin 2009."
+<cv version="English version 2.5. Last modification "
 	locale="en">
 	<!--
 		Section contains personal information such as name, address, mobile
@@ -92,13 +92,15 @@
 			<jobTitle>Technical lead</jobTitle>
 			<jobDesc>
 				Participation in the design, development and management of
-				the IT-projects (some on offshore mode). Architecture development, solving critical technical problems. Setup
+				the IT-projects (some on offshore mode). Team size : 5-25 members. Architecture development, solving critical technical problems. Setup
 				project infrastructure: SVN, builds, unit tests, Mantis, etc. Code revue.
 				Participation in industrialization of IT-projects development(continuous integration, design/code quality, metrics).
 				Conducting the technical interviews.  
 				Responsible	for communication with customers. Technical audit for Java/J2EE projects (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor). 
 				Technologies Java: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner.
-				Technologies .NET: .NET/C# 3.5, NHibernate, MsBuild, NUnit, DbUnit, ASP.NET 3.5, Oracle, MS Visual Studio 2008 (Visual SVN, ReSharper), Continuous integration - Teamcity.
+				
+				
+				Technologies .NET: .NET/C# 3.5, NHibernate, MsBuild, NUnit, DbUnit, ASP.NET 3.5, Oracle, MS Visual Studio 2008 (Visual SVN, ReSharper), NDepend, NCover, MyGenerator, Continuous integration - Teamcity.
             </jobDesc>
 			<url>http://www.teamlog.com</url>
 			<note></note>

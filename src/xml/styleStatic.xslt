@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<xsl:stylesheet  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+	xmlns:datetime="http://exslt.org/dates-and-times"
+	xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
     <xsl:output method="html" encoding="UTF-8"/>
     
     <xsl:template match="/cv">
@@ -350,8 +352,7 @@
                         </xsl:for-each>
                     </table>
                 </DIV>
-                
-                <p align="center"><small><xsl:value-of select="@version"/></small></p>
+                <p align="center"><small><xsl:value-of select="@version"/> <xsl:value-of select='datetime:format-date(datetime:date-time(),"yyyy/MM/dd")'/>.</small> </p>
                 <br/>
 				                
 				<!-- Start of StatCounter Code -->

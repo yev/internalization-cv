@@ -357,7 +357,7 @@
                     </table>
                 </DIV>
                 
-                <p align="center"><small><xsl:value-of select="@version"/></small></p>
+                <p align="center"><small><xsl:value-of select="@version"/></small><xsl:value-of  select="current-dateTime()"/> </p>
                 
                 
                 <!-- Start of StatCounter Code -->
