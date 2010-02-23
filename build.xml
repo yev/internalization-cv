@@ -1,0 +1,73 @@
+<project name="Project ProffiCV" default="all" basedir=".">
+	<!-- 
+	Desc : script ant 
+	Date : 04 January 2010 
+	Auth : VORONETSKYY  Yevgen
+	Note : 
+		
+ -->
+	<path id="compile.classpath">
+	    <fileset dir="lib" includes="**/*.jar"/>
+	</path>
+
+	<target name="clean" description="remove all generated artifacts from bin">
+		<echo message="Cleaning..."/>
+		<delete includeemptydirs="true" verbose="false" quiet="false" failonerror="no">
+			<fileset dir="bin"/>
+		</delete>
+		<echo message="OK. Cleaning."/>
+	</target>
+	
+	<target name="compile" description="Compile java sources related to the application. The tests are not included!" depends="clean">
+		<echo message="Compilation started..."/>
+		<mkdir dir="bin"/>
+	    <javac destdir="bin"
+	           optimize="yes"
+	           debug="off" 
+	    	   failonerror="true"
+	           srcdir="src" 
+	    		nowarn="true"
+		   		verbose="no">
+	      <classpath refid="compile.classpath"/>
+	    	
+	      <include name="**" />
+	    </javac>
+		<echo message="OK. Compilation finished."/>
+		
+		<echo message="Coping ressources (all files except *.java)  started..."/>
+	    <copy todir="bin" verbose="no">
+			<fileset dir="src">
+		    	<exclude name="**/*.java"/>
+			</fileset>
+	    </copy> 
+		<echo message="OK. Copying ressources finished."/>
+	</target>
+	
+	<target name="buildJAR" depends="compile" >
+		<echo message="Building JAR started..."/>
+		<manifestclasspath property="jar.classpath" jarfile="proffiCV.jar">
+		      <classpath refid="compile.classpath"/>
+		</manifestclasspath>
+		<jar destfile="proffiCV.jar" basedir="bin">
+			<manifest>
+			      <!-- Who is building this jar? -->
+			      <attribute name="Built-By" value="Voronetskyy Yevgen"/>
+			      <!-- Information about the program itself -->
+			      <attribute name="Implementation-Vendor" value="Yev"/>
+			      <attribute name="Implementation-Title" value="ProffiCV"/>
+			      <attribute name="Implementation-Version" value="0.0.1.0"/>
+				<attribute name="Main-Class" value="CVGenerator"/>
+				 <attribute name="Class-Path" value="${jar.classpath}"/>
+
+			    </manifest>
+
+		</jar>
+		<echo message="Ok. Building JAR finished."/>
+	</target>
+	
+	<target name="runGeneration" depends="buildJAR">
+		<java jar="proffiCV.jar" fork="true"></java>
+	</target>
+
+	<target name="all" depends="runGeneration" description="Main target" />
+</project>

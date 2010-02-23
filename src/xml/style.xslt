@@ -1,61 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output method="html" encoding="UTF-8"/>
-    
-    <xsl:template match="/cv">
-        <html>
-            <head>
-                <title>VORONETSKYY Yevgen - Java/J2EE Software Engineer </title>
-                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-                <meta http-equiv="Window-target" content="_top"/>
-                <meta name="robots" content="follow"/>
-                <meta name="Description" content="CV de VORONETS'KYY Yevgen"/>
-                <meta name="Keywords" content="Voronetskyy,Voronets'kyy, Voronetskyy Yevgen, Voronets'kyy Yevgen, Voronetskiy, Voronetskiy Yevgen, CV, informatique, DESS, CNAM, Management du CNAM, Dess CRI, programmation, r�seau, France, Ukraine, Luxembourg,Dnipropetrovsk, Rumelange, Universit�, UMLV, Universit� de Marne-la-Vall�e, Paris, legitiName, siteAudit, html, C#, java, xml, Linux, Windows,Delphi, pascal, XSLT, DELF, DALF, CORBA, Flash, PHP, Mysql, Postgresql, paradox, win32, client, serveur, Brainbench"/>
-                <meta name="Author" content="Voronets'kyy Yevgen"/>
-                <link REL="stylesheet" HREF="Ressources/style.css" type="text/css"/>
-                
-                <script type="text/javascript">
-                    function hide()
-                    {
-                    document.getElementById("fatsNavId").style.visibility='hidden';
-                    document.getElementById("fatsNavId").style.display = 'none';
-                    
-                    var linkText = document.getElementById("navigation_link");
-                    linkText.innerText = linkText.textContent = '<xsl:value-of select="localization/navigationPanel/link_show"/>';
-                    
-                    
-                    return;
-                    }
-                    function show()
-                    {
-                    document.getElementById("fatsNavId").style.visibility='visible';
-                    document.getElementById("fatsNavId").style.display = 'block';
-                    var linkText = document.getElementById("navigation_link");
-                    linkText.innerText = linkText.textContent = '<xsl:value-of select="localization/navigationPanel/link_hide"/>';
-                    return;
-                    }
-                    function toggle()
-                    {
-                    if (document.getElementById("fatsNavId").style.visibility=='visible')
-                    {
-                    hide();
-                    }
-                    else
-                    {
-                    show();
-                    }
-                    }
-                </script>
-                
-            </head>
-            <body onLoad="javascript:hide();">
-                <a name="topNavigation"></a>
-                <DIV id="wrapper">
-                    <table width="100%" border="0">
-                        <tr>
-                            <td align="left" width="25%">
-                                <xsl:for-each select="personalInfo">
-                                    <xsl:value-of select="lastName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="firstName"/>
+<xsl:stylesheet version="1.0"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:output method="html" encoding="UTF-8" />
+
+	<xsl:template match="/cv">
+		<html>
+			<head>
+				<title>VORONETSKYY Yevgen - Java/J2EE Software Engineer </title>
+				<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+				<meta http-equiv="Window-target" content="_top" />
+				<meta name="robots" content="follow" />
+				<meta name="Description" content="CV de VORONETS'KYY Yevgen" />
+				<meta name="Keywords"
+					content="Voronetskyy,Voronets'kyy, Voronetskyy Yevgen, Voronets'kyy Yevgen, Voronetskiy, Voronetskiy Yevgen, CV, informatique, DESS, CNAM, Management du CNAM, Dess CRI, programmation, r�seau, France, Ukraine, Luxembourg,Dnipropetrovsk, Rumelange, Universit�, UMLV, Universit� de Marne-la-Vall�e, Paris, legitiName, siteAudit, html, C#, java, xml, Linux, Windows,Delphi, pascal, XSLT, DELF, DALF, CORBA, Flash, PHP, Mysql, Postgresql, paradox, win32, client, serveur, Brainbench" />
+				<meta name="Author" content="Voronets'kyy Yevgen" />
+				<link REL="stylesheet" HREF="Ressources/style.css" type="text/css" />
+
+				<script type="text/javascript">
+					function hide()
+					{
+					document.getElementById("fatsNavId").style.visibility='hidden';
+					document.getElementById("fatsNavId").style.display = 'none';
+
+					var linkText = document.getElementById("navigation_link");
+					linkText.innerText = linkText.textContent = '
+					<xsl:value-of select="localization/navigationPanel/link_show" />
+					';
+
+
+					return;
+					}
+					function show()
+					{
+					document.getElementById("fatsNavId").style.visibility='visible';
+					document.getElementById("fatsNavId").style.display = 'block';
+					var linkText = document.getElementById("navigation_link");
+					linkText.innerText = linkText.textContent = '
+					<xsl:value-of select="localization/navigationPanel/link_hide" />
+					';
+					return;
+					}
+					function toggle()
+					{
+					if (document.getElementById("fatsNavId").style.visibility=='visible')
+					{
+					hide();
+					}
+					else
+					{
+					show();
+					}
+					}
+				</script>
+
+			</head>
+			<body onLoad="javascript:hide();">
+				<a name="topNavigation"></a>
+				<DIV id="wrapper">
+					<table width="100%" border="0">
+						<tr>
+							<td align="left" width="25%">
+								<xsl:for-each select="personalInfo">
+									<xsl:value-of select="lastName" />
+									<xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="firstName"/>
                                     <br/><xsl:value-of select="address"/>
                                     <br/><xsl:value-of select="mobile"/>	
                                     <br/><img src="Ressources/images/email.gif" title="AntiSpam Protection"/>
@@ -347,7 +354,16 @@
                                 </td>
                                 <td class="info">
                                     <hr class="neutral"/>
-                                    <xsl:value-of select="desc"/>
+                                   <xsl:analyze-string select="desc" regex="http://[^ ]+">
+     <xsl:matching-substring>
+       <a href="{.}">
+         <xsl:value-of select="." />
+       </a>
+     </xsl:matching-substring>
+     <xsl:non-matching-substring>
+       <xsl:value-of select="." />
+     </xsl:non-matching-substring>
+   </xsl:analyze-string>
                                     <xsl:if test="position()=last()">
                                         <hr class="neutral"/>
                                     </xsl:if>

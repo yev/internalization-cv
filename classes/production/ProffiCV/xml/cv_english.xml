@@ -261,7 +261,7 @@
 	<technologies title="Technical Skills">
 		<technology-domain>
 			<name>Operating systems</name>
-			<itemsList>Mac OS X; MS Windows; Linux.
+			<itemsList>MS Windows 95/98/2000/XP/Vista; Linux.
 			</itemsList>
 		</technology-domain>
 		<technology-domain>
@@ -270,7 +270,7 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Java/J2EE</name>
-			<itemsList>Core Java (J2SE); Standards J2EE: application/web servers, JDBC,
+			<itemsList>Core Java, Application/web servers, JDBC,
 				Servlets/JSP, JNDI, RMI, EJB, Web Services.
 				Application/web servers :
 				JBoss, WebSphere, Tomcat, Resin.
@@ -298,7 +298,7 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Tools</name>
-			<itemsList>Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, SQuirreL, Toad, Far, MyGeneration, Doxygen.</itemsList>
+			<itemsList>Eclipse, NetBeans, Microsoft Visual Studio, JProfiler, ANT, Maven, CVS, SVN, SQuirreL, Toad, Far.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Software methodologies</name>
@@ -350,7 +350,7 @@
 		</item>
 		<item>
 			<name>Blog</name>
-			<desc><a href="http://yevgen-fr.blogspot.com" title="Мой личный технический блог">http://yevgen-fr.blogspot.com</a> - My personal technical blog in French about IT, programming, Java.</desc>
+			<desc><![CDATA[<a href="http://yevgen-fr.blogspot.com" title="My technical blog in French">http://yevgen-fr.blogspot.com</a>]]> - My personal technical blog in French about IT, programming, Java.</desc>
 		</item>
 	</miscellanea>
 

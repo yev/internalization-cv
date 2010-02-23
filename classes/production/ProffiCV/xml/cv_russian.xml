@@ -188,7 +188,7 @@
 	<technologies title="Профессиональные знания">
 		<technology-domain>
 			<name>Операционные системы</name>
-			<itemsList>Mac OS X; MS Windows; Linux.</itemsList>
+			<itemsList>MS Windows 95/98/2000/XP/Vista; Linux.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Языки программирования</name>
@@ -214,7 +214,7 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Инструментарий</name>
-			<itemsList>Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, SQuirreL, Toad, Far, MyGeneration, Doxygen.</itemsList>
+			<itemsList>Eclipse, NetBeans, Microsoft Visual Studio, JProfiler, ANT, Maven, CVS, SVN, SQuirreL, Toad, Far.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Методологии</name>

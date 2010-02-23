@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
 	xmlns:datetime="http://exslt.org/dates-and-times"
+	xmlns:str="http://exslt.org/strings"
 	xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
     <xsl:output method="html" encoding="UTF-8"/>
     
@@ -15,6 +16,7 @@
                 <meta name="Keywords" content="Voronetskyy,Voronets'kyy, Voronetskyy Yevgen, Voronets'kyy Yevgen, Voronetskiy, Voronetskiy Yevgen, CV, informatique, DESS, CNAM, Management du CNAM, Dess CRI, programmation, r�seau, France, Ukraine, Luxembourg,Dnipropetrovsk, Rumelange, Universit�, UMLV, Universit� de Marne-la-Vall�e, Paris, legitiName, siteAudit, html, C#, java, xml, Linux, Windows,Delphi, pascal, XSLT, DELF, DALF, CORBA, Flash, PHP, Mysql, Postgresql, paradox, win32, client, serveur, Brainbench"/>
                 <meta name="Author" content="Voronets'kyy Yevgen"/>
                 <link id="printId" REL="stylesheet" HREF="Ressources/style.css" type="text/css"/>
+                <link REL="stylesheet" HREF="Ressources/appleStyle.css" type="text/css"/>
                 
                 <script type="text/javascript">
                     function hide()
@@ -125,9 +127,6 @@
                         </tr>
                         
                     </table>
-                    
-                    <hr class="orange"/>
-                    
                     <table border="0" cellspacing="0" cellpadding="0">
                         
                          <tr>
@@ -139,10 +138,7 @@
                         </tr>
                         
                         <tr>
-                            <td class="firstCell"><span style="color:white;">.</span></td>
-                            <td class="info" style="padding-left:30px;">
-                                <xsl:value-of select="summary"/>
-                            </td>
+                            <td colspan="2"><div class="box promobox"><xsl:value-of select="summary"/></div></td>
                         </tr>
                         
                         
@@ -214,7 +210,7 @@
                                                 <table class="none" border="0" width="100%">
                                                     <tr>
                                                         <td width="150"><xsl:value-of select="/cv/localization/label_CompanyName"/> :</td> 
-                                                        <td><strong class="org"><xsl:value-of select="name"/></strong></td> 
+                                                        <td><strong class="org"><xsl:value-of select="name"/></strong><br/></td> 
 
                                                        
                                                     </tr>
@@ -240,7 +236,7 @@
                                             </tr>
                                             
                                         <tr>		
-                                            <td class="missionDesc" colspan="2"><strong><xsl:value-of select="/cv/localization/label_JobDecs"/></strong> : <xsl:value-of select="jobDesc"/> </td>
+                                            <td class="missionDesc" colspan="2"><div class="box promobox"><strong><xsl:value-of select="/cv/localization/label_JobDecs"/></strong> : <xsl:value-of select="jobDesc"/></div></td>
                                         </tr>
                                         <tr>
                                             <td colspan="2"><xsl:value-of select="/cv/localization/label_URL"/> : 			
@@ -344,9 +340,8 @@
                                     <xsl:value-of select="name"/>
                                 </td>
                                 <td class="info">
-                              
-                                   		 <xsl:value-of select="desc" disable-output-escaping="yes"/>
-                                    
+                                <!-- Figure out how the replace function does work -->
+                              		<xsl:value-of select="desc" />
                                 </td>
                             </tr>	
                         </xsl:for-each>

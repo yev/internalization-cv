@@ -18,12 +18,12 @@
 
 			<fo:page-sequence master-reference="titreGH" font-family="Georgia">
 				<fo:static-content flow-name="footer">
-		            <fo:block text-align="center" border-top="1pt solid silver">
-		                <fo:page-number/>&#160;/&#160;<fo:page-number-citation  ref-id="theEnd" />
+		            <fo:block text-align="center">
+		                <fo:page-number />&#160;/&#160;<fo:page-number-citation  ref-id="theEnd" />
 		            </fo:block>
 		        </fo:static-content>
 		        <fo:static-content flow-name="header">
-		            <fo:block text-align="right" border-bottom="1pt solid silver">
+		            <fo:block text-align="right" border-bottom="1pt solid silver" color="silver">
 		                <xsl:value-of select="localization/label_CurrentPositionTitle" />&#160; - &#160;<xsl:value-of select="personalInfo/lastName" /> &#160;<xsl:value-of select="personalInfo/firstName" />
 		            </fo:block>
 		        </fo:static-content>
@@ -95,7 +95,7 @@
 									<fo:table-cell border-width="1" border-style="dotted" text-align="center" display-align="center">
 										<fo:block><xsl:value-of select="date" /></fo:block>
 									</fo:table-cell>
-									<fo:table-cell border-width="1" border-style="dotted" >
+									<fo:table-cell border-width="1" border-style="dotted" ><!-- Study description -->
 										<fo:block><xsl:value-of select="/cv/localization/label_CompanyName" />:&#160; <fo:inline font-weight="bold"><xsl:value-of select="name" /></fo:inline> (<xsl:value-of select="geolocalization" />)</fo:block>
 										<fo:block><xsl:value-of select="/cv/localization/label_JobTitle" />:&#160;<fo:inline font-weight="bold"><xsl:value-of select="jobTitle" /></fo:inline></fo:block>
 										<fo:block><fo:inline font-weight="bold"><xsl:value-of select="/cv/localization/label_JobDecs" /></fo:inline>:&#160;<xsl:value-of select="jobDesc" /> </fo:block>
@@ -114,7 +114,7 @@
 									<fo:table-cell border-width="1" border-style="dotted" text-align="center" display-align="center">
 										<fo:block><xsl:value-of select="name" /></fo:block>
 									</fo:table-cell>
-									<fo:table-cell border-width="1" border-style="dotted" >
+									<fo:table-cell border-width="1" border-style="dotted" ><!-- Study description -->
 										<fo:block><xsl:value-of select="itemsList" /></fo:block>
 									</fo:table-cell>
 								</fo:table-row>	
@@ -188,6 +188,8 @@
 							</xsl:for-each>
 						</fo:table-body>
 					</fo:table>
+					
+					
 					<fo:block id="theEnd" />
 				</fo:flow>
 			</fo:page-sequence>
