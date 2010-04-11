@@ -27,7 +27,7 @@
 		RDBMS/SQL.
 		Design patterns. UML. RUP, agile software development. Experience in the industrialization of development processes.
 		European education.
-		Master degree in Computer Science. 4 years of international
+		Master degree in Computer Science. 5 years of international
 		experience
 		(projects for IT-consulting, insurance and software
 		companies).
@@ -87,20 +87,17 @@
 		<company>
 			<date>July 2008 to Date</date>
 			<name>Teamlog</name>
-			<activity>SSII</activity>
+			<activity>IT consulting</activity>
 			<geolocalization>Paris, France</geolocalization>
 			<jobTitle>Technical lead</jobTitle>
 			<jobDesc>
 				Participation in the design, development and management of
 				the IT-projects (some on offshore mode). Architecture development, solving critical technical problems. Setup
 				project infrastructure: SVN, builds, unit tests, Mantis, etc. Code revue.
-				Participation in industrialization of IT-projects development(continuous integration, design/code quality, metrics).
+				Participation in industrialization of IT-projects development(continuous integration, design/code quality, metrics, software factory).
 				Conducting the technical interviews.  
 				Responsible	for communication with customers. Technical audit for Java/J2EE projects (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor). 
-				Technologies Java: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner.
-				
-				
-				Technologies .NET: .NET/C# 3.5, NHibernate, MsBuild, NUnit, DbUnit, ASP.NET 3.5, Oracle, MS Visual Studio 2008 (Visual SVN, ReSharper), NDepend, NCover, MyGenerator, Continuous integration - Teamcity.
+				Java Technologies: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner.
             </jobDesc>
 			<url>http://www.teamlog.com</url>
 			<note></note>
@@ -281,16 +278,16 @@
 				multithreading, logging.
 				Java frameworks and
 				librairies: Log4j, Spring, Struts,
-				Hibernate, many sub-projets of
+				Hibernate, Quartz, many sub-projets of
 				Apache Commons, Velocity, iText, JSVC. XML
 				(XSL, XPath, XSD),
 				HTML(CSS, JavaScript).
+				Unit testing with JUnit, TestNG and DBUnit, integration with Spring testing framework.
 			</itemsList>
 		</technology-domain>
 		<technology-domain>
             <name>.NET</name>
-            <itemsList>.NET/C# 3.5, ASP.NET, NHibernate, MsBuild, NUnit, DbUnit, ASP.NET 3.5, MS Visual Studio 2008 (Visual SVN, ReSharper)
-            </itemsList>
+            <itemsList>.NET/C# 3.5, ASP.NET, NHibernate, MsBuild, NUnit, DbUnit, ASP.NET 3.5, MS Visual Studio 2008 (Visual SVN, ReSharper)</itemsList>
         </technology-domain>
 		<technology-domain>
 			<name>RDBMS</name>
@@ -303,8 +300,7 @@
 		<technology-domain>
 			<name>Software methodologies</name>
 			<itemsList>Design Patterns (GoF+GRASP) , UML, Rational Unified
-				Process, agile methodologies (with JUnit and continouos integretion
-				server TeamCity).</itemsList>
+				Process, agile methodologies SCRUM/XP/TDD (with XUnit and continious integration servers Hudson, TeamCity), V cycle, CMMI.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Certifications</name>
@@ -313,7 +309,7 @@
 		</technology-domain>
 	</technologies>
 
-	<!-- This section describes my natural language skills -->
+	<!-- This section describes my language skills -->
 	<languages title="Spoken languages">
 		<language>
 			<name>Russian</name>
@@ -350,7 +346,7 @@
 		</item>
 		<item>
 			<name>Blog</name>
-			<desc><a href="http://yevgen-fr.blogspot.com" title="Мой личный технический блог">http://yevgen-fr.blogspot.com</a> - My personal technical blog in French about IT, programming, Java.</desc>
+			<desc><a href="http://yevgen-fr.blogspot.com" title="My personal technical blog">http://yevgen-fr.blogspot.com</a> - My personal technical blog in French about IT, programming, Java.</desc>
 		</item>
 	</miscellanea>
 

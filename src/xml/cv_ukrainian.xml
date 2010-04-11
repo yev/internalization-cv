@@ -80,11 +80,10 @@
                 <jobDesc>
                     Участь у розробці та керівництві високотехнологічними проектами на базі технології Java/J2EE. 
                     Відповідальний за технічну якість проектів. Розробка архітектури, вирішення важливих технічних проблем. Установлення та конфігурація інфраструктури проектів: SVN, builds, unit tests.                   
-					Участь у індустріалізації розробки ПО (постійна інтеграція, якість проектування/кода, метрики).
+					Участь у індустріалізації розробки ПО (постійна інтеграція, якість проектування/кода, метрики, software factory).
 					Проводження технічних співбесід. 
                     Відповідальний за спілкування з замовником. Code revue. Технічний аудит Java/J2EE проектів (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
                     Технології Java:  Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner.
-                    Технології .NET: .NET/C# 3.5, NHibernate, MsBuild, NUnit, DbUnit, ASP.NET 3.5, Oracle, MS Visual Studio 2008 (Visual SVN, ReSharper), постійна інтеграція - Teamcity.
                 </jobDesc>
                 <url>http://www.teamlog.com</url>
                 <note></note>
@@ -263,7 +262,7 @@
         </item>
         <item>
 			<name>Блог</name>
-			<desc><![CDATA[<a href="http://yevgen-fr.blogspot.com" title="Мій власний технічний блог">http://yevgen-fr.blogspot.com</a>]]> - Мій власний технічний блог на французькій мові. Основні теми - ІТ, програмування, Java.</desc>
+			<desc>http://yevgen-fr.blogspot.com - Мій власний технічний блог на французькій мові. Основні теми - ІТ, програмування, Java.</desc>
 		</item>
     </miscellanea>
     

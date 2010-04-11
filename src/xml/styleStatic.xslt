@@ -16,7 +16,6 @@
                 <meta name="Keywords" content="Voronetskyy,Voronets'kyy, Voronetskyy Yevgen, Voronets'kyy Yevgen, Voronetskiy, Voronetskiy Yevgen, CV, informatique, DESS, CNAM, Management du CNAM, Dess CRI, programmation, r�seau, France, Ukraine, Luxembourg,Dnipropetrovsk, Rumelange, Universit�, UMLV, Universit� de Marne-la-Vall�e, Paris, legitiName, siteAudit, html, C#, java, xml, Linux, Windows,Delphi, pascal, XSLT, DELF, DALF, CORBA, Flash, PHP, Mysql, Postgresql, paradox, win32, client, serveur, Brainbench"/>
                 <meta name="Author" content="Voronets'kyy Yevgen"/>
                 <link id="printId" REL="stylesheet" HREF="Ressources/style.css" type="text/css"/>
-                <link REL="stylesheet" HREF="Ressources/appleStyle.css" type="text/css"/>
                 
                 <script type="text/javascript">
                     function hide()
@@ -69,10 +68,10 @@
                             <td align="center" width="50%">
                                 <table width="100%" border="0">
                                     <tr>
-                                        <td align="center"><a href="index.html">English</a>
-                                            • <a href="index_fr.html">Français</a>
-                                            • <a href="index_ru.html">Русский</a>
-                                        • <a href="index_ua.html">Українська</a></td>
+                                        <td align="center"><strong class="org"><a href="index.html">English</a></strong>
+                                            • <strong class="org"><a href="index_fr.html">Français</a></strong>
+                                            • <strong class="org"><a href="index_ru.html">Русский</a></strong>
+                                        • <strong class="org"><a href="index_ua.html">Українська</a></strong></td>
                                     </tr>
                                     <tr>
                                         <td><hr class="neutral"/><!-- Codes by Quackit.com --></td>
@@ -82,7 +81,7 @@
                                             <table border="0">
                                                 <tr>
                                                     <td>
-                                                    	<img src="Ressources/images/pdfimage.jpg" style="width:25; height=25;" border="0"/>
+                                                    	<img src="Ressources/images/pdfimage.jpg" style="width:50; height=50;" border="0"/>
                                                     	
                                                     </td>
                                                     <td valign="middle">
@@ -138,7 +137,7 @@
                         </tr>
                         
                         <tr>
-                            <td colspan="2"><div class="box promobox"><xsl:value-of select="summary"/></div></td>
+                            <td colspan="2"><xsl:value-of select="summary"/></td>
                         </tr>
                         
                         
@@ -236,7 +235,7 @@
                                             </tr>
                                             
                                         <tr>		
-                                            <td class="missionDesc" colspan="2"><div class="box promobox"><strong><xsl:value-of select="/cv/localization/label_JobDecs"/></strong> : <xsl:value-of select="jobDesc"/></div></td>
+                                            <td class="missionDesc" colspan="2"><strong><xsl:value-of select="/cv/localization/label_JobDecs"/></strong> : <xsl:value-of select="jobDesc"/></td>
                                         </tr>
                                         <tr>
                                             <td colspan="2"><xsl:value-of select="/cv/localization/label_URL"/> : 			
@@ -347,7 +346,9 @@
                         </xsl:for-each>
                     </table>
                 </DIV>
-                <p align="center"><small><xsl:value-of select="@version"/> <xsl:value-of select='datetime:format-date(datetime:date-time(),"yyyy/MM/dd")'/>.</small> </p>
+                
+                <p align="center"><small><xsl:value-of select="@version"/> <xsl:value-of select='datetime:format-date(datetime:date-time(),"yyyy/MM/dd")'/>.</small></p>
+                <p> <a href="http://www.twitter.com/yevgune" title="Follow me in Twitter"> <img src="Ressources/images/twitter.png" alt="twitter link" border="0"/></a></p>
                 <br/>
 				                
 				<!-- Start of StatCounter Code -->

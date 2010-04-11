@@ -79,11 +79,10 @@
                  Участие в разработке и управлении высокотехнологичными программными проектами (некоторые из них offshore-проекты). 
                  Ответсвенный за техническое качество. Разработка архитектуры, решение важных технических проблем. Установка и конфигурация инфраструктуры проектов : SVN, builds, unit tests, Mantis. 
                  Ответственный за общение с заказчиком. Ревью кода.
-                 Участие в индустриализации разработки (непрерывная интеграция, качество проектирования/кода, метрики).
+                 Участие в индустриализации разработки (непрерывная интеграция, качество проектирования/кода, метрики, Фабрики разработки).
 				 Проведение технических собеседований.
 				 Технический аудит Java/J2EE проектов (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
-                 Технологии Java: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner.
-                 Технологии .NET: .NET/C# 3.5, NHibernate, MsBuild, NUnit, DbUnit, ASP.NET 3.5, Oracle, MS Visual Studio 2008 (Visual SVN, ReSharper), непрерывная интеграция - Teamcity. 
+                 Технологии Java: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner. 
             </jobDesc>
 			<url>http://www.teamlog.com</url>
 			<note></note>
@@ -201,6 +200,7 @@
 					Понимание ключевых моментов многоуровневых распределенных архитектур: POJO/EJB,	персистентность данных, безопасность, транзакции, мультипоточное программирование, логирование.
 					Фреймворки и сторонние библиотеки Java: Log4j, Spring, Struts, 
 					Hibernate, библиотеки Apache Commons, Velocity, iText, JSVC. XML (XSL, XPath, XSD), HTML(CSS, JavaScript).
+					Модульное тестирование JUnit, TestNG и DbUnit, интеграция с Spring testing.
 			</itemsList>
 		</technology-domain>
 		<technology-domain>
@@ -218,7 +218,7 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Методологии</name>
-			<itemsList>Шаблоны проектирования (GoF+GRASP), UML, Rational Unified Process, гибкие методологии разработки(использование JUnit и сервера постоянной интеграции TeamCity).</itemsList>
+			<itemsList>Шаблоны проектирования (GoF+GRASP), UML, Rational Unified Process, гибкие методологии разработки SCRUM/XP/TDD (использование xUnit и сервера постоянной интеграции TeamCity, Hudson), CMMI.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Сертификаты</name>
@@ -259,7 +259,7 @@
 		</item>
 		<item>
 			<name>Блог</name>
-			<desc><![CDATA[<a href="http://yevgen-fr.blogspot.com" title="Мой личный технический блог">http://yevgen-fr.blogspot.com</a>]]>  - Мой личный технический блог (на французском языке). Основные темы - ИТ, программирование, Java.</desc>
+			<desc>http://yevgen-fr.blogspot.com - Мой личный технический блог (на французском языке). Основные темы - ИТ, программирование, Java.</desc>
 		</item>
 	</miscellanea>
 	

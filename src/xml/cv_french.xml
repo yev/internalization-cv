@@ -69,14 +69,14 @@
                 <company>
 			<date>Depuis Juillet 2008</date>
 			<name>Teamlog</name>
-			<activity>SSII, Editeur de Logiciel</activity>
+			<activity>SSII</activity>
 			<geolocalization>Paris, France</geolocalization>
 			<jobTitle>Référant technique</jobTitle>
 			<jobDesc>
 	Participation à la conception, développement et gestion des projets	informatiques (TMA, forfait, régie;  projets "offshorisés").
 	Responsbale de la qualité technique. Développement de l'architecture, résolution des problèmes techniques pointus. Revue du code.
 	Mise en place de l'infrastructure des projets (SVN, les builds automatiques, tests unitaires, Mantis, etc).
-	Participation à l'industrialisation du développement des projets informatiques(intégration continue, qualité du code/conception OO, métriques).
+	Participation à l'industrialisation du développement des projets informatiques (intégration continue, qualité du code/conception OO, métriques, applications blanches/usine logicielle).
 	Codnduite des entretiens techniques dans un cadre de recrutement.  
 	Audit technique des projets Java/J2EE (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
 	Technologies utilisées Java: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner.              
@@ -202,7 +202,7 @@
 					données, sécurité, transactions, multithreading, logging.
 					Les frameworks et librairies Java: Spring, Struts, 
 					Hibernate, Quartz, plusieurs sous-projets d'Apache Commons, Velocity, iText, JSVC. XML (XSL, XPath, XSD), HTML(CSS, JavaScript).
-					Tests unitaires JUnit et TestNG avec le support de Spring.
+					Tests unitaires JUnit, TestNG et DbUnit; l'integration avec Spring testing framework.
 			</itemsList>
 		</technology-domain>
 		<technology-domain>
