@@ -347,7 +347,7 @@
                     </table>
                 </DIV>
                 
-                <p align="center"><small><xsl:value-of select="@version"/> <xsl:value-of select='datetime:format-date(datetime:date-time(),"yyyy/MM/dd")'/>.</small></p>
+                <p align="center"><small><xsl:value-of select="@version"/></small> <small class="numberSmallPolice"> <xsl:value-of select='datetime:format-date(datetime:date-time(),"yyyy/MM/dd")'/></small>.</p>
                 <p> <a href="http://www.twitter.com/yevgune" title="Follow me in Twitter"> <img src="Ressources/images/twitter.png" alt="twitter link" border="0"/></a></p>
                 <br/>
 				                

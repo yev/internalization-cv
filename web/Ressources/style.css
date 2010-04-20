@@ -147,6 +147,10 @@ a.navigationToogleLink
 {
 	font-size: small;
 }
+.numberSmallPolice
+{
+	font-family: Georgia;
+}
 
 .box { border:1px solid; border-color:#e5e5e5 #dbdbdb #d2d2d2; background:#FFFEFF; -webkit-box-shadow:rgba(0,0,0,.5) 0 1px 2px; -moz-box-shadow:rgba(0,0,0,.5) 0 1px 2px; padding:7px;border-top-color: #000000; border-top-width:23x;}
 div ~ .box { border-width:0; *border-width:1px; } /* reset for safari3, and resetting that reset for IE7 */
