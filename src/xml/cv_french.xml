@@ -261,7 +261,8 @@
 		</item>
 		<item>
 			<name>Blog</name>
-			<desc>http://yevgen-fr.blogspot.com - Mon blog technique (en français) consacré à l'IT, la programmation, Java, etc.</desc>
+			<url>http://yevgen-fr.blogspot.com</url>
+			<desc>Mon blog technique (en français) consacré à l'IT, la programmation, Java, etc.</desc>
 		</item>
 		
 	</miscellanea>

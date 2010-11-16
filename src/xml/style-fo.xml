@@ -124,7 +124,7 @@
 								<fo:table-cell border-width="1" border-style="dotted" text-align="center" display-align="center">
 									<fo:block/>
 								</fo:table-cell>
-								<fo:table-cell border-width="1" border-style="dotted" ><!-- Study description -->
+								<fo:table-cell border-width="1" border-style="dotted" >
 									<fo:block>
 										&#160;&#160;<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/communicationspecialist.gif"/>&#160;
 										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/computertechnician.gif"/>&#160;
@@ -163,7 +163,7 @@
 									<fo:table-cell border-width="1" border-style="dotted" text-align="center" display-align="center">
 										<fo:block><xsl:value-of select="name" /></fo:block>
 									</fo:table-cell>
-									<fo:table-cell border-width="1" border-style="dotted" ><!-- Study description -->
+									<fo:table-cell border-width="1" border-style="dotted" >
 										<fo:block><xsl:value-of select="desc" /></fo:block>
 									</fo:table-cell>
 								</fo:table-row>	
@@ -181,8 +181,11 @@
 									<fo:table-cell border-width="1" border-style="dotted" text-align="center" display-align="center">
 										<fo:block><xsl:value-of select="name" /></fo:block>
 									</fo:table-cell>
-									<fo:table-cell border-width="1" border-style="dotted" ><!-- Study description -->
-										<fo:block><xsl:value-of select="desc" disable-output-escaping="no" /></fo:block>
+									<fo:table-cell border-width="1" border-style="dotted" >
+										<fo:block>
+											<xsl:if test="url"><fo:basic-link external-destination="{url}" color="blue" text-decoration="underline"><xsl:value-of select="url"/> </fo:basic-link>  - </xsl:if>
+											<xsl:value-of select="desc" disable-output-escaping="no" />
+										</fo:block>
 									</fo:table-cell>
 								</fo:table-row>	
 							</xsl:for-each>

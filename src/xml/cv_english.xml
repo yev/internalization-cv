@@ -346,7 +346,8 @@
 		</item>
 		<item>
 			<name>Blog</name>
-			<desc><a href="http://yevgen-fr.blogspot.com" title="My personal technical blog">http://yevgen-fr.blogspot.com</a> - My personal technical blog in French about IT, programming, Java.</desc>
+			<url>http://yevgen-fr.blogspot.com</url>
+			<desc>My personal technical blog in French about IT, programming, Java.</desc>			
 		</item>
 	</miscellanea>
 

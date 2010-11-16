@@ -338,8 +338,9 @@
                                 <td class="firstCell">
                                     <xsl:value-of select="name"/>
                                 </td>
+                                <!-- Special processing for node with url node(see the problem with the html link to my blog) -->
                                 <td class="info">
-                                <!-- Figure out how the replace function does work -->
+                                	<xsl:if test="url"><a href="{url}"><xsl:value-of select="url" /></a> - </xsl:if>                                
                               		<xsl:value-of select="desc" />
                                 </td>
                             </tr>	

@@ -259,7 +259,8 @@
 		</item>
 		<item>
 			<name>Блог</name>
-			<desc>http://yevgen-fr.blogspot.com - Мой личный технический блог (на французском языке). Основные темы - ИТ, программирование, Java.</desc>
+			<url>http://yevgen-fr.blogspot.com</url>
+			<desc>Мой личный технический блог (на французском языке). Основные темы - ИТ, программирование, Java.</desc>
 		</item>
 	</miscellanea>
 	
