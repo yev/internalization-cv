@@ -193,7 +193,7 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Langages de programmation</name>
-			<itemsList>Java , C# , Pascal, PHP.</itemsList>
+			<itemsList>Java , C# , Python, Pascal, PHP.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Java/J2EE</name>
@@ -207,7 +207,7 @@
 		</technology-domain>
 		<technology-domain>
             <name>.NET</name>
-            <itemsList>.NET/C# 3.5, ASP.NET, NHibernate, MsBuild, NUnit, DbUnit, ASP.NET 3.5, MS Visual Studio 2008 (Visual SVN, ReSharper)
+            <itemsList>.NET/C# 3.5, ASP.NET, NHibernate, MsBuild, NUnit, DbUnit, ASP.NET 3.5, MS Visual Studio 2008 (Visual SVN, ReSharper, dotTrace)
             </itemsList>
         </technology-domain>
 		<technology-domain>
