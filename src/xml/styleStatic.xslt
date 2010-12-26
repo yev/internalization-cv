@@ -238,13 +238,14 @@
                                             <td class="missionDesc" colspan="2"><strong><xsl:value-of select="/cv/localization/label_JobDecs"/></strong> : <xsl:value-of select="jobDesc"/></td>
                                         </tr>
                                         <tr>
-                                            <td colspan="2"><xsl:value-of select="/cv/localization/label_URL"/> : 			
+                                            <td colspan="2" align="right"><span id="smallLink"><xsl:value-of select="/cv/localization/label_URL"/> : 			
                                                 <a><xsl:attribute name="href">
                                                         <xsl:value-of select="url"/>
                                                     </xsl:attribute>
                                                     <xsl:value-of select="url"/>
                                                 </a>			
                                                 <xsl:value-of select="note"/>
+                                                </span>
                                             </td>
                                         </tr>
                                     </table>

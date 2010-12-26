@@ -77,7 +77,7 @@
 			<date>1999-2004</date>
 			<desc>Master Degree in Computer Science, with honour (2004).</desc>
 			<geolocalization>Dniepropetrovsk, Ukraine</geolocalization>
-			<url>http://www.usuce.dp.ua/</url>
+			<url>http://www.usuce.dp.ua</url>
 			<note></note>
 		</organisation>
 	</education>
@@ -111,7 +111,7 @@
 			<jobDesc>Java/J2EE consulting and development for different
 				companies. The list of projects done with DVK-Tech is presented
 				below and marked by ***.</jobDesc>
-			<url>http://www.dvk-tech.com/</url>
+			<url>http://www.dvk-tech.com</url>
 			<note></note>
 		</company>
 		<company isConsulting="true">
@@ -153,7 +153,7 @@
 				Java/J2EE, Servlet, Java
 				Service Wrapper, Winstone, Oracle 8; UML
 				diagrams.</jobDesc>
-			<url>http://www.mutuelle-smi.com/</url>
+			<url>http://www.mutuelle-smi.com</url>
 			<note></note>
 		</company>
 		<company isConsulting="true">
@@ -213,7 +213,7 @@
 				Java/J2EE, JDBC, Servlet/JSP, Tomcat 5.5, MySQL 4.1,
 				PostgreSQL,
 				Log4j, Velocity, JSVC.</jobDesc>
-			<url>http://www.duke-interactive.com/</url>
+			<url>http://www.duke-interactive.com</url>
 			<note></note>
 		</company>
 		<company>
@@ -231,7 +231,7 @@
 				maintenance management.
 				Technologies: application servers WebSphere
 				and JBoss, RDBMS Oracle, Hibernate, Spring, JSF, JNDI.</jobDesc>
-			<url>http://www.isd.dp.ua/</url>
+			<url>http://www.isd.dp.ua</url>
 			<note></note>
 		</company>
 		<company>
@@ -249,7 +249,7 @@
 				librairies "Microsoft XMLDiff and XMLPatch 1.0" and
 				"HtmlAgilityPack" by Simon
 				Mournier.</jobDesc>
-			<url>http://www.legitiname.com/</url>
+			<url>http://www.legitiname.com</url>
 			<note></note>
 		</company>
 	</experiences>

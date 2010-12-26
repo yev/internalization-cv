@@ -245,13 +245,14 @@
                                             <td class="missionDesc" colspan="2"><strong><xsl:value-of select="/cv/localization/label_JobDecs"/></strong> : <xsl:value-of select="jobDesc" disable-output-escaping="yes"/></td>
                                         </tr>
                                         <tr>
-                                            <td colspan="2"><xsl:value-of select="/cv/localization/label_URL"/> : 			
+                                            <td colspan="2"><i><xsl:value-of select="/cv/localization/label_URL"/> : 			
                                                 <a><xsl:attribute name="href">
                                                         <xsl:value-of select="url"/>
                                                     </xsl:attribute>
                                                     <xsl:value-of select="url"/>
                                                 </a>			
                                                 <xsl:value-of select="note"/>
+                                                </i>
                                             </td>
                                         </tr>
                                     </table>
