@@ -86,7 +86,7 @@
 	<experiences title="Work experience">
 		<company>
 			<date>July 2008 to Date</date>
-			<name>Teamlog</name>
+			<name>Open-Groupe (Teamlog)</name>
 			<activity>IT consulting</activity>
 			<geolocalization>Paris, France</geolocalization>
 			<jobTitle>Technical lead</jobTitle>
@@ -99,7 +99,7 @@
 				Responsible	for communication with customers. Technical audit for Java/J2EE projects (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor). 
 				Java Technologies: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner.
             </jobDesc>
-			<url>http://www.teamlog.com</url>
+			<url>http://www.open-groupe.com</url>
 			<note></note>
 		</company>
 		<company>

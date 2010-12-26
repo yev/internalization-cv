@@ -71,7 +71,7 @@
 	<experiences title="Профессиональный опыт">
             <company>
 			<date>С Июля 2008</date>
-			<name>Teamlog</name>
+			<name>Open-Groupe (Teamlog)</name>
 			<activity>IT-консалтинг</activity>
 			<geolocalization>Париж, Франция</geolocalization>
             <jobTitle>Технический лидер</jobTitle>
@@ -84,7 +84,7 @@
 				 Технический аудит Java/J2EE проектов (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
                  Технологии Java: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner. 
             </jobDesc>
-			<url>http://www.teamlog.com</url>
+			<url>http://www.open-groupe.com</url>
 			<note></note>
 		</company>
 		<company>
