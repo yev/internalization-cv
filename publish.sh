@@ -1,5 +1,5 @@
 #!/bin/bash
-ftp ftp://yevvor2:9655161@yev-java.freehostia.com << ftpEOF
+ftp ftp://yevvor2:yuuc@yev-java.freehostia.com << ftpEOF
    prompt
    put web/index.html yev-java.freehostia.com/index.html
    put web/index_fr.html yev-java.freehostia.com/index_fr.html
