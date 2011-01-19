@@ -295,7 +295,7 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Tools</name>
-			<itemsList>Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, SQuirreL, Toad, Far, MyGeneration, Doxygen.</itemsList>
+			<itemsList>Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, sripting with Python</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Software methodologies</name>
@@ -327,8 +327,11 @@
 		</language>
 		<language>
 			<name>English</name>
-			<desc>Reading/writing – very good, oral expression –
-				good.</desc>
+			<desc>Reading/writing – very good, oral expression – good.</desc>
+		</language>
+		<language>
+			<name>Italian</name>
+			<desc>Beginner Level. The language study at Instituto Italiano di Cultura - Dante ALIEGHIERI, à Kiev.</desc>
 		</language>
 	</languages>
 

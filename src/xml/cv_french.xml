@@ -216,7 +216,7 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Outils</name>
-			<itemsList>Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, Ant, Maven, CVS, SVN, SQuirreL, Toad, Far, MyGeneration, Doxygen.</itemsList>
+			<itemsList>Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, Ant, Maven, CVS, SVN, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, sripting with Python</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Génie logiciel</name>
@@ -247,6 +247,10 @@
 			<name>Anglais</name>
 			<desc>Lecture – très bien, écriture – très bien, expression orale – bien.</desc>
 		</language>
+		<language>
+			<name>Italien</name>
+			<desc>Débutant. Les courses de la langue dans le centre italien Dante ALIEGHIERI, à Kiev.</desc>
+		</language>  		
 	</languages>
 	
 	<!-- Section about my interests, hobbies, sports I do, etc -->

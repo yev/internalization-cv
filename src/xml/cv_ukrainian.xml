@@ -217,7 +217,7 @@
         </technology-domain>
         <technology-domain>
             <name>Інструментарій</name>
-            <itemsList>Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, SQuirreL, Toad, Far, MyGeneration, Doxygen.</itemsList>
+            <itemsList>Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, написання Python-скриптів</itemsList>
         </technology-domain>
         <technology-domain>
             <name>Методології</name>
@@ -248,6 +248,10 @@
             <name>Англійська</name>
             <desc>Розуміння/складaння письмових документів - дуже добре. Усне спілкування - добре.</desc>
         </language>
+		<language>
+			<name>Итальянска</name>
+			<desc>Початковий роківень. Навчання в Італійському інституті культури Dante ALIEGHIERI, м. Київ</desc>
+		</language>        
     </languages>
     
     <!-- Section about my interests, hobbies, sports I do, etc -->
