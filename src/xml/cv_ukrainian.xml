@@ -208,7 +208,7 @@
         </technology-domain>
         <technology-domain>
             <name>.NET</name>
-            <itemsList>.NET/C# 3.5, ASP.NET, NHibernate, MsBuild, NUnit, DbUnit, NCover, NDepend, ASP.NET 3.5, MS Visual Studio 2008 (Visual SVN, ReSharper, dotTrace)
+            <itemsList>.NET/C# 3.5, NHibernate, MsBuild, NUnit, DbUnit, NCover, NDepend, MS Visual Studio 2008 (Visual SVN, ReSharper, dotTrace)
             </itemsList>
         </technology-domain>
         <technology-domain>
@@ -217,11 +217,15 @@
         </technology-domain>
         <technology-domain>
             <name>Інструментарій</name>
-            <itemsList>Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, написання Python-скриптів</itemsList>
+            <itemsList>Шаблони проектування (GoF+GRASP), UML, Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, написання Python-скриптів</itemsList>
         </technology-domain>
         <technology-domain>
-            <name>Методології</name>
-            <itemsList>Шаблони проектування (GoF+GRASP), UML, Rational Unified Process, гнучки методології розробки (використання JUnit та серверу постійної інтеграції TeamCity).</itemsList>
+            <name>Індустріалізація</name>
+            <itemsList>Автоматзація з Maven і Ant. XUnit - JUnit, TestNG, DBUnit. Анализ покриття коду з Cobertura.
+				Сервери постійної інтеграції Hudson і TeamCity.
+				Метрики якісті коду - Sonar, FindBug, PMD.
+				Управління проектами, вікі, bug tracker - Redmine. Використання фабрик программного забезпечення.
+			</itemsList>
         </technology-domain>
         <technology-domain>
             <name>Сертифікати</name>
@@ -249,7 +253,7 @@
             <desc>Розуміння/складaння письмових документів - дуже добре. Усне спілкування - добре.</desc>
         </language>
 		<language>
-			<name>Итальянска</name>
+			<name>Италійська</name>
 			<desc>Початковий роківень. Навчання в Італійському інституті культури Dante ALIEGHIERI, м. Київ</desc>
 		</language>        
     </languages>

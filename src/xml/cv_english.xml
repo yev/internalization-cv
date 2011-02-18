@@ -283,11 +283,12 @@
 				(XSL, XPath, XSD),
 				HTML(CSS, JavaScript).
 				Unit testing with JUnit, TestNG and DBUnit, integration with Spring testing framework.
+				
 			</itemsList>
 		</technology-domain>
 		<technology-domain>
             <name>.NET</name>
-            <itemsList>.NET/C# 3.5, ASP.NET, NHibernate, MsBuild, NUnit, DbUnit, ASP.NET 3.5, MS Visual Studio 2008 (Visual SVN, ReSharper, dotTrace)</itemsList>
+            <itemsList>.NET/C# 3.5, NHibernate, MsBuild, NUnit, DbUnit, MS Visual Studio 2008 (Visual SVN, ReSharper, dotTrace)</itemsList>
         </technology-domain>
 		<technology-domain>
 			<name>RDBMS</name>
@@ -295,12 +296,14 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Tools</name>
-			<itemsList>Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, sripting with Python</itemsList>
+			<itemsList>Design Patterns (GoF+GRASP), UML, Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, sripting with Python</itemsList>
 		</technology-domain>
 		<technology-domain>
-			<name>Software methodologies</name>
-			<itemsList>Design Patterns (GoF+GRASP) , UML, Rational Unified
-				Process, agile methodologies SCRUM/XP/TDD (with XUnit and continious integration servers Hudson, TeamCity), V cycle, CMMI.</itemsList>
+			<name>Industrialization</name>
+			<itemsList>Project Automation with Maven and Ant. XUnit - JUnit, TestNG, DBUnit, code coverage with Cobertura. 
+				Continious integration servers - Hudson and TeamCity. 
+				Code quality metrics - Sonar, FindBug, PMD. Project mananagement, wiki, bug tracker - Redmine. Software factories. 
+			</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Certifications</name>

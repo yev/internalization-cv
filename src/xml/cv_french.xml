@@ -207,7 +207,7 @@
 		</technology-domain>
 		<technology-domain>
             <name>.NET</name>
-            <itemsList>.NET/C# 3.5, ASP.NET, NHibernate, MsBuild, NUnit, DbUnit, ASP.NET 3.5, MS Visual Studio 2008 (Visual SVN, ReSharper, dotTrace)
+            <itemsList>.NET/C# 3.5, NHibernate, MsBuild, NUnit, DbUnit, MS Visual Studio 2008 (Visual SVN, ReSharper, dotTrace)
             </itemsList>
         </technology-domain>
 		<technology-domain>
@@ -216,11 +216,14 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Outils</name>
-			<itemsList>Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, Ant, Maven, CVS, SVN, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, sripting with Python</itemsList>
+			<itemsList>Design Patterns (GoF+GRASP), UML,Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, Ant, Maven, CVS, SVN, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, sripting with Python</itemsList>
 		</technology-domain>
 		<technology-domain>
-			<name>Génie logiciel</name>
-			<itemsList>Design Patterns (GoF+GRASP), UML, Rational Unified Process, méthodologies agiles SCRUM/XP/TDD (avec XUnit et serveurs d'integraton continue Hudson, TeamCity), cycle en V, CMMI.</itemsList>
+			<name>Industrialisation</name>
+			<itemsList>Automatisation des projets avec Maven et Ant. XUnit - JUnit, TestNG, DBUnit, pour la couverture du code par des tests - Cobertura. 
+				Les serveurs d'intégration continue - Hudson et TeamCity. 
+				Métriques de qualité du code - Sonar, FindBug, PMD. Gestion du projet, wiki, bug tracker - Redmine. Utilisation des Applications Blanches.
+			</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Certifications</name>
