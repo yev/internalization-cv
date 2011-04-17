@@ -218,7 +218,7 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Индустриализация</name>
-			<itemsList>Автоматизация сборок - Maven и Ant. XUnit - JUnit, TestNG, DBUnit. Анализ покрытия кода с Cobertura.
+			<itemsList>Автоматизация сборок - Maven и Ant. XUnit - JUnit, TestNG, DBUnit. Автоматические функциональные тесты с Selenium. Анализ покрытия кода с Cobertura.
 				Сервера постоянной интеграции Hudson и TeamCity.
 				Метрики качества кода - Sonar, FindBug, PMD. Управление проектами, вики, bug tracker - Redmine. Использование фабрик программного обеспечения.
 			</itemsList>

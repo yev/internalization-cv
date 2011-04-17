@@ -220,7 +220,8 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Industrialisation</name>
-			<itemsList>Automatisation des projets avec Maven et Ant. XUnit - JUnit, TestNG, DBUnit, pour la couverture du code par des tests - Cobertura. 
+			<itemsList>Automatisation des projets avec Maven et Ant. XUnit - JUnit, TestNG, DBUnit. Les tests automatisés d'acceptence avec Selenium.
+			  Analyse de la couverture du code par les tests - Cobertura. 
 				Les serveurs d'intégration continue - Hudson et TeamCity. 
 				Métriques de qualité du code - Sonar, FindBug, PMD. Gestion du projet, wiki, bug tracker - Redmine. Utilisation des Applications Blanches.
 			</itemsList>
