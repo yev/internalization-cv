@@ -129,9 +129,9 @@
 			<geolocalization>Paris, France</geolocalization>
 			<jobTitle>Ingénieur Java/J2EE</jobTitle>
 			<jobDesc>Participation à la conception et développement des projets « e-commerce ».
-				Réalisation de la couche de persistance à la base de Hibernate et JDO (implémentation Xcalia). 
+				Réalisation de la couche de persistance en Hibernate et JDO (implémentation Xcalia). 
 				Développement de l’interface graphique web selon le pattern MVC 2 à l’aide du framerwork Struts.
-				Développement des composants de l'interface graphique à la base de la technologie AJAX.
+				Développement des composants de l'interface graphique en AJAX.
 				Participation à l’élaboration de l’architecture technique des modules.
 				Réalisation de la couche de la logique métier des projets.
 				Technologies utilisées : Java/J2EE, Struts 1.3, Hibernate 3.0, JDO (Xcalia), Servlet/JSP, JSTL, Tomcat 5.5, MySQL, Oracle, MS SQL Server, 
@@ -147,7 +147,7 @@
 			<jobTitle>Ingénieur Java/J2EE</jobTitle>
 			<jobDesc>Conception et réalisation des solutions complètes "back-office".
 				Développement du module de sécurité basé sur « container managed security » de Tomcat.
-				Couche de persistance réalisée à la base de JDBC, utilisation de database-pooling.
+				Couche de persistance réalisée en pure JDBC, utilisation de database-pooling.
 				Développement des modules d’interaction avec le « front-office » représenté par le Flash.
 				Participation à la réalisation des composants graphiques utilisant le modèle de conception AJAX.
 				Développement d’un outil de surveillance des sites sensibles. L’application est réalisée avec l’utilisation de multithreading et sous la forme de daemon pour OS Linux Debian.
