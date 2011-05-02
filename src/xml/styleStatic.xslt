@@ -13,7 +13,7 @@
                 <meta http-equiv="Window-target" content="_top"/>
                 <meta name="robots" content="follow"/>
                 <meta name="Description" content="CV de VORONETS'KYY Yevgen"/>
-                <meta name="Keywords" content="Voronetskyy,Voronetskyy Yevgen, CV, informatique, DESS, CNAM, Management du CNAM, Dess CRI, programmation, réseau, France, Ukraine, Luxembourg,Dnipropetrovsk, Rumelange, Université, UMLV, Université de Marne-la-Vallée, Paris, legitiName, Teamlog, offshore, siteAudit, html, C#, java, xml, Linux, Windows,Delphi, pascal, XSLT, DELF, DALF, CORBA, Flash, PHP, Mysql, Postgresql, paradox, win32, client, serveur, Brainbench"/>
+                <meta name="Keywords" content="Voronetskyy,Voronetskyy Yevgen, CV, informatique, DESS, CNAM, Management du CNAM, Dess CRI, programmation, réseau, France, Ukraine, Luxembourg,Dnipropetrovsk, Rumelange, Université, UMLV, Université de Marne-la-Vallée, Paris, legitiName, Teamlog, offshore, siteAudit, html, C#, java, xml, Linux, Windows,Delphi, pascal, XSLT, DELF, DALF, CORBA, Flash, PHP, Mysql, Postgresql, paradox, win32, client, serveur, Brainbench, offshore, J2ee, Ukraine, France, Kiev"/>
                 <meta name="Author" content="Voronetskyy Yevgen"/>
                 <link id="printId" REL="stylesheet" HREF="Ressources/style.css" type="text/css"/>
                 
