@@ -54,7 +54,7 @@
                 </script>
                 
             </head>
-            <body onLoad="javascript:hide();">
+            <body>
                 <a name="topNavigation"></a>
                 <DIV id="wrapper">
                     <table width="100%" border="0">
@@ -367,6 +367,7 @@
 					//hide the map, when open 
 					$(document).ready(function() {
 					  	$("#dialogLocation").hide();
+					  	hide();
 					});
 					$("#myCurrentLocation").click(function(){$("#dialogLocation").dialog({ modal: true, width: 800 });})
 				</script>
