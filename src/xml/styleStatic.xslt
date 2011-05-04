@@ -62,7 +62,7 @@
                             <td align="left" width="25%">
                                 <xsl:for-each select="personalInfo">
                                     <xsl:value-of select="lastName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="firstName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="middleName"/>
-                                    <br/><a id="myCurrentLocation" href="#top"><xsl:value-of select="address"/></a>
+                                    <br/><a id="myCurrentLocation" href="#top" title="Click here to view the location in Google map."><xsl:value-of select="address"/></a>
                                     <br/><xsl:value-of select="mobile"/>
                                     <br/><img src="Ressources/images/email.gif" title="AntiSpam Protection"/>
                                     <br/><small><xsl:value-of select="additionalInfo"/></small>        
@@ -84,7 +84,7 @@
                                             <table border="0">
                                                 <tr>
                                                     <td>
-                                                    	<img src="Ressources/images/pdfimage.jpg" style="width:50; height=50;" border="0"/>
+                                                    	<img src="Ressources/images/pdfimage.jpg" alt="cv in pdf version" style="width:50; height=50;" border="0"/>
                                                     	
                                                     </td>
                                                     <td valign="middle">
@@ -105,7 +105,7 @@
                                 </table>
                             </td>
                             <td align="right" width="25%">
-                                <img src="Ressources/images/photo.jpg" border="1"/>
+                                <img src="Ressources/images/photo.jpg" border="1" alt="my recent foto"/>
                                 
                             </td>
                         </tr>
