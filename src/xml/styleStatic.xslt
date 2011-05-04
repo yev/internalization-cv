@@ -360,6 +360,10 @@
 				
 				
 				<script type="text/javascript">
+					//hide the map, when open 
+					$(document).ready(function() {
+					  	$("#dialogLocation").hide();
+					});
 					$("#myCurrentLocation").click(function(){$("#dialogLocation").dialog({ modal: true, width: 800 });})
 				</script>
 				                
