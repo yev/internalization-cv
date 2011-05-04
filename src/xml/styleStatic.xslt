@@ -357,10 +357,22 @@
                 <br/>
                 
                 <xsl:variable name="ggMapUrl">http://maps.google.com/maps/api/staticmap?center=<xsl:value-of select="personalInfo/googleMapLocationString"/>&amp;zoom=5&amp;size=800x600&amp;markers=color:red|label:S|<xsl:value-of select="personalInfo/googleMapLocationString"/>&amp;sensor=true</xsl:variable>
-					<xsl:variable name="ggMap"><img><xsl:attribute name="src"><xsl:copy-of select="$ggMapUrl"/></xsl:attribute></img>
+                <xsl:variable name="ggMapQueryUrl">
+                	<a>
+	                	<xsl:attribute name="href">http://maps.google.com/maps?q=<xsl:copy-of select="personalInfo/googleMapLocationString"/></xsl:attribute>
+	                	<xsl:attribute name="target">_blanc</xsl:attribute>
+						View in Google Map site
+	                </a>
+               	</xsl:variable>
+				<xsl:variable name="ggMap">
+					<img><xsl:attribute name="src"><xsl:copy-of select="$ggMapUrl"/></xsl:attribute></img>
 				</xsl:variable>
 				
-				<div id="dialogLocation" title="My current location by Google Maps"><xsl:copy-of select="$ggMap" /></div>
+				<div id="dialogLocation" title="My current location by Google Maps">
+					<xsl:copy-of select="$ggMapQueryUrl" />
+					<br/>
+					<xsl:copy-of select="$ggMap" />					
+				</div>
 				
 				
 				<script type="text/javascript">
@@ -369,7 +381,7 @@
 					  	$("#dialogLocation").hide();
 					  	hide();
 					});
-					$("#myCurrentLocation").click(function(){$("#dialogLocation").dialog({ modal: true, width: 800 });})
+					$("#myCurrentLocation").click(function(){$("#dialogLocation").dialog({ modal: true, width: 700 });})
 				</script>
 				                
 				<!-- Start of StatCounter Code -->
