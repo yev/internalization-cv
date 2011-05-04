@@ -11,7 +11,7 @@
 		<lastName>Voronetskyy</lastName>
 		<firstName>Yevgen</firstName>
 		<middleName></middleName>
-		<address>Paris, France</address>
+		<address>Perros-Guirec, France</address>
 		<mobile>Tél. portable: +33.6.29.84.09.83</mobile>
 		<job-title>Ingénieur Java/J2EE </job-title>
 		<additionalInfo>Né le 23 Novembre 1981, Ukraine.</additionalInfo>
@@ -79,7 +79,7 @@
 	Participation à l'industrialisation du développement des projets informatiques (intégration continue, qualité du code/conception OO, métriques, applications blanches/usine logicielle).
 	Codnduite des entretiens techniques dans un cadre de recrutement.  
 	Audit technique des projets Java/J2EE (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
-	Technologies utilisées Java: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner.              
+	Technologies utilisées Java: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn.              
             </jobDesc>
 			<url>http://www.open-groupe.com</url>
 			<note></note>

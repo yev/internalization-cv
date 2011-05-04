@@ -73,7 +73,7 @@
 			<date>С Июля 2008</date>
 			<name>Open-Groupe (Teamlog)</name>
 			<activity>IT-консалтинг</activity>
-			<geolocalization>Париж, Франция</geolocalization>
+			<geolocalization>Perros-Guirec, Франция</geolocalization>
             <jobTitle>Технический лидер</jobTitle>
 			<jobDesc>
                  Участие в разработке и управлении высокотехнологичными программными проектами (некоторые из них offshore-проекты). 
@@ -82,7 +82,7 @@
                  Участие в индустриализации разработки (непрерывная интеграция, качество проектирования/кода, метрики, Фабрики разработки).
 				 Проведение технических собеседований.
 				 Технический аудит Java/J2EE проектов (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
-                 Технологии Java: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner. 
+                 Технологии Java: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn. 
             </jobDesc>
 			<url>http://www.open-groupe.com</url>
 			<note></note>
