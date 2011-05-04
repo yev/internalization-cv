@@ -5,13 +5,14 @@
 	Date   : 11 Dec. 2007
 	Desc   : The document contains structured cv information.
  -->
-<cv version="La version française 2.5. Dernière mise à jour le " locale="fr">
+<cv version="La version française 2.6. Dernière mise à jour le " locale="fr">
 	<!-- Section contains personal information such as name, address, mobile phone,email, etc.-->
 	<personalInfo title="Information Personnelle">
 		<lastName>Voronetskyy</lastName>
 		<firstName>Yevgen</firstName>
 		<middleName></middleName>
 		<address>Perros-Guirec, France</address>
+		<googleMapLocationString>Perros-Guirec, France</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
 		<mobile>Tél. portable: +33.6.29.84.09.83</mobile>
 		<job-title>Ingénieur Java/J2EE </job-title>
 		<additionalInfo>Né le 23 Novembre 1981, Ukraine.</additionalInfo>

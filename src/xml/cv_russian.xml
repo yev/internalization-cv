@@ -3,7 +3,7 @@
 		Project: ProffiCV Author : VORONETS'KYY Yevgen Date : 15 Dec. 2007
 		Desc : The document contains structured cv information in russian.
 	-->
-<cv version="Русская версия 2.5. Последнее обновление - "
+<cv version="Русская версия 2.6. Последнее обновление - "
 	locale="ru">
 	<!--
 		Section contains personal information such as name, address, mobile
@@ -13,7 +13,8 @@
 		<lastName>Воронецкий</lastName>
 		<firstName>Евгений</firstName>
 		<middleName>Игоревич</middleName>
-		<address>Париж, Франция</address>
+		<address>Перрос-Гирек, Франция</address>
+		<googleMapLocationString>Perros-Guirec, France</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
 		<mobile>Телефон: +33.6.29.84.09.83</mobile>
 		<emailImagePath>Эл. почта : &lt;img src="Ressources/images/email.gif" title="AntiSpam Protection"/&gt;</emailImagePath><!-- We'll use an image of email instead of plain text. Defend against spummer robots. -->
 		<job-title>Инженер-программист Java/J2EE</job-title>

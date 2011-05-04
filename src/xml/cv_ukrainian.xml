@@ -3,7 +3,7 @@
 		Project: ProffiCV Author : VORONETS'KYY Yevgen Date : 15 Dec. 2007
 		Desc : The document contains structured cv information in ukrainian.
 	-->
-<cv version="Українська версія 2.5. Останнє доповнення - "
+<cv version="Українська версія 2.6. Останнє доповнення - "
 	locale="ua">
 	<!--
 		Section contains personal information such as name, address, mobile
@@ -13,7 +13,8 @@
 		<lastName>Воронецький </lastName>
 		<firstName>Євген </firstName>
 		<middleName>Ігорович</middleName>
-		<address>Perros-Guirec, Францiя</address>
+		<address>Перрос-Гирек, Францiя</address>
+		<googleMapLocationString>Perros-Guirec, France</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
 		<mobile>Телефон: +33.6.29.84.09.83</mobile>
 		<emailImagePath>Эл. пошта : &lt;img src="Ressources/images/email.gif" title="AntiSpam Protection"/&gt;</emailImagePath><!-- We'll use an image of email instead of plain text. Defend against spummer robots. -->
         <job-title>Iнженер-программiст Java/J2EE</job-title>

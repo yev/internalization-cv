@@ -355,8 +355,12 @@
                 <p align="center"><small><xsl:value-of select="@version"/></small> <small class="numberSmallPolice"> <xsl:value-of select='datetime:format-date(datetime:date-time(),"yyyy/MM/dd")'/></small>.</p>
                 <p> <a href="http://www.twitter.com/yevgune" title="Follow me in Twitter"> <img src="Ressources/images/twitter.png" alt="twitter link" border="0"/></a></p>
                 <br/>
+                
+                <xsl:variable name="ggMapUrl">http://maps.google.com/maps/api/staticmap?center=<xsl:value-of select="personalInfo/googleMapLocationString"/>&amp;zoom=5&amp;size=800x600&amp;markers=color:red|label:S|<xsl:value-of select="personalInfo/googleMapLocationString"/>&amp;sensor=true</xsl:variable>
+					<xsl:variable name="ggMap"><img><xsl:attribute name="src"><xsl:copy-of select="$ggMapUrl"/></xsl:attribute></img>
+				</xsl:variable>
 				
-				<div id="dialogLocation" title="My current location by Google Maps"><img src="http://maps.google.com/maps/api/staticmap?center=Perros-Guirec,France&amp;zoom=5&amp;size=800x600&amp;markers=color:red|label:S|Perros-Guirec,%20France&amp;sensor=true" alt="my current location by Google Maps"/></div>
+				<div id="dialogLocation" title="My current location by Google Maps"><xsl:copy-of select="$ggMap" /></div>
 				
 				
 				<script type="text/javascript">

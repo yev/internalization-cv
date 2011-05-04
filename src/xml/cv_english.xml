@@ -3,7 +3,7 @@
 		Project: ProffiCV Author : VORONETS'KYY Yevgen Date : 11 Dec. 2007
 		Desc : The document contains structured cv information.
 	-->
-<cv version="English version 2.5. Last modification "
+<cv version="English version 2.6. Last modification "
 	locale="en">
 	<!--
 		Section contains personal information such as name, address, mobile
@@ -14,6 +14,7 @@
 		<firstName>Yevgen</firstName>
 		<middleName></middleName>
 		<address>Perros-Guirec, France</address>
+		<googleMapLocationString>Perros-Guirec, France</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
 		<mobile>Phone: +33.6.29.84.09.83</mobile>
 		<job-title>Java/J2EE Software Engineer</job-title>
 		<additionalInfo>Was born the 23 Novembre 1981, Ukraine.
