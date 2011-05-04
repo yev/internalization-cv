@@ -16,7 +16,10 @@
                 <meta name="Keywords" content="Voronetskyy,Voronetskyy Yevgen, CV, informatique, DESS, CNAM, Management du CNAM, Dess CRI, programmation, réseau, France, Ukraine, Luxembourg,Dnipropetrovsk, Rumelange, Université, UMLV, Université de Marne-la-Vallée, Paris, legitiName, Teamlog, offshore, siteAudit, html, C#, java, xml, Linux, Windows,Delphi, pascal, XSLT, DELF, DALF, CORBA, Flash, PHP, Mysql, Postgresql, paradox, win32, client, serveur, Brainbench, offshore, J2ee, Ukraine, France, Kiev"/>
                 <meta name="Author" content="Voronetskyy Yevgen"/>
                 <link id="printId" REL="stylesheet" HREF="Ressources/style.css" type="text/css"/>
+                <link REL="stylesheet" HREF="Ressources/jquery/themes/redmond/jquery.ui.all.css" type="text/css"/>
                 
+                <script type="text/javascript" src="Ressources/jquery/jquery-1.5.1.js"></script>
+                <script type="text/javascript" src="Ressources/jquery/ui/jquery-ui-1.8.12.custom.js"></script>
                 <script type="text/javascript">
                     function hide()
                     {
@@ -59,7 +62,7 @@
                             <td align="left" width="25%">
                                 <xsl:for-each select="personalInfo">
                                     <xsl:value-of select="lastName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="firstName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="middleName"/>
-                                    <br/><xsl:value-of select="address"/>
+                                    <br/><a id="myCurrentLocation" href="#top"><xsl:value-of select="address"/></a>
                                     <br/><xsl:value-of select="mobile"/>
                                     <br/><img src="Ressources/images/email.gif" title="AntiSpam Protection"/>
                                     <br/><small><xsl:value-of select="additionalInfo"/></small>        
@@ -352,6 +355,13 @@
                 <p align="center"><small><xsl:value-of select="@version"/></small> <small class="numberSmallPolice"> <xsl:value-of select='datetime:format-date(datetime:date-time(),"yyyy/MM/dd")'/></small>.</p>
                 <p> <a href="http://www.twitter.com/yevgune" title="Follow me in Twitter"> <img src="Ressources/images/twitter.png" alt="twitter link" border="0"/></a></p>
                 <br/>
+				
+				<div id="dialogLocation" title="My current location by Google Maps"><img src="http://maps.google.com/maps/api/staticmap?center=Perros-Guirec,France&amp;zoom=5&amp;size=800x600&amp;markers=color:red|label:S|Perros-Guirec,%20France&amp;sensor=true" alt="my current location by Google Maps"/></div>
+				
+				
+				<script type="text/javascript">
+					$("#myCurrentLocation").click(function(){$("#dialogLocation").dialog({ modal: true, width: 800 });})
+				</script>
 				                
 				<!-- Start of StatCounter Code -->
 				<script type="text/javascript">
@@ -370,7 +380,7 @@
 				src="http://c.statcounter.com/4797506/0/c962577d/1/"
 				alt="blogger counter"/></a></div></noscript>
 				<!-- End of StatCounter Code -->
-	
+		
             </body>
         </html>
     </xsl:template>  
