@@ -62,8 +62,6 @@ public final class CVGenerator
 
 	public void generateHtmlCVForLanguage(final Language language) throws Exception 
 	{
-		
-		
 		final String xmlFileName = "cv_"+language.toString()+".xml";
 		final String htmlFileName= "index" + this.getFileSuffixe(language)+".html";
 		
@@ -80,8 +78,6 @@ public final class CVGenerator
 	
 	public void generatePdfCVForLanguage(final Language language) throws Exception 
 	{
-		
-		
 		final String xmlFileName = "cv_"+language.toString()+".xml";
 		final String pdfFileName= "cv_voronetskyy" + this.getFileSuffixe(language)+".pdf";
 		OutputStream out = new BufferedOutputStream(new FileOutputStream(new File("web/pdf/"+pdfFileName)));
