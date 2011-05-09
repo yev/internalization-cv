@@ -24,35 +24,43 @@ public final class CVGenerator
 	
 	FopFactory fopFactory = FopFactory.newInstance();
 	
-	private enum Language {russian, ukrainian, french, english};
+	public static enum Language {russian, ukrainian, french, english};
+	public static enum FormatCV {HTML, PDF};
 	
-	private CVGenerator() throws Exception
+	public CVGenerator()
 	{
- 		this.transformer = TransformerFactory.newInstance().newTransformer(new javax.xml.transform.stream.StreamSource("src/xml/styleStatic.xslt"));
- 		this.fopFactory.setUserConfig(new File("src/fop.xml"));
+		try{
+			this.transformer = TransformerFactory.newInstance().newTransformer(new javax.xml.transform.stream.StreamSource("src/xml/styleStatic.xslt"));
+			this.fopFactory.setUserConfig(new File("src/fop.xml"));
+		}
+		catch(Exception ex){
+			ex.printStackTrace();
+		}
 	}
 	
 	public static void main(final String[] args) throws Exception
 	{
-
+		long start = new Date().getTime();
 		LOGGER.info("Generation ProffiCV started.");
 		
 		CVGenerator cvGenerator = new CVGenerator();
-
+		
 		cvGenerator.generateHtmlCVForLanguage(Language.russian);
 		cvGenerator.generateHtmlCVForLanguage(Language.ukrainian);
 		cvGenerator.generateHtmlCVForLanguage(Language.french);
 		cvGenerator.generateHtmlCVForLanguage(Language.english);
-		
+	
 		cvGenerator.generatePdfCVForLanguage(Language.french);
 		cvGenerator.generatePdfCVForLanguage(Language.english);
 		cvGenerator.generatePdfCVForLanguage(Language.russian);
 		cvGenerator.generatePdfCVForLanguage(Language.ukrainian);
 	
 		LOGGER.info("Generation ProffiCV finished with success!");
+		long end = new Date().getTime();
+		LOGGER.info("Total processing duration is " + (end - start)/1000 +" seconds.");
 	}
 
-	private void generateHtmlCVForLanguage(final Language language) throws Exception 
+	public void generateHtmlCVForLanguage(final Language language) throws Exception 
 	{
 		
 		
@@ -70,7 +78,7 @@ public final class CVGenerator
 		LOGGER.info("Generation of'"+htmlFileName+"' (size : "+fileSize+" bytes) finished with success!");
 	}
 	
-	private void generatePdfCVForLanguage(final Language language) throws Exception 
+	public void generatePdfCVForLanguage(final Language language) throws Exception 
 	{
 		
 		
@@ -136,4 +144,6 @@ public final class CVGenerator
 		final File file = new File(filePath);
 		return file.length();
 	}
+	
+	
 }
