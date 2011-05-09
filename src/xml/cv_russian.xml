@@ -10,7 +10,7 @@
 		phone,email, etc.
 	-->
 	<personalInfo title="Information Personnelle">
-		<lastName>Воронецкий</lastName>
+		<lastName>Воронецкий </lastName>
 		<firstName>Евгений</firstName>
 		<middleName>Игоревич</middleName>
 		<address>Перрос-Гирек, Франция</address>

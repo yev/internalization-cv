@@ -278,7 +278,7 @@
     
     <!-- This section contains localized message for different labels on the page. -->
     <localization>
-        <label_CompanyName>Компанiя</label_CompanyName>
+    	<label_CompanyName>Компанiя</label_CompanyName>
         <label_JobTitle>Посада</label_JobTitle>
         <label_JobDecs>Деталі проекту</label_JobDecs>
         <label_GeoLocalization>Розташування</label_GeoLocalization>

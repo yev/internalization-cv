@@ -10,7 +10,7 @@
 		phone,email, etc.
 	-->
 	<personalInfo title="Personal Profile">
-		<lastName>Voronetskyy</lastName>
+		<lastName>Voronetskyy </lastName>
 		<firstName>Yevgen</firstName>
 		<middleName></middleName>
 		<address>Perros-Guirec, France</address>

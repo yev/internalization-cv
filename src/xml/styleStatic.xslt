@@ -8,7 +8,7 @@
     <xsl:template match="/cv">
         <html>
             <head>
-                <title>VORONETSKYY Yevgen - Java/J2EE Software Engineer </title>
+                <title><xsl:value-of select="personalInfo/lastName"/> 	 <xsl:value-of select="personalInfo/firstName"/> - <xsl:value-of select="localization/label_CurrentPositionTitle"/></title>
                 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
                 <meta http-equiv="Window-target" content="_top"/>
                 <meta name="robots" content="follow"/>
