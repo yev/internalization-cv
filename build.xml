@@ -3,7 +3,7 @@
 	Desc : script ant 
 	Date : 04 January 2010 
 	Auth : VORONETSKYY  Yevgen
-	Note : 
+	Note : I tried to migrate the project on git (with github)
 		
  -->
 	<path id="compile.classpath">
