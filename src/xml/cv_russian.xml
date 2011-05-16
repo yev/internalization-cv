@@ -215,7 +215,7 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Инструментарий</name>
-			<itemsList>Шаблоны проектирования (GoF+GRASP), UML, Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, скриптинг на Python.</itemsList>
+			<itemsList>Шаблоны проектирования (GoF+GRASP), UML, Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, Git, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, скриптинг на Python.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Индустриализация</name>

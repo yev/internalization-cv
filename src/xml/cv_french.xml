@@ -217,7 +217,7 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Outils</name>
-			<itemsList>Design Patterns (GoF+GRASP), UML,Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, Ant, Maven, CVS, SVN, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, sripting with Python</itemsList>
+			<itemsList>Design Patterns (GoF+GRASP), UML,Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, Ant, Maven, CVS, SVN, Git, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, sripting with Python</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Industrialisation</name>
