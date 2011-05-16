@@ -1,4 +1,7 @@
 #!/bin/bash
+
+echo === Starting the automatic publishing script
+
 ftp ftp://yevvor2:yuuc@ftp.freehostia.com << ftpEOF
    prompt
    put web/index.html yev-java.freehostia.com/index.html
@@ -10,3 +13,5 @@ ftp ftp://yevvor2:yuuc@ftp.freehostia.com << ftpEOF
    mput *.pdf   
    quit
 ftpEOF
+
+echo === Script finished. Attention, only static resources HTML and PDF has been copied. All other artifacts you may copy manually.
