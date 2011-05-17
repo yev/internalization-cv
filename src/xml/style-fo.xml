@@ -61,7 +61,7 @@
 							</fo:table-row>
 							<fo:table-row>
 								<fo:table-cell number-columns-spanned="2">
-									<fo:block><xsl:value-of select="summary"/></fo:block>
+									<fo:block text-align="justify"><xsl:value-of select="summary"/></fo:block>
 								</fo:table-cell>
 							</fo:table-row>
 							
@@ -78,7 +78,7 @@
 									</fo:table-cell>
 									<fo:table-cell border-width="1" border-style="dotted" ><!-- Study description -->
 										<fo:block color="#38B3F5"><xsl:value-of select="name" /><fo:inline color="black"> (<xsl:value-of select="geolocalization" />)</fo:inline>  </fo:block>
-										<fo:block><xsl:value-of select="speciality" />&#160; <xsl:value-of select="desc" /> </fo:block>
+										<fo:block text-align="justify"><xsl:value-of select="speciality" />&#160; <xsl:value-of select="desc" /> </fo:block>
 									</fo:table-cell>
 								</fo:table-row>	
 							</xsl:for-each>
@@ -98,7 +98,7 @@
 									<fo:table-cell border-width="1" border-style="dotted" >
 										<fo:block><xsl:value-of select="/cv/localization/label_CompanyName" />:&#160; <fo:inline color="#11A0ED"><xsl:value-of select="name" /></fo:inline> (<xsl:value-of select="geolocalization" />)</fo:block>
 										<fo:block><xsl:value-of select="/cv/localization/label_JobTitle" />:&#160;<fo:inline color="#11A0ED"><xsl:value-of select="jobTitle" /></fo:inline></fo:block>
-										<fo:block><fo:inline font-weight="bold"><xsl:value-of select="/cv/localization/label_JobDecs" /></fo:inline>:&#160;<xsl:value-of select="jobDesc" /> </fo:block>
+										<fo:block text-align="justify"><fo:inline font-weight="bold"><xsl:value-of select="/cv/localization/label_JobDecs" /></fo:inline>:&#160;<xsl:value-of select="jobDesc" /> </fo:block>
 									</fo:table-cell>
 								</fo:table-row>	
 							</xsl:for-each>
@@ -115,7 +115,7 @@
 										<fo:block><xsl:value-of select="name" /></fo:block>
 									</fo:table-cell>
 									<fo:table-cell border-width="1" border-style="dotted" >
-										<fo:block><xsl:value-of select="itemsList" /></fo:block>
+										<fo:block text-align="justify"><xsl:value-of select="itemsList" /></fo:block>
 									</fo:table-cell>
 								</fo:table-row>	
 							</xsl:for-each>
@@ -164,7 +164,7 @@
 										<fo:block><xsl:value-of select="name" /></fo:block>
 									</fo:table-cell>
 									<fo:table-cell border-width="1" border-style="dotted" >
-										<fo:block><xsl:value-of select="desc" /></fo:block>
+										<fo:block text-align="justify"><xsl:value-of select="desc" /></fo:block>
 									</fo:table-cell>
 								</fo:table-row>	
 							</xsl:for-each>
@@ -182,7 +182,7 @@
 										<fo:block><xsl:value-of select="name" /></fo:block>
 									</fo:table-cell>
 									<fo:table-cell border-width="1" border-style="dotted" >
-										<fo:block>
+										<fo:block text-align="justify">
 											<xsl:if test="url"><fo:basic-link external-destination="{url}" color="blue" text-decoration="underline"><xsl:value-of select="url"/> </fo:basic-link>  - </xsl:if>
 											<xsl:value-of select="desc" disable-output-escaping="no" />
 										</fo:block>
