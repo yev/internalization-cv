@@ -31,7 +31,7 @@ public final class CVGenerator
 	{
 		try{
 			this.transformer = TransformerFactory.newInstance().newTransformer(new javax.xml.transform.stream.StreamSource("src/xml/styleStatic.xslt"));
-			this.fopFactory.setUserConfig(new File("src/fop.xml"));
+			this.fopFactory.setUserConfig(new File("src/fop.xconf")); //use a configuration file, where Fonts directory path is specified. The path is a platform specific, by default it's Mac OS /Library/Fonts/.
 		}
 		catch(Exception ex){
 			ex.printStackTrace();

@@ -66,7 +66,8 @@
 	</target>
 	
 	<target name="runGeneration" depends="buildJAR">
-		<java jar="proffiCV.jar" fork="true"></java>
+		<java jar="proffiCV.jar" fork="true" jvmargs="-Xmx512M"> <!-- workaround for FOP generation on Mac OS : TTFFile:Unsupported TrueType font: No Unicode or Symbol cmap table not present -->
+		</java>
 	</target>
 
 	<target name="all" depends="runGeneration" description="Main target" />
