@@ -87,12 +87,6 @@ public final class CVGenerator
 		try {
 			  // Step 3: Construct fop with desired output format
 			  Fop fop = fopFactory.newFop(MimeConstants.MIME_PDF, out);
-			  fop.getUserAgent().setBaseURL("Voronetskyy Yevgen");
-			  fop.getUserAgent().setCreationDate(new Date());
-			  fop.getUserAgent().setCreator("Apache XSL FOP engine");
-			  fop.getUserAgent().setTitle("Voronetskyy Yevgen - Software Engineer - CV");
-			  fop.getUserAgent().setFontBaseURL("file:///C:/WINDOWS/Fonts/");
-			  
 
 			  // Step 4: Setup JAXP using identity transformer
 			  TransformerFactory factory = TransformerFactory.newInstance();

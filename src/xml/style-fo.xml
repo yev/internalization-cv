@@ -14,6 +14,29 @@
 					<fo:region-after region-name="footer"/>
 				</fo:simple-page-master>
 			</fo:layout-master-set>
+			<fo:declarations>
+				  <x:xmpmeta xmlns:x="adobe:ns:meta/">
+				    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+				      <rdf:Description rdf:about=""
+				          xmlns:dc="http://purl.org/dc/elements/1.1/">
+				        <!-- Dublin Core properties go here -->
+				        <dc:title>Voronetskyy Yevgen - Software Engineer - CV</dc:title>
+				        <dc:creator><xsl:value-of select="personalInfo/lastName" /> &#160;<xsl:value-of select="personalInfo/firstName" /></dc:creator>
+				        <dc:description>Voronetskyy Yevgen - Software Engineer - CV</dc:description>
+				      </rdf:Description>
+				      <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/">
+				        <!-- XMP properties go here -->
+				        <xmp:CreatorTool>Apache FOP v1.0 engine</xmp:CreatorTool>
+				        <xmp:Keywords>
+							<xsl:value-of select="personalInfo/lastName" /> ,<xsl:value-of select="personalInfo/firstName" />, 
+							<xsl:value-of select="localization/label_CurrentPositionTitle" />, 
+							<xsl:value-of select="technologies/technology-domain[3]/itemsList" /> <!-- Java related technologies -->
+							<xsl:value-of select="technologies/technology-domain[7]/itemsList" /> <!-- Industrialization -->
+				        </xmp:Keywords>
+				      </rdf:Description>
+				    </rdf:RDF>
+				  </x:xmpmeta>
+			</fo:declarations>
 
 
 			<fo:page-sequence master-reference="titreGH" font-family="Georgia">
@@ -76,8 +99,8 @@
 									<fo:table-cell border-width="1" border-style="dotted" text-align="center" display-align="center">
 										<fo:block><xsl:value-of select="date" /></fo:block>
 									</fo:table-cell>
-									<fo:table-cell border-width="1" border-style="dotted" ><!-- Study description -->
-										<fo:block color="#38B3F5"><xsl:value-of select="name" /><fo:inline color="black"> (<xsl:value-of select="geolocalization" />)</fo:inline>  </fo:block>
+									<fo:table-cell border-width="1" border-style="dotted"><!-- Study description -->
+										<fo:block color="#38B3F5" margin-top="3"><xsl:value-of select="name" /><fo:inline color="black"> (<xsl:value-of select="geolocalization" />)</fo:inline>  </fo:block>
 										<fo:block text-align="justify"><xsl:value-of select="speciality" />&#160; <xsl:value-of select="desc" /> </fo:block>
 									</fo:table-cell>
 								</fo:table-row>	
@@ -96,9 +119,9 @@
 										<fo:block><xsl:value-of select="date" /></fo:block>
 									</fo:table-cell>
 									<fo:table-cell border-width="1" border-style="dotted" >
-										<fo:block><xsl:value-of select="/cv/localization/label_CompanyName" />:&#160; <fo:inline color="#11A0ED"><xsl:value-of select="name" /></fo:inline> (<xsl:value-of select="geolocalization" />)</fo:block>
+										<fo:block margin-top="3"><xsl:value-of select="/cv/localization/label_CompanyName" />:&#160; <fo:inline color="#11A0ED"><xsl:value-of select="name" /></fo:inline> (<xsl:value-of select="geolocalization" />)</fo:block>
 										<fo:block><xsl:value-of select="/cv/localization/label_JobTitle" />:&#160;<fo:inline color="#11A0ED"><xsl:value-of select="jobTitle" /></fo:inline></fo:block>
-										<fo:block text-align="justify"><fo:inline font-weight="bold"><xsl:value-of select="/cv/localization/label_JobDecs" /></fo:inline>:&#160;<xsl:value-of select="jobDesc" /> </fo:block>
+										<fo:block text-align="justify" margin-top="3px" margin-bottom="3px" margin-left="17px"><fo:inline font-weight="bold"><xsl:value-of select="/cv/localization/label_JobDecs" /></fo:inline>:&#160;<xsl:value-of select="jobDesc" /> </fo:block>
 									</fo:table-cell>
 								</fo:table-row>	
 							</xsl:for-each>
