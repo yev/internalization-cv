@@ -31,7 +31,19 @@ public final class CVGenerator
 	{
 		try{
 			this.transformer = TransformerFactory.newInstance().newTransformer(new javax.xml.transform.stream.StreamSource("src/xml/styleStatic.xslt"));
-			this.fopFactory.setUserConfig(new File("src/fop.xconf")); //use a configuration file, where Fonts directory path is specified. The path is a platform specific, by default it's Mac OS /Library/Fonts/.
+			final String currentOsName = System.getProperty("os.name").toLowerCase();			
+			LOGGER.info("os.name ="+currentOsName);
+			//use a configuration file, where Fonts directory path is specified. 
+			if (currentOsName.contains("windows")){
+				this.fopFactory.setUserConfig(new File("src/fop_Windows.xconf"));
+			}
+			else if (currentOsName.contains("mac")){
+				this.fopFactory.setUserConfig(new File("src/fop_Mac.xconf")); 
+			}
+			else{
+				throw new RuntimeException("The Os "+currentOsName+" is not supported!");
+			}
+				
 		}
 		catch(Exception ex){
 			ex.printStackTrace();
