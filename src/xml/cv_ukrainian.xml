@@ -201,10 +201,10 @@
         <technology-domain>
             <name>Java/J2EE</name>
             <itemsList>Core Java, Application/web servers, JDBC, Servlets/JSP, JNDI, RMI, EJB, Web Services. 
-                Application/web cервери : JBoss, WebSphere, Tomcat, Resin.
-                Розуміння ключових моментів многорівневих розподілених архітектур: EJB/POJO, персистентність даних, транзакції, мультипоточне програмування, трасування.
-                Фреймворки та сторонні бiблiотеки Java: Log4j, Spring, Struts, 
-                Hibernate, бiблiотеки з проекту Apache Commons, Velocity, iText, JSVC. XML (XSL, XPath, XSD), HTML(CSS, JavaScript).
+				Application/web cервери : JBoss, WebSphere, Tomcat, Resin.
+				Розуміння ключових моментів многорівневих розподілених архітектур: EJB/POJO, персистентність даних, транзакції, мультипоточне програмування, трасування.
+				Фреймворки та сторонні бiблiотеки Java: Log4j, Spring, Struts, 
+				Hibernate, бiблiотеки з проекту Apache Commons, Velocity, iText, JSVC. XML (XSL, XPath, XSD), HTML(CSS, JavaScript).
             </itemsList>
         </technology-domain>
         <technology-domain>
@@ -224,7 +224,7 @@
             <name>Індустріалізація</name>
             <itemsList>Автоматзація з Maven і Ant. XUnit - JUnit, TestNG, DBUnit. Автоматичні функціональні тести з Selenium. Анализ покриття коду з Cobertura.
 				Сервери постійної інтеграції Hudson і TeamCity.
-				Метрики якісті коду - Sonar, FindBug, PMD.
+				Метрики якості коду - Sonar, FindBug, PMD.
 				Управління проектами, вікі, bug tracker - Redmine. Використання фабрик программного забезпечення.
 			</itemsList>
         </technology-domain>
