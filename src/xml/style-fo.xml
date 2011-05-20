@@ -41,12 +41,12 @@
 
 			<fo:page-sequence master-reference="titreGH" font-family="Georgia">
 				<fo:static-content flow-name="footer">
-		            <fo:block text-align="center" border-top="1pt solid silver">
+		            <fo:block text-align="center" border-top="1pt solid #308FCF">
 		                <fo:page-number/>&#160;/&#160;<fo:page-number-citation  ref-id="theEnd" />
 		            </fo:block>
 		        </fo:static-content>
 		        <fo:static-content flow-name="header">
-		            <fo:block text-align="right" border-bottom="1pt solid silver" color="#308FCF" font-style="italic">
+		            <fo:block text-align="right" border-bottom="1pt solid #308FCF" color="#308FCF" font-style="italic">
 						<xsl:value-of select="personalInfo/lastName" /> &#160;<xsl:value-of select="personalInfo/firstName" />
 		            </fo:block>
 		        </fo:static-content>
