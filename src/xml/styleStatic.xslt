@@ -74,7 +74,9 @@
                                         <td align="center"><strong class="org"><a href="index.html">English</a></strong>
                                             • <strong class="org"><a href="index_fr.html">Français</a></strong>
                                             • <strong class="org"><a href="index_ru.html">Русский</a></strong>
-                                        • <strong class="org"><a href="index_ua.html">Українська</a></strong></td>
+                                        • <strong class="org"><a href="index_ua.html">Українська</a></strong>
+                                        • <strong class="org"><a href="index_it.html">Italiano</a></strong>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td><hr class="neutral"/><!-- Codes by Quackit.com --></td>

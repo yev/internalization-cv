@@ -24,7 +24,7 @@ public final class CVGenerator
 	
 	FopFactory fopFactory = FopFactory.newInstance();
 	
-	public static enum Language {russian, ukrainian, french, english};
+	public static enum Language {russian, ukrainian, french, english, italian};
 	public static enum FormatCV {HTML, PDF};
 	
 	public CVGenerator()
@@ -61,11 +61,13 @@ public final class CVGenerator
 		cvGenerator.generateHtmlCVForLanguage(Language.ukrainian);
 		cvGenerator.generateHtmlCVForLanguage(Language.french);
 		cvGenerator.generateHtmlCVForLanguage(Language.english);
+		cvGenerator.generateHtmlCVForLanguage(Language.italian);
 	
 		cvGenerator.generatePdfCVForLanguage(Language.french);
 		cvGenerator.generatePdfCVForLanguage(Language.english);
 		cvGenerator.generatePdfCVForLanguage(Language.russian);
 		cvGenerator.generatePdfCVForLanguage(Language.ukrainian);
+		cvGenerator.generatePdfCVForLanguage(Language.italian);
 	
 		LOGGER.info("Generation ProffiCV finished with success!");
 		long end = new Date().getTime();
@@ -134,6 +136,8 @@ public final class CVGenerator
 				return "_ua";
 			case french:
 				return "_fr";
+			case italian:
+				return "_it";
 			case english:
 				return "";
 			default:
