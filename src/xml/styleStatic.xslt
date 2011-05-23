@@ -211,7 +211,14 @@
                                             <td>
                                                 <table class="none" border="0" width="100%">
                                                     <tr>
-                                                        <td width="150"><xsl:value-of select="/cv/localization/label_CompanyName"/> :</td> 
+                                                        <td width="150">
+                                                        	<a><xsl:attribute name="href">
+			                                                        <xsl:value-of select="url"/>
+			                                                    </xsl:attribute>
+			                                                   <xsl:value-of select="/cv/localization/label_CompanyName"/>
+			                                                </a>
+                                                      		 :
+                                                        </td> 
                                                         <td><strong class="org"><xsl:value-of select="name"/></strong><br/></td> 
 
                                                        
@@ -240,15 +247,19 @@
                                         <tr>		
                                             <td class="missionDesc" colspan="2"><strong><xsl:value-of select="/cv/localization/label_JobDecs"/></strong> : <xsl:value-of select="jobDesc"/></td>
                                         </tr>
+                                        <xsl:if test="technologiesList"> <!-- we'll show the additional tech. section only if there is node technologiesList, for exemple, this section is ommited for DVK-Tech company -->
+	                                        <tr>	<!-- technology list -->	
+	                                            <td class="missionDesc" colspan="2"><strong><xsl:value-of select="/cv/localization/label_technologyList"/></strong> :<xsl:value-of select="technologiesList"/></td>
+	                                        </tr>
+	                                    </xsl:if>
                                         <tr>
-                                            <td colspan="2" align="right"><span id="smallLink"><xsl:value-of select="/cv/localization/label_URL"/> : 			
-                                                <a><xsl:attribute name="href">
+                                            <td colspan="2"><xsl:value-of select="/cv/localization/label_URL"/> :
+                                            	<a><xsl:attribute name="href">
                                                         <xsl:value-of select="url"/>
                                                     </xsl:attribute>
                                                     <xsl:value-of select="url"/>
                                                 </a>			
                                                 <xsl:value-of select="note"/>
-                                                </span>
                                             </td>
                                         </tr>
                                     </table>

@@ -121,7 +121,11 @@
 									<fo:table-cell border-width="1" border-style="dotted" >
 										<fo:block margin-top="3"><xsl:value-of select="/cv/localization/label_CompanyName" />:&#160; <fo:inline color="#308FCF"><xsl:value-of select="name" /></fo:inline> (<xsl:value-of select="geolocalization" />)</fo:block>
 										<fo:block><xsl:value-of select="/cv/localization/label_JobTitle" />:&#160;<fo:inline color="#308FCF"><xsl:value-of select="jobTitle" /></fo:inline></fo:block>
-										<fo:block text-align="justify" margin-top="3px" margin-bottom="3px" margin-left="17px"><fo:inline font-weight="bold"><xsl:value-of select="/cv/localization/label_JobDecs" /></fo:inline>:&#160;<xsl:value-of select="jobDesc" /> </fo:block>
+										<fo:block text-align="justify" margin-top="3px" margin-bottom="3px" margin-left="17px"><fo:inline font-weight="bold"><xsl:value-of select="/cv/localization/label_JobDecs" /></fo:inline>:&#160;<xsl:value-of select="jobDesc" />&#160;
+										<xsl:if test="technologiesList"> <!-- we'll show the additional tech. section only if there is node technologiesList, for exemple, this section is ommited for DVK-Tech company -->
+											<fo:inline font-weight="bold"><xsl:value-of select="/cv/localization/label_technologyList" /></fo:inline>:&#160;<xsl:value-of select="technologiesList" />
+										</xsl:if> 
+										</fo:block>
 									</fo:table-cell>
 								</fo:table-row>	
 							</xsl:for-each>

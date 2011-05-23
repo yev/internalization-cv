@@ -79,9 +79,11 @@
 	Mise en place de l'infrastructure des projets (SVN, les builds automatiques, tests unitaires, Mantis, etc).
 	Participation à l'industrialisation du développement des projets informatiques (intégration continue, qualité du code/conception OO, métriques, applications blanches/usine logicielle).
 	Codnduite des entretiens techniques dans un cadre de recrutement.  
-	Audit technique des projets Java/J2EE (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
-	Technologies utilisées Java: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn.              
+	Audit technique des projets Java/J2EE (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).            
             </jobDesc>
+            <technologiesList>
+            	Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn.
+			</technologiesList>
 			<url>http://www.open-groupe.com</url>
 			<note></note>
 		</company>
@@ -104,9 +106,12 @@
 			<jobTitle>Ingénieur Java/J2EE </jobTitle>
 			<jobDesc>Participation dans le développement du serveur-métier de l’entreprise. 
                         Réalisation des modules d’intégration néccessaires pour la connection du serveur avec des autres systèmes d’information. 
-                        Le processus du développement est strictement réglementé et basé sur les standards industriels du développement de logiciel.   
-				Technologies utilisées: JAVA/J2EE, serveur d'application WebSphere 6.1, Oracle, SQL, MyEclipse, UML.
-				Utilisation avancée du SQL.</jobDesc>
+                        Le processus du développement est strictement réglementé et basé sur les standards industriels du développement de logiciel.
+				Utilisation avancée du SQL.
+			</jobDesc>
+			<technologiesList>
+            	JAVA/J2EE, serveur d'application WebSphere 6.1, Oracle, SQL, MyEclipse, UML.
+			</technologiesList>
 			<url>http://www.generali.fr</url>
 			<note></note>
 		</company>
@@ -119,7 +124,10 @@
 			<jobDesc>Audit de l'application web de gestion des flux de l'entreprise. 
 				Analyse et la documentation de l'architecture existante avec des propositions d'optimisation et d'évolution.
 				Rédaction de la documentation pour la configuration de l'environement de développement. 
-				Technologies utilisées : Java/J2EE, Servlet, Java Service Wrapper, Winstone - un conteneur "legèr" de Servlets, Oracle 8, Eclipse; diagrammes UML.</jobDesc>
+			</jobDesc>
+			<technologiesList>
+            	Java/J2EE, Servlet, Java Service Wrapper, Winstone - un conteneur "legèr" de Servlets, Oracle 8, Eclipse; diagrammes UML.
+			</technologiesList>
 			<url>http://www.mutuelle-smi.com</url>
 			<note></note>
 		</company>
@@ -135,8 +143,11 @@
 				Développement des composants de l'interface graphique en AJAX.
 				Participation à l’élaboration de l’architecture technique des modules.
 				Réalisation de la couche de la logique métier des projets.
-				Technologies utilisées : Java/J2EE, Struts 1.3, Hibernate 3.0, JDO (Xcalia), Servlet/JSP, JSTL, Tomcat 5.5, MySQL, Oracle, MS SQL Server, 
-				les librairies tiers FreeMaker, Common-Controls, plusiers librairies de Jakarta Commons, HTML, CSS, JavaScript.</jobDesc>
+			</jobDesc>
+			<technologiesList>
+            	Java/J2EE, Struts 1.3, Hibernate 3.0, JDO (Xcalia), Servlet/JSP, JSTL, Tomcat 5.5, MySQL, Oracle, MS SQL Server, 
+				les librairies tiers FreeMaker, Common-Controls, plusiers librairies de Jakarta Commons, HTML, CSS, JavaScript.
+			</technologiesList>
 			<url>http://www.mondial-assistance.fr</url>
 			<note></note>
 		</company>
@@ -153,7 +164,10 @@
 				Participation à la réalisation des composants graphiques utilisant le modèle de conception AJAX.
 				Développement d’un outil de surveillance des sites sensibles. L’application est réalisée avec l’utilisation de multithreading et sous la forme de daemon pour OS Linux Debian.
 				Participation aux conceptions des architectures techniques des différents projets.
-				Technologies utilisées : Java/J2EE, JDBC, Servlet/JSP, Tomcat 5.5, MySQL 4.1, PostgreSQL, les librairies tiers Log4j, Velocity.</jobDesc>
+			</jobDesc>
+			<technologiesList>
+            	Java/J2EE, JDBC, Servlet/JSP, Tomcat 5.5, MySQL 4.1, PostgreSQL, les librairies tiers Log4j, Velocity.
+			</technologiesList>
 			<url>http://www.duke-interactive.com</url>
 			<note></note>
 		</company>
@@ -168,7 +182,10 @@
 						Conception et réalisation des tests de stress de l’application. OpenSTA et langage SCL;
 						Migration de l’application de WebSphere sur le serveur JBoss;
 						Coordination du lancement en production de l’application sous JBoss.
-				Les technologies utilisées: serveurs d'applications JBOSS et WebSphere, SGBD Oracle, Hibernate, Spring, JSF, JNDI, JProfiler.</jobDesc>
+			</jobDesc>
+			<technologiesList>
+            	Serveurs d'applications JBOSS et WebSphere, SGBD Oracle, Hibernate, Spring, JSF, JNDI, JProfiler.
+			</technologiesList>
 			<url>http://www.isd.dp.ua</url>
 			<note></note>
 		</company>
@@ -179,8 +196,12 @@
 			<geolocalization>Rumelange, Luxembourg</geolocalization>
 			<jobTitle>Ingénieur .NET/C#</jobTitle>
 			<jobDesc>Mission - évolution du produit "SiteAudit": spécification et conception du produit; rédaction des dossiers correspondants; 
-				développement sur la plateforme Microsoft .NET / C#; les technologies utilisées:  XML (XPath, XSD), ADO.NET, Microsoft SQL Server, 
-				librairies "Microsoft XMLDiff and XMLPatch 1.0" et "HtmlAgilityPack".</jobDesc>
+				développement sur la plateforme Microsoft .NET / C#; les technologies utilisées: 
+			</jobDesc>
+			<technologiesList>
+            	.NET/C#, WinForms, XML (XPath, XSD), ADO.NET, Microsoft SQL Server, 
+				librairies "Microsoft XMLDiff and XMLPatch 1.0" et "HtmlAgilityPack".
+			</technologiesList>
 			<url>http://www.legitiname.com</url>
 			<note></note>
 		</company>
@@ -294,5 +315,6 @@
 		</navigationPanel>
 		<label_print_html>Version imprimable</label_print_html>
 		<label_CurrentPositionTitle>Ingénieur de développement</label_CurrentPositionTitle> <!-- Added for PDF version -->
+		<label_technologyList>Technologies utilisées</label_technologyList>
 	</localization>
 </cv>

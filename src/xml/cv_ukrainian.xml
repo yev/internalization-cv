@@ -84,8 +84,10 @@
 					Участь у індустріалізації розробки ПО (постійна інтеграція, якість проектування/кода, метрики, software factory).
 					Проводження технічних співбесід. 
                     Відповідальний за спілкування з замовником. Code revue. Технічний аудит Java/J2EE проектів (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
-                    Технології Java:  Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn.
                 </jobDesc>
+                <technologiesList>
+            		Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn.
+				</technologiesList>
                 <url>http://www.open-groupe.com</url>
                 <note></note>
         </company>
@@ -107,9 +109,11 @@
             <jobTitle>Iнженер-програміст Java/J2EE </jobTitle>
             <jobDesc>Участь у розробці корпоративної системи (серверної частини).
                 Створення компонентів для інтеграції сервера з іншими інформаційними системами підприємства.
-                Процес розробки базується на деяких промислових стандартах створення програмного забезпечення.
-                Технології: JAVA/J2EE, EJB, RMI, сервер приложений WebSphere 6.1, Oracle, Toad, SQuirreL, MyEclipse, UML. 
-            Інтенсивне використання SQL.</jobDesc>
+                Процес розробки базується на промислових стандартах створення програмного забезпечення.
+            </jobDesc>
+            <technologiesList>
+            	JAVA/J2EE, EJB, RMI, сервер приложений WebSphere 6.1, Oracle, Toad, SQuirreL, MyEclipse, UML. Інтенсивне використання SQL.
+			</technologiesList>
             <url>http://www.generali.fr</url>
             <note></note>
         </company>
@@ -123,7 +127,10 @@
                 Аналіз та документування існуючої архітектури з пропозиціями оптимізації та подальшого розвитку системи. 
                 Підготовка технічної документації, що описує процес створення та конфігурації середи розробки.
                 Застосування діаграм UML.
-            Технології: Java/J2EE, Servlet, Java Service Wrapper, Winstone, Oracle 8, Eclipse.</jobDesc>
+            </jobDesc>
+            <technologiesList>
+            	Java/J2EE, Servlet, Java Service Wrapper, Winstone, Oracle 8, Eclipse.
+			</technologiesList>
             <url>http://www.mutuelle-smi.com</url>
             <note></note>
         </company>
@@ -138,8 +145,10 @@
                 Взаємодія інтерфейсу користувача з бізнес-логікою виконана за шаблоном проектування "Модель-Презентація-Контролер" за допомогою Struts.
                 Розробка компонентів графічного інтерфейсу користувача за технологією AJAX.
                 Участь у розробці архітектур декількох модулей.
-                Технології : Java/J2EE, JDBC, Struts 1.3, Hibernate, Servlet/JSP, JTSL, Tomcat 5.5, MySQL 4.1, Oracle 10g,  бiблiотеки Log4j, 
-            FreeMaker, Common-Controls.</jobDesc>
+            </jobDesc>
+            <technologiesList>
+            	 Java/J2EE, JDBC, Struts 1.3, Hibernate, Servlet/JSP, JTSL, Tomcat 5.5, MySQL 4.1, Oracle 10g,  бiблiотеки Log4j, FreeMaker, Common-Controls.
+			</technologiesList>
             <url>http://www.mondial-assistance.fr</url>
             <note></note>
         </company>
@@ -156,7 +165,10 @@
                 Розробка графічних елементів на основі моделі AJAX.
                 Розробка програми-демона контролю "життєдіяльності" інтернет-сайтів. 
                 Мультипоточна програма реалізована у вигляді "демона" для операційної системи Linux Debian, використування бібліотеки JSVC. 
-            Технології: Java/J2EE, JDBC, Servlet/JSP, Tomcat 5.5, MySQL 4.1, PostgreSQL, бiблiотеки Log4j, Velocity, JSVC.</jobDesc>
+           	</jobDesc>
+           	<technologiesList>
+            	 Java/J2EE, JDBC, Servlet/JSP, Tomcat 5.5, MySQL 4.1, PostgreSQL, бiблiотеки Log4j, Velocity, JSVC.
+			</technologiesList>
             <url>http://www.duke-interactive.com</url>
             <note></note>
         </company>
@@ -169,7 +181,8 @@
             <jobDesc>Участь у розробці веб-системи контролю присутності працівників (Time management system). 
                 Технології: сервери JBoss та WebSphere, Oracle, Hibernate, Spring, JSF, JNDI. 
                 Реалізовані задачі: створення елементів інтерфейсу користувача на базі JSF, міграція процесу розробки з WebSphere на JBoss, 
-            розробка скриптів стрес-тестингу на платформі OpenSTA та мови SCL, управління проектом технічної підтримки.</jobDesc>
+            	розробка скриптів стрес-тестингу на платформі OpenSTA та мови SCL, управління проектом технічної підтримки.
+            </jobDesc>
             <url>http://www.isd.dp.ua</url>
             <note></note>
         </company>
@@ -181,8 +194,10 @@
             <jobTitle>Iнженер-програміст Microsoft .NET/C#</jobTitle>
             <jobDesc>Еволюція проекту "SiteAudit" - моніторинг змін веб сайтів. Реалізовані задачі: розробка специфікації та технічного завдання. 
                 Програмування на платформі .NET/C#.
-                Технології: XML (XPath, XSD), ADO.NET, Microsoft SQL Server, бiблiотеки "Microsoft XMLDiff and XMLPatch 1.0" 
-            та "HtmlAgilityPack".</jobDesc>
+            </jobDesc>
+            <technologiesList>
+            	 .NET/C#, WinForms, XML (XPath, XSD), ADO.NET, Microsoft SQL Server, бiблiотеки "Microsoft XMLDiff and XMLPatch 1.0" та "HtmlAgilityPack".
+			</technologiesList>
             <url>http://www.legitiname.com</url>
             <note></note>
         </company>
@@ -294,5 +309,6 @@
         </navigationPanel>
         <label_print_html>Версія для друку</label_print_html>
         <label_CurrentPositionTitle>Інженер програмного забезпечення</label_CurrentPositionTitle> <!-- Added for PDF version -->
+        <label_technologyList>Технології</label_technologyList>
     </localization>
 </cv>

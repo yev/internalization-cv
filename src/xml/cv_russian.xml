@@ -83,8 +83,10 @@
                  Участие в индустриализации разработки (непрерывная интеграция, качество проектирования/кода, метрики, Фабрики разработки).
 				 Проведение технических собеседований.
 				 Технический аудит Java/J2EE проектов (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
-                 Технологии Java: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn. 
             </jobDesc>
+            <technologiesList>
+            	Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn. 
+			</technologiesList>
 			<url>http://www.open-groupe.com</url>
 			<note></note>
 		</company>
@@ -106,8 +108,11 @@
 			<jobTitle>Инженер-программист Java/J2EE </jobTitle>
 			<jobDesc>Участие в разработке корпоративного приложения (серверной части). 
                         Создание модулей для интеграции сервера с внешними информационными системами. 
-                        Процесс разработки строго регламентирован и основан на некоторых промышленных стандартах создания программного обеспечения. 
-			Технологии: JAVA/J2EE, EJB, RMI, сервер приложений WebSphere 6.1, Oracle, Toad, SQuirreL, MyEclipse, UML. Интенсивное использование SQL.</jobDesc>
+                        Процесс разработки строго регламентирован и основан на некоторых промышленных стандартах создания программного обеспечения.
+			</jobDesc>
+			<technologiesList>
+            	JAVA/J2EE, EJB, RMI, сервер приложений WebSphere 6.1, Oracle, Toad, SQuirreL, MyEclipse, UML. Интенсивное использование SQL.
+			</technologiesList>
 			<url>http://www.generali.fr</url>
 			<note></note>
 		</company>
@@ -120,7 +125,10 @@
 			<jobDesc>Аудит веб приложения для управления бизнес-процессов (workflow) прерприятия.	
 				Анализ и документирование существующей архитектуры с предложениями по оптимизации и дальнейшему развитию. 
 				Подготовка технической документации по описанию создания и настройки среды разработки. Использование диаграмм UML.
-				Технологии : Java/J2EE, Servlet, Java Service Wrapper, Winstone, Oracle 8, Eclipse.</jobDesc>
+			</jobDesc>
+			<technologiesList>
+            	Java/J2EE, Servlet, Java Service Wrapper, Winstone, Oracle 8, Eclipse.
+			</technologiesList>
 			<url>http://www.mutuelle-smi.com</url>
 			<note></note>
 		</company>
@@ -136,7 +144,10 @@
 				Создание графических компонентов на основе модели AJAX.
 				Разработка слоя бизнес-логики приложения (POJO).
 				Участие в разработке технической архитектуры нескольких модулей.
-				Технологии : Java/J2EE, JDBC, Struts 1.3, Hibernate, Servlet/JSP, JSTL, Tomcat 5.5, MySQL 4.1, Oracle 10g, сторонние библиотеки Log4j, FreeMaker, Common-Controls.</jobDesc>
+			</jobDesc>
+			<technologiesList>
+            	Java/J2EE, JDBC, Struts 1.3, Hibernate, Servlet/JSP, JSTL, Tomcat 5.5, MySQL 4.1, Oracle 10g, сторонние библиотеки Log4j, FreeMaker, Common-Controls.
+			</technologiesList>
 			<url>http://www.mondial-assistance.fr</url>
 			<note></note>
 		</company>
@@ -152,8 +163,11 @@
 				Разработка модулей взаимодействия с интерфейсом пользователя выполненным по технологии Flash.
 				Создание графических компонентов на основе модели AJAX.
 				Разработка приложения-демона для отслеживания работы интернет сайтов. 
-				Мультипоточное приложение реализовано в виде демона для операционной системы Linux Debian, использование библиотеки JSVC. 
-				Технологии: Java/J2EE, JDBC, Servlet/JSP, Tomcat 5.5, MySQL 4.1, PostgreSQL, сторонние библиотеки Log4j, Velocity, Jakarta Commons, JSVC.</jobDesc>
+				Мультипоточное приложение реализовано в виде демона для операционной системы Linux Debian, использование библиотеки JSVC.
+			</jobDesc>
+			<technologiesList>
+            	Java/J2EE, JDBC, Servlet/JSP, Tomcat 5.5, MySQL 4.1, PostgreSQL, сторонние библиотеки Log4j, Velocity, Jakarta Commons, JSVC.
+			</technologiesList>
 			<url>http://www.duke-interactive.com</url>
 			<note></note>
 		</company>
@@ -177,8 +191,11 @@
 			<geolocalization>Румелянж, Люксембург</geolocalization>
 			<jobTitle>Инженер-программист Microsoft .NET/C#</jobTitle>
 			<jobDesc>Эволюция продукта "SiteAudit". Выполненные задачи: разработка спецификаций и технического задания; 
-				Программирование на платформе Microsoft .NET / C#. 
-				Использованные технологии: XML (XPath, XSD), ADO.NET, Microsoft SQL Server, библиотеки "Microsoft XMLDiff and XMLPatch 1.0" и "HtmlAgilityPack".</jobDesc>
+				Программирование на платформе Microsoft .NET / C#.
+			</jobDesc>
+			<technologiesList>
+            	.NET/C#, WinForms, XML (XPath, XSD), ADO.NET, Microsoft SQL Server, библиотеки "Microsoft XMLDiff and XMLPatch 1.0" и "HtmlAgilityPack".
+			</technologiesList>
 			<url>http://www.legitiname.com</url>
 			<note></note>
 		</company>
@@ -290,5 +307,6 @@
 		</navigationPanel>
 		<label_print_html>Версия для печати</label_print_html>
 		<label_CurrentPositionTitle>Разработчик ПО</label_CurrentPositionTitle> <!-- Added for PDF version -->
+		<label_technologyList>Использованные технологии</label_technologyList>
 	</localization>
 </cv>

@@ -97,9 +97,11 @@
 				project infrastructure: SVN, builds, unit tests, Mantis, etc. Code revue.
 				Participation in industrialization of IT-projects development(continuous integration, design/code quality, metrics, software factory).
 				Conducting the technical interviews.  
-				Responsible	for communication with customers. Technical audit for Java/J2EE projects (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor). 
-				Java Technologies: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn.
+				Responsible	for communication with customers. Technical audit for Java/J2EE projects (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
             </jobDesc>
+            <technologiesList>
+            	Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn.
+            </technologiesList>
 			<url>http://www.open-groupe.com</url>
 			<note></note>
 		</company>
@@ -127,12 +129,11 @@
 				The development process
 				is based on some industrial standards of the
 				software building.
-				Technologies: JAVA/J2EE, EJB, application server WebSphere 6.1,
-				Oracle, SQL,
-				MyEclipse, Rational Rose, UML.
-				Advanced using of SQL
-				language.
 			</jobDesc>
+			<technologiesList>
+            	JAVA/J2EE, EJB, application server WebSphere 6.1,
+				Oracle, SQL, MyEclipse, Rational Rose, UML.	Advanced using of SQL language.
+            </technologiesList>
 			<url>http://www.generali.fr</url>
 			<note></note>
 		</company>
@@ -150,10 +151,12 @@
 				Writing the technical documentation describing the
 				development environment
 				and deployment process.
-				Technologies :
+				</jobDesc>
+			<technologiesList>
 				Java/J2EE, Servlet, Java
 				Service Wrapper, Winstone, Oracle 8; UML
-				diagrams.</jobDesc>
+				diagrams.
+			</technologiesList>
 			<url>http://www.mutuelle-smi.com</url>
 			<note></note>
 		</company>
@@ -174,11 +177,12 @@
 				Architecture design and implementation of different application
 				modules.
 				Implementation of business logic layer.
-				Technologies :
+			</jobDesc>
+			<technologiesList>
 				Java/J2EE, Struts 1.3, Hibernate 3.0, JDO (Xcalia implementation),
 				Servlet/JSP, JSTL, Tomcat 5.5, MySQL, Oracle, MS SQL Server,
 				FreeMaker, Common-Controls, many librairies from Jakarta Commons.
-			</jobDesc>
+			</technologiesList>
 			<url>http://www.mondial-assistance.fr</url>
 			<note></note>
 		</company>
@@ -210,10 +214,10 @@
 				developed with multithreading features as daemon
 				for Linux Debian OS.
 				Participation in projects architecture design.
-				Technologies :
-				Java/J2EE, JDBC, Servlet/JSP, Tomcat 5.5, MySQL 4.1,
-				PostgreSQL,
-				Log4j, Velocity, JSVC.</jobDesc>
+			</jobDesc>
+			<technologiesList>
+				Java/J2EE, JDBC, Servlet/JSP, Tomcat 5.5, MySQL 4.1, PostgreSQL, Log4j, Velocity, JSVC.
+			</technologiesList>
 			<url>http://www.duke-interactive.com</url>
 			<note></note>
 		</company>
@@ -230,8 +234,10 @@
 				implementation
 				of stress-test scripts with OpenSTA ans SCL language; application
 				maintenance management.
-				Technologies: application servers WebSphere
-				and JBoss, RDBMS Oracle, Hibernate, Spring, JSF, JNDI.</jobDesc>
+			</jobDesc>
+			<technologiesList>
+				Application servers WebSphere and JBoss, RDBMS Oracle, Hibernate, Spring, JSF, JNDI.
+			</technologiesList>
 			<url>http://www.isd.dp.ua</url>
 			<note></note>
 		</company>
@@ -244,12 +250,15 @@
 			<jobDesc>Responsible for product evolution "SiteAudit".
 				Specification and implementation of core project functionality.
 				Preparing technical documentation.
-				Technologies : Programming on
-				framework .NET, language C#, XML (XPath, XSD), ADO.NET, Microsoft
+			</jobDesc>
+			<technologiesList>
+			Programming on
+				framework .NET, language C#, WinForms, XML (XPath, XSD), ADO.NET, Microsoft
 				SQL Server,
 				librairies "Microsoft XMLDiff and XMLPatch 1.0" and
 				"HtmlAgilityPack" by Simon
-				Mournier.</jobDesc>
+				Mournier.
+			</technologiesList>
 			<url>http://www.legitiname.com</url>
 			<note></note>
 		</company>
@@ -379,5 +388,6 @@
 		</navigationPanel>
 		<label_print_html>Version for print</label_print_html>
 		<label_CurrentPositionTitle>Software engineer</label_CurrentPositionTitle> <!-- Added for PDF version -->
+		<label_technologyList>Technologies</label_technologyList>
 	</localization>
 </cv>
