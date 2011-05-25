@@ -18,7 +18,7 @@
                 <link id="printId" REL="stylesheet" HREF="Ressources/style.css" type="text/css"/>
                 <link REL="stylesheet" HREF="Ressources/jquery/themes/redmond/jquery.ui.all.css" type="text/css"/>
                 
-                <script type="text/javascript" src="Ressources/jquery/jquery-1.5.1.js"></script>
+                <script type="text/javascript" src="Ressources/jquery/jquery-1.5.2.min.js"></script>
                 <script type="text/javascript" src="Ressources/jquery/ui/jquery-ui-1.8.12.custom.js"></script>
                 <script type="text/javascript">
                     function hide()
