@@ -3,8 +3,8 @@
 		Project: ProffiCV Author : VORONETS'KYY Yevgen Date : 11 Dec. 2007
 		Desc : The document contains structured cv information.
 	-->
-<cv version="English version 2.6. Last modification "
-	locale="en">
+<cv version="Versione italiana 2.6. Ultimo aggiornamento "
+	locale="it">
 	<!--
 		Section contains personal information such as name, address, mobile
 		phone,email, etc.
@@ -14,30 +14,22 @@
 		<firstName>Yevgen</firstName>
 		<middleName></middleName>
 		<address>Perros-Guirec, France</address>
-		<googleMapLocationString>Perros-Guirec, France</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
+		<googleMapLocationString>Perros-Guirec, Francia</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
 		<mobile>Phone: +33.6.29.84.09.83</mobile>
-		<job-title>Java/J2EE Software Engineer</job-title>
-		<additionalInfo>Was born the 23 Novembre 1981, Ukraine.
-		</additionalInfo>
+		<job-title>Analista programmatore Java/J2EE</job-title>
+		<additionalInfo>è nato il 23 Novembre 1981, Ukraina</additionalInfo>
 	</personalInfo>
 
 	<summary title="Summary">
-		Java/J2EE software engineer. Information systems
-		design and implementation.
-		OOP/AOP. N-tiers architectures.
-		RDBMS/SQL.
+		Analista programmatore Java/J2EE. Design e realizzazione di Sistemi d'informazione
+		OOP. N-tiers Architetture.	RDBMS/SQL.
 		Design patterns. UML. RUP, agile software development. Experience in the industrialization of development processes.
-		European education.
-		Master degree in Computer Science. 5 years of international
-		experience
-		(projects for IT-consulting, insurance and software
-		companies).
+		European education.	Master degree in Computer Science. 5 years of international experience
+		(projects for IT-consulting, insurance and software	companies).
 		21 IT-certifications from Brainbench system.
-		Fluent french,
-		good english, russian and ukrainian - native speaker.
-		Purposeful
-		and responsible. Professional ambition - become a software architect.
-        </summary>
+		Fluent french, good english, russian and ukrainian - native speaker.
+		Purposeful and responsible. Professional ambition - become a software architect.
+    </summary>
 	<!-- Section about my education-->
 	<education title="Education">
 		<organisation>
@@ -45,7 +37,7 @@
 			<speciality>Professional courses organized by Teamlog Institute.</speciality>
 			<date>2008</date>
 			<desc>Effective communication, English courses (intermediate level)</desc>
-			<geolocalization>Paris, France</geolocalization>
+			<geolocalization>Parigi, Francia</geolocalization>
 			<url>http://www.teamlog.com</url>
 			<note></note>
 		</organisation>
@@ -55,7 +47,7 @@
 			<date>2004-2005</date>
 			<desc>DESS « Communication, Network, Image », section Network
 				(actual Master CS).</desc>
-			<geolocalization>Champs-sur-Marne, France</geolocalization>
+			<geolocalization>Champs-sur-Marne, Francia</geolocalization>
 			<url>http://www.univ-mlv.fr</url>
 			<note></note>
 		</organisation>
@@ -66,7 +58,7 @@
 			</speciality>
 			<date>2005</date>
 			<desc>Social Management course.</desc>
-			<geolocalization>Champs-sur-Marne, France</geolocalization>
+			<geolocalization>Champs-sur-Marne, Francia</geolocalization>
 			<url>http://www.cnam.fr</url>
 			<note></note>
 		</organisation>
@@ -89,7 +81,7 @@
 			<date>July 2008 to Date</date>
 			<name>Open-Groupe (Teamlog)</name>
 			<activity>IT consulting</activity>
-			<geolocalization>Paris/Lannion/Kiev</geolocalization>
+			<geolocalization>Parigi/Lannion/Kiev</geolocalization>
 			<jobTitle>Technical lead</jobTitle>
 			<jobDesc>
 				Participation in the design, development and management of
@@ -107,7 +99,7 @@
 			<date>October 2006 - May 2008</date>
 			<name>DVK-Tech</name>
 			<activity>IT consulting, Software</activity>
-			<geolocalization>Paris, France</geolocalization>
+			<geolocalization>Parigi, Francia</geolocalization>
 			<jobTitle>Java/J2EE Software Engineer</jobTitle>
 			<jobDesc>Java/J2EE consulting and development for different
 				companies. The list of projects done with DVK-Tech is presented
@@ -119,7 +111,7 @@
 			<date>November 2007 - May 2008</date>
 			<name>Générali</name>
 			<activity>Insurance</activity>
-			<geolocalization>Saint-Denis, France</geolocalization>
+			<geolocalization>Saint-Denis, Francia</geolocalization>
 			<jobTitle>Java/J2EE Software Engineer</jobTitle>
 			<jobDesc>Development of Java-based enterprise server.
 				Technical design and implementation of different integration modules
@@ -140,7 +132,7 @@
 			<date>October 2007</date>
 			<name>SMI-Mutuelle</name>
 			<activity>Insurance</activity>
-			<geolocalization>Paris, France</geolocalization>
+			<geolocalization>Parigi, Francia</geolocalization>
 			<jobTitle>Java/J2EE Consultant</jobTitle>
 			<jobDesc>Audit of a web-application that represents the company
 				business workflow.
@@ -161,7 +153,7 @@
 			<date>March 2007 - October 2007</date>
 			<name>Mondial-Assistance</name>
 			<activity>Insurance</activity>
-			<geolocalization>Paris, France</geolocalization>
+			<geolocalization>Parigi, Francia</geolocalization>
 			<jobTitle>Java/J2EE Software Engineer</jobTitle>
 			<jobDesc>Participation in the design and development of
 				« e-commerce » projects.
@@ -186,7 +178,7 @@
 			<date>October 2006- February 2007</date>
 			<name>Web Agency DUKE</name>
 			<activity>Web agency</activity>
-			<geolocalization>Paris, France</geolocalization>
+			<geolocalization>Parigi, Francia</geolocalization>
 			<jobTitle>Java/J2EE Software Engineer</jobTitle>
 			<jobDesc>Design and realization of web site "back-office"
 				solutions based on 3-tier architecture; persistence, business object
@@ -314,7 +306,7 @@
 	</technologies>
 
 	<!-- This section describes my language skills -->
-	<languages title="Spoken languages">
+	<languages title="Conoscenze linguistiche">
 		<language>
 			<name>Russian</name>
 			<desc>Native speaker.</desc>
@@ -340,9 +332,9 @@
 	</languages>
 
 	<!-- Section about my interests, hobbies, sports I do, etc -->
-	<miscellanea title="Interests">
+	<miscellanea title="Interessi">
 		<item>
-			<name>Interests</name>
+			<name>Interessi</name>
 			<desc>Java, software design and implementation, Graphical User
 				Interface (GUI) design and usability, geography, foreign languages.
 			</desc>
@@ -354,7 +346,7 @@
 		<item>
 			<name>Blog</name>
 			<url>http://yevgen-fr.blogspot.com</url>
-			<desc>My personal technical blog in French about IT, programming, Java.</desc>			
+			<desc>Mio personale technico blog in Franchese e Inglese di IT, programmazione, Java.</desc>			
 		</item>
 	</miscellanea>
 
@@ -363,7 +355,7 @@
 		page.
 	-->
 	<localization>
-		<label_CompanyName>Company</label_CompanyName>
+		<label_CompanyName>Società</label_CompanyName>
 		<label_JobTitle>Position</label_JobTitle>
 		<label_JobDecs>Mission description</label_JobDecs>
 		<label_GeoLocalization>Location</label_GeoLocalization>
@@ -377,7 +369,7 @@
 			<link_hide>Hide</link_hide>
 			<link_show>Show</link_show>
 		</navigationPanel>
-		<label_print_html>Version for print</label_print_html>
-		<label_CurrentPositionTitle>Software engineer</label_CurrentPositionTitle> <!-- Added for PDF version -->
+		<label_print_html>Versione stampa</label_print_html>
+		<label_CurrentPositionTitle>Analista programmatore</label_CurrentPositionTitle> <!-- Added for PDF version -->
 	</localization>
 </cv>
