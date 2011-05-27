@@ -255,7 +255,7 @@
 			</itemsList>
 		</technology-domain>
 		<technology-domain>
-			<name>Programming languages</name>
+			<name>Linguaggi di programmazione</name>
 			<itemsList>Java , C# , Python, Pascal, PHP.</itemsList>
 		</technology-domain>
 		<technology-domain>
@@ -284,11 +284,11 @@
             <itemsList>.NET/C# 3.5, NHibernate, MsBuild, NUnit, DbUnit, MS Visual Studio 2008 (Visual SVN, ReSharper, dotTrace)</itemsList>
         </technology-domain>
 		<technology-domain>
-			<name>RDBMS</name>
+			<name>Basi di Dati</name>
 			<itemsList>ORACLE 9i/10g, MySQL, PostgreSQL, Microsoft SQL Server 2000; SQL language.</itemsList>
 		</technology-domain>
 		<technology-domain>
-			<name>Tools</name>
+			<name>Strumenti</name>
 			<itemsList>Design Patterns (GoF+GRASP), UML, Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, Git, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, sripting with Python</itemsList>
 		</technology-domain>
 		<technology-domain>
@@ -300,34 +300,34 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Certifications</name>
-			<itemsList>I have earned the following certificates from Brainbench
-				system:</itemsList>
+			<itemsList>I have earned the following certificates from Brainbench system:</itemsList>
 		</technology-domain>
 	</technologies>
 
 	<!-- This section describes my language skills -->
 	<languages title="Conoscenze linguistiche">
 		<language>
-			<name>Russian</name>
-			<desc>Native speaker.</desc>
+			<name>Russa</name>
+			<desc>Lingua nativa.</desc>
 		</language>
 		<language>
-			<name>Ukrainian</name>
-			<desc>Native speaker.</desc>
+			<name>Ukraina</name>
+			<desc>Lingua nativa.</desc>
 		</language>
 		<language>
-			<name>French</name>
-			<desc>Fluent. More than 10 years of experience. Having the
-				following french diplomas of the Common European Framework of
-				References for languages: DELF B1, B2, B3, DALF C2.</desc>
+			<name>Francese</name>
+			<desc>Correntemente .Più di 10 anni di esperienza. Avere il
+				seguenti diplomi di francese del quadro comune europeo di
+				Riferimenti per le lingue: DELF B1, B2, B3, DALF C2
+			</desc>
 		</language>
 		<language>
-			<name>English</name>
-			<desc>Reading/writing – very good, oral expression – good.</desc>
+			<name>Inglese</name>
+			<desc>Lettura / scrittura - molto buono, espressione orale - buono.</desc>
 		</language>
 		<language>
-			<name>Italian</name>
-			<desc>Beginner Level. The language study at Instituto Italiano di Cultura - Dante ALIEGHIERI, Kiev.</desc>
+			<name>Italiana</name>
+			<desc>Livello principiante. Gli corsi nel Instituto Italiano di Cultura - Dante ALIEGHIERI, Kiev.</desc>
 		</language>
 	</languages>
 
