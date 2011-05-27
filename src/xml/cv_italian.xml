@@ -29,7 +29,7 @@
 		21 IT-certifications from Brainbench system.
 		Fluent french, good english, russian and ukrainian - native speaker.
 		Purposeful and responsible. Professional ambition - become a software architect.
-    </summary>
+	</summary>
 	<!-- Section about my education-->
 	<education title="Education">
 		<organisation>
@@ -91,7 +91,7 @@
 				Conducting the technical interviews.  
 				Responsible	for communication with customers. Technical audit for Java/J2EE projects (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor). 
 				Java Technologies: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn.
-            </jobDesc>
+			</jobDesc>
 			<url>http://www.open-groupe.com</url>
 			<note></note>
 		</company>
