@@ -78,7 +78,7 @@
 	<!-- Section about my professional experience. -->
 	<experiences title="Work experience">
 		<company>
-			<date>July 2008 to Date</date>
+			<date>Da giugno 2008</date>
 			<name>Open-Groupe (Teamlog)</name>
 			<activity>IT consulting</activity>
 			<geolocalization>Parigi/Lannion/Kiev</geolocalization>
@@ -89,14 +89,16 @@
 				project infrastructure: SVN, builds, unit tests, Mantis, etc. Code revue.
 				Participation in industrialization of IT-projects development(continuous integration, design/code quality, metrics, software factory).
 				Conducting the technical interviews.  
-				Responsible	for communication with customers. Technical audit for Java/J2EE projects (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor). 
-				Java Technologies: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn.
+				Responsible	for communication with customers. Technical audit for Java/J2EE projects (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).				
 			</jobDesc>
+			<technologiesList>
+				Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn.
+			</technologiesList>
 			<url>http://www.open-groupe.com</url>
 			<note></note>
 		</company>
 		<company>
-			<date>October 2006 - May 2008</date>
+			<date>Ottobre 2006 - Maggio 2008</date>
 			<name>DVK-Tech</name>
 			<activity>IT consulting, Software</activity>
 			<geolocalization>Parigi, Francia</geolocalization>
@@ -108,7 +110,7 @@
 			<note></note>
 		</company>
 		<company isConsulting="true">
-			<date>November 2007 - May 2008</date>
+			<date>Novembre 2007 - Maggio 2008</date>
 			<name>Générali</name>
 			<activity>Insurance</activity>
 			<geolocalization>Saint-Denis, Francia</geolocalization>
@@ -129,7 +131,7 @@
 			<note></note>
 		</company>
 		<company isConsulting="true">
-			<date>October 2007</date>
+			<date>Ottobre 2007</date>
 			<name>SMI-Mutuelle</name>
 			<activity>Insurance</activity>
 			<geolocalization>Parigi, Francia</geolocalization>
@@ -150,7 +152,7 @@
 			<note></note>
 		</company>
 		<company isConsulting="true">
-			<date>March 2007 - October 2007</date>
+			<date>Marzo 2007 - Ottobre 2007</date>
 			<name>Mondial-Assistance</name>
 			<activity>Insurance</activity>
 			<geolocalization>Parigi, Francia</geolocalization>
@@ -175,7 +177,7 @@
 			<note></note>
 		</company>
 		<company isConsulting="true">
-			<date>October 2006- February 2007</date>
+			<date>Ottobre 2006- Febbraio 2007</date>
 			<name>Web Agency DUKE</name>
 			<activity>Web agency</activity>
 			<geolocalization>Parigi, Francia</geolocalization>
@@ -210,7 +212,7 @@
 			<note></note>
 		</company>
 		<company>
-			<date>December 2005 - August 2006</date>
+			<date>Dicembre 2005 - Agosto 2006</date>
 			<name>ISD - Information Systems Development</name>
 			<activity>Software</activity>
 			<geolocalization>Dnipropetrovsk, Ukraine
@@ -228,7 +230,7 @@
 			<note></note>
 		</company>
 		<company>
-			<date>April 2005 - October 2005</date>
+			<date>Aprile 2005 - Ottobre 2005</date>
 			<name>LegitiName</name>
 			<activity>Software</activity>
 			<geolocalization>Rumelange, Luxembourg</geolocalization>
@@ -251,8 +253,7 @@
 	<technologies title="Technical Skills">
 		<technology-domain>
 			<name>Operating systems</name>
-			<itemsList>Mac OS X; MS Windows; Linux.
-			</itemsList>
+			<itemsList>Mac OS X; MS Windows; Linux.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Linguaggi di programmazione</name>
@@ -276,13 +277,12 @@
 				(XSL, XPath, XSD),
 				HTML(CSS, JavaScript).
 				Unit testing with JUnit, TestNG and DBUnit, integration with Spring testing framework.
-				
 			</itemsList>
 		</technology-domain>
 		<technology-domain>
-            <name>.NET</name>
-            <itemsList>.NET/C# 3.5, NHibernate, MsBuild, NUnit, DbUnit, MS Visual Studio 2008 (Visual SVN, ReSharper, dotTrace)</itemsList>
-        </technology-domain>
+			<name>.NET</name>
+			<itemsList>.NET/C# 3.5, NHibernate, MsBuild, NUnit, DbUnit, MS Visual Studio 2008 (Visual SVN, ReSharper, dotTrace)</itemsList>
+		</technology-domain>
 		<technology-domain>
 			<name>Basi di Dati</name>
 			<itemsList>ORACLE 9i/10g, MySQL, PostgreSQL, Microsoft SQL Server 2000; SQL language.</itemsList>
