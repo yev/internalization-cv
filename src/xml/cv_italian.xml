@@ -82,7 +82,7 @@
 			<name>Open-Groupe (Teamlog)</name>
 			<activity>IT consulting</activity>
 			<geolocalization>Parigi/Lannion/Kiev</geolocalization>
-			<jobTitle>Technical lead</jobTitle>
+			<jobTitle>Referente technico</jobTitle>
 			<jobDesc>
 				Participation in the design, development and management of
 				the IT-projects (some on offshore mode). Architecture development, solving critical technical problems. Setup
@@ -356,18 +356,18 @@
 	-->
 	<localization>
 		<label_CompanyName>Società</label_CompanyName>
-		<label_JobTitle>Position</label_JobTitle>
-		<label_JobDecs>Mission description</label_JobDecs>
-		<label_GeoLocalization>Location</label_GeoLocalization>
+		<label_JobTitle>Posizione ricoperta</label_JobTitle>
+		<label_JobDecs>Descrizione della missione</label_JobDecs>
+		<label_GeoLocalization>Posizione</label_GeoLocalization>
 		<label_URL>Web site</label_URL>
-		<label_Activity>Business activity</label_Activity>
-		<label_Page4Pdf>Page</label_Page4Pdf>
+		<label_Activity>Settore di attività</label_Activity>
+		<label_Page4Pdf>Pagina</label_Page4Pdf>
 		<label_DownloadPdf>Download PDF-version</label_DownloadPdf>
 		<!-- The fast navigation Panel -->
 		<navigationPanel>
-			<title>Fast Navigation Panel</title>
-			<link_hide>Hide</link_hide>
-			<link_show>Show</link_show>
+			<title>Navigazione rapida</title>
+			<link_hide>Disabilitare</link_hide>
+			<link_show>Attivare</link_show>
 		</navigationPanel>
 		<label_print_html>Versione stampa</label_print_html>
 		<label_CurrentPositionTitle>Analista programmatore</label_CurrentPositionTitle> <!-- Added for PDF version -->
