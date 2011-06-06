@@ -57,19 +57,7 @@
             <body>
                 <a name="topNavigation"></a>
                 <DIV id="wrapper">
-                    <table width="100%" border="0">
-                        <tr>
-                            <td align="left" width="25%">
-                                <xsl:for-each select="personalInfo">
-                                    <xsl:value-of select="lastName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="firstName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="middleName"/>
-                                    <br/><a id="myCurrentLocation" href="#top" title="Click here to view the location in Google map."><xsl:value-of select="address"/></a>
-                                    <br/><xsl:value-of select="mobile"/>
-                                    <br/><img src="Ressources/images/email.gif" title="AntiSpam Protection"/>
-                                    <br/><small><xsl:value-of select="additionalInfo"/></small>        
-                                </xsl:for-each>
-                            </td>
-                            <td align="center" width="50%">
-                                <table width="100%" border="0">
+                 <table width="100%" border="0">
                                     <tr>
                                         <td align="center"><strong class="org"><a href="index.html">English</a></strong>
                                             • <strong class="org"><a href="index_fr.html">Français</a></strong>
@@ -104,33 +92,46 @@
                                     <tr>
                                         <td align="center"><span id="nivigationPanel"><a name="navigationPanel"><xsl:value-of select="localization/navigationPanel/title"/></a> [ <a href="#topNavigation" onClick="javascript:toggle();" class="navigationToogleLink"><span id="navigation_link"></span></a>  ] </span></td>
                                     </tr>
-                                    
+                                    <tr>
+			                            <td>
+			                                <table width="100%" border="0">
+			                                    <tr>
+			                                        <td align="center">
+			                                            <div id="fatsNavId">
+			                                                <a href="#summary"><xsl:value-of select="summary/@title"/></a> 
+			                                                | <a href="#education"><xsl:value-of select="education/@title"/></a> 
+			                                                | <a href="#experience"><xsl:value-of select="experiences/@title"/></a> 
+			                                                | <a href="#technologies"><xsl:value-of select="technologies/@title"/></a>
+			                                                | <a href="#languages"><xsl:value-of select="languages/@title"/></a> 
+			                                                | <a href="#miscellanea"><xsl:value-of select="miscellanea/@title"/></a>
+			                                            </div>
+			                                        </td>
+			                                    </tr>
+			                                </table>
+			                            </td>
+			                        </tr>
                                 </table>
+                   </DIV>
+                <DIV id="wrapper">
+                    <table width="100%" border="0">
+                        <tr>
+                            <td align="left" width="25%">
+                                <xsl:for-each select="personalInfo">
+                                    <xsl:value-of select="lastName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="firstName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="middleName"/>
+                                    <br/><a id="myCurrentLocation" href="#top" title="Click here to view the location in Google map."><xsl:value-of select="address"/></a>
+                                    <br/><xsl:value-of select="mobile"/>
+                                    <br/><img src="Ressources/images/email.gif" title="AntiSpam Protection"/>
+                                    <br/><small><xsl:value-of select="additionalInfo"/></small>        
+                                </xsl:for-each>
+                            </td>
+                            <td align="center" width="50%">
+                               
                             </td>
                             <td align="right" width="25%">
                                 <img src="Ressources/images/photo.jpg" border="1" alt="my recent foto"/>
                                 
                             </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">
-                                <table width="100%" border="0">
-                                    <tr>
-                                        <td align="center">
-                                            <div id="fatsNavId">
-                                                <a href="#summary"><xsl:value-of select="summary/@title"/></a> 
-                                                | <a href="#education"><xsl:value-of select="education/@title"/></a> 
-                                                | <a href="#experience"><xsl:value-of select="experiences/@title"/></a> 
-                                                | <a href="#technologies"><xsl:value-of select="technologies/@title"/></a>
-                                                | <a href="#languages"><xsl:value-of select="languages/@title"/></a> 
-                                                | <a href="#miscellanea"><xsl:value-of select="miscellanea/@title"/></a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        
+                        </tr>                        
                     </table>
                     <table border="0" cellspacing="0" cellpadding="0">
                         
@@ -214,7 +215,7 @@
                                             <td>
                                                 <table class="none" border="0" width="100%">
                                                     <tr>
-                                                        <td width="150">
+                                                        <td width="250">
 			                                                   <xsl:value-of select="/cv/localization/label_CompanyName"/>:
                                                         </td> 
                                                         <td><strong class="org"><xsl:value-of select="name"/></strong> - 

@@ -68,7 +68,7 @@
 			</speciality>
 			<date>1999-2004</date>
 			<desc>Master Degree in Computer Science, with honour (2004).</desc>
-			<geolocalization>Dniepropetrovsk, Ukraine</geolocalization>
+			<geolocalization>Dniepropetrovsk, Ukraina</geolocalization>
 			<url>http://www.usuce.dp.ua</url>
 			<note></note>
 		</organisation>
@@ -214,8 +214,7 @@
 			<date>Dicembre 2005 - Agosto 2006</date>
 			<name>ISD - Information Systems Development</name>
 			<activity>Software</activity>
-			<geolocalization>Dnipropetrovsk, Ukraine
-			</geolocalization>
+			<geolocalization>Dnipropetrovsk, Ukraina</geolocalization>
 			<jobTitle>Junior Java Software Engineer</jobTitle>
 			<jobDesc>Development of web-based time management system.
 				Accomplished tasks: developing gui-components based on JSF;
@@ -374,5 +373,6 @@
 		</navigationPanel>
 		<label_print_html>Versione stampa</label_print_html>
 		<label_CurrentPositionTitle>Analista programmatore</label_CurrentPositionTitle> <!-- Added for PDF version -->
+		<label_technologyList>Technologie usate</label_technologyList>
 	</localization>
 </cv>
