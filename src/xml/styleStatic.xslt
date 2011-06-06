@@ -212,12 +212,7 @@
                                                 <table class="none" border="0" width="100%">
                                                     <tr>
                                                         <td width="150">
-                                                        	<a><xsl:attribute name="href">
-			                                                        <xsl:value-of select="url"/>
-			                                                    </xsl:attribute>
-			                                                   <xsl:value-of select="/cv/localization/label_CompanyName"/>
-			                                                </a>
-                                                      		 :
+			                                                   <xsl:value-of select="/cv/localization/label_CompanyName"/>:
                                                         </td> 
                                                         <td><strong class="org"><xsl:value-of select="name"/></strong><br/></td> 
 
