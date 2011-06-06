@@ -248,7 +248,7 @@
 	                                        </tr>
 	                                    </xsl:if>
                                         <tr>
-                                            <td colspan="2"><xsl:value-of select="/cv/localization/label_URL"/> :
+                                            <td colspan="2"><strong><xsl:value-of select="/cv/localization/label_URL"/></strong> :
                                             	<a><xsl:attribute name="href">
                                                         <xsl:value-of select="url"/>
                                                     </xsl:attribute>
