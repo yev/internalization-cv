@@ -3,8 +3,7 @@
 		Project: ProffiCV Author : VORONETS'KYY Yevgen Date : 11 Dec. 2007
 		Desc : The document contains structured cv information.
 	-->
-<cv version="Versione italiana 2.6. Ultimo aggiornamento "
-	locale="it">
+<cv version="Versione italiana 2.6. Ultimo aggiornamento " locale="it">
 	<!--
 		Section contains personal information such as name, address, mobile
 		phone,email, etc.
@@ -20,7 +19,7 @@
 		<additionalInfo>è nato il 23 Novembre 1981, Ukraina</additionalInfo>
 	</personalInfo>
 
-	<summary title="Summary">
+	<summary title="Breve descrizione">
 		Analista programmatore Java/J2EE. Design e realizzazione di Sistemi d'informazione
 		OOP. N-tiers Architetture.	RDBMS/SQL.
 		Design patterns. UML. RUP, agile software development. Experience in the industrialization of development processes.
@@ -31,7 +30,7 @@
 		Purposeful and responsible. Professional ambition - become a software architect.
 	</summary>
 	<!-- Section about my education-->
-	<education title="Education">
+	<education title="Istruzione e formazione">
 		<organisation>
 			<name>Teamlog Institute</name>
 			<speciality>Professional courses organized by Teamlog Institute.</speciality>
@@ -76,7 +75,7 @@
 	</education>
 
 	<!-- Section about my professional experience. -->
-	<experiences title="Work experience">
+	<experiences title="Esperienza lavorativa">
 		<company>
 			<date>Da giugno 2008</date>
 			<name>Open-Groupe (Teamlog)</name>
@@ -254,9 +253,9 @@
 	</experiences>
 
 	<!-- Section about technologies I use in my work. -->
-	<technologies title="Technical Skills">
+	<technologies title="Conoscenze informatiche">
 		<technology-domain>
-			<name>Operating systems</name>
+			<name>Sistemi operativi</name>
 			<itemsList>Mac OS X; MS Windows; Linux.</itemsList>
 		</technology-domain>
 		<technology-domain>
