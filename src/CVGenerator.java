@@ -1,6 +1,7 @@
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Date;
 
@@ -15,6 +16,7 @@ import org.apache.fop.apps.Fop;
 import org.apache.fop.apps.FopFactory;
 import org.apache.fop.apps.MimeConstants;
 import org.apache.log4j.Logger;
+import org.xml.sax.SAXException;
 
 public final class CVGenerator 
 {
@@ -24,29 +26,34 @@ public final class CVGenerator
 	
 	FopFactory fopFactory = FopFactory.newInstance();
 	
-	public static enum Language {russian, ukrainian, french, english};
+	public static enum Language {russian, ukrainian, french, english, italian};
 	public static enum FormatCV {HTML, PDF};
 	
 	public CVGenerator()
 	{
 		try{
 			this.transformer = TransformerFactory.newInstance().newTransformer(new javax.xml.transform.stream.StreamSource("src/xml/styleStatic.xslt"));
-			final String currentOsName = System.getProperty("os.name").toLowerCase();			
-			LOGGER.info("os.name ="+currentOsName);
-			//use a configuration file, where Fonts directory path is specified. 
-			if (currentOsName.contains("windows")){
-				this.fopFactory.setUserConfig(new File("src/fop_Windows.xconf"));
-			}
-			else if (currentOsName.contains("mac")){
-				this.fopFactory.setUserConfig(new File("src/fop_Mac.xconf")); 
-			}
-			else{
-				throw new RuntimeException("The Os "+currentOsName+" is not supported!");
-			}
+			configureDependingOnRunningOS();
 				
 		}
 		catch(Exception ex){
 			ex.printStackTrace();
+		}
+	}
+
+	private void configureDependingOnRunningOS() throws SAXException,
+			IOException {
+		final String currentOsName = System.getProperty("os.name").toLowerCase();			
+		LOGGER.info("os.name ="+currentOsName);
+		//use a configuration file, where Fonts directory path is specified. 
+		if (currentOsName.contains("windows")){
+			this.fopFactory.setUserConfig(new File("src/fop_Windows.xconf"));
+		}
+		else if (currentOsName.contains("mac")){
+			this.fopFactory.setUserConfig(new File("src/fop_Mac.xconf")); 
+		}
+		else{
+			throw new RuntimeException("The Os "+currentOsName+" is not supported!");
 		}
 	}
 	
@@ -61,11 +68,13 @@ public final class CVGenerator
 		cvGenerator.generateHtmlCVForLanguage(Language.ukrainian);
 		cvGenerator.generateHtmlCVForLanguage(Language.french);
 		cvGenerator.generateHtmlCVForLanguage(Language.english);
+		cvGenerator.generateHtmlCVForLanguage(Language.italian);
 	
 		cvGenerator.generatePdfCVForLanguage(Language.french);
 		cvGenerator.generatePdfCVForLanguage(Language.english);
 		cvGenerator.generatePdfCVForLanguage(Language.russian);
 		cvGenerator.generatePdfCVForLanguage(Language.ukrainian);
+		cvGenerator.generatePdfCVForLanguage(Language.italian);
 	
 		LOGGER.info("Generation ProffiCV finished with success!");
 		long end = new Date().getTime();
@@ -134,6 +143,8 @@ public final class CVGenerator
 				return "_ua";
 			case french:
 				return "_fr";
+			case italian:
+				return "_it";
 			case english:
 				return "";
 			default:

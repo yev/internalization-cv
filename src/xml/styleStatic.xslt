@@ -74,7 +74,9 @@
                                         <td align="center"><strong class="org"><a href="index.html">English</a></strong>
                                             • <strong class="org"><a href="index_fr.html">Français</a></strong>
                                             • <strong class="org"><a href="index_ru.html">Русский</a></strong>
-                                        • <strong class="org"><a href="index_ua.html">Українська</a></strong></td>
+                                        • <strong class="org"><a href="index_ua.html">Українська</a></strong>
+                                        • <strong class="org"><a href="index_it.html">Italiano</a></strong>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td><hr class="neutral"/><!-- Codes by Quackit.com --></td>
@@ -92,6 +94,7 @@
                                                         <xsl:if test="@locale='en'"><a href="pdf/cv_voronetskyy.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
                                                         <xsl:if test="@locale='ru'"><a href="pdf/cv_voronetskyy_ru.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
                                                         <xsl:if test="@locale='ua'"><a href="pdf/cv_voronetskyy_ua.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
+                                                        <xsl:if test="@locale='it'"><a href="pdf/cv_voronetskyy_it.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
                                                     </td>
                                                 </tr>
                                                 
