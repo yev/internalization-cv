@@ -1,64 +1,73 @@
 <?xml version="1.0" encoding="utf-8"  ?>
-<!--
-	Project: ProffiCV
-	Author : VORONETS'KYY Yevgen 
-	Date   : 11 Dec. 2007
-	Desc   : The document contains structured cv information.
- -->
-<cv version="La version française 2.6. Dernière mise à jour le " locale="it">
-	<!-- Section contains personal information such as name, address, mobile phone,email, etc.-->
-	<personalInfo title="Information Personnelle">
+	<!--
+		Project: ProffiCV Author : VORONETS'KYY Yevgen Date : 11 Dec. 2007
+		Desc : The document contains structured cv information.
+	-->
+<cv version="Versione italiana 2.6. Ultimo aggiornamento " locale="it">
+	<!--
+		Section contains personal information such as name, address, mobile
+		phone,email, etc.
+	-->
+	<personalInfo title="Personal Profile">
 		<lastName>Voronetskyy </lastName>
-		<firstName>Yevgen </firstName>
+		<firstName>Yevgen</firstName>
 		<middleName></middleName>
 		<address>Perros-Guirec, France</address>
-		<googleMapLocationString>Perros-Guirec, France</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
-		<mobile>Cell: +33.6.29.84.09.83</mobile>
-		<job-title>Ingénieur Java/J2EE </job-title>
-		<additionalInfo>Né le 23 Novembre 1981, Ukraine.</additionalInfo>
+		<googleMapLocationString>Perros-Guirec, Francia</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
+		<mobile>Phone: +33.6.29.84.09.83</mobile>
+		<job-title>Analista programmatore Java/J2EE</job-title>
+		<additionalInfo>è nato il 23 Novembre 1981, Ukraina</additionalInfo>
 	</personalInfo>
-       <summary title="Résumé">
-           Ingénieur Java/J2EE. Conception et réalisation des systèmes informatiques (web/desktop). OOP design. 
-            Architectures n-tiers. SGBD/SQL. Design patterns. UML. RUP, méthodologies agiles. Industrialisation des processus de développement. 
-            Formation européenne, master en Informatique. 5 ans de l'expérience professionnelle à l'échelle internationale pour les différentes entreprises (éditeur de logiciels, consulting, assurances). 
-            21 IT-certifications du système Brainbench. 
-            Maîtrise du français et de l'anglais, le russe et l'ukrainien ce sont mes langues maternelles. 
-            Persévérant et responsable. Ambition professionnelle - devenir un architecte.
-        </summary> 
+
+	<summary title="Breve descrizione">
+		Analista programmatore Java/J2EE. Design e realizzazione di Sistemi d'informazione
+		OOP. N-tiers Architetture.	RDBMS/SQL.
+		Design patterns. UML. RUP, agile software development. Experience in the industrialization of development processes.
+		European education.	Master degree in Computer Science. 5 years of international experience
+		(projects for IT-consulting, insurance and software	companies).
+		21 IT-certifications from Brainbench system.
+		Fluent french, good english, russian and ukrainian - native speaker.
+		Purposeful and responsible. Professional ambition - become a software architect.
+	</summary>
 	<!-- Section about my education-->
-	<education title="Formation">
+	<education title="Istruzione e formazione">
 		<organisation>
 			<name>Teamlog Institute</name>
-			<speciality>Formation professionnelle dispensée par Teamlog Institute.</speciality>
+			<speciality>Professional courses organized by Teamlog Institute.</speciality>
 			<date>2008</date>
-			<desc>Communication avec impacte, cours d'anglais intermédiaire</desc>
-			<geolocalization>Paris, France</geolocalization>
+			<desc>Effective communication, English courses (intermediate level)</desc>
+			<geolocalization>Parigi, Francia</geolocalization>
 			<url>http://www.teamlog.com</url>
 			<note></note>
 		</organisation>
 		<organisation>
-			<name>Université Paris-Est Marne-la-Vallée</name>
-			<speciality>DESS « Communication, Réseau, Image », filière Réseau (actuel Master Informatique).</speciality>
+			<name>University Paris-Est Marne-la-Vallée</name>
+			<speciality>Master Degree in Computer Science.</speciality>
 			<date>2004-2005</date>
-			<desc>Diplôme en Ingénierie Informatique, avec mention assez bien. La formation à forte composant pratique.</desc>
-			<geolocalization>Champs-sur-Marne, France</geolocalization>
+			<desc>DESS « Communication, Network, Image », section Network
+				(actual Master CS).</desc>
+			<geolocalization>Champs-sur-Marne, Francia</geolocalization>
 			<url>http://www.univ-mlv.fr</url>
 			<note></note>
 		</organisation>
 		<organisation>
-			<name>Conservatoire National des Arts et Métiers (CNAM)</name>
-			<speciality>Management économique de l’entreprise pour l’ingénieur.</speciality>
+			<name>Conservatoire National des Arts et Métiers (CNAM)
+			</name>
+			<speciality>Enterprise managemenent course for engineers.
+			</speciality>
 			<date>2005</date>
-			<desc>Management social et humain.</desc>
-			<geolocalization>Champs-sur-Marne, France</geolocalization>
+			<desc>Social Management course.</desc>
+			<geolocalization>Champs-sur-Marne, Francia</geolocalization>
 			<url>http://www.cnam.fr</url>
 			<note></note>
 		</organisation>
 		<organisation>
-			<name>Université d'Etat de Technologie et de Chimie d'Ukraine</name>
-			<speciality>Spécialisation « Systèmes d'Information Appliqués ».</speciality>
+			<name>Ukrainian State University of Chemical Engineering
+			</name>
+			<speciality>Speciality « Specialized computer systems ».
+			</speciality>
 			<date>1999-2004</date>
-			<desc>Diplôme en Ingénierie Informatique, avec mention honorable (2004).</desc>
+			<desc>Master Degree in Computer Science, with honour (2004).</desc>
 			<geolocalization>Dniepropetrovsk, Ukraine</geolocalization>
 			<url>http://www.usuce.dp.ua</url>
 			<note></note>
@@ -66,235 +75,304 @@
 	</education>
 
 	<!-- Section about my professional experience. -->
-	<experiences title="Expériences professionnelles">
-                <company>
-			<date>Depuis Juillet 2008</date>
+	<experiences title="Esperienza lavorativa">
+		<company>
+			<date>Da giugno 2008</date>
 			<name>Open-Groupe (Teamlog)</name>
-			<activity>SSII</activity>
-			<geolocalization>Paris/Lannion/Kiev</geolocalization>
-			<jobTitle>Référant technique</jobTitle>
+			<activity>IT consulting</activity>
+			<geolocalization>Parigi/Lannion/Kiev</geolocalization>
+			<jobTitle>Referente technico</jobTitle>
 			<jobDesc>
-	Participation à la conception, développement et gestion des projets	informatiques (TMA, forfait, régie;  projets "offshorisés").
-	Responsbale de la qualité technique. Développement de l'architecture, résolution des problèmes techniques pointus. Revue du code.
-	Mise en place de l'infrastructure des projets (SVN, les builds automatiques, tests unitaires, Mantis, etc).
-	Participation à l'industrialisation du développement des projets informatiques (intégration continue, qualité du code/conception OO, métriques, applications blanches/usine logicielle).
-	Codnduite des entretiens techniques dans un cadre de recrutement.  
-	Audit technique des projets Java/J2EE (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
-	Technologies utilisées Java: Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn.              
-            </jobDesc>
+				Participation in the design, development and management of
+				the IT-projects (some on offshore mode). Architecture development, solving critical technical problems. Setup
+				project infrastructure: SVN, builds, unit tests, Mantis, etc. Code revue.
+				Participation in industrialization of IT-projects development(continuous integration, design/code quality, metrics, software factory).
+				Conducting the technical interviews.  
+				Responsible	for communication with customers. Technical audit for Java/J2EE projects (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).				
+			</jobDesc>
+			<technologiesList>
+				Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn.
+			</technologiesList>
 			<url>http://www.open-groupe.com</url>
 			<note></note>
 		</company>
 		<company>
-			<date>Octobre 2006 - Mai 2008</date>
+			<date>Ottobre 2006 - Maggio 2008</date>
 			<name>DVK-Tech</name>
-			<activity>SSII, Editeur de Logiciel</activity>
-			<geolocalization>Paris, France</geolocalization>
-			<jobTitle>Ingénieur Java/J2EE </jobTitle>
-			<jobDesc>Accomplisement de plusieurs missions pour les different clients de DVK-TECH. 
-					La liste de ces missions est présentée ci-dessous avec la remarque ***.</jobDesc>
-			<url>http://www.dvk-tech.com/</url>
+			<activity>IT consulting, Software</activity>
+			<geolocalization>Parigi, Francia</geolocalization>
+			<jobTitle>Java/J2EE Software Engineer</jobTitle>
+			<jobDesc>Java/J2EE consulting and development for different
+				companies. The list of projects done with DVK-Tech is presented
+				below and marked by ***.</jobDesc>
+			<url>http://www.dvk-tech.com</url>
 			<note></note>
 		</company>
 		<company isConsulting="true">
-			<date>Novembre 2007 - Mai 2008</date>
+			<date>Novembre 2007 - Maggio 2008</date>
 			<name>Générali</name>
-			<activity>Assurance</activity>
-			<geolocalization>Saint-Denis, France</geolocalization>
-			<jobTitle>Ingénieur Java/J2EE </jobTitle>
-			<jobDesc>Participation dans le développement du serveur-métier de l’entreprise. 
-                        Réalisation des modules d’intégration néccessaires pour la connection du serveur avec des autres systèmes d’information. 
-                        Le processus du développement est strictement réglementé et basé sur les standards industriels du développement de logiciel.   
-				Technologies utilisées: JAVA/J2EE, serveur d'application WebSphere 6.1, Oracle, SQL, MyEclipse, UML.
-				Utilisation avancée du SQL.</jobDesc>
+			<activity>Insurance</activity>
+			<geolocalization>Saint-Denis, Francia</geolocalization>
+			<jobTitle>Java/J2EE Software Engineer</jobTitle>
+			<jobDesc>Development of Java-based enterprise server.
+				Technical design and implementation of different integration modules
+				for connecting externs information systems.
+				The development process
+				is based on some industrial standards of the
+				software building.
+			</jobDesc>
+			<technologiesList>
+				JAVA/J2EE, EJB, application server WebSphere 6.1, Oracle, SQL, MyEclipse, Rational Rose, UML. Advanced using of SQL language
+			</technologiesList>
 			<url>http://www.generali.fr</url>
 			<note></note>
 		</company>
 		<company isConsulting="true">
-			<date>Octobre 2007</date>
+			<date>Ottobre 2007</date>
 			<name>SMI-Mutuelle</name>
-			<activity>Assurance</activity>
-			<geolocalization>Paris, France</geolocalization>
-			<jobTitle>Consultant Java/J2EE</jobTitle>
-			<jobDesc>Audit de l'application web de gestion des flux de l'entreprise. 
-				Analyse et la documentation de l'architecture existante avec des propositions d'optimisation et d'évolution.
-				Rédaction de la documentation pour la configuration de l'environement de développement. 
-				Technologies utilisées : Java/J2EE, Servlet, Java Service Wrapper, Winstone - un conteneur "legèr" de Servlets, Oracle 8, Eclipse; diagrammes UML.</jobDesc>
+			<activity>Insurance</activity>
+			<geolocalization>Parigi, Francia</geolocalization>
+			<jobTitle>Java/J2EE Consultant</jobTitle>
+			<jobDesc>Audit of a web-application that represents the company
+				business workflow.
+				Analysis and documentation of the existing
+				architecture with further recommendations for optimisation and
+				evolution.
+				Writing the technical documentation describing the
+				development environment
+				and deployment process.
+			</jobDesc>
+			<technologiesList>
+				Java/J2EE, Servlet, Java Service Wrapper, Winstone, Oracle 8; UML diagrams
+			</technologiesList>
 			<url>http://www.mutuelle-smi.com</url>
 			<note></note>
 		</company>
 		<company isConsulting="true">
-			<date>Mars 2007 - Octobre 2007</date>
+			<date>Marzo 2007 - Ottobre 2007</date>
 			<name>Mondial-Assistance</name>
-			<activity>Assurance</activity>
-			<geolocalization>Paris, France</geolocalization>
-			<jobTitle>Ingénieur Java/J2EE</jobTitle>
-			<jobDesc>Participation à la conception et développement des projets « e-commerce ».
-				Réalisation de la couche de persistance en Hibernate et JDO (implémentation Xcalia). 
-				Développement de l’interface graphique web selon le pattern MVC 2 à l’aide du framerwork Struts.
-				Développement des composants de l'interface graphique en AJAX.
-				Participation à l’élaboration de l’architecture technique des modules.
-				Réalisation de la couche de la logique métier des projets.
-				Technologies utilisées : Java/J2EE, Struts 1.3, Hibernate 3.0, JDO (Xcalia), Servlet/JSP, JSTL, Tomcat 5.5, MySQL, Oracle, MS SQL Server, 
-				les librairies tiers FreeMaker, Common-Controls, plusiers librairies de Jakarta Commons, HTML, CSS, JavaScript.</jobDesc>
+			<activity>Insurance</activity>
+			<geolocalization>Parigi, Francia</geolocalization>
+			<jobTitle>Java/J2EE Software Engineer</jobTitle>
+			<jobDesc>Participation in the design and development of
+				« e-commerce » projects.
+				Persistence layer has been implemented with
+				Hibernate and JDO (XCalia implementation).
+				Bridge between business
+				logic and presentation layer was developed according to MVC pattern
+				on Struts framework.
+				Web GUI-components development with AJAX.
+				Architecture design and implementation of different application
+				modules.
+				Implementation of business logic layer.
+			</jobDesc>
+			<technologiesList>
+				Java/J2EE, Struts 1.3, Hibernate 3.0, JDO (Xcalia implementation),
+				Servlet/JSP, JSTL, Tomcat 5.5, MySQL, Oracle, MS SQL Server,
+				FreeMaker, Common-Controls, many librairies from Jakarta Commons.
+			</technologiesList>
 			<url>http://www.mondial-assistance.fr</url>
 			<note></note>
 		</company>
 		<company isConsulting="true">
-			<date>Octobre 2006- Février 2007</date>
-			<name>Agence de communication DUKE</name>
-			<activity>Web agence</activity>
-			<geolocalization>Paris, France</geolocalization>
-			<jobTitle>Ingénieur Java/J2EE</jobTitle>
-			<jobDesc>Conception et réalisation des solutions complètes "back-office".
-				Développement du module de sécurité basé sur « container managed security » de Tomcat.
-				Couche de persistance réalisée en pure JDBC, utilisation de database-pooling.
-				Développement des modules d’interaction avec le « front-office » représenté par le Flash.
-				Participation à la réalisation des composants graphiques utilisant le modèle de conception AJAX.
-				Développement d’un outil de surveillance des sites sensibles. L’application est réalisée avec l’utilisation de multithreading et sous la forme de daemon pour OS Linux Debian.
-				Participation aux conceptions des architectures techniques des différents projets.
-				Technologies utilisées : Java/J2EE, JDBC, Servlet/JSP, Tomcat 5.5, MySQL 4.1, PostgreSQL, les librairies tiers Log4j, Velocity.</jobDesc>
+			<date>Ottobre 2006- Febbraio 2007</date>
+			<name>Web Agency DUKE</name>
+			<activity>Web agency</activity>
+			<geolocalization>Parigi, Francia</geolocalization>
+			<jobTitle>Java/J2EE Software Engineer</jobTitle>
+			<jobDesc>Design and realization of web site "back-office"
+				solutions based on 3-tier architecture; persistence, business object
+				layer (POJO), deployment ;
+				logging, security and emailing modules.
+				Developing of the security module for a web-application with Tomcat
+				container
+				managed security.
+				Persistence layer implemented only with
+				DAO's based
+				on pure JDBC API.
+				Programming the java-façades for
+				Flash-based
+				GUI-interface.
+				Web GUI-components development with AJAX.
+				Conception
+				and realization of standalone application (server) aimed
+				to survey
+				the availability of internet sites.
+				This application was
+				developed with multithreading features as daemon
+				for Linux Debian OS.
+				Participation in projects architecture design.
+			</jobDesc>
+			<technologiesList>
+				Java/J2EE, JDBC, Servlet/JSP, Tomcat 5.5, MySQL 4.1,
+				PostgreSQL, Log4j, Velocity, JSVC.
+			</technologiesList>
 			<url>http://www.duke-interactive.com</url>
 			<note></note>
 		</company>
 		<company>
-			<date>Décembre 2005 - Août 2006</date>
+			<date>Dicembre 2005 - Agosto 2006</date>
 			<name>ISD - Information Systems Development</name>
-			<activity>Editeur de Logiciel</activity>
-			<geolocalization>Dnipropetrovsk, Ukraine</geolocalization>
-			<jobTitle>Ingénieur Java</jobTitle>
-			<jobDesc>Développement et tests de la web-application de Gestion du Temps des Employées (Time management system).
-				Tâches accomplies: Développement des composants graphiques basés sur JSF; 
-						Conception et réalisation des tests de stress de l’application. OpenSTA et langage SCL;
-						Migration de l’application de WebSphere sur le serveur JBoss;
-						Coordination du lancement en production de l’application sous JBoss.
-				Les technologies utilisées: serveurs d'applications JBOSS et WebSphere, SGBD Oracle, Hibernate, Spring, JSF, JNDI, JProfiler.</jobDesc>
+			<activity>Software</activity>
+			<geolocalization>Dnipropetrovsk, Ukraine
+			</geolocalization>
+			<jobTitle>Junior Java Software Engineer</jobTitle>
+			<jobDesc>Development of web-based time management system.
+				Accomplished tasks: developing gui-components based on JSF;
+				application server migration from WebSphere to JBoss;
+				implementation
+				of stress-test scripts with OpenSTA ans SCL language; application
+				maintenance management.
+			</jobDesc>
+			<technologiesList>
+				Application servers WebSphere and JBoss, RDBMS Oracle, Hibernate, Spring, JSF, JNDI.
+			</technologiesList>
 			<url>http://www.isd.dp.ua</url>
 			<note></note>
 		</company>
 		<company>
-			<date>Avril 2005 - Octobre 2005</date>
+			<date>Aprile 2005 - Ottobre 2005</date>
 			<name>LegitiName</name>
-			<activity>Editeur de Logiciel</activity>
+			<activity>Software</activity>
 			<geolocalization>Rumelange, Luxembourg</geolocalization>
-			<jobTitle>Ingénieur .NET/C#</jobTitle>
-			<jobDesc>Mission - évolution du produit "SiteAudit": spécification et conception du produit; rédaction des dossiers correspondants; 
-				développement sur la plateforme Microsoft .NET / C#; les technologies utilisées:  XML (XPath, XSD), ADO.NET, Microsoft SQL Server, 
-				librairies "Microsoft XMLDiff and XMLPatch 1.0" et "HtmlAgilityPack".</jobDesc>
+			<jobTitle>.NET/C# Engineer</jobTitle>
+			<jobDesc>Responsible for product evolution "SiteAudit".
+				Specification and implementation of core project functionality.
+				Preparing technical documentation.
+			</jobDesc>
+			<technologiesList>
+				Programming on
+				framework .NET, language C#, XML (XPath, XSD), ADO.NET, Microsoft
+				SQL Server,
+				librairies "Microsoft XMLDiff and XMLPatch 1.0" and
+				"HtmlAgilityPack" by Simon Mournier.
+			</technologiesList>
 			<url>http://www.legitiname.com</url>
 			<note></note>
 		</company>
 	</experiences>
-	
+
 	<!-- Section about technologies I use in my work. -->
-	<technologies title="Domaines de Compétences">
+	<technologies title="Conoscenze informatiche">
 		<technology-domain>
-			<name>Systèmes d'exploitation</name>
+			<name>Sistemi operativi</name>
 			<itemsList>Mac OS X; MS Windows; Linux.</itemsList>
 		</technology-domain>
 		<technology-domain>
-			<name>Langages de programmation</name>
+			<name>Linguaggi di programmazione</name>
 			<itemsList>Java , C# , Python, Pascal, PHP.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Java/J2EE</name>
-			<itemsList>Core Java (J2SE). Les standards J2EE: Servlets/JSP, EJB, Web Services, les serveurs d'application/serveurs web : JBoss, WebSphere, Tomcat, Resin.
-					Connaissances des points clés de l'architectures distribuée n-tiers: objets métiers (POJO ou EJB), persistance de
-					données, sécurité, transactions, multithreading, logging.
-					Les frameworks et librairies Java: Spring, Struts, 
-					Hibernate, Quartz, plusieurs sous-projets d'Apache Commons, Velocity, iText, JSVC. XML (XSL, XPath, XSD), HTML(CSS, JavaScript).
-					Tests unitaires JUnit, TestNG et DbUnit; l'integration avec Spring testing framework.
+			<itemsList>Core Java (J2SE); Standards J2EE: application/web servers, JDBC,
+				Servlets/JSP, JNDI, RMI, EJB, Web Services.
+				Application/web servers :
+				JBoss, WebSphere, Tomcat, Resin.
+				Deep understanding of basis of
+				distributed n-tier architecture: business
+				objects (POJO and EJB),
+				persistance, security issues, transactions,
+				multithreading, logging.
+				Java frameworks and
+				librairies: Log4j, Spring, Struts,
+				Hibernate, Quartz, many sub-projets of
+				Apache Commons, Velocity, iText, JSVC. XML
+				(XSL, XPath, XSD),
+				HTML(CSS, JavaScript).
+				Unit testing with JUnit, TestNG and DBUnit, integration with Spring testing framework.
 			</itemsList>
 		</technology-domain>
 		<technology-domain>
-            <name>.NET</name>
-            <itemsList>.NET/C# 3.5, NHibernate, MsBuild, NUnit, DbUnit, MS Visual Studio 2008 (Visual SVN, ReSharper, dotTrace)
-            </itemsList>
-        </technology-domain>
-		<technology-domain>
-			<name>SGBD</name>
-			<itemsList>Microsoft SQL Server 2000, ORACLE 9i/10g, MySQL, PostgreSQL; langage SQL.</itemsList>
+			<name>.NET</name>
+			<itemsList>.NET/C# 3.5, NHibernate, MsBuild, NUnit, DbUnit, MS Visual Studio 2008 (Visual SVN, ReSharper, dotTrace)</itemsList>
 		</technology-domain>
 		<technology-domain>
-			<name>Outils</name>
-			<itemsList>Design Patterns (GoF+GRASP), UML,Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, Ant, Maven, CVS, SVN, Git, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, sripting with Python</itemsList>
+			<name>Basi di Dati</name>
+			<itemsList>ORACLE 9i/10g, MySQL, PostgreSQL, Microsoft SQL Server 2000; SQL language.</itemsList>
 		</technology-domain>
 		<technology-domain>
-			<name>Industrialisation</name>
-			<itemsList>Automatisation des projets avec Maven et Ant. XUnit - JUnit, TestNG, DBUnit. Les tests automatisés d'acceptence avec Selenium.
-				Analyse de la couverture du code par les tests - Cobertura. 
-				Les serveurs d'intégration continue - Hudson et TeamCity. 
-				Métriques de qualité du code - Sonar, FindBug, PMD. Gestion du projet, wiki, bug tracker - Redmine. Utilisation des Applications Blanches.
+			<name>Strumenti</name>
+			<itemsList>Design Patterns (GoF+GRASP), UML, Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, Git, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, sripting with Python</itemsList>
+		</technology-domain>
+		<technology-domain>
+			<name>Industrialization</name>
+			<itemsList>Project Automation with Maven and Ant. XUnit - JUnit, TestNG, DBUnit. Automated acceptance test with Selenium. Code coverage with Cobertura. 
+				Continious integration servers - Hudson and TeamCity. 
+				Code quality metrics - Sonar, FindBug, PMD. Project mananagement, wiki, bug tracker - Redmine. Software factories. 
 			</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Certifications</name>
-			<itemsList>J’ai des certificats suivants du système Brainbench :</itemsList>
+			<itemsList>I have earned the following certificates from Brainbench system:</itemsList>
 		</technology-domain>
 	</technologies>
-	
-	<!-- This section describes my natural language skills -->
-	<languages title="Langues">
+
+	<!-- This section describes my language skills -->
+	<languages title="Conoscenze linguistiche">
 		<language>
-			<name>Russe</name>
-			<desc>Langue maternelle.</desc>
+			<name>Russa</name>
+			<desc>Lingua nativa.</desc>
 		</language>
 		<language>
-			<name>Ukrainien</name>
-			<desc>Langue maternelle.</desc>
+			<name>Ukraina</name>
+			<desc>Lingua nativa.</desc>
 		</language>
 		<language>
-			<name>Français</name>
-			<desc>Couramment. Plus de 10 ans d'expérience. 
-				Diplômes européens en langue française: DELF 1, DELF 2, B1, B2, B3, C2 du DALF.</desc>
+			<name>Francese</name>
+			<desc>Correntemente .Più di 10 anni di esperienza. Avere il
+				seguenti diplomi di francese del quadro comune europeo di
+				Riferimenti per le lingue: DELF B1, B2, B3, DALF C2
+			</desc>
 		</language>
 		<language>
-			<name>Anglais</name>
-			<desc>Lecture – très bien, écriture – très bien, expression orale – bien.</desc>
+			<name>Inglese</name>
+			<desc>Lettura / scrittura - molto buono, espressione orale - buono.</desc>
 		</language>
 		<language>
-			<name>Italien</name>
-			<desc>Débutant. Les courses de la langue dans le centre italien Dante ALIEGHIERI, à Kiev.</desc>
-		</language>  		
+			<name>Italiana</name>
+			<desc>Livello principiante. Gli corsi nel Instituto Italiano di Cultura - Dante ALIEGHIERI, Kiev.</desc>
+		</language>
 	</languages>
-	
+
 	<!-- Section about my interests, hobbies, sports I do, etc -->
-	<miscellanea title="Informations complémentaires">
+	<miscellanea title="Interessi">
 		<item>
-			<name>Centres d'intérêts</name>
-			<desc>Java, création des systèmes informatiques, conception et "usability" de l'interface graphique de l'utilisateur, géographie, langues étrangères</desc>
+			<name>Interessi</name>
+			<desc>Java, software design and implementation, Graphical User
+				Interface (GUI) design and usability, geography, foreign languages.
+			</desc>
 		</item>
 		<item>
 			<name>Sports</name>
-			<desc>Athlétisme, gymnastique, natation, volley-ball</desc>
+			<desc>Athletics, gymnastics, swimming, volley-ball.</desc>
 		</item>
 		<item>
 			<name>Blog</name>
 			<url>http://yevgen-fr.blogspot.com</url>
-			<desc>Mon blog technique (en français) consacré à l'IT, la programmation, Java, etc.</desc>
+			<desc>Mio personale technico blog in Franchese e Inglese di IT, programmazione, Java.</desc>			
 		</item>
-		
 	</miscellanea>
-	
-	<!-- This section contains localized message for different labels on the page.
--->
+
+	<!--
+		This section contains localized message for different labels on the
+		page.
+	-->
 	<localization>
-		<label_CompanyName>Entreprise</label_CompanyName>
-		<label_JobTitle>Poste occupé</label_JobTitle>
-		<label_JobDecs>Description de mission</label_JobDecs>
-		<label_GeoLocalization>Localisation</label_GeoLocalization>
-		<label_URL>Site web</label_URL>
-		<label_Activity>Secteur d'activité</label_Activity>
-		<label_Page4Pdf>Page</label_Page4Pdf>
-		<label_DownloadPdf>Télécharger le CV en format PDF</label_DownloadPdf>
+		<label_CompanyName>Società</label_CompanyName>
+		<label_JobTitle>Posizione ricoperta</label_JobTitle>
+		<label_JobDecs>Descrizione della missione</label_JobDecs>
+		<label_GeoLocalization>Posizione</label_GeoLocalization>
+		<label_URL>Sito web</label_URL>
+		<label_Activity>Settore di attività</label_Activity>
+		<label_Page4Pdf>Pagina</label_Page4Pdf>
+		<label_DownloadPdf>Download PDF-version</label_DownloadPdf>
 		<!-- The fast navigation Panel -->
 		<navigationPanel>
-			<title>Panel de navigation rapide</title>
-			<link_hide>Désactiver</link_hide>
-			<link_show>Activer</link_show>
+			<title>Navigazione rapida</title>
+			<link_hide>Disabilitare</link_hide>
+			<link_show>Attivare</link_show>
 		</navigationPanel>
-		<label_print_html>Version imprimable</label_print_html>
-		<label_CurrentPositionTitle>Sviluppatore Java/J2EE</label_CurrentPositionTitle> <!-- Added for PDF version -->
-		<label_technologyList>Technologie usate</label_technologyList>
+		<label_print_html>Versione stampa</label_print_html>
+		<label_CurrentPositionTitle>Analista programmatore</label_CurrentPositionTitle> <!-- Added for PDF version -->
 	</localization>
 </cv>

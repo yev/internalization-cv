@@ -217,7 +217,13 @@
                                                         <td width="150">
 			                                                   <xsl:value-of select="/cv/localization/label_CompanyName"/>:
                                                         </td> 
-                                                        <td><strong class="org"><xsl:value-of select="name"/></strong><br/></td> 
+                                                        <td><strong class="org"><xsl:value-of select="name"/></strong> - 
+		                                                <small><a><xsl:attribute name="href"> 
+		                                                        <xsl:value-of select="url"/>
+		                                                    </xsl:attribute>
+		                                                    <xsl:value-of select="url"/>
+		                                                </a></small>
+		                                                </td> 
 
                                                        
                                                     </tr>
@@ -250,16 +256,6 @@
 	                                            <td class="missionDesc" colspan="2"><strong><xsl:value-of select="/cv/localization/label_technologyList"/></strong> :<xsl:value-of select="technologiesList"/></td>
 	                                        </tr>
 	                                    </xsl:if>
-                                        <tr>
-                                            <td colspan="2"><strong><xsl:value-of select="/cv/localization/label_URL"/></strong> :
-                                            	<a><xsl:attribute name="href">
-                                                        <xsl:value-of select="url"/>
-                                                    </xsl:attribute>
-                                                    <xsl:value-of select="url"/>
-                                                </a>			
-                                                <xsl:value-of select="note"/>
-                                            </td>
-                                        </tr>
                                     </table>
                                 </td>
                             </tr>	
