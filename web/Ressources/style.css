@@ -158,6 +158,11 @@ a.navigationToogleLink
 {
 	font-family: Georgia;
 }
+img.flag
+{
+	margin-left: 20px;
+	margin-right 20px;
+}
 
 #smallLink
 {

@@ -58,12 +58,13 @@
                 <a name="topNavigation"></a>
                 <DIV id="wrapper">
                  <table width="100%" border="0">
-                                    <tr>
-                                        <td align="center"><strong class="org"><a href="index.html">English</a></strong>
-                                            • <strong class="org"><a href="index_fr.html">Français</a></strong>
-                                            • <strong class="org"><a href="index_ru.html">Русский</a></strong>
-                                        • <strong class="org"><a href="index_ua.html">Українська</a></strong>
-                                        • <strong class="org"><a href="index_it.html">Italiano</a></strong>
+                 					<tr>
+                                        <td align="center">
+                                        	<a href="index.html" title="CV in english"><img src="Ressources/images/UnitedKingdom24.png" class="flag" alt="CV in english"/></a>
+                                        	<a href="index_fr.html" title="CV en français"><img src="Ressources/images/France24.png" class="flag" alt="CV en français"/></a>
+                                        	<a href="index_ru.html" title="Резюме на русском"><img src="Ressources/images/Russia24.png" class="flag" alt="Резюме на русском"/></a>
+                                        	<a href="index_ua.html" title="Резюме на українській"><img src="Ressources/images/Ukraine24.png" class="flag" alt="Резюме на українській"/></a>
+                                        	<a href="index_it.html" title="CV in italiano"><img src="Ressources/images/Italy24.png" class="flag" alt="CV in italiano"/></a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -74,7 +75,7 @@
                                             <table border="0">
                                                 <tr>
                                                     <td>
-                                                    	<img src="Ressources/images/pdfimage.jpg" alt="cv in pdf version" style="width:50; height=50;" border="0"/>
+                                                    	<img src="Ressources/images/pdfimage.jpg" alt="cv in pdf version" border="0"/>
                                                     	
                                                     </td>
                                                     <td valign="middle">
