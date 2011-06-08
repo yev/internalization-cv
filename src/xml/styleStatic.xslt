@@ -85,14 +85,20 @@
                                                         <xsl:if test="@locale='ua'"><a href="pdf/cv_voronetskyy_ua.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
                                                         <xsl:if test="@locale='it'"><a href="pdf/cv_voronetskyy_it.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
                                                     </td>
-                                                </tr>
-                                                
+                                                </tr>                                                
                                             </table>		
                                         </td>
                                     </tr>
                                     <tr>
                                         <td align="center"><span id="nivigationPanel"><a name="navigationPanel"><xsl:value-of select="localization/navigationPanel/title"/></a> [ <a href="#topNavigation" onClick="javascript:toggle();" class="navigationToogleLink"><span id="navigation_link"></span></a>  ] </span></td>
                                     </tr>
+                                    <xsl:if test="@locale='it'"> <!-- temporary message during the work on italian transaltion -->
+	                                    <tr>
+	                                    	<td align="center">
+	                                    		<h2 style="color: red">lavori in corso</h2>
+	                                    	</td>
+	                                    </tr>
+                                    </xsl:if>
                                     <tr>
 			                            <td>
 			                                <table width="100%" border="0">
