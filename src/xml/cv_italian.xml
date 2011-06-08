@@ -15,14 +15,14 @@
 		<address>Perros-Guirec, France</address>
 		<googleMapLocationString>Perros-Guirec, Francia</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
 		<mobile>Phone: +33.6.29.84.09.83</mobile>
-		<job-title>Analista programmatore Java/J2EE</job-title>
+		<job-title>ASviluppatore Java/J2EE Java/J2EE</job-title>
 		<additionalInfo>è nato il 23 Novembre 1981, Ukraina</additionalInfo>
 	</personalInfo>
 
 	<summary title="Breve descrizione">
-		Analista programmatore Java/J2EE. Design e realizzazione di Sistemi d'informazione
-		OOP. N-tiers Architetture.	RDBMS/SQL.
-		Design patterns. UML. RUP, agile software development. Experience in the industrialization of development processes.
+		Sviluppatore Java/J2EE. Progettazione e realizzazione di Sistemi d'informazione.
+		OOP. N-tiers Architetture.	Base di dati/SQL.
+		Design patterns. UML. RUP, agile software development. Esperienza nella industrializzazione de processo di sviluppo.
 		European education.	Master degree in Computer Science. 5 years of international experience
 		(projects for IT-consulting, insurance and software	companies).
 		21 IT-certifications from Brainbench system.
@@ -37,7 +37,7 @@
 			<date>2008</date>
 			<desc>Effective communication, English courses (intermediate level)</desc>
 			<geolocalization>Parigi, Francia</geolocalization>
-			<url>http://www.teamlog.com</url>
+			<url>http://www.open-groupe.com</url>
 			<note></note>
 		</organisation>
 		<organisation>
