@@ -17,4 +17,7 @@ ftp ftp://yevvor2:yuuc@ftp.freehostia.com << ftpEOF
    quit
 ftpEOF
 
+
 echo === Script finished. Attention, only SOME static resources HTML,CSS and PDF has been copied. All other artifacts you should copy manually.
+
+echo 'du -hs .git' =;du -hs .git
