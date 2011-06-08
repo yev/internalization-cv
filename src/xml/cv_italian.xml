@@ -79,7 +79,7 @@
 		<company>
 			<date>Da giugno 2008</date>
 			<name>Open-Groupe (Teamlog)</name>
-			<activity>IT consulting</activity>
+			<activity>IT consulenza</activity>
 			<geolocalization>Parigi/Lannion/Kiev</geolocalization>
 			<jobTitle>Referente technico</jobTitle>
 			<jobDesc>
@@ -99,7 +99,7 @@
 		<company>
 			<date>Ottobre 2006 - Maggio 2008</date>
 			<name>DVK-Tech</name>
-			<activity>IT consulting, Software</activity>
+			<activity>IT consulenza, Software</activity>
 			<geolocalization>Parigi, Francia</geolocalization>
 			<jobTitle>Java/J2EE Software Engineer</jobTitle>
 			<jobDesc>Java/J2EE consulting and development for different
@@ -111,9 +111,9 @@
 		<company isConsulting="true">
 			<date>Novembre 2007 - Maggio 2008</date>
 			<name>Générali</name>
-			<activity>Insurance</activity>
+			<activity>Assicurazione</activity>
 			<geolocalization>Saint-Denis, Francia</geolocalization>
-			<jobTitle>Java/J2EE Software Engineer</jobTitle>
+			<jobTitle>Sviluppatore  Java/J2EE</jobTitle>
 			<jobDesc>Development of Java-based enterprise server.
 				Technical design and implementation of different integration modules
 				for connecting externs information systems.
@@ -130,9 +130,9 @@
 		<company isConsulting="true">
 			<date>Ottobre 2007</date>
 			<name>SMI-Mutuelle</name>
-			<activity>Insurance</activity>
+			<activity>Assicurazione</activity>
 			<geolocalization>Parigi, Francia</geolocalization>
-			<jobTitle>Java/J2EE Consultant</jobTitle>
+			<jobTitle>Consulente Java/J2EE</jobTitle>
 			<jobDesc>Audit of a web-application that represents the company
 				business workflow.
 				Analysis and documentation of the existing
@@ -151,9 +151,9 @@
 		<company isConsulting="true">
 			<date>Marzo 2007 - Ottobre 2007</date>
 			<name>Mondial-Assistance</name>
-			<activity>Insurance</activity>
+			<activity>Assicurazione</activity>
 			<geolocalization>Parigi, Francia</geolocalization>
-			<jobTitle>Java/J2EE Software Engineer</jobTitle>
+			<jobTitle>Sviluppatore Java/J2EE</jobTitle>
 			<jobDesc>Participation in the design and development of
 				« e-commerce » projects.
 				Persistence layer has been implemented with
@@ -179,7 +179,7 @@
 			<name>Web Agency DUKE</name>
 			<activity>Web agency</activity>
 			<geolocalization>Parigi, Francia</geolocalization>
-			<jobTitle>Java/J2EE Software Engineer</jobTitle>
+			<jobTitle>Sviluppatore Java/J2EE</jobTitle>
 			<jobDesc>Design and realization of web site "back-office"
 				solutions based on 3-tier architecture; persistence, business object
 				layer (POJO), deployment ;
@@ -215,7 +215,7 @@
 			<name>ISD - Information Systems Development</name>
 			<activity>Software</activity>
 			<geolocalization>Dnipropetrovsk, Ukraina</geolocalization>
-			<jobTitle>Junior Java Software Engineer</jobTitle>
+			<jobTitle>Sviluppatore Junior Java</jobTitle>
 			<jobDesc>Development of web-based time management system.
 				Accomplished tasks: developing gui-components based on JSF;
 				application server migration from WebSphere to JBoss;
@@ -234,7 +234,7 @@
 			<name>LegitiName</name>
 			<activity>Software</activity>
 			<geolocalization>Rumelange, Luxembourg</geolocalization>
-			<jobTitle>.NET/C# Engineer</jobTitle>
+			<jobTitle>Sviluppatore .NET/C#</jobTitle>
 			<jobDesc>Responsible for product evolution "SiteAudit".
 				Specification and implementation of core project functionality.
 				Preparing technical documentation.
@@ -337,13 +337,13 @@
 	<miscellanea title="Interessi">
 		<item>
 			<name>Interessi</name>
-			<desc>Java, software design and implementation, Graphical User
-				Interface (GUI) design and usability, geography, foreign languages.
+			<desc>Nuove tecnologie, sviluppo per piattaforma Java, Graphical User
+				Interface (GUI) design and usability, geografia, lingue straniere.
 			</desc>
 		</item>
 		<item>
-			<name>Sports</name>
-			<desc>Athletics, gymnastics, swimming, volley-ball.</desc>
+			<name>Sport</name>
+			<desc>Atletica, ginnastica, nuoto, pallavolo.</desc>
 		</item>
 		<item>
 			<name>Blog</name>
@@ -357,14 +357,14 @@
 		page.
 	-->
 	<localization>
-		<label_CompanyName>Società</label_CompanyName>
+		<label_CompanyName>Azienda</label_CompanyName>
 		<label_JobTitle>Posizione ricoperta</label_JobTitle>
 		<label_JobDecs>Descrizione della missione</label_JobDecs>
 		<label_GeoLocalization>Posizione</label_GeoLocalization>
 		<label_URL>Sito web</label_URL>
 		<label_Activity>Settore di attività</label_Activity>
 		<label_Page4Pdf>Pagina</label_Page4Pdf>
-		<label_DownloadPdf>Download PDF-version</label_DownloadPdf>
+		<label_DownloadPdf>Caricare la versione PDF</label_DownloadPdf>
 		<!-- The fast navigation Panel -->
 		<navigationPanel>
 			<title>Navigazione rapida</title>
