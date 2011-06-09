@@ -95,7 +95,7 @@
                                     <xsl:if test="@locale='it'"> <!-- temporary message during the work on italian transaltion -->
 	                                    <tr>
 	                                    	<td align="center">
-	                                    		<h2 style="color: red">lavori in corso</h2>
+	                                    		<h2 style="color: red">Traduzione in corso</h2>
 	                                    	</td>
 	                                    </tr>
                                     </xsl:if>
