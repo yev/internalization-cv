@@ -56,69 +56,34 @@
             </head>
             <body>
                 <a name="topNavigation"></a>
-                <DIV id="wrapper">
-                 <table width="100%" border="0">
-                 					<tr>
-                                        <td align="center">
-                                        	<a href="index.html" title="CV in english"><img src="Ressources/images/UnitedKingdom24.png" class="flag" alt="CV in english"/></a>
-                                        	<a href="index_fr.html" title="CV en français"><img src="Ressources/images/France24.png" class="flag" alt="CV en français"/></a>
-                                        	<a href="index_ru.html" title="Резюме на русском"><img src="Ressources/images/Russia24.png" class="flag" alt="Резюме на русском"/></a>
-                                        	<a href="index_ua.html" title="Резюме на українській"><img src="Ressources/images/Ukraine24.png" class="flag" alt="Резюме на українській"/></a>
-                                        	<a href="index_it.html" title="CV in italiano"><img src="Ressources/images/Italy24.png" class="flag" alt="CV in italiano"/></a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><hr class="neutral"/><!-- Codes by Quackit.com --></td>
-                                    </tr>
-                                    <tr>
-                                        <td align="center">
-                                            <table border="0">
-                                                <tr>
-                                                    <td>
-                                                    	<img src="Ressources/images/pdfimage.jpg" alt="cv in pdf version" border="0"/>
-                                                    	
-                                                    </td>
-                                                    <td valign="middle">
-                                                        <xsl:if test="@locale='fr'"><a href="pdf/cv_voronetskyy_fr.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
-                                                        <xsl:if test="@locale='en'"><a href="pdf/cv_voronetskyy.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
-                                                        <xsl:if test="@locale='ru'"><a href="pdf/cv_voronetskyy_ru.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
-                                                        <xsl:if test="@locale='ua'"><a href="pdf/cv_voronetskyy_ua.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
-                                                        <xsl:if test="@locale='it'"><a href="pdf/cv_voronetskyy_it.pdf" class="navigationToogleLink"><xsl:value-of select="localization/label_DownloadPdf"/></a></xsl:if>
-                                                    </td>
-                                                </tr>                                                
-                                            </table>		
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td align="center"><span id="nivigationPanel"><a name="navigationPanel"><xsl:value-of select="localization/navigationPanel/title"/></a> [ <a href="#topNavigation" onClick="javascript:toggle();" class="navigationToogleLink"><span id="navigation_link"></span></a>  ] </span></td>
-                                    </tr>
-                                    <xsl:if test="@locale='it'"> <!-- temporary message during the work on italian transaltion -->
-	                                    <tr>
-	                                    	<td align="center">
-	                                    		<h2 style="color: red">Traduzione in corso</h2>
-	                                    	</td>
-	                                    </tr>
-                                    </xsl:if>
-                                    <tr>
-			                            <td>
-			                                <table width="100%" border="0">
-			                                    <tr>
-			                                        <td align="center">
-			                                            <div id="fatsNavId">
-			                                                <a href="#summary"><xsl:value-of select="summary/@title"/></a> 
-			                                                | <a href="#education"><xsl:value-of select="education/@title"/></a> 
-			                                                | <a href="#experience"><xsl:value-of select="experiences/@title"/></a> 
-			                                                | <a href="#technologies"><xsl:value-of select="technologies/@title"/></a>
-			                                                | <a href="#languages"><xsl:value-of select="languages/@title"/></a> 
-			                                                | <a href="#miscellanea"><xsl:value-of select="miscellanea/@title"/></a>
-			                                            </div>
-			                                        </td>
-			                                    </tr>
-			                                </table>
-			                            </td>
-			                        </tr>
-                                </table>
-                   </DIV>
+ 				<div style="width: 90%; text-align: right; vertical-align : middle; ">
+
+								 <xsl:choose>
+                                 	<xsl:when test="@locale='en'"><a href="index.html" title="CV in english"><img src="Ressources/images/UnitedKingdom24.png" class="activeFlag" alt="CV in english"/></a></xsl:when>
+                                 	<xsl:otherwise>				  <a href="index.html" title="CV in english"><img src="Ressources/images/UnitedKingdom24.png" class="flag" alt="CV in english"/></a></xsl:otherwise>
+                                 </xsl:choose>
+                                 <xsl:choose>
+                                 	<xsl:when test="@locale='fr'"><a href="index_fr.html" title="CV en français"><img src="Ressources/images/France24.png" class="activeFlag" alt="CV en français"/></a></xsl:when>
+                                 	<xsl:otherwise>				  <a href="index_fr.html" title="CV en français"><img src="Ressources/images/France24.png" class="flag" alt="CV en français"/></a></xsl:otherwise>
+                                 </xsl:choose>
+                                 <xsl:choose>
+                                 	<xsl:when test="@locale='ru'"><a href="index_ru.html" title="Резюме на русском"><img src="Ressources/images/Russia24.png" class="activeFlag" alt="Резюме на русском"/></a></xsl:when>
+                                 	<xsl:otherwise>				  <a href="index_ru.html" title="Резюме на русском"><img src="Ressources/images/Russia24.png" class="flag" alt="Резюме на русском"/></a></xsl:otherwise>
+                                 </xsl:choose>
+                                 <xsl:choose>
+                                 	<xsl:when test="@locale='ua'"><a href="index_ua.html" title="Резюме на українській"><img src="Ressources/images/Ukraine24.png" class="activeFlag" alt="Резюме на українській"/></a></xsl:when>
+                                 	<xsl:otherwise>				  <a href="index_ua.html" title="Резюме на українській"><img src="Ressources/images/Ukraine24.png" class="flag" alt="Резюме на українській"/></a></xsl:otherwise>
+                                 </xsl:choose>
+                                 <xsl:choose>
+                                 	<xsl:when test="@locale='it'"><a href="index_it.html" title="CV in italiano"><img src="Ressources/images/Italy24.png" class="activeFlag" alt="CV in italiano"/></a></xsl:when>
+                                 	<xsl:otherwise>				  <a href="index_it.html" title="CV in italiano"><img src="Ressources/images/Italy24.png" class="flag" alt="CV in italiano"/></a></xsl:otherwise>
+                                 </xsl:choose>
+                              
+                                        	
+                                        	
+                                        	
+                                        
+				</div>
                 <DIV id="wrapper">
                     <table width="100%" border="0">
                         <tr>
@@ -138,6 +103,16 @@
                                 <img src="Ressources/images/photo.jpg" border="1" alt="my recent foto"/>
                                 
                             </td>
+                        </tr>
+                        <tr>
+                        	<td colspan="2"></td>
+                        	<td align="right"  style="padding-right: 30px; padding-top: 10px;">
+                        		<xsl:if test="@locale='fr'"><a href="pdf/cv_voronetskyy_fr.pdf"><xsl:attribute name="title"><xsl:value-of select="localization/label_DownloadPdf"/></xsl:attribute><img src="Ressources/images/pdfimage.jpg" alt="cv in pdf version" border="0"/></a></xsl:if>
+								<xsl:if test="@locale='en'"><a href="pdf/cv_voronetskyy.pdf"><xsl:attribute name="title"><xsl:value-of select="localization/label_DownloadPdf"/></xsl:attribute><img src="Ressources/images/pdfimage.jpg" alt="cv in pdf version" border="0"/></a></xsl:if>
+								<xsl:if test="@locale='ru'"><a href="pdf/cv_voronetskyy_ru.pdf"><xsl:attribute name="title"><xsl:value-of select="localization/label_DownloadPdf"/></xsl:attribute><img src="Ressources/images/pdfimage.jpg" alt="cv in pdf version" border="0"/></a></xsl:if>
+								<xsl:if test="@locale='ua'"><a href="pdf/cv_voronetskyy_ua.pdf"><xsl:attribute name="title"><xsl:value-of select="localization/label_DownloadPdf"/></xsl:attribute><img src="Ressources/images/pdfimage.jpg" alt="cv in pdf version" border="0"/></a></xsl:if>
+								<xsl:if test="@locale='it'"><a href="pdf/cv_voronetskyy_it.pdf"><xsl:attribute name="title"><xsl:value-of select="localization/label_DownloadPdf"/></xsl:attribute><img src="Ressources/images/pdfimage.jpg" alt="cv in pdf version" border="0"/></a></xsl:if>
+                        	</td>
                         </tr>                        
                     </table>
                     <table border="0" cellspacing="0" cellpadding="0">

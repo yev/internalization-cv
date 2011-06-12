@@ -21,6 +21,7 @@ BORDER-RIGHT: #FF8040 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #FF8040 1px sol
 	padding-bottom : 15px;
 	padding-top : 15px;
 	padding-left: 125px;
+	
 }
 table
 {
@@ -160,8 +161,14 @@ a.navigationToogleLink
 }
 img.flag
 {
-	margin-left: 20px;
-	margin-right 20px;
+	margin-left: 10px;
+}
+img.activeFlag
+{
+	margin-left: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+	border-bottom-width: 1px;
 }
 
 #smallLink
