@@ -295,7 +295,10 @@
 			<url>http://yevgen-fr.blogspot.com</url>
 			<desc>Mon blog technique (en français) consacré à l'IT, la programmation, Java, etc.</desc>
 		</item>
-		
+		<item>
+			<name>IT-Conferences</name>
+			<desc>Regulièrement et avec grand intérêt je viens aux différentes conférences autour du Java: Paris JUG, JavaOne à Moscou</desc>
+		</item>
 	</miscellanea>
 	
 	<!-- This section contains localized message for different labels on the page.-->
