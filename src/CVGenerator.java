@@ -142,11 +142,11 @@ public final class CVGenerator
 			case ukrainian:
 				return "_ua";
 			case french:
-				return "_fr";
+				return "";
 			case italian:
 				return "_it";
 			case english:
-				return "";
+				return "_en";
 			default:
 				throw new IllegalArgumentException("The language "+language+" is not supported!");
 		}

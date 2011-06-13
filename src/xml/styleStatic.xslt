@@ -59,12 +59,12 @@
  				<div style="width: 90%; text-align: right; vertical-align : middle; ">
 
 								 <xsl:choose>
-                                 	<xsl:when test="@locale='en'"><a href="index.html" title="CV in english"><img src="Ressources/images/UnitedKingdom24.png" class="activeFlag" alt="CV in english"/></a></xsl:when>
-                                 	<xsl:otherwise>				  <a href="index.html" title="CV in english"><img src="Ressources/images/UnitedKingdom24.png" class="flag" alt="CV in english"/></a></xsl:otherwise>
+                                 	<xsl:when test="@locale='en'"><a href="index_en.html" title="CV in english"><img src="Ressources/images/UnitedKingdom24.png" class="activeFlag" alt="CV in english"/></a></xsl:when>
+                                 	<xsl:otherwise>				  <a href="index_en.html" title="CV in english"><img src="Ressources/images/UnitedKingdom24.png" class="flag" alt="CV in english"/></a></xsl:otherwise>
                                  </xsl:choose>
                                  <xsl:choose>
-                                 	<xsl:when test="@locale='fr'"><a href="index_fr.html" title="CV en français"><img src="Ressources/images/France24.png" class="activeFlag" alt="CV en français"/></a></xsl:when>
-                                 	<xsl:otherwise>				  <a href="index_fr.html" title="CV en français"><img src="Ressources/images/France24.png" class="flag" alt="CV en français"/></a></xsl:otherwise>
+                                 	<xsl:when test="@locale='fr'"><a href="index.html" title="CV en français"><img src="Ressources/images/France24.png" class="activeFlag" alt="CV en français"/></a></xsl:when>
+                                 	<xsl:otherwise>				  <a href="index.html" title="CV en français"><img src="Ressources/images/France24.png" class="flag" alt="CV en français"/></a></xsl:otherwise>
                                  </xsl:choose>
                                  <xsl:choose>
                                  	<xsl:when test="@locale='ru'"><a href="index_ru.html" title="Резюме на русском"><img src="Ressources/images/Russia24.png" class="activeFlag" alt="Резюме на русском"/></a></xsl:when>
@@ -107,8 +107,8 @@
                         <tr>
                         	<td colspan="2"></td>
                         	<td align="right"  style="padding-right: 30px; padding-top: 10px;">
-                        		<xsl:if test="@locale='fr'"><a href="pdf/cv_voronetskyy_fr.pdf"><xsl:attribute name="title"><xsl:value-of select="localization/label_DownloadPdf"/></xsl:attribute><img src="Ressources/images/pdfimage.jpg" alt="cv in pdf version" border="0"/></a></xsl:if>
-								<xsl:if test="@locale='en'"><a href="pdf/cv_voronetskyy.pdf"><xsl:attribute name="title"><xsl:value-of select="localization/label_DownloadPdf"/></xsl:attribute><img src="Ressources/images/pdfimage.jpg" alt="cv in pdf version" border="0"/></a></xsl:if>
+                        		<xsl:if test="@locale='fr'"><a href="pdf/cv_voronetskyy.pdf"><xsl:attribute name="title"><xsl:value-of select="localization/label_DownloadPdf"/></xsl:attribute><img src="Ressources/images/pdfimage.jpg" alt="cv in pdf version" border="0"/></a></xsl:if>
+								<xsl:if test="@locale='en'"><a href="pdf/cv_voronetskyy_en.pdf"><xsl:attribute name="title"><xsl:value-of select="localization/label_DownloadPdf"/></xsl:attribute><img src="Ressources/images/pdfimage.jpg" alt="cv in pdf version" border="0"/></a></xsl:if>
 								<xsl:if test="@locale='ru'"><a href="pdf/cv_voronetskyy_ru.pdf"><xsl:attribute name="title"><xsl:value-of select="localization/label_DownloadPdf"/></xsl:attribute><img src="Ressources/images/pdfimage.jpg" alt="cv in pdf version" border="0"/></a></xsl:if>
 								<xsl:if test="@locale='ua'"><a href="pdf/cv_voronetskyy_ua.pdf"><xsl:attribute name="title"><xsl:value-of select="localization/label_DownloadPdf"/></xsl:attribute><img src="Ressources/images/pdfimage.jpg" alt="cv in pdf version" border="0"/></a></xsl:if>
 								<xsl:if test="@locale='it'"><a href="pdf/cv_voronetskyy_it.pdf"><xsl:attribute name="title"><xsl:value-of select="localization/label_DownloadPdf"/></xsl:attribute><img src="Ressources/images/pdfimage.jpg" alt="cv in pdf version" border="0"/></a></xsl:if>
