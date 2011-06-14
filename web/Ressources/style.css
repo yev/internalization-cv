@@ -5,7 +5,8 @@ BODY {
 BORDER-RIGHT: #FF8040 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #FF8040 1px solid; 
 	PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1em auto; VERTICAL-ALIGN: bottom; 
 	BORDER-LEFT: #FF8040 1px solid; WIDTH: 80%; PADDING-TOP: 0px; BORDER-BOTTOM: #FF8040 1px solid; 
-	POSITION: relative; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center;
+	position: relative;
+	BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 12;
 }
@@ -100,6 +101,10 @@ img.brainImg
 {
 	margin:2px;
 }
+img.flagStyle
+{
+	margin-right: 5px;
+}
 #markBlue
 {
 	color : blue;
@@ -167,7 +172,7 @@ img.activeFlag
 {
 	margin-left: 10px;
 	border-bottom-style: solid;
-	border-bottom-color: white;
+	border-bottom-color: blue;
 	border-bottom-width: 1px;
 }
 
@@ -178,8 +183,33 @@ img.activeFlag
 	font-style: italic;
 }
 
-.box { border:1px solid; border-color:#e5e5e5 #dbdbdb #d2d2d2; background:#FFFEFF; -webkit-box-shadow:rgba(0,0,0,.5) 0 1px 2px; -moz-box-shadow:rgba(0,0,0,.5) 0 1px 2px; padding:7px;border-top-color: #000000; border-top-width:23x;}
-div ~ .box { border-width:0; *border-width:1px; } /* reset for safari3, and resetting that reset for IE7 */
-@-moz-document url-prefix() { div ~ .box { border-width:1px; } } /* FF2 reset for the above */
-.box:nth-child(1n) { border:none; } /* reset for smart browsers */
-.box { border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; -khtml-border-radius:3px; }
+
+#roundedLang
+{
+	border-bottom-left-radius: 15px 15px;
+	border-bottom-right-radius: 15px 15px;
+	border-top-left-radius: 15px 15px;
+	border-top-right-radius: 15px 15px;	
+	background-color: white;
+	padding-right: 20px;
+	padding-bottom: 3px;
+	width: 180px;
+	vertical-align:middle;
+}
+
+#roundedPdf
+{
+	border-bottom-left-radius: 15px 15px;
+	border-bottom-right-radius: 15px 15px;
+	border-top-left-radius: 15px 15px;
+	border-top-right-radius: 15px 15px;	
+	background-color: white;
+	width: 220px;
+	padding-left: 20px;
+}
+a.pdfDownloadLink
+{
+	text-decoration: none;
+	font-size: small;
+}
+
