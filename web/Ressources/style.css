@@ -13,8 +13,8 @@ BORDER-RIGHT: #FF8040 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #FF8040 1px sol
 	border-bottom-right-radius: 15px 15px;
 	border-top-left-radius: 15px 15px;
 	border-top-right-radius: 15px 15px;	
-	box-shadow: 1px 1px 1px black;
-	-webkit-box-shadow: 1px 1px 1px black;
+	box-shadow: 1px 1px 1px gray;
+	-webkit-box-shadow: 1px 1px 1px gray;
 }
 #langPanel
 {
