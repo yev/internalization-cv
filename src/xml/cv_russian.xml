@@ -287,6 +287,10 @@
 			<url>http://yevgen-fr.blogspot.com</url>
 			<desc>Мой личный технический блог (на французском языке). Основные темы - ИТ, программирование, Java.</desc>
 		</item>
+		<item>
+			<name>IT-Конференции</name>
+			<desc>Регулярно и с большим интересом посещаю различные Java конференции : Paris Jug, JavaOne 2011 в Москве</desc>
+		</item>
 	</miscellanea>
 	
 	<!-- This section contains localized message for different labels on the page. -->

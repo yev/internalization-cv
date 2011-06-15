@@ -350,6 +350,10 @@
 			<url>http://yevgen-fr.blogspot.com</url>
 			<desc>Mio personale technico blog in Franchese e Inglese di IT, programmazione, Java.</desc>			
 		</item>
+		<item>
+			<name>IT-Conferences</name>
+			<desc>Regulary and with enthousiasme attending differnet Java related conferences : Paris JUG, JavaOne in Moscow</desc>
+		</item>
 	</miscellanea>
 
 	<!--
