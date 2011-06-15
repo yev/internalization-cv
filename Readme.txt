@@ -12,3 +12,4 @@ Technical lessons:
 I didn't notice any bug
 2. I've played a little bit with a static Map Google API - Nice stuff. Very simple to use.
 3. I've integrated and tried out jQuery library with the theme customization.
+4. I've used some new for me GUI-related features from HTML5 standards (like rounded boxes and shadow effect)
