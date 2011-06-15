@@ -173,6 +173,7 @@ a.navigationToogleLink
 img.flag
 {
 	margin-left: 10px;
+	border: none;
 }
 img.activeFlag
 {
@@ -180,6 +181,7 @@ img.activeFlag
 	border-bottom-style: solid;
 	border-bottom-color: blue;
 	border-bottom-width: 1px;
+	border: none;
 }
 
 #smallLink
@@ -202,7 +204,7 @@ img.activeFlag
 	background-color: white;
 	padding-right: 20px;
 	padding-bottom: 3px;
-	width: 180px;
+	width: 200px;
 	vertical-align:middle;
 }
 
@@ -216,7 +218,7 @@ img.activeFlag
 	border-top-left-radius: 15px 15px;
 	border-top-right-radius: 15px 15px;	
 	background-color: white;
-	width: 220px;
+	width: 280px;
 	padding-left: 20px;
 }
 a.pdfDownloadLink
