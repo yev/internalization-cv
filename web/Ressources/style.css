@@ -9,6 +9,12 @@ BORDER-RIGHT: #FF8040 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #FF8040 1px sol
 	BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 12;
+	border-bottom-left-radius: 15px 15px;
+	border-bottom-right-radius: 15px 15px;
+	border-top-left-radius: 15px 15px;
+	border-top-right-radius: 15px 15px;	
+	box-shadow: 1px 1px 1px black;
+	-webkit-box-shadow: 1px 1px 1px black;
 }
 #langPanel
 {
@@ -186,6 +192,9 @@ img.activeFlag
 
 #roundedLang
 {
+	border: gray 1px solid;
+	box-shadow: 1px 1px 1px black;
+	-webkit-box-shadow: 1px 1px 1px black;
 	border-bottom-left-radius: 15px 15px;
 	border-bottom-right-radius: 15px 15px;
 	border-top-left-radius: 15px 15px;
@@ -199,6 +208,9 @@ img.activeFlag
 
 #roundedPdf
 {
+	border: gray 1px solid;
+	box-shadow: 1px 1px 1px black;
+	-webkit-box-shadow: 1px 1px 1px black;
 	border-bottom-left-radius: 15px 15px;
 	border-bottom-right-radius: 15px 15px;
 	border-top-left-radius: 15px 15px;
