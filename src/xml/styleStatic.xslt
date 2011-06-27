@@ -20,39 +20,6 @@
                 
                 <script type="text/javascript" src="Ressources/jquery/jquery-1.5.2.min.js"></script>
                 <script type="text/javascript" src="Ressources/jquery/ui/jquery-ui-1.8.12.custom.js"></script>
-                <script type="text/javascript">
-                    function hide()
-                    {
-                    document.getElementById("fatsNavId").style.visibility='hidden';
-                    document.getElementById("fatsNavId").style.display = 'none';
-                    
-                    var linkText = document.getElementById("navigation_link");
-                    linkText.innerText = linkText.textContent = '<xsl:value-of select="localization/navigationPanel/link_show"/>';
-                    
-                    
-                    return;
-                    }
-                    function show()
-                    {
-                    document.getElementById("fatsNavId").style.visibility='visible';
-                    document.getElementById("fatsNavId").style.display = 'block';
-                    var linkText = document.getElementById("navigation_link");
-                    linkText.innerText = linkText.textContent = '<xsl:value-of select="localization/navigationPanel/link_hide"/>';
-                    return;
-                    }
-                    function toggle()
-                    {
-                    if (document.getElementById("fatsNavId").style.visibility=='visible')
-                    {
-                    hide();
-                    }
-                    else
-                    {
-                    show();
-                    }
-                    }
-                </script>
-                
             </head>
             <body>
                 <a name="topNavigation"></a>
