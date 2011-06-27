@@ -124,12 +124,9 @@
                                         </tr>
                                         <tr>
                                             <td colspan="2">
-                                                
                                                 <img src="Ressources/images/study32.gif" class="floatStyle"/>
-                                                
                                                 <xsl:value-of select="speciality"/>
                                                 <br/><xsl:value-of select="desc"/>
-                                                
                                                 <xsl:value-of select="note"/>
                                             </td>
                                         </tr>
@@ -139,8 +136,7 @@
                                                 <a><xsl:attribute name="href">
                                                         <xsl:value-of select="url"/>
                                                     </xsl:attribute><xsl:value-of select="url"/>
-                                                </a>
-                                                
+                                                </a> 
                                             </td>
                                         </tr>
                                     </table>
@@ -163,7 +159,6 @@
                                 <td class="firstCell">
                                     <xsl:value-of select="date"/>
                                 </td>
-                                
                                 <td class="info">
                                     <table border="0" class="none">
                                         <tr>
@@ -179,9 +174,7 @@
 		                                                    </xsl:attribute>
 		                                                    <xsl:value-of select="url"/>
 		                                                </a></small>
-		                                                </td> 
-
-                                                       
+		                                                </td>                                                      
                                                     </tr>
                                                     <tr>
                                                     	 <td><xsl:value-of select="/cv/localization/label_GeoLocalization"/> :</td> 
@@ -198,12 +191,10 @@
                                                                 <span id="consultant">***</span>
                                                             </xsl:if>
                                                         </td>
-                                                    </tr>
-                                                    
+                                                    </tr>                               
                                                 </table>
                                               </td>
                                             </tr>
-                                            
                                         <tr>		
                                             <td class="missionDesc" colspan="2"><strong><xsl:value-of select="/cv/localization/label_JobDecs"/></strong> : <xsl:value-of select="jobDesc"/></td>
                                         </tr>
@@ -268,9 +259,7 @@
                                     
                                     <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/ooconcepts.gif" border="0" alt="ooconcepts" class="brainImg"/></a>•
                                 </span>
-                               
                             </td>
-                            
                         </tr>
                         
                         <tr><td colspan="2">
@@ -285,7 +274,6 @@
                                     <xsl:value-of select="name"/>
                                 </td>
                                 <td class="info">
-                                    
                                     <xsl:value-of select="desc" disable-output-escaping="yes"/>
                                 </td>
                             </tr>	
