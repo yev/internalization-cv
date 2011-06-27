@@ -10,7 +10,6 @@
             <head>
                 <title><xsl:value-of select="personalInfo/lastName"/> 	 <xsl:value-of select="personalInfo/firstName"/> - <xsl:value-of select="localization/label_CurrentPositionTitle"/></title>
                 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-                <meta http-equiv="Window-target" content="_top"/>
                 <meta http-equiv="Content-Language"><xsl:attribute name="content"><xsl:value-of select="@locale"/> </xsl:attribute></meta>
                 <meta name="robots" content="follow"/>
                 <meta name="Description"><xsl:attribute name="content"> CV <xsl:value-of select="personalInfo/lastName"/> <xsl:value-of select="personalInfo/firstName"/> </xsl:attribute></meta>
