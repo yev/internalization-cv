@@ -295,7 +295,7 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Industrialization</name>
-			<itemsList>Project Automation with Maven and Ant. XUnit - JUnit, TestNG, DBUnit. Automated acceptance test with Selenium. Code coverage with Cobertura. 
+			<itemsList>Project Automation with Maven and Ant. Nexus, Sonar. XUnit - JUnit, TestNG, DBUnit. Automated acceptance test with Selenium. Code coverage with Cobertura. 
 				Continious integration servers - Hudson/Jenkins and TeamCity. 
 				Code quality metrics - Sonar, FindBug, PMD. Project mananagement, wiki, bug tracker - Redmine. Software factories. 
 			</itemsList>

@@ -85,7 +85,7 @@
 				 Технический аудит Java/J2EE проектов (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
             </jobDesc>
             <technologiesList>
-            	Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn. 
+            	Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, Nexus, Sonar, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn. 
 			</technologiesList>
 			<url>http://www.open-groupe.com</url>
 			<note></note>
@@ -236,7 +236,7 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Индустриализация</name>
-			<itemsList>Автоматизация сборок - Maven и Ant. XUnit - JUnit, TestNG, DBUnit. Автоматические функциональные тесты с Selenium. Анализ покрытия кода с Cobertura.
+			<itemsList>Автоматизация сборок - Maven и Ant. Nexus, Sonar. XUnit - JUnit, TestNG, DBUnit. Автоматические функциональные тесты с Selenium. Анализ покрытия кода с Cobertura.
 				Сервера постоянной интеграции Hudson/Jenkins и TeamCity.
 				Метрики качества кода - Sonar, FindBug, PMD. Управление проектами, вики, bug tracker - Redmine. Использование фабрик программного обеспечения.
 			</itemsList>

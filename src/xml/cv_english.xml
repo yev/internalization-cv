@@ -100,7 +100,7 @@
 				Responsible	for communication with customers. Technical audit for Java/J2EE projects (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
             </jobDesc>
             <technologiesList>
-            	Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn.
+            	Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, Nexus, Sonar, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn.
             </technologiesList>
 			<url>http://www.open-groupe.com</url>
 			<note></note>
@@ -310,7 +310,7 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Industrialization</name>
-			<itemsList>Project Automation with Maven and Ant. XUnit - JUnit, TestNG, DBUnit. Automated acceptance test with Selenium. Code coverage with Cobertura. 
+			<itemsList>Project Automation with Maven and Ant. Nexus, Sonar. XUnit - JUnit, TestNG, DBUnit. Automated acceptance test with Selenium. Code coverage with Cobertura. 
 				Continious integration servers - Hudson/Jenkins and TeamCity. 
 				Code quality metrics - Sonar, FindBug, PMD. Project mananagement, wiki, bug tracker - Redmine. Software factories. 
 			</itemsList>

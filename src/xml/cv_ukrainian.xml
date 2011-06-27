@@ -86,7 +86,7 @@
                     Відповідальний за спілкування з замовником. Code revue. Технічний аудит Java/J2EE проектів (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
                 </jobDesc>
                 <technologiesList>
-            		Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn.
+            		Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, Nexus, Sonar, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn.
 				</technologiesList>
                 <url>http://www.open-groupe.com</url>
                 <note></note>
@@ -237,7 +237,7 @@
         </technology-domain>
         <technology-domain>
             <name>Індустріалізація</name>
-            <itemsList>Автоматзація з Maven і Ant. XUnit - JUnit, TestNG, DBUnit. Автоматичні функціональні тести з Selenium. Анализ покриття коду з Cobertura.
+            <itemsList>Автоматзація з Maven і Ant. Nexus, Sonar. XUnit - JUnit, TestNG, DBUnit. Автоматичні функціональні тести з Selenium. Анализ покриття коду з Cobertura.
 				Сервери постійної інтеграції Hudson/Jenkins і TeamCity.
 				Метрики якості коду - Sonar, FindBug, PMD.
 				Управління проектами, вікі, bug tracker - Redmine. Використання фабрик программного забезпечення.
