@@ -11,10 +11,16 @@
                 <title><xsl:value-of select="personalInfo/lastName"/> 	 <xsl:value-of select="personalInfo/firstName"/> - <xsl:value-of select="localization/label_CurrentPositionTitle"/></title>
                 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
                 <meta http-equiv="Window-target" content="_top"/>
+                <meta http-equiv="Content-Language"><xsl:attribute name="content"><xsl:value-of select="@locale"/> </xsl:attribute></meta>
                 <meta name="robots" content="follow"/>
-                <meta name="Description" content="CV de VORONETS'KYY Yevgen"/>
-                <meta name="Keywords" content="Voronetskyy,Voronetskyy Yevgen, CV, informatique, DESS, CNAM, Management du CNAM, Dess CRI, programmation, réseau, France, Ukraine, Luxembourg,Dnipropetrovsk, Rumelange, Université, UMLV, Université de Marne-la-Vallée, Paris, legitiName, Teamlog, offshore, siteAudit, html, C#, java, xml, Linux, Windows,Delphi, pascal, XSLT, DELF, DALF, CORBA, Flash, PHP, Mysql, Postgresql, paradox, win32, client, serveur, Brainbench, offshore, J2ee, Ukraine, France, Kiev"/>
-                <meta name="Author" content="Voronetskyy Yevgen"/>
+                <meta name="Description"><xsl:attribute name="content"> CV <xsl:value-of select="personalInfo/lastName"/> <xsl:value-of select="personalInfo/firstName"/> </xsl:attribute></meta>
+                <meta name="abstarct"><xsl:attribute name="content"><xsl:value-of select="concat(normalize-space(summary), '&#xA;')"/></xsl:attribute></meta>
+                <meta name="Keywords"> 
+					<xsl:attribute name="content"> 
+						<xsl:value-of select="personalInfo/lastName"/> <xsl:value-of select="personalInfo/firstName"/>,<xsl:value-of select="personalInfo/job-title"/>,<xsl:for-each select="languages/language/"><xsl:value-of select="name"/>,</xsl:for-each><xsl:for-each select="technologies/technology-domain"><xsl:value-of select="name"/>,</xsl:for-each>
+					</xsl:attribute>	
+				</meta>
+                <meta name="Author"><xsl:attribute name="content"> <xsl:value-of select="personalInfo/lastName"/> <xsl:value-of select="personalInfo/firstName"/> </xsl:attribute></meta>
                 <link id="printId" REL="stylesheet" HREF="Ressources/style.css" type="text/css"/>
                 <link REL="stylesheet" HREF="Ressources/jquery/themes/redmond/jquery.ui.all.css" type="text/css"/>
                 
