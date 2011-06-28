@@ -303,7 +303,7 @@
                 
                 <p align="center"><small><xsl:value-of select="@version"/></small> <small class="numberSmallPolice"> <xsl:value-of select='datetime:format-date(datetime:date-time(),"yyyy/MM/dd")'/></small>.</p>
                 <p> <a href="http://www.twitter.com/yevgune" title="Follow me in Twitter"> <img src="Ressources/images/twitter.png" alt="twitter link" border="0"/></a> 
-                	<a href="https://github.com/yev/internalization-cv" title="See the project source code on GitHub"> <img src="Ressources/images/GitHubLogo.png" alt="See the project source code on GitHub" border="0" style="margin-left: 20px;"/></a></p>
+                	<a href="https://github.com/yev/internalization-cv" title="See the project source code on GitHub"> <img src="Ressources/images/GitHubLogo.png" alt="See the project source code on GitHub" border="1" style="margin-left: 20px;"/></a></p>
                 <br/>
                 
                 <xsl:variable name="ggMapUrl">http://maps.google.com/maps/api/staticmap?center=<xsl:value-of select="personalInfo/googleMapLocationString"/>&amp;zoom=5&amp;size=800x600&amp;markers=color:red|label:S|<xsl:value-of select="personalInfo/googleMapLocationString"/>&amp;sensor=true</xsl:variable>
