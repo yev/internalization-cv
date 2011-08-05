@@ -13,9 +13,9 @@
 		<lastName>Воронецкий </lastName>
 		<firstName>Евгений</firstName>
 		<middleName>Игоревич</middleName>
-		<address>Перрос-Гирек, Франция</address>
-		<googleMapLocationString>Perros-Guirec, France</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
-		<mobile>Телефон: +33.6.29.84.09.83</mobile>
+		<address>Киев, Украина</address>
+		<googleMapLocationString>Kiev, Ukraine</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
+		<mobile>Телефон: +38.097.65.27.728</mobile>
 		<emailImagePath>Эл. почта : &lt;img src="Ressources/images/email.gif" title="AntiSpam Protection"/&gt;</emailImagePath><!-- We'll use an image of email instead of plain text. Defend against spummer robots. -->
 		<job-title>Инженер-программист Java/J2EE</job-title>
 		<additionalInfo>Родился 23.11.1981, Украина</additionalInfo>
@@ -23,7 +23,7 @@
          <summary title="Резюме">
             Разработчик Java/J2EE. Проектирование и разработка информационных систем (web/desktop). ООП/АОП. 
             Многоуровневые архитектуры. СУБД/SQL. Шаблоны проектирования. UML. RUP, гибкие методологии разработки. Индустриализация разработки.
-            Европейское образование. Дипплом инженера. 5 лет опыта работы на международном уровне (страхование, IT-консалтинг, разработка ПО). 
+            Европейское образование. Дипплом инженера. 7 лет опыта работы на международном уровне (страхование, IT-консалтинг, разработка ПО). 
             21 IT-сертификатов полученных в системе Brainbench. 
             Русский и украинский - родные языки, отличное владение французским и английским языками. 
             Целеустремленный и ответственный. Цель - стать архитектором ПО.

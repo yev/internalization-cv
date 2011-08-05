@@ -11,17 +11,16 @@
 		<lastName>Voronetskyy </lastName>
 		<firstName>Yevgen </firstName>
 		<middleName></middleName>
-		<address>Perros-Guirec, France</address>
-		<googleMapLocationString>Perros-Guirec, France</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
-		<googleMapLocationString>Perros-Guirec, France</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
-		<mobile>Tél. portable: +33.6.29.84.09.83</mobile>
+		<address>Kiev, Ukraine</address>
+		<googleMapLocationString>Kiev, Ukraine</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
+		<mobile>Phone: +38.097.65.27.728</mobile>
 		<job-title>Ingénieur Java/J2EE </job-title>
 		<additionalInfo>Né le 23 Novembre 1981, Ukraine.</additionalInfo>
 	</personalInfo>
        <summary title="Résumé">
            Ingénieur Java/J2EE. Conception et réalisation des systèmes informatiques (web/desktop). OOP design. 
             Architectures n-tiers. SGBD/SQL. Design patterns. UML. RUP, méthodologies agiles. Industrialisation des processus de développement. 
-            Formation européenne, master en Informatique. 5 ans de l'expérience professionnelle à l'échelle internationale pour les différentes entreprises (éditeur de logiciels, consulting, assurances). 
+            Formation européenne, master en Informatique. 7 ans de l'expérience professionnelle à l'échelle internationale pour les différentes entreprises (éditeur de logiciels, consulting, assurances). 
             21 IT-certifications du système Brainbench. 
             Maîtrise du français et de l'anglais, le russe et l'ukrainien ce sont mes langues maternelles. 
             Persévérant et responsable. Ambition professionnelle - devenir un architecte.

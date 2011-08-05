@@ -13,9 +13,9 @@
 		<lastName>Воронецький </lastName>
 		<firstName>Євген </firstName>
 		<middleName>Ігорович</middleName>
-		<address>Перрос-Гирек, Францiя</address>
-		<googleMapLocationString>Perros-Guirec, France</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
-		<mobile>Телефон: +33.6.29.84.09.83</mobile>
+		<address>Київ, Україна</address>
+		<googleMapLocationString>Kiev, Ukraine</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
+		<mobile>Телефон: +38.097.65.27.728</mobile>
 		<emailImagePath>Эл. пошта : &lt;img src="Ressources/images/email.gif" title="AntiSpam Protection"/&gt;</emailImagePath><!-- We'll use an image of email instead of plain text. Defend against spummer robots. -->
         <job-title>Iнженер-программiст Java/J2EE</job-title>
         <additionalInfo> Народився 23.11.1981, Україна</additionalInfo>
@@ -25,7 +25,7 @@
         Інженер Java/J2EE. Проектування та розробка інформаційних систем (web/desktop). ООП/АОП. Багаторівневі архітектури. 
         СКБД/SQL. Шаблони проектування. UML. RUP, гнучки методології розробки. Досвід у індустріалізації розробки ПЗ.
         Європейська освіта. Диплом інженера. 
-        5 років досвіду роботи на міжнародному рівні (страхування, IT-консалтинг, розробка програмного забезпечення). 
+        7 років досвіду роботи на міжнародному рівні (страхування, IT-консалтинг, розробка програмного забезпечення). 
         21 IT-сертифікатів отриманих у системі Brainbench. 
         Українська та російська - рідні мови. Відмінне володіння французькою та англійською мовами. 
         Цілеспрямований та відповідальний. Мета - стати архiтектором у галузі розробки програмного забезпечення.

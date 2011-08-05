@@ -12,9 +12,9 @@
 		<lastName>Voronetskyy </lastName>
 		<firstName>Yevgen</firstName>
 		<middleName></middleName>
-		<address>Perros-Guirec, France</address>
-		<googleMapLocationString>Perros-Guirec, Francia</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
-		<mobile>Phone: +33.6.29.84.09.83</mobile>
+		<address>Kiev, Ukraine</address>
+		<googleMapLocationString>Kiev, Ukraine</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
+		<mobile>Phone: +38.097.65.27.728</mobile>
 		<job-title>Sviluppatore Java/J2EE</job-title>
 		<additionalInfo>è nato il 23 Novembre 1981, Ukraina</additionalInfo>
 	</personalInfo>
@@ -23,7 +23,7 @@
 		Sviluppatore Java/J2EE. Progettazione e realizzazione di Sistemi d'informazione.
 		OOP. N-tiers Architetture.	Base di dati/SQL.
 		Design patterns. UML. RUP, agile software development. Esperienza nella industrializzazione de processo di sviluppo.
-		European education.	Master degree in Computer Science. 5 years of international experience
+		European education.	Master degree in Computer Science. 7 years of international experience
 		(projects for IT-consulting, insurance and software	companies).
 		21 IT-certifications from Brainbench system.
 		Fluent french, good english, russian and ukrainian - native speaker.

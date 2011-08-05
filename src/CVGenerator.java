@@ -70,11 +70,13 @@ public final class CVGenerator
 		cvGenerator.generateHtmlCVForLanguage(Language.english);
 		cvGenerator.generateHtmlCVForLanguage(Language.italian);
 	
-		cvGenerator.generatePdfCVForLanguage(Language.french);
-		cvGenerator.generatePdfCVForLanguage(Language.english);
-		cvGenerator.generatePdfCVForLanguage(Language.russian);
-		cvGenerator.generatePdfCVForLanguage(Language.ukrainian);
-		cvGenerator.generatePdfCVForLanguage(Language.italian);
+		cvGenerator.generateNoAnonymousPdfCV(Language.french);
+		cvGenerator.generateNoAnonymousPdfCV(Language.english);
+		cvGenerator.generateNoAnonymousPdfCV(Language.russian);
+		cvGenerator.generateNoAnonymousPdfCV(Language.ukrainian);
+		cvGenerator.generateNoAnonymousPdfCV(Language.italian);
+		
+		cvGenerator.generateAnonymousPdfCV(Language.english);// anonymous CV only for English & French
 	
 		LOGGER.info("Generation ProffiCV finished with success!");
 		long end = new Date().getTime();
@@ -96,12 +98,36 @@ public final class CVGenerator
 		long fileSize = getFileSize("web/"+htmlFileName);
 		LOGGER.info("Generation of'"+htmlFileName+"' (size : "+fileSize+" bytes) finished with success!");
 	}
+	/**
+	 * Generate the anonymous version of CV - without any personal information.
+	 * The miscelania section is omitted.
+	 * The modification was made after Natalya need to have my non-personalized CV for some projects. 
+	 * @param language
+	 * @throws Exception
+	 */
+	public void generateAnonymousPdfCV(final Language language) throws Exception {
+		this.generatePdfCV(language, true);
+	}
+	public void generateNoAnonymousPdfCV(final Language language) throws Exception {
+		this.generatePdfCV(language, false);
+	}
 	
-	public void generatePdfCVForLanguage(final Language language) throws Exception 
+	private void generatePdfCV(final Language language, boolean isAnonym) throws Exception 
 	{
 		final String xmlFileName = "cv_"+language.toString()+".xml";
-		final String pdfFileName= "cv_voronetskyy" + this.getFileSuffixe(language)+".pdf";
-		OutputStream out = new BufferedOutputStream(new FileOutputStream(new File("web/pdf/"+pdfFileName)));
+		String pdfFileName = "cv_voronetskyy" + this.getFileSuffixe(language)+".pdf";
+		String xslFilerelativePath = "src/xml/style-fo.xml";
+		String generatedPdfFileName = "web/pdf/"+pdfFileName;
+		
+		if (isAnonym){
+			pdfFileName= "cv_yevgen" + this.getFileSuffixe(language)+".pdf";
+			xslFilerelativePath = "src/xml/style-fo-anonyme.xml";
+			generatedPdfFileName = "web/pdf/anonymous/"+pdfFileName;
+		}
+		
+		
+		
+		OutputStream out = new BufferedOutputStream(new FileOutputStream(new File(generatedPdfFileName)));
 		
 		LOGGER.info("Generation of : '"+pdfFileName+"' starting from '"+xmlFileName+"' ...");
 		
@@ -111,7 +137,7 @@ public final class CVGenerator
 
 			  // Step 4: Setup JAXP using identity transformer
 			  TransformerFactory factory = TransformerFactory.newInstance();
-			  Transformer transformer = factory.newTransformer(new javax.xml.transform.stream.StreamSource("src/xml/style-fo.xml")); // identity transformer
+			  Transformer transformer = factory.newTransformer(new javax.xml.transform.stream.StreamSource(xslFilerelativePath)); // identity transformer
 			           
 			  // Step 5: Setup input and output for XSLT transformation 
 			  // Setup input stream

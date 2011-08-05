@@ -13,9 +13,9 @@
 		<lastName>Voronetskyy </lastName>
 		<firstName>Yevgen</firstName>
 		<middleName></middleName>
-		<address>Perros-Guirec, France</address>
-		<googleMapLocationString>Perros-Guirec, France</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
-		<mobile>Phone: +33.6.29.84.09.83</mobile>
+		<address>Kiev, Ukraine</address>
+		<googleMapLocationString>Kiev, Ukraine</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
+		<mobile>Phone: +38.097.65.27.728</mobile>
 		<job-title>Java/J2EE Software Engineer</job-title>
 		<additionalInfo>Was born the 23 Novembre 1981, Ukraine.
 		</additionalInfo>
@@ -28,7 +28,7 @@
 		RDBMS/SQL.
 		Design patterns. UML. RUP, agile software development. Experience in the industrialization of development processes.
 		European education.
-		Master degree in Computer Science. 5 years of international
+		Master degree in Computer Science. 7 years of international
 		experience
 		(projects for IT-consulting, insurance and software
 		companies).

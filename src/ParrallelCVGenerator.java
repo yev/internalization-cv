@@ -56,7 +56,7 @@ final class ParrallelCVGeneratorJob implements Runnable {
 	public void run() {
 		if (format.compareTo(CVGenerator.FormatCV.PDF) == 0) {
 			try {
-				SHARED_GENERATOR_INSTANCE.generatePdfCVForLanguage(language);
+				SHARED_GENERATOR_INSTANCE.generateNoAnonymousPdfCV(language);
 			} catch (Exception e) {
 				LOGGER.error(e);
 				throw new RuntimeException(e);
