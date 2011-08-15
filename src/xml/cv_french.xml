@@ -23,7 +23,7 @@
             Formation européenne, master en Informatique. 7 ans de l'expérience professionnelle à l'échelle internationale pour les différentes entreprises (éditeur de logiciels, consulting, assurances). 
             21 IT-certifications du système Brainbench. 
             Maîtrise du français et de l'anglais, le russe et l'ukrainien ce sont mes langues maternelles. 
-            Persévérant et responsable. Ambition professionnelle - devenir un architecte.
+            Persévérant et responsable. Objectif professionnel - devenir un architecte.
         </summary> 
 	<!-- Section about my education-->
 	<education title="Formation">
@@ -37,21 +37,21 @@
 			<note></note>
 		</organisation>
 		<organisation>
-			<name>Université Paris-Est Marne-la-Vallée</name>
-			<speciality>DESS « Communication, Réseau, Image », filière Réseau (actuel Master Informatique).</speciality>
-			<date>2004-2005</date>
-			<desc>Diplôme en Ingénierie Informatique, avec mention assez bien. La formation à forte composant pratique.</desc>
-			<geolocalization>Champs-sur-Marne, France</geolocalization>
-			<url>http://www.univ-mlv.fr</url>
-			<note></note>
-		</organisation>
-		<organisation>
 			<name>Conservatoire National des Arts et Métiers (CNAM)</name>
 			<speciality>Management économique de l’entreprise pour l’ingénieur.</speciality>
 			<date>2005</date>
 			<desc>Management social et humain.</desc>
 			<geolocalization>Champs-sur-Marne, France</geolocalization>
 			<url>http://www.cnam.fr</url>
+			<note></note>
+		</organisation>
+		<organisation>
+			<name>Université Paris-Est Marne-la-Vallée</name>
+			<speciality>DESS « Communication, Réseau, Image », filière Réseau (actuel Master Informatique).</speciality>
+			<date>2004-2005</date>
+			<desc>Diplôme en Ingénierie Informatique, avec mention assez bien. La formation à forte composant pratique.</desc>
+			<geolocalization>Champs-sur-Marne, France</geolocalization>
+			<url>http://www.univ-mlv.fr</url>
 			<note></note>
 		</organisation>
 		<organisation>

@@ -110,7 +110,7 @@
                             </td>
                         </tr>
                         <xsl:for-each select="education/organisation">
-                            <tr>
+                            <tr class="dataItem">
                                 <td class="firstCell">
                                     <xsl:value-of select="date"/>
                                 </td>
@@ -155,7 +155,7 @@
                         </tr>
                         
                         <xsl:for-each select="experiences/company">
-                            <tr>
+                            <tr class="dataItem">
                                 <td class="firstCell">
                                     <xsl:value-of select="date"/>
                                 </td>
@@ -216,7 +216,7 @@
                             </td>
                         </tr>
                         <xsl:for-each select="technologies/technology-domain">
-                            <tr>
+                            <tr class="dataItem">
                                 <td class="firstCell">
                                     <xsl:value-of select="name"/>
                                 </td>
@@ -269,7 +269,7 @@
                             </td>
                         </tr>
                         <xsl:for-each select="languages/language">
-                            <tr>
+                            <tr class="dataItem">
                                 <td class="firstCell">
                                     <xsl:value-of select="name"/>
                                 </td>
@@ -287,7 +287,7 @@
                             </td>
                         </tr>
                         <xsl:for-each select="miscellanea/item">
-                            <tr>
+                            <tr class="dataItem">
                                 <td class="firstCell">
                                     <xsl:value-of select="name"/>
                                 </td>
@@ -324,7 +324,8 @@
 					<xsl:copy-of select="$ggMap" />					
 				</div>
 				
-				
+				<script>$(".dataItem:even").css("background-color", "#E9EBE6");</script>		
+
 				<script type="text/javascript">
 					//hide the map, when open 
 					$(document).ready(function() {

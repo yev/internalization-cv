@@ -42,21 +42,21 @@
 			<note></note>
 		</organisation>
         <organisation>
-            <name>Університет Парі-Єст Марн-ля-Валле ( Université Paris-Est Marne-la-Vallée )</name>
-            <speciality>Спеціальність «Комунікації, Мережі, Зображення».</speciality>
-            <date>2004-2005</date>
-            <desc>Диплом iнженера (Master Degre) по створенню програмного забезпечення.</desc>
-            <geolocalization>Шамп-сюр-Марн, Францiя</geolocalization>
-            <url>http://www.univ-mlv.fr</url>
-            <note></note>
-        </organisation>
-        <organisation>
             <name>Нацiональна консерваторiя мистецтв та професій (CNAM)</name>
             <speciality>Економічний менеджмент підприємств для інженера.</speciality>
             <date>2005</date>
             <desc>Соцiальний менеджмент.</desc>
             <geolocalization>Шамп-сюр-Марн, Францiя</geolocalization>
             <url>http://www.cnam.fr</url>
+            <note></note>
+        </organisation>
+        <organisation>
+            <name>Університет Парі-Єст Марн-ля-Валле ( Université Paris-Est Marne-la-Vallée )</name>
+            <speciality>Спеціальність «Комунікації, Мережі, Зображення».</speciality>
+            <date>2004-2005</date>
+            <desc>Диплом iнженера (Master Degre) по створенню програмного забезпечення.</desc>
+            <geolocalization>Шамп-сюр-Марн, Францiя</geolocalization>
+            <url>http://www.univ-mlv.fr</url>
             <note></note>
         </organisation>
         <organisation>

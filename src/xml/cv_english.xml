@@ -36,7 +36,7 @@
 		Fluent french,
 		good english, russian and ukrainian - native speaker.
 		Purposeful
-		and responsible. Professional ambition - become a software architect.
+		and responsible. Professional goal - become a software architect.
         </summary>
 	<!-- Section about my education-->
 	<education title="Education">
@@ -50,16 +50,6 @@
 			<note></note>
 		</organisation>
 		<organisation>
-			<name>University Paris-Est Marne-la-Vallée</name>
-			<speciality>Master Degree in Computer Science.</speciality>
-			<date>2004-2005</date>
-			<desc>DESS « Communication, Network, Image », section Network
-				(actual Master CS).</desc>
-			<geolocalization>Champs-sur-Marne, France</geolocalization>
-			<url>http://www.univ-mlv.fr</url>
-			<note></note>
-		</organisation>
-		<organisation>
 			<name>Conservatoire National des Arts et Métiers (CNAM)
 			</name>
 			<speciality>Enterprise managemenent course for engineers.
@@ -68,6 +58,16 @@
 			<desc>Social Management course.</desc>
 			<geolocalization>Champs-sur-Marne, France</geolocalization>
 			<url>http://www.cnam.fr</url>
+			<note></note>
+		</organisation>
+		<organisation>
+			<name>University Paris-Est Marne-la-Vallée</name>
+			<speciality>Master Degree in Computer Science.</speciality>
+			<date>2004-2005</date>
+			<desc>DESS « Communication, Network, Image », section Network
+				(actual Master CS).</desc>
+			<geolocalization>Champs-sur-Marne, France</geolocalization>
+			<url>http://www.univ-mlv.fr</url>
 			<note></note>
 		</organisation>
 		<organisation>
