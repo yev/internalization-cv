@@ -112,7 +112,7 @@
                         <xsl:for-each select="education/organisation">
                             <tr class="dataItem">
                                 <td class="firstCell">
-                                    <xsl:value-of select="date"/>
+                                    <time><xsl:value-of select="date"/></time>
                                 </td>
                                 <td class="info">
                                     <table width="100%">
@@ -157,7 +157,7 @@
                         <xsl:for-each select="experiences/company">
                             <tr class="dataItem">
                                 <td class="firstCell">
-                                    <xsl:value-of select="date"/>
+                                    <time><xsl:value-of select="date"/></time>
                                 </td>
                                 <td class="info">
                                     <table border="0" class="none">
