@@ -71,13 +71,15 @@
                     <table width="100%" border="0">
                         <tr>
                             <td align="left" width="25%">
-                                <xsl:for-each select="personalInfo">
-                                    <xsl:value-of select="lastName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="firstName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="middleName"/>
-                                    <br/><a id="myCurrentLocation" href="#top" title="Click here to view the location in Google map."><xsl:value-of select="address"/></a>
-                                    <br/><xsl:value-of select="mobile"/>
-                                    <br/><img src="Ressources/images/email.gif" title="AntiSpam Protection"/>
-                                    <br/><small><xsl:value-of select="additionalInfo"/></small>        
-                                </xsl:for-each>
+                            	<address>
+		                               <xsl:for-each select="personalInfo">
+		                                   <xsl:value-of select="lastName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="firstName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="middleName"/>
+		                                   <br/><a id="myCurrentLocation" href="#top" title="Click here to view the location in Google map."><xsl:value-of select="address"/></a>
+		                                   <br/><xsl:value-of select="mobile"/>
+		                                   <br/><img src="Ressources/images/email.gif" title="AntiSpam Protection"/>
+		                                   <br/><small><xsl:value-of select="additionalInfo"/></small>        
+		                               </xsl:for-each>
+                                </address>
                             </td>
                             <td align="center" width="50%">
                                
@@ -200,7 +202,7 @@
                                         </tr>
                                         <xsl:if test="technologiesList"> <!-- we'll show the additional tech. section only if there is node technologiesList, for exemple, this section is ommited for DVK-Tech company -->
 	                                        <tr>	<!-- technology list -->	
-	                                            <td class="missionDescCode" colspan="2"><strong><xsl:value-of select="/cv/localization/label_technologyList"/></strong> :<xsl:value-of select="technologiesList"/></td>
+	                                            <td class="missionDescCode" colspan="2"><strong><xsl:value-of select="/cv/localization/label_technologyList"/></strong> :<code><xsl:value-of select="technologiesList"/></code></td>
 	                                        </tr>
 	                                    </xsl:if>
                                     </table>
@@ -221,7 +223,7 @@
                                     <xsl:value-of select="name"/>
                                 </td>
                                 <td class="info">
-                                    <xsl:value-of select="itemsList"/>
+                                	<code><xsl:value-of select="itemsList"/></code>
                                 </td>
                             </tr>	
                         </xsl:for-each>
