@@ -71,16 +71,14 @@
                 <DIV id="wrapper">
                     <table width="100%" border="0">
                         <tr>
-                            <td align="left" width="25%">
-                            	<address>
-		                               <xsl:for-each select="personalInfo">
-		                                   <xsl:value-of select="lastName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="firstName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="middleName"/>
-		                                   <br/><a id="myCurrentLocation" href="#top" title="Click here to view the location in Google map."><xsl:value-of select="address"/></a>
-		                                   <br/><xsl:value-of select="mobile"/>
-		                                   <br/><img src="Ressources/images/email.gif" title="AntiSpam Protection"/>
-		                                   <br/><small><xsl:value-of select="additionalInfo"/></small>        
-		                               </xsl:for-each>
-                                </address>
+                            <td align="left" width="25%">                      
+	                               <xsl:for-each select="personalInfo">
+	                                   <xsl:value-of select="lastName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="firstName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="middleName"/>
+	                                   <br/><a id="myCurrentLocation" href="#top" title="Click here to view the location in Google map."><xsl:value-of select="address"/></a>
+	                                   <br/><xsl:value-of select="mobile"/>
+	                                   <br/><img src="Ressources/images/email.gif" title="AntiSpam Protection"/>
+	                                   <br/><small><xsl:value-of select="additionalInfo"/></small>        
+	                               </xsl:for-each>                             
                             </td>
                             <td align="center" width="50%">
                                
@@ -101,9 +99,11 @@
                             </td>
                         </tr>
                         
-                        <tr>
-                            <td colspan="2"><xsl:value-of select="summary"/></td>
-                        </tr>
+                        <section>
+	                        <tr>
+	                            <td colspan="2"><xsl:value-of select="summary"/></td>
+	                        </tr>
+                        </section>
                         
                         
                         <tr><td colspan="2">
@@ -112,42 +112,43 @@
                                 </div>
                             </td>
                         </tr>
-                        <xsl:for-each select="education/organisation">
-                            <tr class="dataItem">
-                                <td class="firstCell">
-                                    <time><xsl:value-of select="date"/></time>
-                                </td>
-                                <td class="info">
-                                    <table width="100%">
-                                        <tr>
-                                            <td><strong class="org"><xsl:value-of select="name"/></strong></td>
-                                        </tr>
-                                        <tr>
-                                        	 <td><xsl:value-of select="/cv/localization/label_GeoLocalization"/> : <span id="geo"><xsl:value-of select="geolocalization"/></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2">
-                                                <img src="Ressources/images/study32.gif" class="floatStyle"/>
-                                                <xsl:value-of select="speciality"/>
-                                                <br/><xsl:value-of select="desc"/>
-                                                <xsl:value-of select="note"/>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2">
-                                                <xsl:value-of select="/cv/localization/label_URL"/> : 	
-                                                <a><xsl:attribute name="href">
-                                                        <xsl:value-of select="url"/>
-                                                    </xsl:attribute><xsl:value-of select="url"/>
-                                                </a> 
-                                            </td>
-                                        </tr>
-                                    </table>
-
-                                </td>	
-                            </tr>					
-                        </xsl:for-each>
-                        
+                        <section>
+	                        <xsl:for-each select="education/organisation">
+	                            <tr class="dataItem">
+	                                <td class="firstCell">
+	                                    <time><xsl:value-of select="date"/></time>
+	                                </td>
+	                                <td class="info">
+	                                    <table width="100%">
+	                                        <tr>
+	                                            <td><strong class="org"><xsl:value-of select="name"/></strong></td>
+	                                        </tr>
+	                                        <tr>
+	                                        	 <td><xsl:value-of select="/cv/localization/label_GeoLocalization"/> : <span id="geo"><xsl:value-of select="geolocalization"/></span></td>
+	                                        </tr>
+	                                        <tr>
+	                                            <td colspan="2">
+	                                                <img src="Ressources/images/study32.gif" class="floatStyle"/>
+	                                                <xsl:value-of select="speciality"/>
+	                                                <br/><xsl:value-of select="desc"/>
+	                                                <xsl:value-of select="note"/>
+	                                            </td>
+	                                        </tr>
+	                                        <tr>
+	                                            <td colspan="2">
+	                                                <xsl:value-of select="/cv/localization/label_URL"/> : 	
+	                                                <a><xsl:attribute name="href">
+	                                                        <xsl:value-of select="url"/>
+	                                                    </xsl:attribute><xsl:value-of select="url"/>
+	                                                </a> 
+	                                            </td>
+	                                        </tr>
+	                                    </table>
+	
+	                                </td>	
+	                            </tr>					
+	                        </xsl:for-each>
+                        </section>
                         
                         <tr>
                             <td colspan="2" >
@@ -157,59 +158,61 @@
                             </td>
                         </tr>
                         
-                        <xsl:for-each select="experiences/company">
-                            <tr class="dataItem">
-                                <td class="firstCell">
-                                    <time><xsl:value-of select="date"/></time>
-                                </td>
-                                <td class="info">
-                                    <table border="0" class="none">
-                                        <tr>
-                                            <td>
-                                                <table class="none" border="0" width="100%">
-                                                    <tr>
-                                                        <td width="250">
-			                                                   <xsl:value-of select="/cv/localization/label_CompanyName"/>:
-                                                        </td> 
-                                                        <td><strong class="org"><xsl:value-of select="name"/></strong> - 
-		                                                <small><a><xsl:attribute name="href"> 
-		                                                        <xsl:value-of select="url"/>
-		                                                    </xsl:attribute>
-		                                                    <xsl:value-of select="url"/>
-		                                                </a></small>
-		                                                </td>                                                      
-                                                    </tr>
-                                                    <tr>
-                                                    	 <td><xsl:value-of select="/cv/localization/label_GeoLocalization"/> :</td> 
-                                                         <td><span id="geo"><xsl:value-of select="geolocalization"/></span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><xsl:value-of select="/cv/localization/label_Activity"/> :</td>
-                                                        <td colspan="2"><xsl:value-of select="activity"/></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><img src="Ressources/images/user24.gif" class="floatStyle"/> <xsl:value-of select="/cv/localization/label_JobTitle"/> :</td>  
-                                                        <td colspan="2" valign="top"><xsl:value-of select="jobTitle"/>
-                                                            <xsl:if test="@isConsulting='true'">
-                                                                <span id="consultant">***</span>
-                                                            </xsl:if>
-                                                        </td>
-                                                    </tr>                               
-                                                </table>
-                                              </td>
-                                            </tr>
-                                        <tr>		
-                                            <td class="missionDesc" colspan="2"><strong><xsl:value-of select="/cv/localization/label_JobDecs"/></strong> : <xsl:value-of select="jobDesc"/></td>
-                                        </tr>
-                                        <xsl:if test="technologiesList"> <!-- we'll show the additional tech. section only if there is node technologiesList, for exemple, this section is ommited for DVK-Tech company -->
-	                                        <tr>	<!-- technology list -->	
-	                                            <td class="missionDescCode" colspan="2"><strong><xsl:value-of select="/cv/localization/label_technologyList"/></strong> :<code><xsl:value-of select="technologiesList"/></code></td>
+                        <section>
+	                        <xsl:for-each select="experiences/company">
+	                            <tr class="dataItem">
+	                                <td class="firstCell">
+	                                    <time><xsl:value-of select="date"/></time>
+	                                </td>
+	                                <td class="info">
+	                                    <table border="0" class="none">
+	                                        <tr>
+	                                            <td>
+	                                                <table class="none" border="0" width="100%">
+	                                                    <tr>
+	                                                        <td width="250">
+				                                                   <xsl:value-of select="/cv/localization/label_CompanyName"/>:
+	                                                        </td> 
+	                                                        <td><strong class="org"><xsl:value-of select="name"/></strong> - 
+			                                                <small><a><xsl:attribute name="href"> 
+			                                                        <xsl:value-of select="url"/>
+			                                                    </xsl:attribute>
+			                                                    <xsl:value-of select="url"/>
+			                                                </a></small>
+			                                                </td>                                                      
+	                                                    </tr>
+	                                                    <tr>
+	                                                    	 <td><xsl:value-of select="/cv/localization/label_GeoLocalization"/> :</td> 
+	                                                         <td><span id="geo"><xsl:value-of select="geolocalization"/></span></td>
+	                                                    </tr>
+	                                                    <tr>
+	                                                        <td><xsl:value-of select="/cv/localization/label_Activity"/> :</td>
+	                                                        <td colspan="2"><xsl:value-of select="activity"/></td>
+	                                                    </tr>
+	                                                    <tr>
+	                                                        <td><img src="Ressources/images/user24.gif" class="floatStyle"/> <xsl:value-of select="/cv/localization/label_JobTitle"/> :</td>  
+	                                                        <td colspan="2" valign="top"><xsl:value-of select="jobTitle"/>
+	                                                            <xsl:if test="@isConsulting='true'">
+	                                                                <span id="consultant">***</span>
+	                                                            </xsl:if>
+	                                                        </td>
+	                                                    </tr>                               
+	                                                </table>
+	                                              </td>
+	                                            </tr>
+	                                        <tr>		
+	                                            <td class="missionDesc" colspan="2"><strong><xsl:value-of select="/cv/localization/label_JobDecs"/></strong> : <xsl:value-of select="jobDesc"/></td>
 	                                        </tr>
-	                                    </xsl:if>
-                                    </table>
-                                </td>
-                            </tr>	
-                        </xsl:for-each>
+	                                        <xsl:if test="technologiesList"> <!-- we'll show the additional tech. section only if there is node technologiesList, for exemple, this section is ommited for DVK-Tech company -->
+		                                        <tr>	<!-- technology list -->	
+		                                            <td class="missionDescCode" colspan="2"><strong><xsl:value-of select="/cv/localization/label_technologyList"/></strong> :<code><xsl:value-of select="technologiesList"/></code></td>
+		                                        </tr>
+		                                    </xsl:if>
+	                                    </table>
+	                                </td>
+	                            </tr>	
+	                        </xsl:for-each>
+	                    </section>
                 
                         
                         <tr><td colspan="2">
@@ -218,16 +221,20 @@
                                 </div>
                             </td>
                         </tr>
-                        <xsl:for-each select="technologies/technology-domain">
-                            <tr class="dataItem">
-                                <td class="firstCell">
-                                    <xsl:value-of select="name"/>
-                                </td>
-                                <td class="info">
-                                	<code><xsl:value-of select="itemsList"/></code>
-                                </td>
-                            </tr>	
-                        </xsl:for-each>
+                        
+                        <section>
+	                        <xsl:for-each select="technologies/technology-domain">
+	                            <tr class="dataItem">
+	                                <td class="firstCell">
+	                                    <xsl:value-of select="name"/>
+	                                </td>
+	                                <td class="info">
+	                                	<code><xsl:value-of select="itemsList"/></code>
+	                                </td>
+	                            </tr>	
+	                        </xsl:for-each>
+                        </section>
+                        
                         <tr>
                             <td class="firstCell"><span style="color:white;">•</span></td>
                             <td class="info" >
@@ -271,17 +278,18 @@
                                 </div>
                             </td>
                         </tr>
-                        <xsl:for-each select="languages/language">
-                            <tr class="dataItem">
-                                <td class="firstCell">
-                                    <xsl:value-of select="name"/>
-                                </td>
-                                <td class="info">
-                                    <xsl:value-of select="desc" disable-output-escaping="yes"/>
-                                </td>
-                            </tr>	
-                        </xsl:for-each>
-                        
+                        <section>
+	                        <xsl:for-each select="languages/language">
+	                            <tr class="dataItem">
+	                                <td class="firstCell">
+	                                    <xsl:value-of select="name"/>
+	                                </td>
+	                                <td class="info">
+	                                    <xsl:value-of select="desc" disable-output-escaping="yes"/>
+	                                </td>
+	                            </tr>	
+	                        </xsl:for-each>
+                        </section>
                         
                         <tr><td colspan="2">
                                 <div id="title">
@@ -289,18 +297,21 @@
                                 </div>
                             </td>
                         </tr>
-                        <xsl:for-each select="miscellanea/item">
-                            <tr class="dataItem">
-                                <td class="firstCell">
-                                    <xsl:value-of select="name"/>
-                                </td>
-                                <!-- Special processing for node with url node(see the problem with the html link to my blog) -->
-                                <td class="info">
-                                	<xsl:if test="url"><a href="{url}"><xsl:value-of select="url" /></a> - </xsl:if>                                
-                              		<xsl:value-of select="desc" />
-                                </td>
-                            </tr>	
-                        </xsl:for-each>
+                        
+                        <section>
+	                        <xsl:for-each select="miscellanea/item">
+	                            <tr class="dataItem">
+	                                <td class="firstCell">
+	                                    <xsl:value-of select="name"/>
+	                                </td>
+	                                <!-- Special processing for node with url node(see the problem with the html link to my blog) -->
+	                                <td class="info">
+	                                	<xsl:if test="url"><a href="{url}"><xsl:value-of select="url" /></a> - </xsl:if>                                
+	                              		<xsl:value-of select="desc" />
+	                                </td>
+	                            </tr>	
+	                        </xsl:for-each>
+	                    </section>    
                     </table>
                 </DIV>
                 
