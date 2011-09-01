@@ -100,6 +100,9 @@
                         </tr>
                         
                         <section>
+                        	<xsl:attribute name="title">
+                                <xsl:value-of select="summary/@title"/>
+                            </xsl:attribute>
 	                        <tr>
 	                            <td colspan="2"><xsl:value-of select="summary"/></td>
 	                        </tr>
@@ -113,6 +116,9 @@
                             </td>
                         </tr>
                         <section>
+                        	<xsl:attribute name="title">
+                                <xsl:value-of select="education/@title"/>
+                            </xsl:attribute><xsl:value-of select="title"/>
 	                        <xsl:for-each select="education/organisation">
 	                            <tr class="dataItem">
 	                                <td class="firstCell">
@@ -159,6 +165,9 @@
                         </tr>
                         
                         <section>
+                        	<xsl:attribute name="title">
+                                <xsl:value-of select="experiences/@title"/>
+                            </xsl:attribute><xsl:value-of select="title"/>
 	                        <xsl:for-each select="experiences/company">
 	                            <tr class="dataItem">
 	                                <td class="firstCell">
@@ -223,6 +232,10 @@
                         </tr>
                         
                         <section>
+                        	<xsl:attribute name="title">
+                                <xsl:value-of select="technologies/@title"/>
+                            </xsl:attribute><xsl:value-of select="title"/>
+                            
 	                        <xsl:for-each select="technologies/technology-domain">
 	                            <tr class="dataItem">
 	                                <td class="firstCell">
@@ -279,6 +292,10 @@
                             </td>
                         </tr>
                         <section>
+                        	<xsl:attribute name="title">
+                                <xsl:value-of select="languages/@title"/>                                
+                            </xsl:attribute><xsl:value-of select="title"/>
+                            
 	                        <xsl:for-each select="languages/language">
 	                            <tr class="dataItem">
 	                                <td class="firstCell">
@@ -299,6 +316,10 @@
                         </tr>
                         
                         <section>
+                        	<xsl:attribute name="title">
+                                <xsl:value-of select="miscellanea/@title"/>                                
+                            </xsl:attribute><xsl:value-of select="title"/>
+                            
 	                        <xsl:for-each select="miscellanea/item">
 	                            <tr class="dataItem">
 	                                <td class="firstCell">
