@@ -30,6 +30,10 @@ BORDER-RIGHT: #FF8040 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #FF8040 1px sol
 	padding-left: 125px;
 	
 }
+h1
+{
+	font-size: 1.5em;
+}
 table
 {
 	padding-left : 10px;
@@ -90,11 +94,14 @@ img.floatStyle
 	margin:2px;
 	padding-right: 15px;
 }
-h2.title
+h2.titleStyle
 {
-	COLOR:#FF9900;
-	TEXT-ALIGN: center;
+	font-size: small;
 }
+h1.titleStyle
+{
+	font-size: large;
+}s
 img.brainImg
 {
 	margin:2px;

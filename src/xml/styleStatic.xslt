@@ -94,7 +94,7 @@
                          <tr>
                             <td colspan="2" >
                                 <div id="title">
-                                    <img src="Ressources/images/user32.gif" class="floatStyle"/><a name="summary"><xsl:value-of select="summary/@title"/></a>			
+                                    <img src="Ressources/images/user32.gif" class="floatStyle"/><a name="summary"><h1 class="titleStyle"><xsl:value-of select="summary/@title"/></h1></a>			
                                 </div>
                             </td>
                         </tr>
@@ -111,7 +111,7 @@
                         
                         <tr><td colspan="2">
                                 <div id="title">
-                                    <img src="Ressources/images/studyMain32.gif" class="floatStyle"/><a name="education"><xsl:value-of select="education/@title"/></a>			
+                                    <img src="Ressources/images/studyMain32.gif" class="floatStyle"/><a name="education"><h1 class="titleStyle"><xsl:value-of select="education/@title"/></h1></a>			
                                 </div>
                             </td>
                         </tr>
@@ -159,7 +159,7 @@
                         <tr>
                             <td colspan="2" >
                                 <div id="title">
-                                    <img src="Ressources/images/experience32.gif" class="floatStyle"/><a name="experience"><xsl:value-of select="experiences/@title"/></a>			
+                                    <img src="Ressources/images/experience32.gif" class="floatStyle"/><a name="experience"><h1 class="titleStyle"><xsl:value-of select="experiences/@title"/></h1></a>			
                                 </div>
                             </td>
                         </tr>
@@ -226,7 +226,7 @@
                         
                         <tr><td colspan="2">
                                 <div id="title">
-                                    <img src="Ressources/images/db.gif" class="floatStyle"/><a name="technologies"><xsl:value-of select="technologies/@title"/></a>
+                                    <img src="Ressources/images/db.gif" class="floatStyle"/><a name="technologies"><h1 class="titleStyle"><xsl:value-of select="technologies/@title"/></h1></a>
                                 </div>
                             </td>
                         </tr>
@@ -239,7 +239,7 @@
 	                        <xsl:for-each select="technologies/technology-domain">
 	                            <tr class="dataItem">
 	                                <td class="firstCell">
-	                                    <xsl:value-of select="name"/>
+	                                    <h2 class="titleStyle"><xsl:value-of select="name"/></h2>
 	                                </td>
 	                                <td class="info">
 	                                	<code><xsl:value-of select="itemsList"/></code>
@@ -287,7 +287,7 @@
                         
                         <tr><td colspan="2">
                                 <div id="title">
-                                    <img src="Ressources/images/languages24.gif" class="floatStyle"/><a name="languages"><xsl:value-of select="languages/@title"/></a>
+                                    <img src="Ressources/images/languages24.gif" class="floatStyle"/><a name="languages"><h1 class="titleStyle"><xsl:value-of select="languages/@title"/></h1></a>
                                 </div>
                             </td>
                         </tr>
@@ -299,7 +299,7 @@
 	                        <xsl:for-each select="languages/language">
 	                            <tr class="dataItem">
 	                                <td class="firstCell">
-	                                    <xsl:value-of select="name"/>
+	                                    <h2 class="titleStyle"><xsl:value-of select="name"/></h2>
 	                                </td>
 	                                <td class="info">
 	                                    <xsl:value-of select="desc" disable-output-escaping="yes"/>
@@ -310,7 +310,7 @@
                         
                         <tr><td colspan="2">
                                 <div id="title">
-                                    <img src="Ressources/images/watch24.gif" class="floatStyle"/><a name="miscellanea"><xsl:value-of select="miscellanea/@title"/></a>
+                                    <img src="Ressources/images/watch24.gif" class="floatStyle"/><a name="miscellanea"><h1 class="titleStyle"><xsl:value-of select="miscellanea/@title"/></h1></a>
                                 </div>
                             </td>
                         </tr>
@@ -323,7 +323,7 @@
 	                        <xsl:for-each select="miscellanea/item">
 	                            <tr class="dataItem">
 	                                <td class="firstCell">
-	                                    <xsl:value-of select="name"/>
+	                                    <h2 class="titleStyle"><xsl:value-of select="name"/></h2>
 	                                </td>
 	                                <!-- Special processing for node with url node(see the problem with the html link to my blog) -->
 	                                <td class="info">
