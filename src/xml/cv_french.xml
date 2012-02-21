@@ -67,7 +67,7 @@
 
 	<!-- Section about my professional experience. -->
 	<experiences title="Expériences professionnelles">
-                <company>
+         <company>
 			<date>Depuis Juillet 2008</date>
 			<name>Open-Groupe (Teamlog)</name>
 			<activity>SSII</activity>
@@ -104,7 +104,7 @@
 			<activity>Assurance</activity>
 			<geolocalization>Saint-Denis, France</geolocalization>
 			<jobTitle>Ingénieur Java/J2EE </jobTitle>
-			<jobDesc>Participation dans le développement du serveur-métier de l’entreprise. 
+			<jobDesc>Participation dans le développement du serveur-métier de l’entreprise, dans le context de migration. 
                         Réalisation des modules d’intégration néccessaires pour la connection du serveur avec des autres systèmes d’information. 
                         Le processus du développement est strictement réglementé et basé sur les standards industriels du développement de logiciel.
 				Utilisation avancée du SQL.
