@@ -15,14 +15,14 @@
 		<middleName></middleName>
 		<address>Kiev, Ukraine</address>
 		<googleMapLocationString>Kiev, Ukraine</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
-		<mobile>Phone: +38.097.65.27.728</mobile>
+		<mobile>Phone: +38 097 652 77 28</mobile>
 		<job-title>Java/J2EE Software Engineer</job-title>
-		<additionalInfo>Was born the 23 Novembre 1981, Ukraine.
+		<additionalInfo>Was born on the 23st Novembre 1981, Ukraine.
 		</additionalInfo>
 	</personalInfo>
 
 	<summary title="Summary">
-		Java/J2EE software engineer. Information systems
+		Software engineer. Information systems
 		design and implementation.
 		OOP. N-tiers architectures.
 		RDBMS/SQL.
@@ -33,18 +33,25 @@
 		(projects for IT-consulting, insurance and software
 		companies).
 		21 IT-certifications from Brainbench system.
-		Fluent french,
-		good english, russian and ukrainian - native speaker.
-		Purposeful
-		and responsible. Professional goal - become a software architect.
+		Fluent French,
+		good English, Russian and Ukrainian - native speaker.
+		Professional goal - become a software architect.
         </summary>
 	<!-- Section about my education-->
 	<education title="Education">
+	    <organisation>
+			<name>Coursera</name>
+			<speciality>Online courses.</speciality>
+			<date>2012</date>
+			<desc>Software Engineering for Software as a Service (Ruby/RoR) from UC Berkeley; Compilers from Standford (in progress).</desc>
+			<url>http://www.coursera.org</url>
+			<note></note>
+		</organisation>
 		<organisation>
 			<name>Teamlog Institute</name>
 			<speciality>Professional courses organized by Teamlog Institute.</speciality>
 			<date>2008</date>
-			<desc>Effective communication, English courses (intermediate level)</desc>
+			<desc>Effective communication, English courses (intermediate level).</desc>
 			<geolocalization>Paris, France</geolocalization>
 			<url>http://www.open-groupe.com</url>
 			<note></note>
@@ -52,7 +59,7 @@
 		<organisation>
 			<name>Conservatoire National des Arts et Métiers (CNAM)
 			</name>
-			<speciality>Enterprise managemenent course for engineers.
+			<speciality>Enterprise managemnent course for engineers.
 			</speciality>
 			<date>2005</date>
 			<desc>Social Management course.</desc>
@@ -76,7 +83,7 @@
 			<speciality>Speciality « Specialized computer systems ».
 			</speciality>
 			<date>1999-2004</date>
-			<desc>Master Degree in Computer Science, with honour (2004).</desc>
+			<desc>Master Degree in Computer Science.</desc>
 			<geolocalization>Dniepropetrovsk, Ukraine</geolocalization>
 			<url>http://udhtu.com.ua</url>
 			<note></note>
@@ -85,9 +92,28 @@
 
 	<!-- Section about my professional experience. -->
 	<experiences title="Work experience">
+	    <company>
+			<date>October 2011 to Date</date>
+			<name>Octetis</name>
+			<activity>IT consulting</activity>
+			<geolocalization>Kiev, Ukraine</geolocalization>
+			<jobTitle>Technical lead</jobTitle>
+			<jobDesc>
+				 Conception, development, unit tests and performance tuning for telecom gouvernance project.
+				 Installation and support of continious integration environment with Jenkins and Sonar.
+				 Participating in development of mobile project based on Android and PhoneGap frameworks.
+				 Responsible for development of the inner industrialization platform: Redmine + Git + CI.
+				 Technical management of the project, documentation updates, technical assistance for junior developers.
+            </jobDesc>
+            <technologiesList>
+            	Java/J2EE, Liferay portal, Hibernate, Spring, JUnit, Android SDK, HTML5, jQuery, PhoneGap framework. 
+            </technologiesList>
+			<url>http://www.octetis.com</url>
+			<note></note>
+		</company>
 		<company>
-			<date>July 2008 to Date</date>
-			<name>Open-Groupe (Teamlog)</name>
+			<date>July 2008 - October 2011</date>
+			<name>Open-Groupe (former Teamlog)</name>
 			<activity>IT consulting</activity>
 			<geolocalization>Paris/Lannion/Kiev</geolocalization>
 			<jobTitle>Technical lead</jobTitle>
@@ -123,6 +149,7 @@
 			<activity>Insurance</activity>
 			<geolocalization>Saint-Denis, France</geolocalization>
 			<jobTitle>Java/J2EE Software Engineer</jobTitle>
+			<proxyJobTitle>as a consultant from DVK-Tech</proxyJobTitle>
 			<jobDesc>Development of Java-based enterprise server, in the context of the migration process.
 				Technical design and implementation of different integration modules
 				for connecting externs information systems.
@@ -143,10 +170,11 @@
 			<activity>Insurance</activity>
 			<geolocalization>Paris, France</geolocalization>
 			<jobTitle>Java/J2EE Consultant</jobTitle>
+			<proxyJobTitle>as a consultant from DVK-Tech</proxyJobTitle>
 			<jobDesc>Audit of a web-application that represents the company
 				business workflow.
 				Analysis and documentation of the existing
-				architecture with further recommendations for optimisation and
+				architecture with further recommendations for optimization and
 				evolution.
 				Writing the technical documentation describing the
 				development environment
@@ -166,6 +194,7 @@
 			<activity>Insurance</activity>
 			<geolocalization>Paris, France</geolocalization>
 			<jobTitle>Java/J2EE Software Engineer</jobTitle>
+			<proxyJobTitle>as a consultant from DVK-Tech</proxyJobTitle>
 			<jobDesc>Participation in the design and development of
 				« e-commerce » projects.
 				Persistence layer has been implemented with
@@ -181,7 +210,7 @@
 			<technologiesList>
 				Java/J2EE, Struts 1.3, Hibernate 3.0, JDO (Xcalia implementation),
 				Servlet/JSP, JSTL, Tomcat 5.5, MySQL, Oracle, MS SQL Server,
-				FreeMaker, Common-Controls, many librairies from Jakarta Commons.
+				FreeMaker, Common-Controls, many libraries from Jakarta Commons.
 			</technologiesList>
 			<url>http://www.mondial-assistance.fr</url>
 			<note></note>
@@ -192,6 +221,7 @@
 			<activity>Web agency</activity>
 			<geolocalization>Paris, France</geolocalization>
 			<jobTitle>Java/J2EE Software Engineer</jobTitle>
+			<proxyJobTitle>as a consultant from DVK-Tech</proxyJobTitle>
 			<jobDesc>Design and realization of web site "back-office"
 				solutions based on 3-tier architecture; persistence, business object
 				layer (POJO), deployment ;
@@ -317,8 +347,7 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Certifications</name>
-			<itemsList>I have earned the following certificates from Brainbench
-				system:</itemsList>
+			<itemsList>I have earned the following certificates from Brainbench	system:</itemsList>
 		</technology-domain>
 	</technologies>
 
@@ -363,11 +392,13 @@
 		<item>
 			<name>Blog</name>
 			<url>http://yevgen-fr.blogspot.com</url>
-			<desc>My personal technical blog in French about IT, programming, Java.</desc>			
+			<desc>My personal technical blog about IT, programming, Java.</desc>			
 		</item>
 		<item>
 			<name>IT-Conferences</name>
-			<desc>Regulary and with enthousiasme attending differnet Java related conferences : Paris JUG, JavaOne 2011 in Moscow</desc>
+			<desc>Regularly attending different Java related conferences : Paris JUG, JavaOne 2011 in Moscow, 
+			    Jam 2011 Odessa, Yandex.Subbotnik in Kiev.
+			</desc>
 		</item>
 	</miscellanea>
 
