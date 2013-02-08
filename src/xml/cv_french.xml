@@ -20,13 +20,21 @@
        <summary title="Résumé">
            Ingénieur Java/J2EE. Conception et réalisation des systèmes informatiques (web/desktop). OOP design. 
             Architectures n-tiers. SGBD/SQL. Design patterns. UML. RUP, méthodologies agiles. Industrialisation des processus de développement. 
-            Formation européenne, master en Informatique. 7 ans de l'expérience professionnelle à l'échelle internationale pour les différentes entreprises (éditeur de logiciels, consulting, assurances). 
+            Formation européenne, master en Informatique. 8 ans de l'expérience professionnelle à l'échelle internationale pour les différentes entreprises (éditeur de logiciels, consulting, assurances). 
             21 IT-certifications du système Brainbench. 
             Maîtrise du français et de l'anglais, le russe et l'ukrainien ce sont mes langues maternelles. 
             Persévérant et responsable. Objectif professionnel - devenir un architecte.
         </summary> 
 	<!-- Section about my education-->
 	<education title="Formation">
+		<organisation>
+			<name>Coursera</name>
+			<speciality>Online courses.</speciality>
+			<date>2012</date>
+			<desc>Software Engineering for Software as a Service (Ruby/RoR) from UC Berkeley;.</desc>
+			<url>http://www.coursera.org</url>
+			<note></note>
+		</organisation>
 		<organisation>
 			<name>Teamlog Institute</name>
 			<speciality>Formation professionnelle dispensée par Teamlog Institute.</speciality>
@@ -67,8 +75,27 @@
 
 	<!-- Section about my professional experience. -->
 	<experiences title="Expériences professionnelles">
+		<company>
+			<date>Depuis October 2011</date>
+			<name>Octetis</name>
+			<activity>Software company</activity>
+			<geolocalization>Kiev, Ukraine</geolocalization>
+			<jobTitle>Référant technique</jobTitle>
+			<jobDesc>
+				Conception, développement, tests unitaires et optimisation de performance pou les projets d’entreprise Java.
+				Responsable de l’industrialisation de développement logiciel (Git, Redmine, Jenkins, Sonar, Nexus, etc.).
+				Participation au processus de recrutement des collaborateurs et des prestataires extérieurs.
+				Aide au management technique des différents projets.
+				Conception et développement des prototypes à la demande, basés sur les modernes frameworks Java et PHP : Play et Yii.
+            </jobDesc>
+            <technologiesList>
+            	Java/J2EE, Liferay portal, Hibernate, Spring, JUnit, Android SDK, HTML5, jQuery, PhoneGap framework, Yii framework for PHP, jQuery, Play framework. 
+            </technologiesList>
+			<url>http://www.octetis.com</url>
+			<note></note>
+		</company>
          <company>
-			<date>Depuis Juillet 2008</date>
+			<date>Juillet 2008 - Octobre 2011</date>
 			<name>Open-Groupe (Teamlog)</name>
 			<activity>SSII</activity>
 			<geolocalization>Paris/Lannion/Kiev</geolocalization>
