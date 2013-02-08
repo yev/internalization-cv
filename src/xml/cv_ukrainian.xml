@@ -33,6 +33,14 @@
     <!-- Section about my education-->
     <education title="Освіта">
     	<organisation>
+			<name>Coursera</name>
+			<speciality>Курси оnline</speciality>
+			<date>2012</date>
+			<desc>Software Engineering for Software as a Service (Ruby/RoR) from UC Berkeley;</desc>
+			<url>http://www.coursera.org</url>
+			<note></note>
+		</organisation>
+    	<organisation>
 			<name>Teamlog Institute</name>
 			<speciality>Освiтнi програми органiзованi Teamlog Institute</speciality>
 			<date>2008</date>
@@ -72,6 +80,24 @@
     
     <!-- Section about my professional experience. -->
     <experiences title="Професійний досвід">
+    	<company>
+			<date>З жовтня 2011</date>
+			<name>Octetis</name>
+			<activity>IT-консалтинг</activity>
+			<geolocalization>Київ, Украина</geolocalization>
+			<jobTitle>Инженер-программист</jobTitle>
+			<jobDesc>
+				Управління та активна участь в усіх фазах проекту (від переговорів та контракту до эксплуатації та підтримки)
+				Відповідальний за індустріалізацію розробки ПО (Git, Redmine, Jenkins, Sonar, Nexus, и др.).
+				Проводження технічних співбесід. 
+				Швидке прототипування програм з використанням Play та Yii.
+            </jobDesc>
+            <technologiesList>
+            	Java/J2EE, Liferay portal, Hibernate, Spring, JUnit, Android SDK, HTML5, jQuery, PhoneGap framework, Yii framework for PHP, jQuery, Play framework. 
+            </technologiesList>
+			<url>http://www.octetis.com</url>
+			<note></note>
+		</company>
         <company>
                 <date>З липня 2008</date>
                 <name>Open-Groupe (Teamlog)</name>
