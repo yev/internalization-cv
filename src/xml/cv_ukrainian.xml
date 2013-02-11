@@ -246,6 +246,8 @@
 				Розуміння ключових моментів многорівневих розподілених архітектур: EJB/POJO, персистентність даних, транзакції, мультипоточне програмування, трасування.
 				Фреймворки та сторонні бiблiотеки Java: Log4j, Spring, Struts, 
 				Hibernate, бiблiотеки з проекту Apache Commons, Velocity, iText, JSVC. XML (XSL, XPath, XSD), HTML(CSS, JavaScript).
+				XUnit тестування: JUnit, TestNG и DbUnit, интеграцiя з Spring testing.
+				Швидка разробка прототипiв с Play framework та Spring Roo.
             </itemsList>
         </technology-domain>
         <technology-domain>
@@ -259,7 +261,7 @@
         </technology-domain>
         <technology-domain>
             <name>Інструментарій</name>
-            <itemsList>Шаблони проектування (GoF+GRASP), UML, Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, Git, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, написання Python-скриптів</itemsList>
+            <itemsList>Шаблони проектування (GoF+GRASP), UML, Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, Git, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, написання Python-скриптів, використання Yii для прототипів на PHP</itemsList>
         </technology-domain>
         <technology-domain>
             <name>Індустріалізація</name>

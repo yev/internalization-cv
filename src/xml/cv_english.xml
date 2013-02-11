@@ -322,8 +322,8 @@
 				Apache Commons, Velocity, iText, JSVC. XML
 				(XSL, XPath, XSD),
 				HTML(CSS, JavaScript).
-				Unit testing with JUnit, TestNG and DBUnit, integration with Spring testing framework.
-				
+				XUnit testing: JUnit, TestNG and DBUnit, integration with Spring testing framework.
+				Rapid application development with Play framework and Spring Roo.
 			</itemsList>
 		</technology-domain>
 		<technology-domain>
@@ -336,7 +336,7 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Tools</name>
-			<itemsList>Design Patterns (GoF+GRASP), UML, Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, Git, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, sripting with Python</itemsList>
+			<itemsList>Design Patterns (GoF+GRASP), UML, Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, Git, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, sripting with Python, Yii framework for prototyping and simple project</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Industrialization</name>

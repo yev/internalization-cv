@@ -251,7 +251,8 @@
 					données, sécurité, transactions, multithreading, logging.
 					Les frameworks et librairies Java: Spring, Struts, 
 					Hibernate, Quartz, plusieurs sous-projets d'Apache Commons, Velocity, iText, JSVC. XML (XSL, XPath, XSD), HTML(CSS, JavaScript).
-					Tests unitaires JUnit, TestNG et DbUnit; l'integration avec Spring testing framework.
+					XUnit tests: JUnit, TestNG et DbUnit; l'integration avec Spring testing framework.
+					Le développement rapid avec Play framework et Spring Roo.
 			</itemsList>
 		</technology-domain>
 		<technology-domain>
@@ -265,7 +266,7 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Outils</name>
-			<itemsList>Design Patterns (GoF+GRASP), UML,Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, Ant, Maven, CVS, SVN, Git, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, sripting with Python</itemsList>
+			<itemsList>Design Patterns (GoF+GRASP), UML,Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, Ant, Maven, CVS, SVN, Git, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, sripting with Python, utilisation de Yii framework pour le prototypage</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Industrialisation</name>

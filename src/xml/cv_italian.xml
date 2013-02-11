@@ -286,7 +286,8 @@
 				Apache Commons, Velocity, iText, JSVC. XML
 				(XSL, XPath, XSD),
 				HTML(CSS, JavaScript).
-				Unit testing with JUnit, TestNG and DBUnit, integration with Spring testing framework.
+				XUnit testing: JUnit, TestNG and DBUnit, integration with Spring testing framework.
+				Le développement rapid avec Play framework et Spring Roo.
 			</itemsList>
 		</technology-domain>
 		<technology-domain>

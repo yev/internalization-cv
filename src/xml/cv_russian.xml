@@ -244,7 +244,8 @@
 					Понимание ключевых моментов многоуровневых распределенных архитектур: POJO/EJB,	персистентность данных, безопасность, транзакции, мультипоточное программирование, логирование.
 					Фреймворки и сторонние библиотеки Java: Log4j, Spring, Struts, 
 					Hibernate, библиотеки Apache Commons, Velocity, iText, JSVC. XML (XSL, XPath, XSD), HTML(CSS, JavaScript).
-					Модульное тестирование JUnit, TestNG и DbUnit, интеграция с Spring testing.
+					XUnit тестирование: JUnit, TestNG и DbUnit, интеграция с Spring testing.
+					Быстрая разработка прототипов с Play framework и Spring Roo.
 			</itemsList>
 		</technology-domain>
 		<technology-domain>
@@ -258,7 +259,7 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Инструментарий</name>
-			<itemsList>Шаблоны проектирования (GoF+GRASP), UML, Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, Git, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, скриптинг на Python.</itemsList>
+			<itemsList>Шаблоны проектирования (GoF+GRASP), UML, Eclipse, NetBeans, Microsoft Visual Studio, profiling - JProfiler/DotTrace, ANT, Maven, CVS, SVN, Git, SQuirreL, Toad, Far, MyGeneration, Doxygen, command line tools, скриптинг на Python, использование Yii для прототипов на PHP.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Индустриализация</name>
