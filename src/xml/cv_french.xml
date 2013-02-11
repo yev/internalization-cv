@@ -322,6 +322,11 @@
 			<desc>Mon blog technique (en français) consacré à l'IT, la programmation, Java, etc.</desc>
 		</item>
 		<item>
+			<name>Open Source</name>
+			<url>https://github.com/yev</url>
+			<desc>Je suis intéressé par le mouvement OpenSource. J'aime lire le code de qualité et apprendre. Parfois je commite les patchs dans les projets Open Source.</desc>				
+		</item>
+		<item>
 			<name>IT-Conferences</name>
 			<desc>Regulièrement et avec grand intérêt je viens aux différentes conférences autour du Java: Paris JUG, JavaOne 2011 à Moscou</desc>
 		</item>

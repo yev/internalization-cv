@@ -395,6 +395,11 @@
 			<desc>My personal technical blog about IT, programming, Java.</desc>			
 		</item>
 		<item>
+			<name>Open Source</name>
+			<url>https://github.com/yev</url>
+			<desc>I'm intrested by Opes Source projects. I like to read good code and learn new stuff. I'm moderatly involving in Open Source projects development.</desc>			
+		</item>
+		<item>
 			<name>IT-Conferences</name>
 			<desc>Regularly attending different Java related conferences : Paris JUG, JavaOne 2011 in Moscow, 
 			    Jam 2011 Odessa, Yandex.Subbotnik in Kiev.
