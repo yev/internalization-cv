@@ -5,45 +5,24 @@
 	Date   : 11 Dec. 2007
 	Desc   : The document contains structured cv information.
  -->
-<cv version="La version française 2.7. Dernière mise à jour le " locale="fr">
+<cv version="La version française 2.8. Dernière mise à jour le " locale="fr">
 	<!-- Section contains personal information such as name, address, mobile phone,email, etc.-->
 	<personalInfo title="Information Personnelle">
 		<lastName>Voronetskyy </lastName>
 		<firstName>Yevgen </firstName>
 		<middleName></middleName>
-		<address>Kiev, Ukraine</address>
 		<googleMapLocationString>Kiev, Ukraine</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
-		<mobile>Phone: +38.097.65.27.728</mobile>
+		<mobile>Phone: 07 83 05 45 53</mobile>
 		<job-title>Ingénieur Java/J2EE </job-title>
-		<additionalInfo>Né le 23 Novembre 1981, Ukraine.</additionalInfo>
+		<additionalInfo>32 ans, célibataire</additionalInfo>
 	</personalInfo>
        <summary title="Résumé">
-           Ingénieur Java/J2EE. Conception et réalisation des systèmes informatiques (web/desktop). OOP design. 
-            Architectures n-tiers. SGBD/SQL. Design patterns. UML. RUP, méthodologies agiles. Industrialisation des processus de développement. 
-            Formation européenne, master en Informatique. 8 ans de l'expérience professionnelle à l'échelle internationale pour les différentes entreprises (éditeur de logiciels, consulting, assurances). 
-            21 IT-certifications du système Brainbench. 
-            Maîtrise du français et de l'anglais, le russe et l'ukrainien ce sont mes langues maternelles. 
-            Persévérant et responsable. Objectif professionnel - devenir un architecte.
+           Architecte Java/J2EE. Conception et réalisation des applications d'entreprises (web/desktop). OOP design. 
+            Architectures distribuées, horizontalement scalables, tolérantes aux pannes. SGBD/SQL/NoSQL. Design patterns. UML. Industrialisation du processus de développement. 
+            Formation européenne, master en Informatique. 10 ans de l'expérience professionnelle à l'échelle internationale pour les différentes entreprises (éditeurs de logiciels, consulting, assurances).
         </summary> 
 	<!-- Section about my education-->
 	<education title="Formation">
-		<organisation>
-			<name>Coursera</name>
-			<speciality>Online courses.</speciality>
-			<date>2012</date>
-			<desc>Software Engineering for Software as a Service (Ruby/RoR) from UC Berkeley;.</desc>
-			<url>http://www.coursera.org</url>
-			<note></note>
-		</organisation>
-		<organisation>
-			<name>Teamlog Institute</name>
-			<speciality>Formation professionnelle dispensée par Teamlog Institute.</speciality>
-			<date>2008</date>
-			<desc>Communication avec impacte, cours d'anglais intermédiaire</desc>
-			<geolocalization>Paris, France</geolocalization>
-			<url>http://www.open-groupe.com</url>
-			<note></note>
-		</organisation>
 		<organisation>
 			<name>Conservatoire National des Arts et Métiers (CNAM)</name>
 			<speciality>Management économique de l’entreprise pour l’ingénieur.</speciality>
@@ -55,7 +34,7 @@
 		</organisation>
 		<organisation>
 			<name>Université Paris-Est Marne-la-Vallée</name>
-			<speciality>DESS « Communication, Réseau, Image », filière Réseau (actuel Master Informatique).</speciality>
+			<speciality>Master Informatique</speciality>
 			<date>2004-2005</date>
 			<desc>Diplôme en Ingénierie Informatique, avec mention assez bien. La formation à forte composant pratique.</desc>
 			<geolocalization>Champs-sur-Marne, France</geolocalization>
@@ -76,21 +55,19 @@
 	<!-- Section about my professional experience. -->
 	<experiences title="Expériences professionnelles">
 		<company>
-			<date>Depuis October 2011</date>
+			<date>Depuis Octobre 2011</date>
 			<name>Octetis</name>
 			<activity>Software company</activity>
-			<geolocalization>Kiev, Ukraine</geolocalization>
-			<jobTitle>Référant technique</jobTitle>
+			<geolocalization>Paris/Kiev</geolocalization>
+			<jobTitle>Architecte Java</jobTitle>
 			<jobDesc>
-				Conception, développement, tests unitaires et optimisation de performance pou les projets d’entreprise Java.
+				Projet - SASS multimedia (online streaming et chats), l'équipe de développement backend - 5 personnes. L’architecture est conçue pour respecter la scalabilité horizontale. L’environnement de production contient plus de 20 serveurs avec technologies/fonctionnalités hétérogènes. La liste des modules/fonctionnalités dont j’étais responsable est présentée ci-dessous. Le développement  de  modules en Java SE des plugins pour WowzaStreamingEngine (serveur RTMP) pour le recording, image snapshoting,  l’accès sécurisé aux video streams. Développement des extensions pour    Tigase (serveur XMPP): module d’authentification compatible SASL (RFC 2222),   l’interceptor du spam, module asynchrone pour l’indexation des messages dans ElasticSearch (le data mining et la recherche en quasi real-time). Memcached parallel cluster pour servir des images en moins de 20 millisecondes, ce cluster est construit en mode Producer/Consumer et composé de la chaine suivante: Wowza -MemoryPipe - Java - Memcached - Nginx. Le développement et l’integration du module de payement (e-wallet) compatible PCI-DSS. Réalisation du cluster de transcoding de video avec SpringBoot, Thrift et ffmpeg.
 				Responsable de l’industrialisation de développement logiciel (Git, Redmine, Jenkins, Sonar, Nexus, etc.).
 				Participation au processus de recrutement des collaborateurs et des prestataires extérieurs.
 				Aide au management technique des différents projets.
-				Conception et développement des prototypes à la demande, basés sur les modernes frameworks Java et PHP : Play et Yii.
             </jobDesc>
             <technologiesList>
-            	Java/J2EE, Liferay portal, Hibernate, Spring, JUnit, Android SDK, HTML5, jQuery, PhoneGap framework, Yii framework for PHP, jQuery, Play framework. 
-            </technologiesList>
+            	Java/J2EE, Tigase XMPP server, WowzaStreamingEngine RTMP server, GlassFish, JPA, JAX-WS, Maven, TestNg, Arquillian, Google Guava, Memcached, Redis, Logstash, Kibana, RTMP, Flash, OSMF. </technologiesList>
 			<url>http://www.octetis.com</url>
 			<note></note>
 		</company>
@@ -105,7 +82,7 @@
 	Responsbale de la qualité technique. Développement de l'architecture, résolution des problèmes techniques pointus. Revue du code.
 	Mise en place de l'infrastructure des projets (SVN, les builds automatiques, tests unitaires, Mantis, etc).
 	Participation à l'industrialisation du développement des projets informatiques (intégration continue, qualité du code/conception OO, métriques, applications blanches/usine logicielle).
-	Codnduite des entretiens techniques dans un cadre de recrutement.  
+	Conduite des entretiens techniques dans un cadre de recrutement.  
 	Audit technique des projets Java/J2EE (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).            
             </jobDesc>
             <technologiesList>
@@ -120,7 +97,7 @@
 			<activity>SSII, Editeur de Logiciel</activity>
 			<geolocalization>Paris, France</geolocalization>
 			<jobTitle>Ingénieur Java/J2EE </jobTitle>
-			<jobDesc>Accomplisement de plusieurs missions pour les different clients de DVK-TECH. 
+			<jobDesc>Accomplissement de plusieurs missions pour les different clients de DVK-TECH. 
 					La liste de ces missions est présentée ci-dessous avec la remarque ***.</jobDesc>
 			<url>http://www.dvk-tech.com/</url>
 			<note></note>
@@ -132,7 +109,7 @@
 			<geolocalization>Saint-Denis, France</geolocalization>
 			<jobTitle>Ingénieur Java/J2EE </jobTitle>
 			<jobDesc>Participation dans le développement du serveur-métier de l’entreprise, dans le context de migration. 
-                        Réalisation des modules d’intégration néccessaires pour la connection du serveur avec des autres systèmes d’information. 
+                        Réalisation des modules d’intégration nécessaires pour la connection du serveur avec des autres systèmes d’information. 
                         Le processus du développement est strictement réglementé et basé sur les standards industriels du développement de logiciel.
 				Utilisation avancée du SQL.
 			</jobDesc>
@@ -150,10 +127,10 @@
 			<jobTitle>Consultant Java/J2EE</jobTitle>
 			<jobDesc>Audit de l'application web de gestion des flux de l'entreprise. 
 				Analyse et la documentation de l'architecture existante avec des propositions d'optimisation et d'évolution.
-				Rédaction de la documentation pour la configuration de l'environement de développement. 
+				Rédaction de la documentation pour la configuration de l'environnement de développement. 
 			</jobDesc>
 			<technologiesList>
-            	Java/J2EE, Servlet, Java Service Wrapper, Winstone - un conteneur "legèr" de Servlets, Oracle 8, Eclipse; diagrammes UML.
+            	Java/J2EE, Servlet, Java Service Wrapper, Winstone - un conteneur "léger" de Servlets, Oracle 8, Eclipse; diagrammes UML.
 			</technologiesList>
 			<url>http://www.mutuelle-smi.com</url>
 			<note></note>
@@ -166,14 +143,14 @@
 			<jobTitle>Ingénieur Java/J2EE</jobTitle>
 			<jobDesc>Participation à la conception et développement des projets « e-commerce ».
 				Réalisation de la couche de persistance en Hibernate et JDO (implémentation Xcalia). 
-				Développement de l’interface graphique web selon le pattern MVC 2 à l’aide du framerwork Struts.
+				Développement de l’interface graphique web selon le pattern MVC 2 à l’aide du framework Struts.
 				Développement des composants de l'interface graphique en AJAX.
 				Participation à l’élaboration de l’architecture technique des modules.
 				Réalisation de la couche de la logique métier des projets.
 			</jobDesc>
 			<technologiesList>
             	Java/J2EE, Struts 1.3, Hibernate 3.0, JDO (Xcalia), Servlet/JSP, JSTL, Tomcat 5.5, MySQL, Oracle, MS SQL Server, 
-				les librairies tiers FreeMaker, Common-Controls, plusiers librairies de Jakarta Commons, HTML, CSS, JavaScript.
+				les librairies tiers FreeMaker, Common-Controls, plusieurs librairies de Jakarta Commons, HTML, CSS, JavaScript.
 			</technologiesList>
 			<url>http://www.mondial-assistance.fr</url>
 			<note></note>
@@ -238,26 +215,37 @@
 	<technologies title="Domaines de Compétences">
 		<technology-domain>
 			<name>Systèmes d'exploitation</name>
-			<itemsList>Mac OS X; MS Windows; Linux.</itemsList>
+			<itemsList>Mac OS X - environment de travail et de développement; Linux - serveurs de production;</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Langages de programmation</name>
-			<itemsList>Java , C# , Python, Pascal, PHP.</itemsList>
+			<itemsList>Java , C# , Ruby, PHP.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Java/J2EE</name>
 			<itemsList>Core Java (J2SE). Les standards J2EE: Servlets/JSP, EJB, Web Services, les serveurs d'application/serveurs web : JBoss, WebSphere, Tomcat, Resin.
 					Connaissances des points clés de l'architectures distribuée n-tiers: objets métiers (POJO ou EJB), persistance de
 					données, sécurité, transactions, multithreading, logging.
-					Les frameworks et librairies Java: Spring, Struts, 
+					Les frameworks et librairies Java: Spring,  Struts, 
 					Hibernate, Quartz, plusieurs sous-projets d'Apache Commons, Velocity, iText, JSVC. XML (XSL, XPath, XSD), HTML(CSS, JavaScript).
 					XUnit tests: JUnit, TestNG et DbUnit; l'integration avec Spring testing framework.
-					Le développement rapid avec Play framework et Spring Roo.
 			</itemsList>
 		</technology-domain>
 		<technology-domain>
+            <name> Entreprise 2.0</name>
+            <itemsList>
+            	Memcached, Redis, Thrift, ElasticSearch, Spring Boot.
+            </itemsList>
+        </technology-domain>
+        <technology-domain>
+            <name>DevOps</name>
+            <itemsList>
+            	csshX, capistrano, Vagrant, OpenStask/Swift, logstash, kibana, Zabbix.
+            </itemsList>
+        </technology-domain>
+		<technology-domain>
             <name>.NET</name>
-            <itemsList>.NET/C# 3.5, NHibernate, MsBuild, NUnit, DbUnit, MS Visual Studio 2008 (Visual SVN, ReSharper, dotTrace)
+            <itemsList>.NET/C# 3.5, NHibernate, MsBuild, NUnit, DbUnit, MS Visual Studio 2008 (Visual SVN, ReSharper, dotTrace).
             </itemsList>
         </technology-domain>
 		<technology-domain>
@@ -276,27 +264,10 @@
 				Métriques de qualité du code - Sonar, FindBug, PMD. Gestion du projet, wiki, bug tracker - Redmine. Utilisation des Applications Blanches.
 			</itemsList>
 		</technology-domain>
-		<technology-domain>
-			<name>Certifications</name>
-			<itemsList>J’ai des certificats suivants du système Brainbench :</itemsList>
-		</technology-domain>
 	</technologies>
 	
 	<!-- This section describes my natural language skills -->
-	<languages title="Langues">
-		<language>
-			<name>Russe</name>
-			<desc>Langue maternelle.</desc>
-		</language>
-		<language>
-			<name>Ukrainien</name>
-			<desc>Langue maternelle.</desc>
-		</language>
-		<language>
-			<name>Français</name>
-			<desc>Couramment. Plus de 10 ans d'expérience. 
-				Diplômes européens en langue française: DELF 1, DELF 2, B1, B2, B3, C2 du DALF.</desc>
-		</language>
+	<languages title="Langues étrangères">
 		<language>
 			<name>Anglais</name>
 			<desc>Lecture – très bien, écriture – très bien, expression orale – bien.</desc>
@@ -323,13 +294,13 @@
 			<desc>Mon blog technique (en français) consacré à l'IT, la programmation, Java, etc.</desc>
 		</item>
 		<item>
-			<name>Open Source</name>
-			<url>https://github.com/yev</url>
-			<desc>Je suis intéressé par le mouvement OpenSource. J'aime lire le code de qualité et apprendre. Parfois je commite les patchs dans les projets Open Source.</desc>				
+			<name>Coursera</name>
+			<desc>Algorithms du professeur Robert Sedgewick, Software Engineering for SaaS de University of California, Berkeley</desc>
 		</item>
 		<item>
-			<name>IT-Conferences</name>
-			<desc>Regulièrement et avec grand intérêt je viens aux différentes conférences autour du Java: Paris JUG, JavaOne 2011 à Moscou</desc>
+			<name>Open Source</name>
+			<url>https://github.com/yev</url>
+			<desc>J'aime lire le code de qualité et apprendre. Parfois je commite les patchs dans les projets Open Source.</desc>				
 		</item>
 	</miscellanea>
 	
