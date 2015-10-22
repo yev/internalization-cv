@@ -5,21 +5,21 @@
 	Date   : 11 Dec. 2007
 	Desc   : The document contains structured cv information.
  -->
-<cv version="La version française 2.8. Dernière mise à jour le " locale="fr">
+<cv version="2.8" locale="fr">
 	<!-- Section contains personal information such as name, address, mobile phone,email, etc.-->
 	<personalInfo title="Information Personnelle">
 		<lastName>Voronetskyy </lastName>
 		<firstName>Yevgen </firstName>
 		<middleName></middleName>
 		<googleMapLocationString>Kiev, Ukraine</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
-		<mobile>Phone: 07 83 05 45 53</mobile>
+		<mobile>Tél: +33 7 83 05 45 53</mobile>
 		<job-title>Ingénieur Java/J2EE </job-title>
-		<additionalInfo>32 ans, célibataire</additionalInfo>
+		<additionalInfo>34 ans, célibataire</additionalInfo>
 	</personalInfo>
        <summary title="Résumé">
-           Architecte Java/J2EE. Conception et réalisation des applications d'entreprises (web/desktop). OOP design. 
-            Architectures distribuées, horizontalement scalables, tolérantes aux pannes. SGBD/SQL/NoSQL. Design patterns. UML. Industrialisation du processus de développement. 
-            Formation européenne, master en Informatique. 10 ans de l'expérience professionnelle à l'échelle internationale pour les différentes entreprises (éditeurs de logiciels, consulting, assurances).
+           Architecte Java. Conception, réalisation et audit des applications d'entreprises. OOP design. 
+            Architectures distribuées, horizontalement scalables, tolérantes aux pannes. Design patterns. UML. Industrialisation du processus de développement. 
+            Formation européenne, master en Informatique. 10 ans de l'expérience professionnelle à l'échelle internationale.
         </summary> 
 	<!-- Section about my education-->
 	<education title="Formation">
@@ -61,13 +61,13 @@
 			<geolocalization>Paris/Kiev</geolocalization>
 			<jobTitle>Architecte Java</jobTitle>
 			<jobDesc>
-				Projet - SASS multimedia (online streaming et chats), l'équipe de développement backend - 5 personnes. L’architecture est conçue pour respecter la scalabilité horizontale. L’environnement de production contient plus de 20 serveurs avec technologies/fonctionnalités hétérogènes. La liste des modules/fonctionnalités dont j’étais responsable est présentée ci-dessous. Le développement  de  modules en Java SE des plugins pour WowzaStreamingEngine (serveur RTMP) pour le recording, image snapshoting,  l’accès sécurisé aux video streams. Développement des extensions pour    Tigase (serveur XMPP): module d’authentification compatible SASL (RFC 2222),   l’interceptor du spam, module asynchrone pour l’indexation des messages dans ElasticSearch (le data mining et la recherche en quasi real-time). Memcached parallel cluster pour servir des images en moins de 20 millisecondes, ce cluster est construit en mode Producer/Consumer et composé de la chaine suivante: Wowza -MemoryPipe - Java - Memcached - Nginx. Le développement et l’integration du module de payement (e-wallet) compatible PCI-DSS. Réalisation du cluster de transcoding de video avec SpringBoot, Thrift et ffmpeg.
+				Projet - SasS multimedia (online video streaming et chats), l'équipe de développement backend - 5 personnes. L’architecture est conçue pour respecter la scalabilité horizontale. L’environnement de production contient plus de 20 serveurs avec technologies/fonctionnalités hétérogènes. La liste des modules/fonctionnalités dont j’étais responsable est présentée ci-dessous. Le développement  des  modules en Java SE des plugins pour WowzaStreamingEngine (serveur RTMP) pour le recording, image snapshoting,  l’accès sécurisé aux video streams. Développement des extensions pour    Tigase (serveur XMPP): module d’authentification compatible SASL (RFC 2222),   l’interceptor du spam, module asynchrone pour l’indexation des messages dans ElasticSearch (monitoring et la recherche en quasi real-time). Memcached parallel cluster pour servir des images en moins de 20 millisecondes (6K des images par 1 sec), ce cluster est construit en mode Producer/Consumer et composé de la chaîne suivante: Wowza - Memory pipe - Java - Memcached - Nginx. Le développement et l’integration du module de payement (e-wallet) compatible PCI-DSS. Réalisation du cluster de transcoding de video avec SpringBoot, Thrift et ffmpeg.
 				Responsable de l’industrialisation de développement logiciel (Git, Redmine, Jenkins, Sonar, Nexus, etc.).
 				Participation au processus de recrutement des collaborateurs et des prestataires extérieurs.
 				Aide au management technique des différents projets.
             </jobDesc>
             <technologiesList>
-            	Java/J2EE, Tigase XMPP server, WowzaStreamingEngine RTMP server, GlassFish, JPA, JAX-WS, Maven, TestNg, Arquillian, Google Guava, Memcached, Redis, Logstash, Kibana, RTMP, Flash, OSMF. </technologiesList>
+            	Java/J2EE, Tigase XMPP server, WowzaStreamingEngine RTMP server, GlassFish, JPA, JAX-WS, Maven, TestNg, Arquillian, Google Guava, Memcached, Redis, Logstash, Kibana, Ansible, RTMP, Flash, OSMF. </technologiesList>
 			<url>http://www.octetis.com</url>
 			<note></note>
 		</company>
@@ -219,28 +219,29 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Langages de programmation</name>
-			<itemsList>Java , C# , Ruby, PHP.</itemsList>
+			<itemsList>Java , C# , Ruby, PHP, Groovy, ActionScript, JavaScript.</itemsList>
 		</technology-domain>
 		<technology-domain>
 			<name>Java/J2EE</name>
-			<itemsList>Core Java (J2SE). Les standards J2EE: Servlets/JSP, EJB, Web Services, les serveurs d'application/serveurs web : JBoss, WebSphere, Tomcat, Resin.
-					Connaissances des points clés de l'architectures distribuée n-tiers: objets métiers (POJO ou EJB), persistance de
-					données, sécurité, transactions, multithreading, logging.
-					Les frameworks et librairies Java: Spring,  Struts, 
-					Hibernate, Quartz, plusieurs sous-projets d'Apache Commons, Velocity, iText, JSVC. XML (XSL, XPath, XSD), HTML(CSS, JavaScript).
-					XUnit tests: JUnit, TestNG et DbUnit; l'integration avec Spring testing framework.
+			<itemsList>Core Java (J2SE). L'utilisation de JConsole, jStack et jMap pour l'optimisation de performance.
+				Utilisation de ForkJoinPool et stream style API de JDK8.
+				Les standards J2EE: Servlets/JSP, EJB, Web Services, les serveurs d'application/serveurs web : JBoss, WebSphere, Tomcat, Resin.
+					Architecture distribuée n-tiers: sharding, replication, persistance de
+					données, sécurité, transactions, multithreading, logging, monitoring, deployment.
+					Les frameworks et librairies Java: JPA, Spring,  Struts, Hibernate, Quartz.
+					XUnit tests: JUnit, TestNG et DbUnit.
 			</itemsList>
 		</technology-domain>
 		<technology-domain>
             <name> Entreprise 2.0</name>
             <itemsList>
-            	Memcached, Redis, Thrift, ElasticSearch, Spring Boot.
+            	Memcached, Redis, Thrift, MongoDB, ElasticSearch, Spring Boot.
             </itemsList>
         </technology-domain>
         <technology-domain>
             <name>DevOps</name>
             <itemsList>
-            	csshX, capistrano, Vagrant, OpenStask/Swift, logstash, kibana, Zabbix.
+            	Ansible, Docker, csshX, capistrano, Vagrant, OpenStask/Swift, logstash, kibana, Zabbix.
             </itemsList>
         </technology-domain>
 		<technology-domain>
@@ -261,7 +262,7 @@
 			<itemsList>Automatisation des projets avec Maven et Ant. Nexus, Sonar. XUnit - JUnit, TestNG, DBUnit. Les tests automatisés d'acceptence avec Selenium.
 				Analyse de la couverture du code par les tests - Cobertura. 
 				Les serveurs d'intégration continue - Hudson/Jenkins et TeamCity. 
-				Métriques de qualité du code - Sonar, FindBug, PMD. Gestion du projet, wiki, bug tracker - Redmine. Utilisation des Applications Blanches.
+				Métriques de qualité du code - SonarQube, FindBug, PMD. Gestion du projet, wiki, bug tracker - Redmine. Utilisation des Applications Blanches.
 			</itemsList>
 		</technology-domain>
 	</technologies>
@@ -281,14 +282,6 @@
 	<!-- Section about my interests, hobbies, sports I do, etc -->
 	<miscellanea title="Informations complémentaires">
 		<item>
-			<name>Centres d'intérêts</name>
-			<desc>Java, création des systèmes informatiques, conception et "usability" de l'interface graphique de l'utilisateur, géographie, langues étrangères</desc>
-		</item>
-		<item>
-			<name>Sports</name>
-			<desc>Athlétisme, gymnastique, natation, volleyball</desc>
-		</item>
-		<item>
 			<name>Blog</name>
 			<url>http://yevgen-fr.blogspot.com</url>
 			<desc>Mon blog technique (en français) consacré à l'IT, la programmation, Java, etc.</desc>
@@ -300,7 +293,7 @@
 		<item>
 			<name>Open Source</name>
 			<url>https://github.com/yev</url>
-			<desc>J'aime lire le code de qualité et apprendre. Parfois je commite les patchs dans les projets Open Source.</desc>				
+			<desc>J'aime lire le code de qualité et apprendre. Parfois je commite les patchs dans les projets Open Source.</desc>
 		</item>
 	</miscellanea>
 	
@@ -321,7 +314,7 @@
 			<link_show>Activer</link_show>
 		</navigationPanel>
 		<label_print_html>Version imprimable</label_print_html>
-		<label_CurrentPositionTitle>Ingénieur de développement</label_CurrentPositionTitle> <!-- Added for PDF version -->
+		<label_CurrentPositionTitle>Architecte Java</label_CurrentPositionTitle> <!-- Added for PDF version -->
 		<label_technologyList>Technologies utilisées</label_technologyList>
 	</localization>
 </cv>

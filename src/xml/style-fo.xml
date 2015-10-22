@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <xsl:stylesheet version="1.0"
+	xmlns:datetime="http://exslt.org/dates-and-times"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="xml" />
 
@@ -41,14 +42,30 @@
 
 			<fo:page-sequence master-reference="titreGH" font-family="Georgia">
 				<fo:static-content flow-name="footer">
-		            <fo:block text-align="center" border-top="1pt solid #308FCF">
-		                <fo:page-number/>&#160;/&#160;<fo:page-number-citation  ref-id="theEnd" />
-		            </fo:block>
+					<fo:block text-align="center" border-top="1pt solid #308FCF" font-size="8pt">
+                              <fo:page-number/>&#160;/&#160;<fo:page-number-citation  ref-id="theEnd" />
+                    </fo:block>
 		        </fo:static-content>
 		        <fo:static-content flow-name="header">
-		            <fo:block text-align="right" border-bottom="1pt solid #308FCF" color="#308FCF" font-style="italic">
-						<xsl:value-of select="personalInfo/lastName" /> &#160;<xsl:value-of select="personalInfo/firstName" />
-		            </fo:block>
+		        	<fo:table>
+						<fo:table-column column-width="50%"/>
+						<fo:table-column column-width="50%"/>
+						<fo:table-body>
+							 <fo:table-row>
+								<fo:table-cell border-style="solid" border-width="0pt">
+									<fo:block text-align="left" border-bottom="1pt solid #308FFF" color="#308FCF" font-family="Arial"  font-weight="bold">
+									<xsl:value-of select="localization/label_CurrentPositionTitle" />
+		            			</fo:block>
+								</fo:table-cell>
+								<fo:table-cell border-style="solid" border-width="0pt">
+									<fo:block text-align="right" border-bottom="1pt solid #308FCF" color="#308FCF" font-family="Arial"  font-weight="bold">
+										<xsl:value-of select="personalInfo/firstName" /> &#160;<xsl:value-of select="personalInfo/lastName" />
+		            				</fo:block>
+								</fo:table-cell>
+							</fo:table-row> 
+						</fo:table-body>	
+					</fo:table>
+
 		        </fo:static-content>
 				
 				<fo:flow flow-name="xsl-region-body" >
@@ -59,10 +76,10 @@
 							 <fo:table-row>
 								<fo:table-cell border-style="solid" border-width="0pt">
 									<xsl:for-each select="personalInfo">
-										<fo:block><xsl:value-of select="lastName" /> &#160; <xsl:value-of select="firstName" /> &#160; <xsl:value-of select="middleName" /> </fo:block>
+										<fo:block><xsl:value-of select="firstName" /> &#160; <xsl:value-of select="lastName" /> &#160; <xsl:value-of select="middleName" /> </fo:block>
 										<fo:block><xsl:value-of select="address" /></fo:block>
 										<fo:block><xsl:value-of select="mobile" /></fo:block>
-										<fo:block><fo:external-graphic src="web/Ressources/images/email.gif" content-height="0.17in"/></fo:block>
+										<fo:block>voronetskyy@gmail.com</fo:block>
 										<fo:block font-size="8pt"><xsl:value-of select="additionalInfo"/></fo:block>	
 									</xsl:for-each>
 								</fo:table-cell>
@@ -160,39 +177,7 @@
 									</fo:table-cell>
 								</fo:table-row>	
 							</xsl:for-each>
-							<!-- brainbench certification -->
-							<fo:table-row margin-left="5" margin-right="5"><!-- Date -->
-								<fo:table-cell border-width="1" border-style="dotted" text-align="center" display-align="center">
-									<fo:block/>
-								</fo:table-cell>
-								<fo:table-cell border-width="1" border-style="dotted" >
-									<fo:block>
-										&#160;&#160;<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/communicationspecialist.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/computertechnician.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/html32.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/internetresearchtechniquesandresourcesus.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/j2ee14.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/java1programmer.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/java2.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/java2nongui.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/java2platformenterpriseeditionj2ee14fundamentals.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/java5fundamentals.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/javaserverpages21.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/mswindowsxpdesktopadministration.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/networkingconcepts.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/networksecurity.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/ooconcepts.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/oracleplsqlfundamentals.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/programmingconcepts.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/rdbmsdeveloper.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/serveradministration.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/technicalhelpdesk.gif"/>&#160;
-										<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/WinXP.gif"/>&#160;
-										&#160;&#160;<fo:external-graphic content-height="0.45in" src="web/Ressources/Brainbench/writtenenglishuk.gif"/>&#160;
-									</fo:block>
-								</fo:table-cell>
-							</fo:table-row>
-							
+									
 							<!-- Language section -->
 							<fo:table-row>
 								<fo:table-cell number-columns-spanned="2" padding-left="25" padding="5">

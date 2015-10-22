@@ -76,7 +76,7 @@ public final class CVGenerator
 		cvGenerator.generateNoAnonymousPdfCV(Language.ukrainian);
 		cvGenerator.generateNoAnonymousPdfCV(Language.italian);
 		
-		cvGenerator.generateAnonymousPdfCV(Language.english);// anonymous CV only for English & French
+		cvGenerator.generateAnonymousPdfCV(Language.french);// anonymous CV only for English & French
 	
 		LOGGER.info("Generation ProffiCV finished with success!");
 		long end = new Date().getTime();
