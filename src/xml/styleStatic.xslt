@@ -9,7 +9,7 @@
         <html>
             <head>
                 <!-- Google tag (gtag.js) -->
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-P0LTVJL3D1"></script>
+                <script src="https://www.googletagmanager.com/gtag/js?id=G-P0LTVJL3D1"></script>
                 <script>
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
