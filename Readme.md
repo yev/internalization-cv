@@ -4,6 +4,11 @@ My own CV generator based on Java, XML, XSLT. Generates the cv in the following 
  - The project has been migrated from google.code to gitHub on the may 2011.
  - constant improvements till 2015
 
+## Tech Requirements
+
+ - min java 6 (I have tested with JDK version 21 - it's ok) 
+ - ant build tool (I used Apache Ant(TM) version 1.10.14 compiled on August 16 2023 - it was ok as well )
+
 ## Main technical benefits :
 - Separate presentation and data layers.(MVC : i have only one model - XML and so many Prese. and Controllers as I want)
 - Implement DRY principle (Don't Repeat Yourself)
