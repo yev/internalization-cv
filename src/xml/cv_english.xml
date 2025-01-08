@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"  ?>
 	<!--
-		Project: ProffiCV Author : VORONETS'KYY Yevgen Date : 11 Dec. 2007
+		Project: ProffiCV Author : Voronetski Yevgen Date : 11 Dec. 2007
 		Desc : The document contains structured cv information.
 	-->
 <cv version="English version 2.7. Last modification "
@@ -10,12 +10,12 @@
 		phone,email, etc.
 	-->
 	<personalInfo title="Personal Profile">
-		<lastName>Voronetskyy </lastName>
+		<lastName>Voronetski </lastName>
 		<firstName>Yevgen</firstName>
 		<middleName></middleName>
-		<address>Kiev, Ukraine</address>
+		<address>Lannion, France</address>
 		<googleMapLocationString>Kiev, Ukraine</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
-		<mobile>Phone: +38 097 652 77 28</mobile>
+		<mobile>Phone: 🇫🇷 +33 7 83 05 45 53</mobile>
 		<job-title>Java/J2EE Software Engineer</job-title>
 		<additionalInfo>Was born on the 23st Novembre 1981, Ukraine.
 		</additionalInfo>
@@ -106,7 +106,7 @@
 				 Technical management of the project, documentation updates, technical assistance for junior developers.
             </jobDesc>
             <technologiesList>
-            	Java/J2EE, Liferay portal, Hibernate, Spring, JUnit, Android SDK, HTML5, jQuery, PhoneGap framework, Yii framework for PHP, jQuery, Play framework. 
+            	Java/J2EE, Liferay portal, Hibernate, Spring, JUnit, Android SDK, HTML5, jQuery, PhoneGap framework, Yii framework for PHP, jQuery, Play framework.
             </technologiesList>
 			<url>http://www.octetis.com</url>
 			<note></note>
@@ -122,7 +122,7 @@
 				the IT-projects (some on offshore mode). Architecture development, solving critical technical problems. Setup
 				project infrastructure: SVN, builds, unit tests, Mantis, etc. Code revue.
 				Participation in industrialization of IT-projects development(continuous integration, design/code quality, metrics, software factory).
-				Conducting the technical interviews.  
+				Conducting the technical interviews.
 				Responsible	for communication with customers. Technical audit for Java/J2EE projects (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
             </jobDesc>
             <technologiesList>
@@ -340,9 +340,9 @@
 		</technology-domain>
 		<technology-domain>
 			<name>Industrialization</name>
-			<itemsList>Project Automation with Maven and Ant. Nexus, Sonar. XUnit - JUnit, TestNG, DBUnit. Automated acceptance test with Selenium. Code coverage with Cobertura. 
-				Continious integration servers - Hudson/Jenkins and TeamCity. 
-				Code quality metrics - Sonar, FindBug, PMD. Project mananagement, wiki, bug tracker - Redmine. Software factories. 
+			<itemsList>Project Automation with Maven and Ant. Nexus, Sonar. XUnit - JUnit, TestNG, DBUnit. Automated acceptance test with Selenium. Code coverage with Cobertura.
+				Continious integration servers - Hudson/Jenkins and TeamCity.
+				Code quality metrics - Sonar, FindBug, PMD. Project mananagement, wiki, bug tracker - Redmine. Software factories.
 			</itemsList>
 		</technology-domain>
 		<technology-domain>
@@ -392,16 +392,16 @@
 		<item>
 			<name>Blog</name>
 			<url>http://yevgen-fr.blogspot.com</url>
-			<desc>My personal technical blog about IT, programming, Java.</desc>			
+			<desc>My personal technical blog about IT, programming, Java.</desc>
 		</item>
 		<item>
 			<name>Open Source</name>
 			<url>https://github.com/yev</url>
-			<desc>I'm intrested by Opes Source projects. I like to read good code and learn new stuff. I'm moderatly involving in Open Source projects development.</desc>			
+			<desc>I'm intrested by Opes Source projects. I like to read good code and learn new stuff. I'm moderatly involving in Open Source projects development.</desc>
 		</item>
 		<item>
 			<name>IT-Conferences</name>
-			<desc>Regularly attending different Java related conferences : Paris JUG, JavaOne 2011 in Moscow, 
+			<desc>Regularly attending different Java related conferences : Paris JUG, JavaOne 2011 in Moscow,
 			    Jam 2011 Odessa, Yandex.Subbotnik in Kiev.
 			</desc>
 		</item>

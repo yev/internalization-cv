@@ -21,3 +21,9 @@ I didn't notice any bug
 - I've played a little bit with a static Map Google API - Nice stuff. Very simple to use.
 - I've integrated and tried out jQuery library with the theme customization.
 - I've used some new (for me) GUI-related features from HTML5 standards (like rounded boxes and shadow effect)
+
+## How to use
+
+1. Clone the project
+2. Run the ant build script in your terminal: `ant`
+3. Open the generated HTML file in your browser: `web/index.html`

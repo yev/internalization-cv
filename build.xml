@@ -1,10 +1,10 @@
 <project name="Project ProffiCV" default="all" basedir=".">
-	<!-- 
-	Desc : script ant 
-	Date : 04 January 2010 
-	Auth : VORONETSKYY  Yevgen
+	<!--
+	Desc : script ant
+	Date : 04 January 2010
+	Auth : VORONETSKI  Yevgen
 	Note : I tried to migrate the project on git (with github)
-		
+
  -->
 	<path id="compile.classpath">
 	    <fileset dir="lib" includes="**/*.jar"/>
@@ -17,32 +17,32 @@
 		</delete>
 		<echo message="OK. Cleaning."/>
 	</target>
-	
+
 	<target name="compile" description="Compile java sources related to the application. The tests are not included!" depends="clean">
 		<echo message="Compilation started..."/>
 		<mkdir dir="bin"/>
 	    <javac destdir="bin"
 	           optimize="yes"
-	           debug="off" 
+	           debug="off"
 	    	   failonerror="true"
-	           srcdir="src" 
+	           srcdir="src"
 	    		nowarn="true"
 		   		verbose="no">
 	      <classpath refid="compile.classpath"/>
-	    	
+
 	      <include name="**" />
 	    </javac>
 		<echo message="OK. Compilation finished."/>
-		
+
 		<echo message="Coping ressources (all files except *.java)  started..."/>
 	    <copy todir="bin" verbose="no">
 			<fileset dir="src">
 		    	<exclude name="**/*.java"/>
 			</fileset>
-	    </copy> 
+	    </copy>
 		<echo message="OK. Copying ressources finished."/>
 	</target>
-	
+
 	<target name="buildJAR" depends="compile" >
 		<echo message="Building JAR started..."/>
 		<manifestclasspath property="jar.classpath" jarfile="proffiCV.jar">
@@ -51,7 +51,7 @@
 		<jar destfile="proffiCV.jar" basedir="bin">
 			<manifest>
 			      <!-- Who is building this jar? -->
-			      <attribute name="Built-By" value="Voronetskyy Yevgen"/>
+			      <attribute name="Built-By" value="Voronetski Yevgen"/>
 			      <!-- Information about the program itself -->
 			      <attribute name="Implementation-Vendor" value="Yev"/>
 			      <attribute name="Implementation-Title" value="ProffiCV"/>
@@ -64,7 +64,7 @@
 		</jar>
 		<echo message="Ok. Building JAR finished."/>
 	</target>
-	
+
 	<target name="runGeneration" depends="buildJAR">
 		<java jar="proffiCV.jar" failonerror="true" fork="true" jvmargs="-Xmx1254M"> <!-- workaround for FOP generation on Mac OS : TTFFile:Unsupported TrueType font: No Unicode or Symbol cmap table not present -->
 		</java>

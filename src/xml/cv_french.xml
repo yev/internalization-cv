@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"  ?>
 <!--
 	Project: ProffiCV
-	Author : VORONETS'KYY Yevgen 
+	Author : Voronetski Yevgen
 	Date   : 11 Dec. 2007
 	Desc   : The document contains structured cv information.
  -->
 <cv version="2.8" locale="fr">
 	<!-- Section contains personal information such as name, address, mobile phone,email, etc.-->
 	<personalInfo title="Information Personnelle">
-		<lastName>Voronetskyy </lastName>
+		<lastName>Voronetski </lastName>
 		<firstName>Yevgen </firstName>
 		<middleName></middleName>
-		<googleMapLocationString>Kiev, Ukraine</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
+		<googleMapLocationString>Lannion, France</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
 		<mobile>Tél: +33 7 83 05 45 53</mobile>
 		<job-title>Ingénieur Java/J2EE </job-title>
 		<additionalInfo>34 ans, célibataire</additionalInfo>
 	</personalInfo>
        <summary title="Résumé">
-           Architecte Java. Conception, réalisation et audit des applications d'entreprises. OOP design. 
-            Architectures distribuées, horizontalement scalables, tolérantes aux pannes. Design patterns. UML. Industrialisation du processus de développement. 
+           Architecte Java. Conception, réalisation et audit des applications d'entreprises. OOP design.
+            Architectures distribuées, horizontalement scalables, tolérantes aux pannes. Design patterns. UML. Industrialisation du processus de développement.
             Formation européenne, master en Informatique. 10 ans de l'expérience professionnelle à l'échelle internationale.
-        </summary> 
+        </summary>
 	<!-- Section about my education-->
 	<education title="Formation">
 		<organisation>
@@ -82,8 +82,8 @@
 	Responsbale de la qualité technique. Développement de l'architecture, résolution des problèmes techniques pointus. Revue du code.
 	Mise en place de l'infrastructure des projets (SVN, les builds automatiques, tests unitaires, Mantis, etc).
 	Participation à l'industrialisation du développement des projets informatiques (intégration continue, qualité du code/conception OO, métriques, applications blanches/usine logicielle).
-	Conduite des entretiens techniques dans un cadre de recrutement.  
-	Audit technique des projets Java/J2EE (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).            
+	Conduite des entretiens techniques dans un cadre de recrutement.
+	Audit technique des projets Java/J2EE (ISO-9126, Sonar, PMD, Cobertura, Metrics, SourceMonitor).
             </jobDesc>
             <technologiesList>
             	Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, Nexus, Sonar, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn.
@@ -97,7 +97,7 @@
 			<activity>SSII, Editeur de Logiciel</activity>
 			<geolocalization>Paris, France</geolocalization>
 			<jobTitle>Ingénieur Java/J2EE </jobTitle>
-			<jobDesc>Accomplissement de plusieurs missions pour les different clients de DVK-TECH. 
+			<jobDesc>Accomplissement de plusieurs missions pour les different clients de DVK-TECH.
 					La liste de ces missions est présentée ci-dessous avec la remarque ***.</jobDesc>
 			<url>http://www.dvk-tech.com/</url>
 			<note></note>
@@ -108,8 +108,8 @@
 			<activity>Assurance</activity>
 			<geolocalization>Saint-Denis, France</geolocalization>
 			<jobTitle>Ingénieur Java/J2EE </jobTitle>
-			<jobDesc>Participation dans le développement du serveur-métier de l’entreprise, dans le context de migration. 
-                        Réalisation des modules d’intégration nécessaires pour la connection du serveur avec des autres systèmes d’information. 
+			<jobDesc>Participation dans le développement du serveur-métier de l’entreprise, dans le context de migration.
+                        Réalisation des modules d’intégration nécessaires pour la connection du serveur avec des autres systèmes d’information.
                         Le processus du développement est strictement réglementé et basé sur les standards industriels du développement de logiciel.
 				Utilisation avancée du SQL.
 			</jobDesc>
@@ -125,9 +125,9 @@
 			<activity>Assurance</activity>
 			<geolocalization>Paris, France</geolocalization>
 			<jobTitle>Consultant Java/J2EE</jobTitle>
-			<jobDesc>Audit de l'application web de gestion des flux de l'entreprise. 
+			<jobDesc>Audit de l'application web de gestion des flux de l'entreprise.
 				Analyse et la documentation de l'architecture existante avec des propositions d'optimisation et d'évolution.
-				Rédaction de la documentation pour la configuration de l'environnement de développement. 
+				Rédaction de la documentation pour la configuration de l'environnement de développement.
 			</jobDesc>
 			<technologiesList>
             	Java/J2EE, Servlet, Java Service Wrapper, Winstone - un conteneur "léger" de Servlets, Oracle 8, Eclipse; diagrammes UML.
@@ -142,14 +142,14 @@
 			<geolocalization>Paris, France</geolocalization>
 			<jobTitle>Ingénieur Java/J2EE</jobTitle>
 			<jobDesc>Participation à la conception et développement des projets « e-commerce ».
-				Réalisation de la couche de persistance en Hibernate et JDO (implémentation Xcalia). 
+				Réalisation de la couche de persistance en Hibernate et JDO (implémentation Xcalia).
 				Développement de l’interface graphique web selon le pattern MVC 2 à l’aide du framework Struts.
 				Développement des composants de l'interface graphique en AJAX.
 				Participation à l’élaboration de l’architecture technique des modules.
 				Réalisation de la couche de la logique métier des projets.
 			</jobDesc>
 			<technologiesList>
-            	Java/J2EE, Struts 1.3, Hibernate 3.0, JDO (Xcalia), Servlet/JSP, JSTL, Tomcat 5.5, MySQL, Oracle, MS SQL Server, 
+            	Java/J2EE, Struts 1.3, Hibernate 3.0, JDO (Xcalia), Servlet/JSP, JSTL, Tomcat 5.5, MySQL, Oracle, MS SQL Server,
 				les librairies tiers FreeMaker, Common-Controls, plusieurs librairies de Jakarta Commons, HTML, CSS, JavaScript.
 			</technologiesList>
 			<url>http://www.mondial-assistance.fr</url>
@@ -182,7 +182,7 @@
 			<geolocalization>Dnipropetrovsk, Ukraine</geolocalization>
 			<jobTitle>Ingénieur Java</jobTitle>
 			<jobDesc>Développement et tests de la web-application de Gestion du Temps des Employées (Time management system).
-				Tâches accomplies: Développement des composants graphiques basés sur JSF; 
+				Tâches accomplies: Développement des composants graphiques basés sur JSF;
 						Conception et réalisation des tests de stress de l’application. OpenSTA et langage SCL;
 						Migration de l’application de WebSphere sur le serveur JBoss;
 						Coordination du lancement en production de l’application sous JBoss.
@@ -199,18 +199,18 @@
 			<activity>Editeur de Logiciel</activity>
 			<geolocalization>Rumelange, Luxembourg</geolocalization>
 			<jobTitle>Ingénieur .NET/C#</jobTitle>
-			<jobDesc>Mission - évolution du produit "SiteAudit": spécification et conception du produit; rédaction des dossiers correspondants; 
-				développement sur la plateforme Microsoft .NET / C#; les technologies utilisées: 
+			<jobDesc>Mission - évolution du produit "SiteAudit": spécification et conception du produit; rédaction des dossiers correspondants;
+				développement sur la plateforme Microsoft .NET / C#; les technologies utilisées:
 			</jobDesc>
 			<technologiesList>
-            	.NET/C#, WinForms, XML (XPath, XSD), ADO.NET, Microsoft SQL Server, 
+            	.NET/C#, WinForms, XML (XPath, XSD), ADO.NET, Microsoft SQL Server,
 				librairies "Microsoft XMLDiff and XMLPatch 1.0" et "HtmlAgilityPack".
 			</technologiesList>
 			<url>http://www.legitiname.com</url>
 			<note></note>
 		</company>
 	</experiences>
-	
+
 	<!-- Section about technologies I use in my work. -->
 	<technologies title="Domaines de Compétences">
 		<technology-domain>
@@ -260,13 +260,13 @@
 		<technology-domain>
 			<name>Industrialisation</name>
 			<itemsList>Automatisation des projets avec Maven et Ant. Nexus, Sonar. XUnit - JUnit, TestNG, DBUnit. Les tests automatisés d'acceptence avec Selenium.
-				Analyse de la couverture du code par les tests - Cobertura. 
-				Les serveurs d'intégration continue - Hudson/Jenkins et TeamCity. 
+				Analyse de la couverture du code par les tests - Cobertura.
+				Les serveurs d'intégration continue - Hudson/Jenkins et TeamCity.
 				Métriques de qualité du code - SonarQube, FindBug, PMD. Gestion du projet, wiki, bug tracker - Redmine. Utilisation des Applications Blanches.
 			</itemsList>
 		</technology-domain>
 	</technologies>
-	
+
 	<!-- This section describes my natural language skills -->
 	<languages title="Langues étrangères">
 		<language>
@@ -276,9 +276,9 @@
 		<language>
 			<name>Italien</name>
 			<desc>Débutant. Les courses de la langue dans le centre italien Dante ALIEGHIERI, à Kiev.</desc>
-		</language>  		
+		</language>
 	</languages>
-	
+
 	<!-- Section about my interests, hobbies, sports I do, etc -->
 	<miscellanea title="Informations complémentaires">
 		<item>
@@ -296,7 +296,7 @@
 			<desc>J'aime lire le code de qualité et apprendre. Parfois je commite les patchs dans les projets Open Source.</desc>
 		</item>
 	</miscellanea>
-	
+
 	<!-- This section contains localized message for different labels on the page.-->
 	<localization>
 		<label_CompanyName>Entreprise</label_CompanyName>
