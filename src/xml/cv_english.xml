@@ -3,7 +3,7 @@
 		Project: ProffiCV Author : Voronetski Yevgen Date : 11 Dec. 2007
 		Desc : The document contains structured cv information.
 	-->
-<cv version="English version 2.7. Last modification "
+<cv version="English version 3.0. Last modification "
 	locale="en">
 	<!--
 		Section contains personal information such as name, address, mobile
@@ -15,7 +15,7 @@
 		<middleName></middleName>
 		<address>Lannion, France</address>
 		<googleMapLocationString>Kiev, Ukraine</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
-		<mobile>Phone: 🇫🇷 +33 7 83 05 45 53</mobile>
+		<mobile>Phone: +33 7 83 05 45 53</mobile>
 		<job-title>Java/J2EE Software Engineer</job-title>
 		<additionalInfo>Was born on the 23st Novembre 1981, Ukraine.
 		</additionalInfo>
@@ -24,18 +24,13 @@
 	<summary title="Summary">
 		Software engineer. Information systems
 		design and implementation.
-		OOP. N-tiers architectures.
+		OOP. N-tiers architectures, Micro services. Java/Spring. JVM Performance tuning.
 		RDBMS/SQL.
 		Design patterns. UML. RUP, agile software development. Experience in the industrialization of development processes.
 		European education.
-		Master degree in Computer Science. 8 years of international
+		Master degree in Computer Science. 20 years of international
 		experience
-		(projects for IT-consulting, insurance and software
-		companies).
-		21 IT-certifications from Brainbench system.
-		Fluent French,
-		good English, Russian and Ukrainian - native speaker.
-		Professional goal - become a software architect.
+		(projects for IT-consulting, insurance and software companies).
         </summary>
 	<!-- Section about my education-->
 	<education title="Education">

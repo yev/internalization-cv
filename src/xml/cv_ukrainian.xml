@@ -15,7 +15,7 @@
 		<middleName>Ігорович</middleName>
 		<address>Київ, Україна</address>
 		<googleMapLocationString>Lannion, France</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
-		<mobile>Телефон : 🇫🇷 +33 7 83 05 45 53</mobile>
+		<mobile>Телефон : +33 7 83 05 45 53</mobile>
 		<emailImagePath>Эл. пошта : &lt;img src="Ressources/images/email.gif" title="AntiSpam Protection"/&gt;</emailImagePath><!-- We'll use an image of email instead of plain text. Defend against spummer robots. -->
         <job-title>Iнженер-программiст Java/J2EE</job-title>
         <additionalInfo> Народився 23.11.1981, Україна</additionalInfo>

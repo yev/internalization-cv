@@ -14,7 +14,7 @@
 		<middleName></middleName>
 		<address>Kiev, Ukraine</address>
 		<googleMapLocationString>Lannion, France</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
-		<mobile>Phone:🇫🇷 +33 7 83 05 45 53</mobile>
+		<mobile>Phone: +33 7 83 05 45 53</mobile>
 		<job-title>Sviluppatore Java/J2EE</job-title>
 		<additionalInfo>è nato il 23 Novembre 1981, Ukraina</additionalInfo>
 	</personalInfo>
