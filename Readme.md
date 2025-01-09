@@ -31,4 +31,4 @@ I didn't notice any bug
 
 # Production environment
 
-As every project should be in production, I've put my CV on the web - [https://www.yev.devatlant.com](https://www.yev.devatlant.com)
+As every project should be in production, I've put my CV on the web - [https://www.yev.devatlant.com](https://www.yev.devatlant.com:)
