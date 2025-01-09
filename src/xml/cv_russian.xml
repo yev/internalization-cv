@@ -370,7 +370,7 @@
 			<link_show>Показать</link_show>
 		</navigationPanel>
 		<label_print_html>Версия для печати</label_print_html>
-		<label_CurrentPositionTitle>Hands-On CTO, Архитектор и Java-Разработчик</label_CurrentPositionTitle> <!-- Added for PDF version -->
+		<label_CurrentPositionTitle>Hands-On CTO, Java Архитектор</label_CurrentPositionTitle> <!-- Added for PDF version -->
 		<label_technologyList>Использованные технологии</label_technologyList>
 	</localization>
 </cv>

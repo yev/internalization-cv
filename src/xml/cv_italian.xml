@@ -437,7 +437,7 @@
 			<link_show>Attivare</link_show>
 		</navigationPanel>
 		<label_print_html>Versione stampa</label_print_html>
-		<label_CurrentPositionTitle>Hands-On CTO, Architetto e Java-Sviluppatore</label_CurrentPositionTitle> <!-- Added for PDF version -->
+		<label_CurrentPositionTitle>Hands-On CTO, Java Architetto</label_CurrentPositionTitle> <!-- Added for PDF version -->
 		<label_technologyList>Technologie usate</label_technologyList>
 	</localization>
 </cv>
