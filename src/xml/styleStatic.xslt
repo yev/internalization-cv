@@ -219,7 +219,7 @@
 	                                              </td>
 	                                            </tr>
 	                                        <tr>
-	                                            <td class="missionDesc" colspan="2"><strong><xsl:value-of select="/cv/localization/label_JobDecs"/></strong> : <xsl:value-of select="jobDesc"/></td>
+	                                            <td class="missionDesc" colspan="2"><strong><xsl:value-of select="/cv/localization/label_JobDecs"/></strong> : <xsl:copy-of select="jobDesc"/></td>
 	                                        </tr>
 	                                        <xsl:if test="technologiesList"> <!-- we'll show the additional tech. section only if there is node technologiesList, for exemple, this section is ommited for DVK-Tech company -->
 		                                        <tr>	<!-- technology list -->

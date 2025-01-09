@@ -5,7 +5,7 @@
 	Date   : 11 Dec. 2007
 	Desc   : The document contains structured cv information.
  -->
-<cv version="2.8" locale="fr">
+<cv version="3.0" locale="fr">
 	<!-- Section contains personal information such as name, address, mobile phone,email, etc.-->
 	<personalInfo title="Information Personnelle">
 		<lastName>Voronetski </lastName>
@@ -13,14 +13,17 @@
 		<middleName></middleName>
 		<googleMapLocationString>Lannion, France</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
 		<mobile>Tél: +33 7 83 05 45 53</mobile>
-		<job-title>Ingénieur Java/J2EE </job-title>
-		<additionalInfo>34 ans, célibataire</additionalInfo>
+        <job-title>Hands-On CTO, Architecte et Développeur avec une forte expertise dans l'écosystème Java</job-title>
+        <additionalInfo>43 ans, marié, père</additionalInfo>
 	</personalInfo>
-       <summary title="Résumé">
-           Architecte Java. Conception, réalisation et audit des applications d'entreprises. OOP design.
-            Architectures distribuées, horizontalement scalables, tolérantes aux pannes. Design patterns. UML. Industrialisation du processus de développement.
-            Formation européenne, master en Informatique. 10 ans de l'expérience professionnelle à l'échelle internationale.
-        </summary>
+    <summary title="Résumé">
+        Près de 20 ans d'expérience dans le développement logiciel pour les banques et assurances, Retail et télécommunications.
+        Depuis 2017, je dirige ma propre entreprise de logiciels – DevAtlant.
+        Notre plus grande réussite est la construction et la gestion de la plateforme de E-Commerce pour Leroy Merlin Ukraine. 7 ans. 5 ingénieurs.
+        Membre de la CCIFU à Kiyv, Ukraine et d'Anticipa dans le Capital de Télécom Français, à Lannion.
+        Animant des cours pratiques "Software Craftsmanship" pour les étudiants de l'Université Nationale d'Économie Simon Kuznets de Kharkiv.
+        Passionné par la calligraphie et le journaling.
+    </summary>
 	<!-- Section about my education-->
 	<education title="Formation">
 		<organisation>
@@ -54,11 +57,32 @@
 
 	<!-- Section about my professional experience. -->
 	<experiences title="Expériences professionnelles">
+        <company>
+            <date>Depuis Août 2017</date>
+            <name>DevAtlant</name>
+            <activity>Consulting en informatique</activity>
+            <geolocalization>Kiyv/Lannion</geolocalization>
+            <jobTitle>Fondateur et CTO</jobTitle>
+            <jobDesc>
+                Principales responsabilités :
+                • Avant-vente – collecte du contexte métier, définition du périmètre, présentation de différentes solutions avec les coûts associés, réalisation de PoC, redactions de propositions commerciales, négociations.
+                • Définition de l'architecture, initialisation des projets, implémentation de modules de référence, maintien de la documentation du projet et des standards de codage.
+                • Organisation et gestion du processus de software delivery en prenant en compte les priorités de toutes les parties prenantes.
+                • Construction d'outils personnalisés de monitoring et d'observabilité basés sur ELK pour une meilleure gestion des incidents en production.
+                • Résolution de problèmes critiques de performance pendant l'ère COVID-19 en optimisant JVM, Spring, Apache et PostgreSQL.
+            </jobDesc>
+            <technologiesList>
+                Java, Spring/SpringBoot, Thymeleaf, Hibernate, Maven, jUnit/Mockito, Docker, ELK, PostgreSQL, REST-API.
+                Outils d'industrialisation : Git, Jenkins, Sonar, Nexus, Redmine, Slack.
+            </technologiesList>
+            <url>http://www.devatlant.com</url>
+            <note></note>
+        </company>
 		<company>
 			<date>Depuis Octobre 2011</date>
 			<name>Octetis</name>
 			<activity>Software company</activity>
-			<geolocalization>Paris/Kiev</geolocalization>
+			<geolocalization>Paris/Kiyv</geolocalization>
 			<jobTitle>Architecte Java</jobTitle>
 			<jobDesc>
 				Projet - SasS multimedia (online video streaming et chats), l'équipe de développement backend - 5 personnes. L’architecture est conçue pour respecter la scalabilité horizontale. L’environnement de production contient plus de 20 serveurs avec technologies/fonctionnalités hétérogènes. La liste des modules/fonctionnalités dont j’étais responsable est présentée ci-dessous. Le développement  des  modules en Java SE des plugins pour WowzaStreamingEngine (serveur RTMP) pour le recording, image snapshoting,  l’accès sécurisé aux video streams. Développement des extensions pour    Tigase (serveur XMPP): module d’authentification compatible SASL (RFC 2222),   l’interceptor du spam, module asynchrone pour l’indexation des messages dans ElasticSearch (monitoring et la recherche en quasi real-time). Memcached parallel cluster pour servir des images en moins de 20 millisecondes (6K des images par 1 sec), ce cluster est construit en mode Producer/Consumer et composé de la chaîne suivante: Wowza - Memory pipe - Java - Memcached - Nginx. Le développement et l’integration du module de payement (e-wallet) compatible PCI-DSS. Réalisation du cluster de transcoding de video avec SpringBoot, Thrift et ffmpeg.
@@ -67,7 +91,7 @@
 				Aide au management technique des différents projets.
             </jobDesc>
             <technologiesList>
-            	Java/J2EE, Tigase XMPP server, WowzaStreamingEngine RTMP server, GlassFish, JPA, JAX-WS, Maven, TestNg, Arquillian, Google Guava, Memcached, Redis, Logstash, Kibana, Ansible, RTMP, Flash, OSMF. </technologiesList>
+            	Java/J2EE, Tigase XMPP server, FFmpeg, WowzaStreamingEngine RTMP server, GlassFish, JPA, JAX-WS, Maven, TestNg, Arquillian, Google Guava, Memcached, Redis, Logstash, Kibana, Ansible, RTMP, Flash, OSMF. </technologiesList>
 			<url>http://www.octetis.com</url>
 			<note></note>
 		</company>
@@ -75,7 +99,7 @@
 			<date>Juillet 2008 - Octobre 2011</date>
 			<name>Open-Groupe (Teamlog)</name>
 			<activity>SSII</activity>
-			<geolocalization>Paris/Lannion/Kiev</geolocalization>
+			<geolocalization>Paris/Lannion/Kiyv</geolocalization>
 			<jobTitle>Référant technique</jobTitle>
 			<jobDesc>
 	Participation à la conception, développement et gestion des projets	informatiques (TMA, forfait, régie;  projets "offshorisés").
@@ -275,7 +299,7 @@
 		</language>
 		<language>
 			<name>Italien</name>
-			<desc>Débutant. Les courses de la langue dans le centre italien Dante ALIEGHIERI, à Kiev.</desc>
+			<desc>Débutant. Les courses de la langue dans le centre italien Dante ALIEGHIERI, à Kiyv.</desc>
 		</language>
 	</languages>
 
@@ -314,7 +338,7 @@
 			<link_show>Activer</link_show>
 		</navigationPanel>
 		<label_print_html>Version imprimable</label_print_html>
-		<label_CurrentPositionTitle>Architecte Java</label_CurrentPositionTitle> <!-- Added for PDF version -->
+		<label_CurrentPositionTitle>Hands-On CTO, Architecte et Développeur Java</label_CurrentPositionTitle> <!-- Added for PDF version -->
 		<label_technologyList>Technologies utilisées</label_technologyList>
 	</localization>
 </cv>

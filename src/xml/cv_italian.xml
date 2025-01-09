@@ -3,7 +3,7 @@
 		Project: ProffiCV Author : Voronetski Yevgen Date : 11 Dec. 2007
 		Desc : The document contains structured cv information.
 	-->
-<cv version="Versione italiana 2.7. Ultimo aggiornamento il " locale="it">
+<cv version="Versione italiana 3.0. Ultimo aggiornamento il " locale="it">
 	<!--
 		Section contains personal information such as name, address, mobile
 		phone,email, etc.
@@ -12,23 +12,21 @@
 		<lastName>Voronetski </lastName>
 		<firstName>Yevgen</firstName>
 		<middleName></middleName>
-		<address>Kiev, Ukraine</address>
+		<address>Kiyv, Ukraine</address>
 		<googleMapLocationString>Lannion, France</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
 		<mobile>Phone: +33 7 83 05 45 53</mobile>
-		<job-title>Sviluppatore Java/J2EE</job-title>
-		<additionalInfo>è nato il 23 Novembre 1981, Ukraina</additionalInfo>
+        <job-title>Hands-On CTO, Architetto e Sviluppatore con una forte expertise nell'ecosistema Java</job-title>
+		<additionalInfo></additionalInfo>
 	</personalInfo>
 
-	<summary title="Breve descrizione">
-		Sviluppatore Java/J2EE. Progettazione e realizzazione di Sistemi d'informazione.
-		OOP. N-tiers Architetture.	Base di dati/SQL.
-		Design patterns. UML. RUP, agile software development. Esperienza nella industrializzazione de processo di sviluppo.
-		European education.	Master degree in Computer Science. 8 years of international experience
-		(projects for IT-consulting, insurance and software	companies).
-		21 IT-certifications from Brainbench system.
-		Fluent french, good english, russian and ukrainian - native speaker.
-		Purposeful and responsible. Professional ambition - become a software architect.
-	</summary>
+    <summary title="Riepilogo">
+        Quasi 20 anni di esperienza nello sviluppo software per istituzioni finanziarie/assicurative, retail e telecomunicazioni.
+        Dal 2017 dirigo la mia azienda di software – DevAtlant.
+        Il nostro più grande successo è la creazione e gestione della piattaforma di e-commerce per Leroy Merlin Ucraina. 7 anni. 5 ingegneri.
+        Membro della CCIFU a Kiyv, Ucraina, e di Anticipa nel Capitale delle Telecomunicazioni Francese, a Lannion.
+        Tengo corsi pratici di "Software Craftsmanship" per gli studenti dell'Università Nazionale di Economia Simon Kuznets di Kharkiv.
+        Appassionato di calligrafia e journaling.
+    </summary>
 	<!-- Section about my education-->
 	<education title="Istruzione e formazione">
 		<organisation>
@@ -84,11 +82,60 @@
 
 	<!-- Section about my professional experience. -->
 	<experiences title="Esperienza lavorativa">
+        <company>
+            <date>Da agosto 2017</date>
+            <name>DevAtlant</name>
+            <activity>Consulenza informatica</activity>
+            <geolocalization>Kiyv/Lannion</geolocalization>
+            <jobTitle>Fondatore e CTO</jobTitle>
+            <jobDesc>
+                Principali responsabilità:
+                • Attività di pre-vendita – raccolta del contesto aziendale, definizione del perimetro, presentazione di diverse soluzioni con i relativi costi, realizzazione di PoC, redazione di proposte commerciali, negoziazioni.
+                • Definizione dell'architettura, avvio dei progetti, implementazione di moduli di riferimento, mantenimento della documentazione del progetto e degli standard di codifica.
+                • Organizzazione e gestione del processo di software delivery tenendo conto delle priorità di tutte le parti interessate.
+                • Creazione di strumenti personalizzati di monitoring e osservabilità basati su ELK per una migliore gestione degli incidenti in produzione.
+                • Risoluzione di problemi critici di performance durante l'era COVID-19 ottimizzando JVM, Spring, Apache e PostgreSQL.
+            </jobDesc>
+            <technologiesList>
+                Java, Spring/SpringBoot, Thymeleaf, Hibernate, Maven, jUnit/Mockito, Docker, ELK, PostgreSQL, REST-API.
+                Strumenti di industrializzazione: Git, Jenkins, Sonar, Nexus, Redmine, Slack.
+            </technologiesList>
+            <url>http://www.devatlant.com</url>
+            <note></note>
+        </company>
+        <company>
+            <date>2011-2017</date>
+            <name>Octetis</name>
+            <activity>IT consulenza</activity>
+            <geolocalization>Kiyv/Paris</geolocalization>
+            <jobTitle>Architetto Software</jobTitle>
+            <jobDesc>
+                Progetto - Piattaforma SaaS Multimediale
+                (Streaming video online e chat), team di sviluppo backend - 5 persone.
+
+                L'architettura è stata progettata per supportare la scalabilità orizzontale. L'ambiente di produzione comprendeva oltre 20 server con tecnologie e funzionalità eterogenee. Di seguito è riportato l'elenco dei moduli/funzionalità di cui ero responsabile:
+
+                Sviluppo di moduli in Java SE per plugin di WowzaStreamingEngine (server RTMP), per la registrazione video, acquisizione di snapshot e accesso sicuro ai flussi video.
+                Sviluppo di estensioni per Tigase (server XMPP): modulo di autenticazione compatibile con SASL (RFC 2222), intercettore anti-spam e modulo asincrono per indicizzare i messaggi in ElasticSearch per monitoraggio e ricerca quasi in tempo reale.
+                Cluster Memcached parallelo per servire immagini in meno di 20 millisecondi (6.000 immagini al secondo). Questo cluster è stato costruito secondo il modello Producer/Consumer e comprende la seguente pipeline: Wowza → Memory pipe → Java → Memcached → Nginx.
+                Sviluppo e integrazione di un modulo di pagamento (e-wallet) conforme a PCI-DSS.
+                Implementazione di un cluster di transcodifica video utilizzando Spring Boot, Thrift e ffmpeg.
+                Responsabilità per l'industrializzazione del processo di sviluppo software (Git, Redmine, Jenkins, Sonar, Nexus, ecc.).
+                Partecipazione al processo di reclutamento di collaboratori e fornitori esterni.
+                Supporto tecnico nella gestione di diversi progetti.
+            </jobDesc>
+            <technologiesList>
+                Java/J2EE, Tigase XMPP server, FFmpeg, WowzaStreamingEngine RTMP server, GlassFish, JPA, JAX-WS, Maven, TestNg, Arquillian, Google Guava, Memcached, Redis, Logstash, Kibana, Ansible, RTMP, Flash, OSMF.
+            </technologiesList>
+            <url>http://www.octetis.com</url>
+            <note></note>
+        </company>
+
 		<company>
 			<date>Da giugno 2008</date>
 			<name>Open-Groupe (Teamlog)</name>
 			<activity>IT consulenza</activity>
-			<geolocalization>Parigi/Lannion/Kiev</geolocalization>
+			<geolocalization>Parigi/Lannion/Kiyv</geolocalization>
 			<jobTitle>Referente technico</jobTitle>
 			<jobDesc>
 				Participation in the design, development and management of
@@ -338,7 +385,7 @@
 		</language>
 		<language>
 			<name>Italiana</name>
-			<desc>Livello principiante. Gli corsi nel Instituto Italiano di Cultura - Dante ALIEGHIERI, Kiev.</desc>
+			<desc>Livello principiante. Gli corsi nel Instituto Italiano di Cultura - Dante ALIEGHIERI, Kiyv.</desc>
 		</language>
 	</languages>
 
@@ -390,7 +437,7 @@
 			<link_show>Attivare</link_show>
 		</navigationPanel>
 		<label_print_html>Versione stampa</label_print_html>
-		<label_CurrentPositionTitle>Sviluppatore Java/J2EE</label_CurrentPositionTitle> <!-- Added for PDF version -->
+		<label_CurrentPositionTitle>Hands-On CTO, Architetto e Java-Sviluppatore</label_CurrentPositionTitle> <!-- Added for PDF version -->
 		<label_technologyList>Technologie usate</label_technologyList>
 	</localization>
 </cv>

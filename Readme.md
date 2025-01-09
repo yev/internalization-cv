@@ -27,3 +27,8 @@ I didn't notice any bug
 1. Clone the project
 2. Run the ant build script in your terminal: `ant`
 3. Open the generated HTML file in your browser: `web/index.html`
+
+
+# Production environment
+
+As every project should be in production, I've put my CV on the web - [https://www.yev.devatlant.com](https://www.yev.devatlant.com)

@@ -3,7 +3,7 @@
 		Project: ProffiCV Author : Voronetski Yevgen Date : 15 Dec. 2007
 		Desc : The document contains structured cv information in russian.
 	-->
-<cv version="Русская версия 2.7. Последнее обновление - "
+<cv version="Русская версия 3.0. Последнее обновление - "
 	locale="ru">
 	<!--
 		Section contains personal information such as name, address, mobile
@@ -17,17 +17,17 @@
 		<googleMapLocationString>Lannion, France</googleMapLocationString> <!-- This variable must be in english, for google map API that does not understand cyrilic yet-->
 		<mobile>Телефон: +33 7 83 05 45 53</mobile>
 		<emailImagePath>Эл. почта : &lt;img src="Ressources/images/email.gif" title="AntiSpam Protection"/&gt;</emailImagePath><!-- We'll use an image of email instead of plain text. Defend against spummer robots. -->
-		<job-title>Инженер-программист Java/J2EE</job-title>
-		<additionalInfo>Родился 23.11.1981, Украина</additionalInfo>
+        <job-title>Hands-On CTO, Архитектор и Разработчик с сильной экспертизой в экосистеме Java</job-title>
+		<additionalInfo></additionalInfo>
 	</personalInfo>
-         <summary title="Резюме">
-            Разработчик Java/J2EE. Проектирование и разработка информационных систем (web/desktop). ООП/АОП.
-            Многоуровневые архитектуры. СУБД/SQL. Шаблоны проектирования. UML. RUP, гибкие методологии разработки. Индустриализация разработки.
-            Европейское образование. Дипплом инженера. 8 лет опыта работы на международном уровне (страхование, IT-консалтинг, разработка ПО).
-            21 IT-сертификатов полученных в системе Brainbench.
-            Русский и украинский - родные языки, отличное владение французским и английским языками.
-            Целеустремленный и ответственный. Цель - стать архитектором ПО.
-        </summary>
+    <summary title="Резюме">
+        Почти 20 лет опыта в разработке программного обеспечения для финансовых/страховых учреждений, розничной торговли и телекоммуникаций.
+        С 2017 года возглавляю свою собственную компанию по разработке программного обеспечения – DevAtlant.
+        Наше крупнейшее достижение – создание и управление платформой электронной коммерции для Leroy Merlin в Украине. 7 лет. 5 инженеров.
+        Член CCIFU в Киеве, Украина, и Anticipa в французском телекоммуникационном капитале, Ланьон.
+        Провожу практические курсы «Software Craftsmanship» для студентов Харьковского национального экономического университета имени Симона Кузнеца.
+        Увлекаюсь каллиграфией и ведением дневников.
+    </summary>
 	<!-- Section about my education-->
 	<education title="Образование">
 		<organisation>
@@ -78,6 +78,27 @@
 
 	<!-- Section about my professional experience. -->
 	<experiences title="Профессиональный опыт">
+        <company>
+            <date>С августа 2017</date>
+            <name>DevAtlant</name>
+            <activity>IT-консалтинг</activity>
+            <geolocalization>Киев/Ланьон</geolocalization>
+            <jobTitle>Основатель и CTO</jobTitle>
+            <jobDesc>
+                Основные обязанности:
+                • Предпродажи – сбор бизнес-контекста, определение границ, представление различных решений с их стоимостью, реализация PoC, составление коммерческих предложений, проведение переговоров.
+                • Определение архитектуры, запуск проектов, внедрение референсных модулей, поддержка проектной документации и стандартов кодирования.
+                • Организация и управление процессом поставки программного обеспечения с учетом приоритетов всех заинтересованных сторон.
+                • Создание персонализированных инструментов мониторинга и наблюдаемости на базе ELK для улучшения управления инцидентами в production-среде.
+                • Решение критических проблем с производительностью в период COVID-19 путем оптимизации JVM, Spring, Apache и PostgreSQL.
+            </jobDesc>
+            <technologiesList>
+                Java, Spring/SpringBoot, Thymeleaf, Hibernate, Maven, jUnit/Mockito, Docker, ELK, PostgreSQL, REST-API.
+                Инструменты индустриализации: Git, Jenkins, Sonar, Nexus, Redmine, Slack.
+            </technologiesList>
+            <url>http://www.devatlant.com</url>
+            <note></note>
+        </company>
 		<company>
 			<date>С Октября 2011</date>
 			<name>Octetis</name>
@@ -85,13 +106,20 @@
 			<geolocalization>Киев, Украина</geolocalization>
 			<jobTitle>Инженер-программист</jobTitle>
 			<jobDesc>
-				Управление и активное участие во всех фазах проета (от переговоров и контрактов до эксплуатации и внедрения).
-				Ответсвенный за индустриализацию разработки ПО (Git, Redmine, Jenkins, Sonar, Nexus, и др.).
-				Проведение технических интервью.
-				Быстрое прототипирование приложений с использованием Play и Yii.
+                Проект - мультимедийная SaaS платформа
+                (онлайн видеостриминг и чаты), команда backend-разработки - 5 человек.
+                Архитектура была разработана с учетом требований горизонтальной масштабируемости. В продакшн-среде использовалось более 20 серверов с разнородными технологиями и функциями. Ниже представлен список модулей/функций, за которые я отвечал:
+                Разработка модулей на Java SE для плагинов к WowzaStreamingEngine (RTMP-серверу), обеспечивающих запись видео, создание скриншотов и безопасный доступ к видеопотокам.
+                Разработка расширений для Tigase (XMPP-сервер): модуль аутентификации, совместимый с SASL (RFC 2222), антиспам-интерцептор, асинхронный модуль для индексирования сообщений в ElasticSearch для мониторинга и поиска в режиме близком к реальному времени.
+                Параллельный кластер Memcached для обработки изображений за менее чем 20 миллисекунд (6K изображений в секунду). Кластер построен по модели Producer/Consumer и включает следующий конвейер: Wowza → Memory pipe → Java → Memcached → Nginx.
+                Разработка и интеграция платежного модуля, совместимого с PCI-DSS (электронный кошелек).
+                Реализация видеотранскодирующего кластера с использованием Spring Boot, Thrift и ffmpeg.
+                Ответственность за индустриализацию процесса разработки ПО (Git, Redmine, Jenkins, Sonar, Nexus и т.д.).
+                Участие в процессе найма сотрудников и внешних подрядчиков.
+                Оказание технической поддержки в управлении различными проектами.
             </jobDesc>
             <technologiesList>
-            	Java/J2EE, Liferay portal, Hibernate, Spring, JUnit, Android SDK, HTML5, jQuery, PhoneGap framework, Yii framework for PHP, jQuery, Play framework.
+                Java/J2EE, Tigase XMPP server, FFmpeg, WowzaStreamingEngine RTMP server, GlassFish, JPA, JAX-WS, Maven, TestNg, Arquillian, Google Guava, Memcached, Redis, Logstash, Kibana, Ansible, RTMP, Flash, OSMF.
             </technologiesList>
 			<url>http://www.octetis.com</url>
 			<note></note>
@@ -342,7 +370,7 @@
 			<link_show>Показать</link_show>
 		</navigationPanel>
 		<label_print_html>Версия для печати</label_print_html>
-		<label_CurrentPositionTitle>Разработчик ПО</label_CurrentPositionTitle> <!-- Added for PDF version -->
+		<label_CurrentPositionTitle>Hands-On CTO, Архитектор и Java-Разработчик</label_CurrentPositionTitle> <!-- Added for PDF version -->
 		<label_technologyList>Использованные технологии</label_technologyList>
 	</localization>
 </cv>
