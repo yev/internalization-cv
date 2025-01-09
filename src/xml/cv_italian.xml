@@ -160,7 +160,7 @@
 			<jobDesc>Java/J2EE consulting and development for different
 				companies. The list of projects done with DVK-Tech is presented
 				below and marked by ***.</jobDesc>
-			<url>http://www.dvk-tech.com</url>
+			<url></url>
 			<note></note>
 		</company>
 		<company isConsulting="true">
@@ -262,7 +262,7 @@
 				Java/J2EE, JDBC, Servlet/JSP, Tomcat 5.5, MySQL 4.1,
 				PostgreSQL, Log4j, Velocity, JSVC.
 			</technologiesList>
-			<url>http://www.duke-interactive.com</url>
+			<url></url>
 			<note></note>
 		</company>
 		<company>

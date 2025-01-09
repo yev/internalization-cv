@@ -101,7 +101,7 @@
                 Java, Spring/SpringBoot, Thymeleaf, Hibernate, Maven, jUnit/Mockito, Docker, ELK, PostgreSQL, REST-API.
                 Industrialization tools: Git, Jenkins, Sonar, Nexus, Redmine, Slack.
             </technologiesList>
-            <url>http://www.devatlant.com</url>
+            <url>https://www.devatlant.com</url>
             <note></note>
         </company>
 	    <company>
@@ -126,7 +126,7 @@
             <technologiesList>
                 Java/J2EE, Tigase XMPP server, FFmpeg, WowzaStreamingEngine RTMP server, GlassFish, JPA, JAX-WS, Maven, TestNg, Arquillian, Google Guava, Memcached, Redis, Logstash, Kibana, Ansible, RTMP, Flash, OSMF.
             </technologiesList>
-			<url>http://www.octetis.com</url>
+			<url>https://www.octetis.com</url>
 			<note></note>
 		</company>
 		<company>
@@ -146,7 +146,7 @@
             <technologiesList>
             	Java/J2EE, Spring, Hibernate, Quartz, Struts, JUnit, Servlets/JSP, JAAS, JAXB, decompiler JAD, MySQL, LDAP, Ant, Maven, Nexus, Sonar, TeamCity, DBUnit, Linux, RPM, PowerDesigner, Redmine+Mylyn.
             </technologiesList>
-			<url>http://www.open-groupe.com</url>
+			<url>https://www.open-groupe.com</url>
 			<note></note>
 		</company>
 		<company>
@@ -158,7 +158,7 @@
 			<jobDesc>Java/J2EE consulting and development for different
 				companies. The list of projects done with DVK-Tech is presented
 				below and marked by ***.</jobDesc>
-			<url>http://www.dvk-tech.com</url>
+			<url></url>
 			<note></note>
 		</company>
 		<company isConsulting="true">
@@ -266,7 +266,7 @@
 			<technologiesList>
 				Java/J2EE, JDBC, Servlet/JSP, Tomcat 5.5, MySQL 4.1, PostgreSQL, Log4j, Velocity, JSVC.
 			</technologiesList>
-			<url>http://www.duke-interactive.com</url>
+			<url></url>
 			<note></note>
 		</company>
 		<company>

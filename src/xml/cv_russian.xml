@@ -151,7 +151,7 @@
 			<geolocalization>Париж, Франция</geolocalization>
 			<jobTitle>Инженер-программист Java/J2EE</jobTitle>
 			<jobDesc>Выполнение различных технических миссий для клиентов компании. Перечень этих миссий представлен ниже с пометкой ***</jobDesc>
-			<url>http://www.dvk-tech.com</url>
+			<url></url>
 			<note></note>
 		</company>
 		<company isConsulting="true">
@@ -222,7 +222,7 @@
 			<technologiesList>
             	Java/J2EE, JDBC, Servlet/JSP, Tomcat 5.5, MySQL 4.1, PostgreSQL, сторонние библиотеки Log4j, Velocity, Jakarta Commons, JSVC.
 			</technologiesList>
-			<url>http://www.duke-interactive.com</url>
+			<url></url>
 			<note></note>
 		</company>
 		<company>
