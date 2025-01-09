@@ -5,7 +5,7 @@
 	Date   : 11 Dec. 2007
 	Desc   : The document contains structured cv information.
  -->
-<cv version="3.0" locale="fr">
+<cv version="Version française 3.0. Dernière modification " locale="fr">
 	<!-- Section contains personal information such as name, address, mobile phone,email, etc.-->
 	<personalInfo title="Information Personnelle">
 		<lastName>Voronetski </lastName>
