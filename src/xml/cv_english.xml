@@ -445,7 +445,7 @@
 			<link_show>Show</link_show>
 		</navigationPanel>
 		<label_print_html>Version for print</label_print_html>
-		<label_CurrentPositionTitle>Hands-On CTO, Architect and Java-Engineer</label_CurrentPositionTitle> <!-- Added for PDF version -->
+		<label_CurrentPositionTitle>Hands-On CTO, Java Architect</label_CurrentPositionTitle> <!-- Added for PDF version -->
 		<label_technologyList>Technologies</label_technologyList>
 	</localization>
 </cv>

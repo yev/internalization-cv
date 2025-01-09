@@ -338,7 +338,7 @@
 			<link_show>Activer</link_show>
 		</navigationPanel>
 		<label_print_html>Version imprimable</label_print_html>
-		<label_CurrentPositionTitle>Hands-On CTO, Architecte et Développeur Java</label_CurrentPositionTitle> <!-- Added for PDF version -->
+		<label_CurrentPositionTitle>Hands-On CTO, Architecte Java</label_CurrentPositionTitle> <!-- Added for PDF version -->
 		<label_technologyList>Technologies utilisées</label_technologyList>
 	</localization>
 </cv>
