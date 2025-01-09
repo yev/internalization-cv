@@ -31,7 +31,7 @@ public final class CVGenerator
 	{
 		try{
 			this.transformer = TransformerFactory.newInstance().newTransformer(new javax.xml.transform.stream.StreamSource("src/xml/styleStatic.xslt"));
-			configureDependingOnRunningOS();
+			configureFOPEngineWithEmbededFont();
 
 		}
 		catch(Exception ex){
@@ -39,20 +39,9 @@ public final class CVGenerator
 		}
 	}
 
-	private void configureDependingOnRunningOS() throws SAXException,
+	private void configureFOPEngineWithEmbededFont() throws SAXException,
 			IOException {
-		final String currentOsName = System.getProperty("os.name").toLowerCase();
-		LOGGER.info("os.name ="+currentOsName);
-		//use a configuration file, where Fonts directory path is specified.
-		if (currentOsName.contains("windows")){
-			this.fopFactory.setUserConfig(new File("src/fop_Windows.xconf"));
-		}
-		else if (currentOsName.contains("mac")){
-			this.fopFactory.setUserConfig(new File("src/fop_Mac.xconf"));
-		}
-		else{
-			throw new RuntimeException("The Os "+currentOsName+" is not supported!");
-		}
+        this.fopFactory.setUserConfig(new File("src/fop.xconf"));
 	}
 
 	public static void main(final String[] args) throws Exception
