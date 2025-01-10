@@ -30,7 +30,7 @@ public final class CVGenerator
 	public CVGenerator()
 	{
 		try{
-			this.transformer = TransformerFactory.newInstance().newTransformer(new javax.xml.transform.stream.StreamSource("src/xml/styleStatic.xslt"));
+			this.transformer = TransformerFactory.newInstance().newTransformer(new javax.xml.transform.stream.StreamSource("src/xml/styles/styleStatic.xslt"));
 			configureFOPEngineWithEmbededFont();
 
 		}
@@ -75,7 +75,7 @@ public final class CVGenerator
 		final String xmlFileName = "cv_"+language.toString()+".xml";
 		final String htmlFileName= "index" + this.getFileSuffixe(language)+".html";
 
-		LOGGER.info("Generation of : '/"+OUTPUT_FOLDER_NAME+"/"+htmlFileName+"' starting from '"+xmlFileName+"' ...");
+		LOGGER.info("Generation of : '/"+OUTPUT_FOLDER_NAME+htmlFileName+"' starting from '"+xmlFileName+"' ...");
 
 		this.transformer.transform(
 				new javax.xml.transform.stream.StreamSource("src/xml/"+xmlFileName),
@@ -103,12 +103,12 @@ public final class CVGenerator
 	{
 		final String xmlFileName = "cv_"+language.toString()+".xml";
 		String pdfFileName = "cv_Voronetski" + this.getFileSuffixe(language)+".pdf";
-		String xslFilerelativePath = "src/xml/style-fo.xml";
+		String xslFilerelativePath = "src/xml/styles/style-fo.xml";
 		String generatedPdfFileName = "web/pdf/"+pdfFileName;
 
 		if (isAnonym){
 			pdfFileName= "cv_voronetski" + this.getFileSuffixe(language)+".pdf";
-			xslFilerelativePath = "src/xml/style-fo-anonyme.xml";
+			xslFilerelativePath = "src/xml/styles/style-fo-anonyme.xml";
 			generatedPdfFileName = "web/pdf/anonymous/"+pdfFileName;
 		}
 
