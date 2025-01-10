@@ -363,10 +363,6 @@
 				Code quality metrics - Sonar, FindBug, PMD. Project mananagement, wiki, bug tracker - Redmine. Software factories.
 			</itemsList>
 		</technology-domain>
-		<technology-domain>
-			<name>Certifications</name>
-			<itemsList>I have earned the following certificates from Brainbench	system:</itemsList>
-		</technology-domain>
 	</technologies>
 
 	<!-- This section describes my language skills -->

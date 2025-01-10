@@ -9,7 +9,6 @@
         <html>
             <head>
                 <!-- Google tag (gtag.js) -->
-                <script src="https://www.googletagmanager.com/gtag/js?id=G-P0LTVJL3D1"></script>
                 <script>
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
@@ -83,7 +82,7 @@
                             <td align="left" width="25%">
 	                               <xsl:for-each select="personalInfo">
 	                                   <xsl:value-of select="lastName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="firstName"/><xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text><xsl:value-of select="middleName"/>
-	                                   <br/><a id="myCurrentLocation" href="#top" title="Click here to view the location in Google map."><xsl:value-of select="address"/></a>
+                                       <br/><span id="geo"><xsl:value-of select="address"/></span>
 	                                   <br/><xsl:value-of select="mobile"/>
 	                                   <br/><img src="Ressources/images/email.gif" title="AntiSpam Protection"/>
 	                                   <br/><small><xsl:value-of select="additionalInfo"/></small>
@@ -92,8 +91,8 @@
                             <td align="center" width="50%">
 
                             </td>
-                            <td align="right" width="25%">
-                                <img src="Ressources/images/photo.jpg" border="1" alt="my recent foto"/>
+                            <td align="right" width="50%">
+                                <img src="Ressources/images/voronetskyy.jpg" border="1" alt="my recent foto" width="200px"/>
 
                             </td>
                         </tr>
@@ -219,7 +218,7 @@
 	                                              </td>
 	                                            </tr>
 	                                        <tr>
-	                                            <td class="missionDesc" colspan="2"><strong><xsl:value-of select="/cv/localization/label_JobDecs"/></strong> : <xsl:copy-of select="jobDesc"/></td>
+	                                            <td class="missionDesc" colspan="2"><strong><xsl:value-of select="/cv/localization/label_JobDecs"/></strong> : <xsl:value-of select="jobDesc"/></td>
 	                                        </tr>
 	                                        <xsl:if test="technologiesList"> <!-- we'll show the additional tech. section only if there is node technologiesList, for exemple, this section is ommited for DVK-Tech company -->
 		                                        <tr>	<!-- technology list -->
@@ -256,43 +255,6 @@
 	                            </tr>
 	                        </xsl:for-each>
                         </section>
-
-                        <tr>
-                            <td class="firstCell"><span style="color:white;">•</span></td>
-                            <td class="info" >
-                                <span style="color:white;">
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/java1programmer.gif" border="0" alt="Java1Programmer" class="brainImg" /></a>•
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/rdbmsdeveloper.gif" border="0" alt="RDBMSdeveloper" class="brainImg"/></a>•
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img  src="Ressources/Brainbench/html32.gif" border="0" alt="html32" class="brainImg"/></a>•
-
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/java5fundamentals.gif"  border="0" alt="java5fundamentals" class="brainImg"/></a>•
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/javaserverpages21.gif" border="0" alt="JavaServerPages 2.1" class="brainImg"/></a>•
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/networkingconcepts.gif"  border="0" alt="networkingconcepts" class="brainImg"/></a>•
-
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/j2ee14.gif" border="0" alt="J2EE 1.4" class="brainImg"/></a>•
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/java2.gif" border="0" alt="Java 2" class="brainImg"/></a>•
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/WinXP.gif" border="0" alt="WinXP" class="brainImg"/></a>•
-
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/computertechnician.gif" border="0" alt="computertechnician" class="brainImg"/></a>•
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/internetresearchtechniquesandresourcesus.gif" border="0" alt="internetresearchtechniquesandresourcesus" class="brainImg"/></a>•
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/java2platformenterpriseeditionj2ee14fundamentals.gif"  border="0" alt="java2platformenterpriseeditionj2ee14fundamentals" class="brainImg"/></a>•
-
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/programmingconcepts.gif" border="0" alt="programmingconcepts" class="brainImg"/></a>•
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/java2nongui.gif" border="0" alt="java2nongui.gif" class="brainImg"/></a>•
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/mswindowsxpdesktopadministration.gif" border="0" alt="mswindowsxpdesktopadministration.gif" class="brainImg"/></a>•
-
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/serveradministration.gif" border="0" alt="serveradministration" class="brainImg"/></a>•
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/technicalhelpdesk.gif" border="0" alt="technicalhelpdesk.gif" class="brainImg"/></a>•
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/writtenenglishuk.gif" border="0" alt="writtenenglishuk" class="brainImg"/></a>•
-
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/communicationspecialist.gif" border="0" alt="communicationspecialist" class="brainImg"/></a>•
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/oracleplsqlfundamentals.gif" border="0" alt="oracleplsqlfundamentals" class="brainImg"/></a>•
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/networksecurity.gif" border="0" alt="networksecurity" class="brainImg"/></a>•
-
-                                    <a href="http://www.brainbench.com/transcript.jsp?pid=6068210" ><img src="Ressources/Brainbench/ooconcepts.gif" border="0" alt="ooconcepts" class="brainImg"/></a>•
-                                </span>
-                            </td>
-                        </tr>
 
                         <tr><td colspan="2">
                                 <div id="title">

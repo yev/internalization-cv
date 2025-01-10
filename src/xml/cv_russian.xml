@@ -296,10 +296,6 @@
 				Метрики качества кода - Sonar, FindBug, PMD. Управление проектами, вики, bug tracker - Redmine. Использование фабрик программного обеспечения.
 			</itemsList>
 		</technology-domain>
-		<technology-domain>
-			<name>Сертификаты</name>
-			<itemsList>Успешно прошел тестирование в системе Brainbench и имею сертификаты по следующим направлениям:</itemsList>
-		</technology-domain>
 	</technologies>
 
 	<!-- This section describes my language skills -->

@@ -301,10 +301,6 @@
 				Управління проектами, вікі, bug tracker - Redmine. Використання фабрик программного забезпечення.
 			</itemsList>
         </technology-domain>
-        <technology-domain>
-            <name>Сертифікати</name>
-            <itemsList>З успіхом пройшов тестування у системі Brainbench і маю сертифікати за наступними напрямками:</itemsList>
-        </technology-domain>
     </technologies>
 
     <!-- This section describes my language skills -->
