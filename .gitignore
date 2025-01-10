@@ -6,3 +6,4 @@
 /.project
 /internalization-cv.iml
 /out/
+./rsync-deploy.sh
