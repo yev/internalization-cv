@@ -29,56 +29,51 @@
     </summary>
 	<!-- Section about my education-->
 	<education title="Istruzione e formazione">
-		<organisation>
-			<name>Coursera</name>
-			<speciality>Online courses.</speciality>
-			<date>2012</date>
-			<desc>Software Engineering for Software as a Service (Ruby/RoR) from UC Berkeley; Compilers from Standford (in progress).</desc>
-			<url>http://www.coursera.org</url>
-			<note></note>
-		</organisation>
-		<organisation>
-			<name>Teamlog Institute</name>
-			<speciality>Professional courses organized by Teamlog Institute.</speciality>
-			<date>2008</date>
-			<desc>Effective communication, English courses (intermediate level)</desc>
-			<geolocalization>Parigi, Francia</geolocalization>
-			<url>http://www.open-groupe.com</url>
-			<note></note>
-		</organisation>
-		<organisation>
-			<name>University Paris-Est Marne-la-Vallée</name>
-			<speciality>Master Degree in Computer Science.</speciality>
-			<date>2004-2005</date>
-			<desc>DESS « Communication, Network, Image », section Network
-				(actual Master CS).</desc>
-			<geolocalization>Champs-sur-Marne, Francia</geolocalization>
-			<url>http://www.univ-mlv.fr</url>
-			<note></note>
-		</organisation>
-		<organisation>
-			<name>Conservatoire National des Arts et Métiers (CNAM)
-			</name>
-			<speciality>Enterprise managemenent course for engineers.
-			</speciality>
-			<date>2005</date>
-			<desc>Social Management course.</desc>
-			<geolocalization>Champs-sur-Marne, Francia</geolocalization>
-			<url>http://www.cnam.fr</url>
-			<note></note>
-		</organisation>
-		<organisation>
-			<name>Ukrainian State University of Chemical Engineering
-			</name>
-			<speciality>Speciality « Specialized computer systems ».
-			</speciality>
-			<date>1999-2004</date>
-			<desc>Master Degree in Computer Science, with honour (2004).</desc>
-			<geolocalization>Dniepropetrovsk, Ukraina</geolocalization>
-			<url>http://udhtu.com.ua</url>
-			<note></note>
-		</organisation>
-	</education>
+        <organisation>
+            <name>Coursera</name>
+            <speciality>Corsi online.</speciality>
+            <date>2012</date>
+            <desc>Ingegneria del software per Software as a Service (Ruby/RoR) dalla UC Berkeley; Compilatori da Stanford (in corso).</desc>
+            <url>http://www.coursera.org</url>
+            <note></note>
+        </organisation>
+        <organisation>
+            <name>Teamlog Institute</name>
+            <speciality>Corsi professionali organizzati da Teamlog Institute.</speciality>
+            <date>2008</date>
+            <desc>Comunicazione efficace, corsi di inglese (livello intermedio)</desc>
+            <geolocalization>Parigi, Francia</geolocalization>
+            <url>http://www.open-groupe.com</url>
+            <note></note>
+        </organisation>
+        <organisation>
+            <name>University Paris-Est Marne-la-Vallée</name>
+            <speciality>Master in Informatica.</speciality>
+            <date>2004-2005</date>
+            <desc>DESS « Communication, Rete, Immagine », sezione Reti (attuale Master in Informatica).</desc>
+            <geolocalization>Champs-sur-Marne, Francia</geolocalization>
+            <url>http://www.univ-mlv.fr</url>
+            <note></note>
+        </organisation>
+        <organisation>
+            <name>Conservatoire National des Arts et Métiers (CNAM)</name>
+            <speciality>Corso di gestione aziendale per ingegneri.</speciality>
+            <date>2005</date>
+            <desc>Corso di gestione sociale.</desc>
+            <geolocalization>Champs-sur-Marne, Francia</geolocalization>
+            <url>http://www.cnam.fr</url>
+            <note></note>
+        </organisation>
+        <organisation>
+            <name>Università Statale Ucraina di Ingegneria Chimica</name>
+            <speciality>Specializzazione « Sistemi informatici specializzati ».</speciality>
+            <date>1999-2004</date>
+            <desc>Laurea magistrale in Informatica, con lode (2004).</desc>
+            <geolocalization>Dniepropetrovsk, Ucraina</geolocalization>
+            <url>http://udhtu.com.ua</url>
+            <note></note>
+        </organisation>
+    </education>
 
 	<!-- Section about my professional experience. -->
 	<experiences title="Esperienza lavorativa">
